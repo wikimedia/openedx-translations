@@ -1,0 +1,323 @@
+name: Wikimedia Translation Workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      upstream_branch:
+        description: 'Upstream branch for Atlas pull'
+        required: true
+        default: 'release/teak'
+
+jobs:
+  # STEP 1: Upstream Pull (Atlas)
+  pull-upstream:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: pip install openedx-atlas polib
+
+      - name: Atlas Pull Upstream
+        run: |
+          mkdir -p translations-upstream
+          atlas pull -n ${{ inputs.upstream_branch }} -g translations:translations-upstream
+
+      - name: Upload Upstream Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: translations-upstream
+          path: translations-upstream/
+
+  # STEP 2: Selective Extraction (Custom Repos)
+  setup-extraction-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      python_repos: ${{ steps.generate.outputs.python_repos }}
+      js_repos: ${{ steps.generate.outputs.js_repos }}
+      generic_repos: ${{ steps.generate.outputs.generic_repos }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/github-script@v7
+        id: generate
+        with:
+          script: |
+            const fs = require('fs');
+            const config = JSON.parse(fs.readFileSync('.github/wikilearn-repos-config.json', 'utf8'));
+
+            const python = [];
+            const js = [];
+            const generic = [];
+
+            ['python', 'javascript', 'generic'].forEach(type => {
+              (config.custom_repos[type] || []).forEach(repo => {
+                if (repo.new_repo || repo.replaces_default) {
+                  const item = {
+                    name: repo.default_repo_name || repo.repo,
+                    actualName: repo.repo,
+                    organization: repo.organization,
+                    ref: repo.branch,
+                    type: type
+                  };
+                  if (type === 'python') python.push(item);
+                  if (type === 'javascript') js.push(item);
+                  if (type === 'generic') {
+                    // Pass full config for generic repos
+                    generic.push({
+                      ...item,
+                      transifex_file_path: repo.transifex_file_path || 'conf/locale/en/LC_MESSAGES/django.po',
+                      extraction_method: repo.extraction_method || 'django'
+                    });
+                  }
+                }
+              });
+            });
+
+            core.setOutput('python_repos', JSON.stringify(python));
+            core.setOutput('js_repos', JSON.stringify(js));
+            core.setOutput('generic_repos', JSON.stringify(generic));
+
+  extract-python:
+    needs: [setup-extraction-matrix]
+    if: fromJson(needs.setup-extraction-matrix.outputs.python_repos)[0] != null
+    strategy:
+      matrix:
+        repo: ${{ fromJson(needs.setup-extraction-matrix.outputs.python_repos) }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install System Dependencies
+        run: sudo apt-get update && sudo apt install -y gettext
+
+      - name: Clone Repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ matrix.repo.organization }}/${{ matrix.repo.actualName }}
+          ref: ${{ matrix.repo.ref }}
+          path: ${{ matrix.repo.name }}
+
+      - name: Install Python Requirements
+        run: |
+          pip install -r requirements/translations.txt || true
+
+          # Install repo-specific requirements
+          if [ -f ${{ matrix.repo.name }}/requirements/base.txt ]; then
+            pip install -r ${{ matrix.repo.name }}/requirements/base.txt
+          elif [ -f ${{ matrix.repo.name }}/requirements.txt ]; then
+            pip install -r ${{ matrix.repo.name }}/requirements.txt
+          fi
+
+          # edx-platform specific dependencies
+          if [ "${{ matrix.repo.name }}" == "edx-platform" ]; then
+            sudo apt install -y libxml2-dev libxmlsec1-dev libxslt1-dev
+            pip install -r ${{ matrix.repo.name }}/requirements/edx/base.txt
+            rm -rf ${{ matrix.repo.name }}/themes/*/conf 2>/dev/null || true
+          fi
+
+      - name: Extract Translations
+        run: |
+          cd ${{ matrix.repo.name }}
+          if make extract_translations 2>/dev/null; then
+            echo "Extraction via make succeeded"
+          else
+            django-admin makemessages -l en --verbosity 2
+          fi
+        env:
+          IS_OPENEDX_TRANSLATIONS_WORKFLOW: yes
+
+      - name: Validate Compilation
+        run: |
+          cd ${{ matrix.repo.name }}
+          django-admin compilemessages --locale en || true
+
+      - name: Stage Files
+        run: |
+          mkdir -p staging/${{ matrix.repo.name }}
+          find ${{ matrix.repo.name }} -name "*.po" -type f | while read file; do
+            target="staging/$file"
+            mkdir -p "$(dirname "$target")"
+            cp "$file" "$target"
+          done
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: extract-${{ matrix.repo.name }}
+          path: staging/
+          include-hidden-files: true
+
+  extract-javascript:
+    needs: [setup-extraction-matrix]
+    if: fromJson(needs.setup-extraction-matrix.outputs.js_repos)[0] != null
+    strategy:
+      matrix:
+        repo: ${{ fromJson(needs.setup-extraction-matrix.outputs.js_repos) }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16
+
+      - name: Clone Repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ matrix.repo.organization }}/${{ matrix.repo.actualName }}
+          ref: ${{ matrix.repo.ref }}
+          path: ${{ matrix.repo.name }}
+
+      - name: Extract Translations
+        run: |
+          cd ${{ matrix.repo.name }}
+          if make extract_translations 2>/dev/null; then
+            echo "Extraction via make succeeded"
+          else
+            npm install || true
+            npm run i18n:extract || true
+          fi
+
+      - name: Stage Files
+        run: |
+          mkdir -p staging/${{ matrix.repo.name }}
+          find ${{ matrix.repo.name }} -name "transifex_input.json" -type f | while read file; do
+            target="staging/$file"
+            mkdir -p "$(dirname "$target")"
+            cp "$file" "$target"
+          done
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: extract-${{ matrix.repo.name }}
+          path: staging/
+          include-hidden-files: true
+
+  extract-generic:
+    needs: [setup-extraction-matrix]
+    if: fromJson(needs.setup-extraction-matrix.outputs.generic_repos)[0] != null
+    strategy:
+      matrix:
+        repo: ${{ fromJson(needs.setup-extraction-matrix.outputs.generic_repos) }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install System Dependencies
+        run: sudo apt-get update && sudo apt install -y gettext
+
+      - name: Install Python Requirements
+        run: |
+          pip install -r requirements/translations.txt || true
+          if [ "${{ matrix.repo.extraction_method }}" == "django" ]; then
+            pip install edx-i18n-tools django
+          fi
+
+      - name: Clone Repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ matrix.repo.organization }}/${{ matrix.repo.actualName }}
+          ref: ${{ matrix.repo.ref }}
+          path: ${{ matrix.repo.name }}
+
+      - name: Extract Translations
+        run: |
+          cd ${{ matrix.repo.name }}
+
+          # Try Makefile first, fall back to i18n_tool
+          if [ -f Makefile ] && grep -q "extract_translations" Makefile; then
+            make extract_translations
+          else
+            mkdir -p conf/locale/en/LC_MESSAGES
+            i18n_tool extract -v || echo "Extraction completed with warnings"
+          fi
+
+      - name: Stage Files
+        run: |
+          mkdir -p staging/${{ matrix.repo.name }}
+          find ${{ matrix.repo.name }} -name "*.po" -type f | while read file; do
+            target="staging/$file"
+            mkdir -p "$(dirname "$target")"
+            cp "$file" "$target"
+          done
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: extract-${{ matrix.repo.name }}
+          path: staging/
+          include-hidden-files: true
+
+  # STEP 3 & 4: Logic and Final Merge
+  finalize:
+    needs: [pull-upstream, extract-python, extract-javascript, extract-generic]
+    if: always() # Ensure we merge what we managed to extract
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: pip install polib
+
+      - name: Download Upstream
+        uses: actions/download-artifact@v4
+        with:
+          name: translations-upstream
+          path: translations-upstream
+
+      - name: Download Extractions
+        uses: actions/download-artifact@v4
+        with:
+          path: extracted-sources
+          pattern: extract-*
+          merge-multiple: true
+
+      - name: Update Custom Layer
+        run: python3 scripts/wikimedia_workflow_logic.py update_custom --extracted-dir extracted-sources
+
+      - name: Final Production Merge
+        run: python3 scripts/wikimedia_workflow_logic.py merge_final
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.EDX_TRANSIFEX_BOT_GITHUB_TOKEN }}
+          commit-message: "feat: unified translation update (Upstream + Custom Override)"
+          branch: "chore/unified-translations-${{ github.run_id }}"
+          title: "Unified Translation Sync (Atlas Pull + Custom Merge)"
+          body: |
+            This PR contains the results of the Unified Translation Workflow:
+            1. **Step 1**: Upstream pulled from `openedx/openedx-translations` (@${{ inputs.upstream_branch }})
+            2. **Step 2**: Custom strings extracted from Forks/New Repos
+            3. **Step 3**: Custom strings isolated into `translations-custom/` with automatic placeholders
+            4. **Step 4**: Final production bundle generated in `translations/`
+
+            ## Workflow Summary
+            - Upstream branch: `${{ inputs.upstream_branch }}`
+            - Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          add-paths: |
+            translations/
+            translations-custom/

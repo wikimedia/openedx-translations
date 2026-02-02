@@ -1,0 +1,176 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-01-20 19:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: lms/djangoapps/instructor/views/api.py:1428
+msgid "Certificate link"
+msgstr "Lien vers le certificat"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:43
+msgid ""
+"Usernames must not contain the following symbols: #, <, >, [, ], |, {, }, /,"
+" \\, :, @"
+msgstr ""
+"Les noms d'utilisateur ne doivent pas contenir les symboles suivants: #, <, "
+">, [, ], ➡, {, }, /, \\,:, @"
+
+#: xmodule/course_block.py:1056
+msgid "Select Course Font Family"
+msgstr "Sélectionner la famille de police du cours"
+
+#: xmodule/course_block.py:1058
+msgid ""
+"\n"
+"            Select course family in which you want to display your course.\n"
+"            Available options are \"font-trebuchet\", \"font-open-sans\", \"font-noto-kufi-arabic\", \"font-montserrat\", and \"font-source-sans-pro\".\n"
+"            If value is invalid or empty the default font-family will be \"Helvetica Neue\".\n"
+"            "
+msgstr ""
+"\n"
+"            Sélectionner une famille de polices dans laquelle vous voulez afficher votre cours.\n"
+"            Les options disponibles sont « font-trebuchet », « font-open-sans », « font-noto-kufi-arabic », « font-montserrat » et « font-source-sans-pro ».\n"
+"            Si la valeur n’est pas valide ou vide, la famille de polices par défaut sera « Helvetica Neue ».\n"
+"            "
+
+#: xmodule/course_block.py:1068
+msgid "Issue Open Badges"
+msgstr ""
+
+#: xmodule/course_block.py:1070
+msgid ""
+"Issue Open Badges badges for this course. Badges are generated when "
+"certificates are created."
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:21
+msgid ""
+"Click to generate a CSV grade report for all currently enrolled students.!!"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:16
+msgid "Unlock The World’s Knowledge"
+msgstr "Déverrouiller la connaissance du monde"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:65
+msgid "Featured"
+msgstr "En vedette"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:66
+msgid "Recently Added"
+msgstr "Récemment ajouté"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:67
+msgid "All Courses"
+msgstr "Tous les cours"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:80
+msgid "See what we have been up to"
+msgstr "Voyez ce que nous avons fait"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:81
+msgid "View All News >"
+msgstr "Afficher toutes les nouvelles >"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:87
+msgid "19 April 2021"
+msgstr "19 avril 2021"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:92
+msgid ""
+"Wikipedia readers in Latin America invited to support 20 years of free "
+"knowledge through new fundraising campaign"
+msgstr ""
+"Les lecteurs de Wikipédia en Amérique latine sont invités à soutenir 20 ans "
+"de connaissance libre via une nouvelle campagne de collecte de fonds."
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:95
+msgid "By Pats Pena"
+msgstr "Par Pats Pena"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:96
+#: tutorindigo/templates/indigo/lms/templates/index.html:112
+msgid "Read More >"
+msgstr "Lire davantage >"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:107
+msgid "26 Februrary 2021"
+msgstr "26 février 2021"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:110
+msgid "Wikipedia needs local journalism and the open Web"
+msgstr "Wikipédia a besoin de journalisme local et du web ouvert"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:111
+msgid "By Jan Gerlach"
+msgstr "Par Jan Gerlach"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:125
+msgid "Subscribe to news about ongoing projects and initiatives"
+msgstr "S’abonner aux nouvelles sur les projets et initiatives en cours"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:131
+msgid "Subscribe"
+msgstr "S’abonner"
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:23
+msgid "has successfully completed"
+msgstr "a terminé avec succès"
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:24
+msgid "the"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:24
+msgid "program."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:61
+msgid "Certificate"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:61
+msgid "of Achievement"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:49
+msgid "What to study next?"
+msgstr "Qu’étudier ensuite ?"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:88
+msgid "Already Enrolled"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
+msgid ""
+"WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning "
+"platform for the Wikimedia movement. It offers a comprehensive range of "
+"self-paced and instructor-led courses aimed at capacity building and "
+"leadership development within the Wikimedia community. Courses on WikiLearn "
+"are collaboratively developed by and for Wikimedians with a commitment to "
+"accessibility and diversity. For inquiries, contact the Community "
+"Development team at "
+msgstr ""
+"WikiLearn, hébergé par la Wikimedia Foundation, est une plateforme "
+"d'apprentissage dédiée au mouvement Wikimedia. Il propose une gamme complète"
+" de cours à votre rythme et dirigés par un instructeur visant au "
+"renforcement des capacités et au développement du leadership au sein de la "
+"communauté Wikimédia. Les cours sur WikiLearn sont développés en "
+"collaboration par et pour les Wikimédiens avec un engagement en faveur de "
+"l'accessibilité et de la diversité. Pour toute demande de renseignements, "
+"contactez l'équipe de développement communautaire au "
+
+#: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
+msgid "Discover courses"
+msgstr ""

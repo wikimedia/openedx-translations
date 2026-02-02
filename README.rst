@@ -1,105 +1,167 @@
 openedx-translations
 ####################
 
-This openedx-translations repository contains translation files from Open edX repositories
-to be kept in sync with Transifex. To accomplish this task, a GitHub Action in
-``.github/workflows/`` named ``extract-translation-source-files.yml`` regularly extracts
-English translation source files form Open edX repositories containing code and adds them
-to this repository. A GitHub Transifex app allows for the automatic upload of these
-translation files and after being translated on Transifex, the automatic download back
-into this repository. The translation files in this repository can then be accessed by
-using the `openedx-atlas`_ CLI tool to download specific directories of translation files
-from openedx-translations.
-
-This repository implements the `OEP-58`_ proposal.
-
-Main and Release branches
-*************************
-
-This repository has a main branch in addition to a dedicated branch for every
-release. As of May 10th, 2024 the following are the release branches:
-
-``main`` branch
-===============
-
-This branch is used for the latest version of Open edX such as
-`Tutor nightly`_, `edx-platform "master" branch`_ and others.
-
-To translate the latest versions the `open-edx/openedx-translations`_ Transifex
-project should be used.
-
-
-``open-release/<release-name>.master`` branch
-=============================================
-
-This branch is used for the latest version of the Open edX Release, which will
-be a version of Tutor and corresponding branches in tagged repos. For example,
-for the Redwood release (June 2024), the branches were:
-`Tutor Redwood v18`_, `edx-platform "open-release/redwood.master" branch`_
-and others.
-
-To update translations for a named release, find the corresponding named release project in the `Open edX Transifex project <https://app.transifex.com/open-edx/>`_  by searching for the release name (for example, Redwood) in the search box. 
-
-Tools for repository maintainers
-********************************
-
-This repository contains both `GitHub Actions workflows`_ and
-`Makefile programs`_ to automate and assist maintainers chores including:
-
-Fix resource names in Transifex
+Wikimedia Open edX Translations
 ===============================
 
-The GitHub Transifex App integeration puts an inconvenient names for resources like ``translations..frontend-app-something..src-i18n-transifex-input--main``
-instead of ``frontend-app-something``.
-
-Running this command should be safe and can be ran multiple times on
-both the main ``openedx-translations`` project or on release projects
-by setting the ``TRANSIFEX_PROJECT_SLUG`` make variable as shown below::
-
-    # Dry run the name fix
-    make TRANSIFEX_PROJECT_SLUG='openedx-translations-zebrawood' fix_transifex_resource_names_dry_run
-    # If runs without errors, run the actual command:
-    make TRANSIFEX_PROJECT_SLUG='openedx-translations-zebrawood' fix_transifex_resource_names
-
-Translation validation
-======================
-
-This repository validates translations with the GNU gettext ``msgfmt`` tool.
-
-The validation can be run locally with the following command:
-
-.. code-block:: bash
-
-    make validate_translations
+Custom translations for the Wikimedia Open edX Platform (Teak release).
+This is a fork of the standard
+`openedx/openedx-translations <https://github.com/openedx/openedx-translations/>`_
+repository with Wikimedia-specific customizations.
 
 
-The validation errors is also posted as a comment on the update translation
-pull requests.
+Overview
+========
 
-Retry merging Transifex pull requests
-=====================================
+This repository uses a **unified translation workflow** that:
 
-If GitHub Actions has an outage or any other issues there will be a backlog
-of stale unmerged Transifex bot pull requests. To re-run tests and merge the
-pull requests, run the following command:
-
-.. code-block:: bash
-
-    make retry_merge_transifex_bot_pull_requests
-
-.. _OEP-58: https://github.com/openedx/open-edx-proposals/pull/367
-.. _openedx-atlas: https://github.com/openedx/openedx-atlas
-
-.. _sync_translations.yml workflow on GitHub: https://github.com/openedx/openedx-translations/actions/workflows/sync-translations.yml
-
-.. _open-edx/openedx-translations: https://app.transifex.com/open-edx/openedx-translations/dashboard/
-.. _open-edx/openedx-translations-redwood: https://app.transifex.com/open-edx/openedx-translations-redwood/dashboard/
+- Pulls upstream translations from the official Open edX translations repository
+- Extracts custom strings from Wikimedia's forked and custom repositories
+- Automatically identifies and isolates Wikimedia-specific translations
+- Generates placeholder files for all supported languages
+- Merges upstream and custom translations into a production-ready bundle
 
 
-.. _Tutor nightly: https://docs.tutor.edly.io/tutorials/nightly.html
-.. _edx-platform "master" branch: https://github.com/openedx/edx-platform
-.. _Tutor Redwood v18: https://docs.tutor.edly.io/
-.. _edx-platform "open-release/redwood.master" branch: https://github.com/openedx/edx-platform/tree/open-release/redwood.master
+Directory Structure
+===================
 
-.. _GitHub Actions workflows: https://github.com/openedx/openedx-translations/tree/main/.github/workflows
-.. _Makefile programs: https://github.com/openedx/openedx-translations/blob/main/Makefile
+::
+
+   openedx-translations/
+   ├── translations-custom/       # Wikimedia-specific custom translations only
+   └── translations/              # Final merged translations (used in production)
+
+
+How It Works
+============
+
+Automated Workflow
+------------------
+
+The translation sync runs automatically via GitHub Actions:
+
+1. **Pull Upstream**
+   Gets latest translations from Open edX (``release/teak``)
+
+2. **Extract Custom**
+   Pulls English source strings from Wikimedia's custom repositories
+
+3. **Isolate Differences**
+   Identifies only the strings unique to Wikimedia
+
+4. **Generate Placeholders**
+   Creates empty translation files for all languages
+
+5. **Merge**
+   Combines upstream with Wikimedia custom translations
+
+
+Running the Workflow
+--------------------
+
+To sync translations:
+
+1. Go to the **Actions** tab in GitHub
+2. Click **Wikimedia Translation Workflow**
+3. Click **Run workflow**
+4. Select branch: ``release/teak``
+5. Click **Run workflow**
+
+The workflow will automatically create a pull request with updated translations
+and merge it if successful.
+
+
+Adding Translations
+==================
+
+For Translators
+---------------
+
+If you're translating content, work in the ``translations-custom/`` directory.
+
+Python Repositories
+~~~~~~~~~~~~~~~~~~~
+
+For Python repositories such as *edx-platform* and themes:
+
+- Navigate to::
+
+     translations-custom/{repository-name}/conf/locale/{language-code}/LC_MESSAGES/
+
+- Edit the ``.po`` files:
+
+  - ``django.po`` for templates
+  - ``djangojs.po`` for JavaScript
+
+**Example**::
+
+   translations-custom/tutor-indigo-wikilearn/conf/locale/ar/LC_MESSAGES/django.po
+
+
+Frontend Applications (MFEs)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For frontend applications:
+
+- Navigate to::
+
+     translations-custom/{repository-name}/src/i18n/messages/
+
+- Edit the language JSON file (for example ``ar.json``)
+
+**Example**::
+
+   translations-custom/frontend-app-messenger/src/i18n/messages/ar.json
+
+
+After Making Changes
+~~~~~~~~~~~~~~~~~~~~
+
+1. Save your files
+2. Commit the changes
+3. Create a pull request
+4. Once merged, run the workflow again to update the final ``translations/`` directory
+
+
+Translation File Formats
+========================
+
+Python Repositories (``.po`` files)
+-----------------------------------
+
+These are text files with the following format::
+
+   msgid "Welcome"
+   msgstr "مرحبا"
+
+   msgid "Sign In"
+   msgstr "تسجيل الدخول"
+
+- ``msgid``: The English source text (do not change)
+- ``msgstr``: Your translation
+
+
+MFE Repositories (``.json`` files)
+----------------------------------
+
+These are JSON files with the following format::
+
+   {
+     "welcome.message": "مرحبا",
+     "signin.button": "تسجيل الدخول"
+   }
+
+- **Key** (left side): Do not change
+- **Value** (right side): Add your translation
+
+
+Using in Tutor
+==============
+
+To use these translations in your Tutor installation, configure::
+
+
+   ATLAS_REPOSITORY: wikimedia/openedx-translations
+   ATLAS_REVISION: release/teak
+
+Then rebuild and redeploy.

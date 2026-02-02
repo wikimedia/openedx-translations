@@ -1,0 +1,121 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-20 19:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:16
+msgid "Unlock The World’s Knowledge"
+msgstr "Das Wissen der Welt erschließen"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:65
+msgid "Featured"
+msgstr "Vorgestellt"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:66
+msgid "Recently Added"
+msgstr "Kürzlich hinzugefügt"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:67
+msgid "All Courses"
+msgstr "Alle Kurse"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:80
+msgid "See what we have been up to"
+msgstr "Schau, was wir getan haben"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:81
+msgid "View All News >"
+msgstr "Alle Nachrichten ansehen >"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:87
+msgid "19 April 2021"
+msgstr "19. April 2021"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:92
+msgid ""
+"Wikipedia readers in Latin America invited to support 20 years of free "
+"knowledge through new fundraising campaign"
+msgstr ""
+"Wikipedia-Leser in Lateinamerika sind eingeladen, 20 Jahre freies Wissen "
+"durch eine neue Spendenkampagne zu unterstützen"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:95
+msgid "By Pats Pena"
+msgstr "Von Pats Pena"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:96
+#: tutorindigo/templates/indigo/lms/templates/index.html:112
+msgid "Read More >"
+msgstr "Mehr lesen >"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:107
+msgid "26 Februrary 2021"
+msgstr "26. Februar 2021"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:110
+msgid "Wikipedia needs local journalism and the open Web"
+msgstr "Wikipedia braucht Lokaljournalismus und das offene Web"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:111
+msgid "By Jan Gerlach"
+msgstr "Von Jan Gerlach"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:125
+msgid "Subscribe to news about ongoing projects and initiatives"
+msgstr "Abonniere die Nachrichten über laufende Projekte und Initiativen"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:131
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:23
+msgid "has successfully completed"
+msgstr "hat erfolgreich abgeschlossen"
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:24
+msgid "the"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:24
+msgid "program."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:61
+msgid "Certificate"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:61
+msgid "of Achievement"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:49
+msgid "What to study next?"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:88
+msgid "Already Enrolled"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
+msgid ""
+"WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning "
+"platform for the Wikimedia movement. It offers a comprehensive range of "
+"self-paced and instructor-led courses aimed at capacity building and "
+"leadership development within the Wikimedia community. Courses on WikiLearn "
+"are collaboratively developed by and for Wikimedians with a commitment to "
+"accessibility and diversity. For inquiries, contact the Community "
+"Development team at "
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
+msgid "Discover courses"
+msgstr ""

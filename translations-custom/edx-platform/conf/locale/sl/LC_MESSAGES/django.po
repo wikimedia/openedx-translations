@@ -1,0 +1,58 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-01-20 19:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: lms/djangoapps/instructor/views/api.py:1428
+msgid "Certificate link"
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:43
+msgid ""
+"Usernames must not contain the following symbols: #, <, >, [, ], |, {, }, /,"
+" \\, :, @"
+msgstr ""
+
+#: xmodule/course_block.py:1056
+msgid "Select Course Font Family"
+msgstr "Izberite družino pisav tečaja"
+
+#: xmodule/course_block.py:1058
+msgid ""
+"\n"
+"            Select course family in which you want to display your course.\n"
+"            Available options are \"font-trebuchet\", \"font-open-sans\", \"font-noto-kufi-arabic\", \"font-montserrat\", and \"font-source-sans-pro\".\n"
+"            If value is invalid or empty the default font-family will be \"Helvetica Neue\".\n"
+"            "
+msgstr ""
+"\n"
+"            Izberite družino tečajev, v kateri želite prikazati svoj tečaj.\n"
+"            Razpoložljive možnosti so »font-trebuchet«, »font-open-sans«, »font-noto-kufi-arabic«, »font-montserrat« in »font-source-sans-pro«.\n"
+"           Če je vrednost neveljavna ali prazna, bo privzeta družina pisav »Helvetica Neue«.\n"
+"            "
+
+#: xmodule/course_block.py:1068
+msgid "Issue Open Badges"
+msgstr ""
+
+#: xmodule/course_block.py:1070
+msgid ""
+"Issue Open Badges badges for this course. Badges are generated when "
+"certificates are created."
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:21
+msgid ""
+"Click to generate a CSV grade report for all currently enrolled students.!!"
+msgstr ""

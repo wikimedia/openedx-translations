@@ -9,3 +9,5 @@ htmlcov
 
 # IntelliJ IDEA
 .idea/
+
+translations-upstream/

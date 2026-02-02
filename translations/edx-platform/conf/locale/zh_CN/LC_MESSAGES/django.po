@@ -3,29 +3,29 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-# 
+#
 # Translators:
 # Brian Smith, 2025
 # Eden Huthmacher, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -35,12 +35,12 @@ msgstr ""
 "PO-Revision-Date: 2025-07-23 17:30+0000\n"
 "Last-Translator: Eden Huthmacher, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/open-edx/teams/6205/zh_CN/)\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
@@ -22031,3 +22031,153 @@ msgstr "将您的版权文本置于此处！"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "代码编辑器"
+
+#: lms/djangoapps/instructor/views/api.py:1428
+msgid "Certificate link"
+msgstr "证书链接"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:43
+msgid ""
+"Usernames must not contain the following symbols: #, <, >, [, ], |, {, }, /,"
+" \\, :, @"
+msgstr "用户名不得包含以下符号：#, <, >, [, ], |, {, }, /, \\, :, @"
+
+#: xmodule/course_block.py:1056
+msgid "Select Course Font Family"
+msgstr "选择课程字体"
+
+#: xmodule/course_block.py:1058
+msgid ""
+"\n"
+"            Select course family in which you want to display your course.\n"
+"            Available options are \"font-trebuchet\", \"font-open-sans\", \"font-noto-kufi-arabic\", \"font-montserrat\", and \"font-source-sans-pro\".\n"
+"            If value is invalid or empty the default font-family will be \"Helvetica Neue\".\n"
+"            "
+msgstr ""
+"\n"
+"            选择在您课程中显示的字体家族。\n"
+"            可选项有“font-trebuchet”、“font-open-sans”、\"font-noto-kufi-arabic\"、“font-montserrat”和“font-source-sans-pro”。\n"
+"            如果值的内容无效或为空，则显示默认字体家族“Helvetica Neue”。\n"
+"            "
+
+#: xmodule/course_block.py:1068
+msgid "Issue Open Badges"
+msgstr ""
+
+#: xmodule/course_block.py:1070
+msgid ""
+"Issue Open Badges badges for this course. Badges are generated when "
+"certificates are created."
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:21
+msgid ""
+"Click to generate a CSV grade report for all currently enrolled students.!!"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:16
+msgid "Unlock The World’s Knowledge"
+msgstr "解开世界知识"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:65
+msgid "Featured"
+msgstr "精选"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:66
+msgid "Recently Added"
+msgstr "最近新增"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:67
+msgid "All Courses"
+msgstr "所有课程"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:80
+msgid "See what we have been up to"
+msgstr "看看我们做了什么"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:81
+msgid "View All News >"
+msgstr "查看所有新闻 >"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:87
+msgid "19 April 2021"
+msgstr "2021年4月19日"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:92
+msgid ""
+"Wikipedia readers in Latin America invited to support 20 years of free "
+"knowledge through new fundraising campaign"
+msgstr "拉丁美洲的维基百科读者受邀通过新的筹款运动来支持20年的免费知识"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:95
+msgid "By Pats Pena"
+msgstr "由 Pats Pena 发布"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:96
+#: tutorindigo/templates/indigo/lms/templates/index.html:112
+msgid "Read More >"
+msgstr "了解更多 >"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:107
+msgid "26 Februrary 2021"
+msgstr "2021年2月26日"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:110
+msgid "Wikipedia needs local journalism and the open Web"
+msgstr "维基百科需要本地新闻与开放式网络"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:111
+msgid "By Jan Gerlach"
+msgstr "由 Jan Gerlach 发布"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:125
+msgid "Subscribe to news about ongoing projects and initiatives"
+msgstr "订阅关于正在进行的计划与举措的新闻"
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:131
+msgid "Subscribe"
+msgstr "订阅"
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:23
+msgid "has successfully completed"
+msgstr "已成功完成"
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:24
+msgid "the"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:24
+msgid "program."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:61
+msgid "Certificate"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:61
+msgid "of Achievement"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:49
+msgid "What to study next?"
+msgstr "接下来要学习什么？"
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:88
+msgid "Already Enrolled"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
+msgid ""
+"WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning "
+"platform for the Wikimedia movement. It offers a comprehensive range of "
+"self-paced and instructor-led courses aimed at capacity building and "
+"leadership development within the Wikimedia community. Courses on WikiLearn "
+"are collaboratively developed by and for Wikimedians with a commitment to "
+"accessibility and diversity. For inquiries, contact the Community "
+"Development team at "
+msgstr ""
+"WikiLearn是由维基媒体基金会托管、用于维基媒体运动的专用学习平台。它提供了全方位的自己决定进度、由导师指引的课程，以在维基媒体社区中培养能力、发展领导力。WikiLearn上的课程由维基人协作开发并面向维基人群体，致力于可及性与多样性。若需询问，请联系社区开发团队：\\"
+
+#: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
+msgid "Discover courses"
+msgstr ""

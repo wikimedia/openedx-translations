@@ -3,7 +3,8 @@
 name: Validate translation PO files
 
 on:
-  - pull_request
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   validate-po-files:
@@ -16,6 +17,8 @@ jobs:
       # file has been modified in this diff
       - uses: dorny/paths-filter@v3
         id: filter
+        # Only run paths-filter on pull_request events
+        if: github.event_name == 'pull_request'
         with:
           filters: |
             pofiles:
@@ -23,16 +26,22 @@ jobs:
 
       # Clones the openedx-translations repo
       - name: clone openedx/openedx-translations
-        if: steps.filter.outputs.pofiles == 'true'
         uses: actions/checkout@v4
 
+      # For workflow_dispatch, assume we should validate all files
+      - name: Set filter output for manual runs
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          echo "pofiles=true" >> $GITHUB_OUTPUT
+        id: manual-filter
+
       - name: Install gettext
-        if: steps.filter.outputs.pofiles == 'true'
+        if: steps.filter.outputs.pofiles == 'true' || steps.manual-filter.outputs.pofiles == 'true'
         run: |
           sudo apt install -y gettext
 
       - name: setup python
-        if: steps.filter.outputs.pofiles == 'true'
+        if: steps.filter.outputs.pofiles == 'true' || steps.manual-filter.outputs.pofiles == 'true'
         uses: actions/setup-python@v5
         id: setup_python
         with:
@@ -42,14 +51,14 @@ jobs:
             requirements/translations.txt
 
       - name: Install requirements
-        if: steps.filter.outputs.pofiles == 'true'
+        if: steps.filter.outputs.pofiles == 'true' || steps.manual-filter.outputs.pofiles == 'true'
         run: |
           python --version
           make translations_scripts_requirements
 
       - name: Validate translation files
         id: validate_translation_files
-        if: steps.filter.outputs.pofiles == 'true'
+        if: steps.filter.outputs.pofiles == 'true' || steps.manual-filter.outputs.pofiles == 'true'
         run: |
           has_validation_errors=0
           python scripts/validate_translation_files.py 2>validation_errors.txt || has_validation_errors=1

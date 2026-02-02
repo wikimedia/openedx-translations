@@ -3,30 +3,30 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-# 
+#
 # Translators:
 # Brian Smith, 2025
 # Eden Huthmacher, 2025
 # Iryna Zaporozhets, 2026
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -36,12 +36,12 @@ msgstr ""
 "PO-Revision-Date: 2025-07-23 17:30+0000\n"
 "Last-Translator: Iryna Zaporozhets, 2026\n"
 "Language-Team: Ukrainian (https://app.transifex.com/open-edx/teams/6205/uk/)\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
-"Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
@@ -14651,6 +14651,11 @@ msgstr "Створіть свій перший курс"
 msgid "Your new course is just a click away!"
 msgstr "Ваш новий курс лише в одному кліку від вас!"
 
+#: cms/templates/index.html:414
+#, python-brace-format
+msgid "Becoming a Course Creator in {studio_name}"
+msgstr "Стати автором курсу в {studio_name}"
+
 #: cms/templates/index.html:529
 msgid "Were you expecting to see a particular library here?"
 msgstr "Ви очікували знайти тут певну бібліотеку?"
@@ -14699,6 +14704,11 @@ msgstr ""
 #, python-brace-format
 msgid "Getting Started with {studio_name}"
 msgstr "Почати працювати у {studio_name} "
+
+#: cms/templates/index.html:606
+#, python-brace-format
+msgid "Thanks for signing up, {name}!"
+msgstr "Дякуємо за авторизацію, {name}!"
 
 #: cms/templates/index.html:611
 msgid "We need to verify your email address"
@@ -14800,6 +14810,10 @@ msgstr ""
 msgid "Add User"
 msgstr "Додати користувача"
 
+#: cms/templates/manage_users.html:83
+msgid "Add Team Members to This Course"
+msgstr "Додати члена команди до курсу"
+
 #: cms/templates/manage_users.html:91
 msgid "Add a New Team Member"
 msgstr "Додати нового члена команди"
@@ -14860,10 +14874,30 @@ msgstr "Записатись на курс {course_display_name}"
 msgid "Invite your students"
 msgstr "Запросити студентів"
 
+#: cms/templates/settings.html:142
+msgid "Steps required to earn course credit"
+msgstr "Необхідні кроки для отримання кредиту на курс"
+
+#: cms/templates/settings.html:150 cms/templates/settings.html:152
+msgid "Minimum Grade"
+msgstr "Мінімальна оцінка"
+
 #: cms/templates/settings.html:163
 #, python-brace-format
 msgid "Proctored Exam {number}"
 msgstr "Контрольований іспит {number}"
+
+#: cms/templates/settings.html:192
+msgid "Course Pacing"
+msgstr "Темп Курсу"
+
+#: cms/templates/settings.html:201
+msgid "Instructor-Paced"
+msgstr " Темп Викладача"
+
+#: cms/templates/settings.html:206
+msgid "Self-Paced"
+msgstr "Самостійний Темп"
 
 #: cms/templates/settings.html:217
 msgid "Course Schedule"
@@ -14872,6 +14906,10 @@ msgstr "Розклад курсу"
 #: cms/templates/settings.html:218
 msgid "Dates that control when your course can be viewed"
 msgstr "Дати, що контролюють доступність перегляду курсу"
+
+#: cms/templates/settings.html:224
+msgid "Course Start Date"
+msgstr "Дата початку курсу"
 
 #: cms/templates/settings.html:227
 msgid "First day the course begins"
@@ -14899,9 +14937,25 @@ msgstr "Останній день, коли курс є активним"
 msgid "Course End Time"
 msgstr "Час завершення курсу"
 
+#: cms/templates/settings.html:259 cms/templates/settings.html:276
+msgid "Immediately upon passing"
+msgstr "Одразу після проходження"
+
+#: cms/templates/settings.html:260
+msgid "End date of course"
+msgstr "Дата закінчення курсу"
+
+#: cms/templates/settings.html:261 cms/templates/settings.html:284
+msgid "A date after the course end date"
+msgstr "Дата після терміну закінчення курсу"
+
 #: cms/templates/settings.html:270
 msgid "Read more about this setting"
 msgstr "Дізнатися більше про це налаштування"
+
+#: cms/templates/settings.html:280
+msgid "On course end date"
+msgstr "В день закінчення курсу"
 
 #: cms/templates/settings.html:303
 msgid "Enrollment Start Date"
@@ -15246,6 +15300,18 @@ msgstr "Налаштування для відео на курсі"
 msgid "Manage content groups"
 msgstr "Керування контентними групами"
 
+#: cms/templates/visibility_editor.html:75
+msgid "Access is restricted to:"
+msgstr "Обмежено доступ до:"
+
+#: cms/templates/visibility_editor.html:81
+msgid "Restrict access to:"
+msgstr "Обмежити доступ до:"
+
+#: cms/templates/visibility_editor.html:87
+msgid "All Learners and Staff"
+msgstr "Усі студенти та персонал"
+
 #: cms/templates/emails/user_task_complete_email.txt:24
 msgid "Errors: "
 msgstr "Помилки:"
@@ -15349,6 +15415,10 @@ msgstr "Надіслати повідомлення на електронну п
 #: lms/templates/courseware/tab-view.html:20
 msgid "name"
 msgstr "ім'я"
+
+#: cms/templates/widgets/user_dropdown.html:13
+msgid "Currently signed in as:"
+msgstr "Ви зайшли під іменем:"
 
 #: cms/templates/widgets/user_dropdown.html:30
 #: lms/templates/header/user_dropdown.html:52
@@ -15678,6 +15748,11 @@ msgstr "Студенти, яким було відмовлено:"
 msgid "organization logo"
 msgstr "логотип організації"
 
+#: lms/templates/forgot_password_modal.html:10
+#: lms/templates/forgot_password_modal.html:22
+msgid "Password Reset"
+msgstr "Змінити пароль"
+
 #: lms/templates/forgot_password_modal.html:26
 msgid ""
 "Please enter your e-mail address below, and we will e-mail instructions for "
@@ -15697,6 +15772,10 @@ msgstr ""
 msgid "Required Information"
 msgstr "Обов'язкова інформація"
 
+#: lms/templates/forgot_password_modal.html:35
+msgid "Your E-mail Address"
+msgstr "Ваша електронна адреса"
+
 #: lms/templates/forgot_password_modal.html:43
 msgid "Reset My Password"
 msgstr "Змінити мій пароль"
@@ -15704,6 +15783,14 @@ msgstr "Змінити мій пароль"
 #: lms/templates/forgot_password_modal.html:57
 msgid "Email is incorrect."
 msgstr "Неправильна електронна адреса"
+
+#: lms/templates/courseware/courses.html:42
+#: lms/templates/courseware/courses.html:43 lms/templates/index.html:26
+#: lms/templates/index.html:27
+#: themes/stanford-style/lms/templates/index.html:22
+#: themes/stanford-style/lms/templates/index.html:23
+msgid "Search for a course"
+msgstr "Знайти курс"
 
 #: lms/templates/manage_user_standing.html:12
 msgid "Username:"
@@ -15725,6 +15812,18 @@ msgstr "Ім'я:"
 msgid "Choose an action:"
 msgstr "Обрати дію:"
 
+#: lms/templates/manage_user_standing.html:34
+msgid "Remove Profile Image"
+msgstr "Видалити зображення профілю"
+
+#: lms/templates/manage_user_standing.html:44
+msgid "(reload your page to refresh)"
+msgstr "(перезавантажте сторінку для оновлення)"
+
+#: lms/templates/module-error.html:28
+msgid "Raw data:"
+msgstr "Необроблені дані:"
+
 #: lms/templates/preview_menu.html:59
 msgid "View this course as:"
 msgstr "Переглянути цей курс як:"
@@ -15737,6 +15836,10 @@ msgstr "Персонал"
 #: lms/templates/preview_menu.html:62
 msgid "Learner"
 msgstr "Студент"
+
+#: lms/templates/preview_menu.html:63
+msgid "Specific learner"
+msgstr "Певний студент"
 
 #: lms/templates/preview_menu.html:75
 msgid "Username or email:"
@@ -15755,6 +15858,10 @@ msgstr "Зберегти відповідь"
 #: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:41
 msgid "Reset"
 msgstr "Зкинути"
+
+#: lms/templates/problem.html:50
+msgid "Show answer"
+msgstr "Показати відповідь"
 
 #: lms/templates/problem.html:93
 #, python-brace-format
@@ -15780,6 +15887,10 @@ msgstr "Увійти"
 #: themes/stanford-style/lms/templates/register-shib.html:134
 msgid "E-mail"
 msgstr "Електронна адреса"
+
+#: lms/templates/public_video.html:47
+msgid "Enroll in this course"
+msgstr "Записатися на цей курс"
 
 #: lms/templates/courseware/courseware-chromeless.html:12
 #: lms/templates/courseware/courseware.html:28
@@ -15863,6 +15974,10 @@ msgstr "Активні Групи"
 msgid "Staff Debug Info"
 msgstr "Інформація для персоналу з налагодження"
 
+#: lms/templates/staff_problem_info.html:43
+msgid "Comment"
+msgstr "Коментар"
+
 #: lms/templates/staff_problem_info.html:49
 msgid "Add comment"
 msgstr "Додати коментар"
@@ -15881,6 +15996,10 @@ msgstr "Перезарахувати бали студента"
 msgid "Rescore Only If Score Improves"
 msgstr "Перезарахувати тільки, якщо бал підвищиться"
 
+#: lms/templates/staff_problem_info.html:134
+msgid "View History"
+msgstr "Подивитися історію"
+
 #: lms/templates/courseware/gradebook.html:130
 #: lms/templates/staticbook.html:119
 msgid "Page"
@@ -15894,6 +16013,10 @@ msgstr "Попередня сторінка"
 msgid "Next page"
 msgstr "Наступна сторінка"
 
+#: lms/templates/studio_render_children_view.html:24
+msgid "From:"
+msgstr "З:"
+
 #: lms/templates/tracking_log.html:6
 msgid "type"
 msgstr "тип"
@@ -15902,6 +16025,14 @@ msgstr "тип"
 #: lms/templates/user_dropdown.html:24 lms/templates/user_dropdown.html:46
 msgid "Dashboard for:"
 msgstr "Панель управління для:"
+
+#: lms/templates/user_dropdown.html:29
+msgid "Usermenu"
+msgstr "Меню користувача"
+
+#: lms/templates/using.html:4
+msgid "Using the system"
+msgstr "Використання системи"
 
 #: lms/templates/video.html:127
 msgid "Copy"
@@ -15937,6 +16068,10 @@ msgstr "Завантажити CSV"
 #: lms/templates/bulk_email/unsubscribe_success.html:18
 msgid "Unsubscribe"
 msgstr "Скасувати підписку"
+
+#: lms/templates/calculator/toggle_calculator.html:36
+msgid "Tips"
+msgstr "Підказки"
 
 #: lms/templates/calculator/toggle_calculator.html:50
 msgid "Type"
@@ -16115,6 +16250,14 @@ msgstr "Немає балів за виконання у цьому розділ
 msgid "{course.display_number_with_default} Course Info"
 msgstr "{course.display_number_with_default} Інформація про курс"
 
+#: lms/templates/dashboard/_dashboard_certificate_information.html:149
+msgid "View grades"
+msgstr "Переглянути оцінки"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html:85
+msgid "Course details"
+msgstr "Деталі курсу"
+
 #: lms/templates/dashboard/_dashboard_course_listing.html:138
 #, python-brace-format
 msgid "Ended - {date}"
@@ -16125,10 +16268,25 @@ msgstr "Закінчився - {date} "
 msgid "Started - {date}"
 msgstr "Розпочався - {date}"
 
+#: lms/templates/dashboard/_dashboard_course_listing.html:147
+#: lms/templates/dashboard/_dashboard_course_listing.html:151
+#, python-brace-format
+msgid "Starts - {date}"
+msgstr "Починається - {date}"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html:162
+#, python-brace-format
+msgid "for {course_display_name}"
+msgstr "для {course_display_name}"
+
 #: lms/templates/dashboard/_dashboard_course_listing.html:298
 #: lms/templates/dashboard/_dashboard_entitlement_actions.html:56
 msgid "Email Settings"
 msgstr "Налаштування електронної пошти"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html:352
+msgid "Related Programs"
+msgstr "Пов'язані програми"
 
 #: lms/templates/dashboard/_dashboard_course_resume.html:12
 msgid "Resume Course"
@@ -16138,6 +16296,104 @@ msgstr "Продовжити курс"
 #, python-brace-format
 msgid "You are now eligible for credit from {provider}. Congratulations!"
 msgstr "Тепер ви можете отримати заліковий кредит від {provider}. Вітаємо!"
+
+#: lms/templates/dashboard/_dashboard_show_consent.html:19
+msgid "View Consent"
+msgstr "Переглянути згоду"
+
+#: lms/templates/dashboard/_entitlement_reason_survey.html:9
+msgid "Price is too high for me"
+msgstr "Ціна для мене занадто висока"
+
+#: lms/templates/dashboard/_entitlement_reason_survey.html:32
+msgid "I was not satisfied with my experience taking the courses"
+msgstr "Я не був задоволений курсами"
+
+#: lms/templates/dashboard/_entitlement_reason_survey.html:55
+msgid "Content of the courses was too difficult"
+msgstr "Контент курсів занадто складний"
+
+#: lms/templates/dashboard/_entitlement_reason_survey.html:78
+msgid "I did not have enough time to complete the courses"
+msgstr "У мене не було достатньо часу, щоб закінчити курси"
+
+#: lms/templates/dashboard/_entitlement_reason_survey.html:101
+msgid "The content was not available when I wanted to start"
+msgstr "Курс був недоступний, коли я хотів розпочати"
+
+#: lms/templates/dashboard/_entitlement_reason_survey.html:124
+msgid "Can we contact you via email for follow up?"
+msgstr "Чи можемо ми зв’язатися з вами електронною поштою для подальших дій?"
+
+#: lms/templates/dashboard/_entitlement_reason_survey.html:137
+#: lms/templates/dashboard/_reason_survey.html:23
+msgid "Thank you for sharing your reasons for unenrolling."
+msgstr "Дякуємо, що поділилися причиною скасування запису."
+
+#: lms/templates/dashboard/_entitlement_reason_survey.html:142
+#: lms/templates/dashboard/_reason_survey.html:28
+msgid "Return To Dashboard"
+msgstr "Повернутися на інформаційну панель"
+
+#: lms/templates/dashboard/_reason_survey.html:7
+msgid ""
+"We're sorry to see you go! Please share your main reason for unenrolling."
+msgstr ""
+"Нам дуже прикро, що ви покидаєте нас! Будь ласка, вкажіть вашу  основну "
+"причину відмови."
+
+#: lms/templates/dashboard/_reason_survey.html:9
+msgid "I just wanted to browse the material"
+msgstr "Я просто хотів переглянути матеріал"
+
+#: lms/templates/dashboard/_reason_survey.html:10
+msgid "This won't help me reach my goals"
+msgstr "Це не допоможе мені досягти своїх цілей"
+
+#: lms/templates/dashboard/_reason_survey.html:11
+msgid "I don't have the time"
+msgstr "В мене немає часу"
+
+#: lms/templates/dashboard/_reason_survey.html:13
+msgid "I don't have enough support"
+msgstr "Я не маю достатньої підтримки"
+
+#: lms/templates/dashboard/_reason_survey.html:14
+msgid "I am not happy with the quality of the content"
+msgstr "Я не задоволений якістю контенту"
+
+#: lms/templates/dashboard/_reason_survey.html:15
+msgid "The course material was too hard"
+msgstr "Матеріал курсу був занадто тяжким"
+
+#: lms/templates/dashboard/_reason_survey.html:16
+msgid "The course material was too easy"
+msgstr "Матеріал курсу був легкими"
+
+#: lms/templates/dashboard/_reason_survey.html:17
+msgid "Something was broken"
+msgstr "Щось зламалось"
+
+#: lms/templates/dashboard/_reason_survey.html:18
+msgid "Other"
+msgstr "Інше"
+
+#: lms/templates/debug/run_python_form.html:16
+msgid "Results:"
+msgstr "Результати:"
+
+#: lms/templates/discussion/_discussion_inline.html:27
+msgid "Topic:"
+msgstr "Тема:"
+
+#: lms/templates/discussion/_discussion_inline.html:36
+msgid "Show Discussion"
+msgstr "Показати обговорення"
+
+#: lms/templates/discussion/_discussion_inline_studio.html:9
+#, python-brace-format
+msgid "Discussion ID: {discussion_id}"
+msgstr "ID обговорення: {discussion_id}"
 
 #: lms/templates/discussion/_filter_dropdown.html:53
 msgid "Discussion topics list"
@@ -16182,6 +16438,54 @@ msgstr "за кількістю подій"
 msgid "by most votes"
 msgstr "за кількістю голосів"
 
+#. Translators: This is followed by the instructor or course team name (so
+#. could be singular or plural)
+#: lms/templates/emails/business_order_confirmation_email.txt:73
+msgid "Warm regards,"
+msgstr "З найтеплішими побажаннями,"
+
+#. Translators: The <br> is a line break (empty line), please keep this html
+#. in
+#. the string after the sign off.
+#: lms/templates/emails/business_order_confirmation_email.txt:77
+#, python-brace-format
+msgid "Warm regards,<br>The {platform_name} Team"
+msgstr "З найтеплішими побажаннями,<br>Команда {platform_name}"
+
+#: lms/templates/emails/reverification_processed.txt:27
+msgid "Thanks,"
+msgstr "Дякую,"
+
+#: lms/templates/enrollment/course_enrollment_message.html:6
+msgid "Enrollment Successful"
+msgstr "Запис успішний"
+
+#: lms/templates/enrollment/course_enrollment_message.html:9
+#, python-brace-format
+msgid ""
+"Thank you for enrolling in {course_names}. We hope you enjoy the course."
+msgstr ""
+"Дякуємо, що записалися до {course_names}. ми сподіваємося, що вам "
+"сподобається цей курс."
+
+#: lms/templates/enrollment/course_enrollment_message.html:11
+msgid "Thank you for enrolling in:"
+msgstr "Дякуємо за запис до:"
+
+#: lms/templates/enrollment/course_enrollment_message.html:13
+msgid "We hope you enjoy the course."
+msgstr "Сподіваємося, вам сподобається курс."
+
+#: lms/templates/financial-assistance/financial-assistance.html:23
+msgid "A Note to Learners"
+msgstr "Примітка для слухачів"
+
+#. Translators: This string will not be used in Open edX installations. Do not
+#. translate the name "Anant".
+#: lms/templates/financial-assistance/financial-assistance.html:39
+msgid "Sincerely,"
+msgstr "З повагою,"
+
 #: lms/templates/header/brand.html:19
 #: lms/templates/header/navbar-logo-header.html:32
 #: lms/templates/navigation/bootstrap/navbar-logo-header.html:15
@@ -16194,9 +16498,40 @@ msgstr "{platform_name} Домашня Сторінка"
 msgid "Discover New"
 msgstr "Відкривайте Нове"
 
+#: lms/templates/header/navbar-not-authenticated.html:28
+#: lms/templates/navigation/navbar-not-authenticated.html:16
+msgid "How it Works"
+msgstr "Як це працює"
+
+#: lms/templates/header/navbar-not-authenticated.html:53
+#: lms/templates/header/navbar-not-authenticated.html:57
+msgid "Register for free"
+msgstr "Безкоштовна реєстрація"
+
 #: lms/templates/header/user_dropdown.html:47
 msgid "Profile"
 msgstr "Профіль"
+
+#: lms/templates/header/user_dropdown.html:50
+msgid "Order History"
+msgstr "Історія замовлень"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html:32
+msgid "Generate Example Certificates"
+msgstr "Створити зразок сертифікату"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html:38
+msgid "Status:"
+msgstr "Статус:"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html:46
+#, python-brace-format
+msgid "View {name} certificate"
+msgstr "Показати сертифікат {name} "
+
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html:51
+msgid "Refresh Status"
+msgstr "Оновити статус"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:60
 msgid "Student-Generated Certificates"
@@ -16329,6 +16664,16 @@ msgstr "Дата закінчення не встановлена"
 msgid "Has the course started?"
 msgstr "Курс вже розпочався? "
 
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html:113
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html:120
+msgid "Yes"
+msgstr "Так"
+
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html:113
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html:122
+msgid "No"
+msgstr "Ні"
+
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:118
 msgid "Has the course ended?"
 msgstr "Курс вже закінчився?"
@@ -16340,6 +16685,10 @@ msgstr "Кількість розділів:"
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:132
 msgid "Grade Cutoffs:"
 msgstr "Шкала оцінок:"
+
+#: lms/templates/instructor/instructor_dashboard_2/course_info.html:159
+msgid "Course Warnings"
+msgstr "Попередження курсу"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:13
 msgid ""
@@ -16432,13 +16781,25 @@ msgstr "Створити звіт успішності по завданням, 
 msgid "Student Email or Username"
 msgstr "Електронна пошта студента або ім'я користувача"
 
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html:63
+msgid "List all students with due date extensions"
+msgstr "Список всіх студентів з продовженими термінами здачі"
+
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:45
 msgid "Organization Contact Name"
 msgstr "Ім'я контактної особи організації"
 
+#: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:93
+msgid "State/Province"
+msgstr "Область"
+
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:126
 msgid "Course Team Internal Reference"
 msgstr "Внутрішнє посилання команди курсу"
+
+#: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:143
+msgid "Send me a copy of the invoice"
+msgstr "Надіслати мені копію запрошення"
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:29
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:116
@@ -16452,6 +16813,12 @@ msgid ""
 msgstr ""
 "Ви не отримаєте повідомлення на електронну пошту про відхилені листи, тому, "
 "будь ласка, двічі перевірте правильність написання."
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:21
+#: lms/templates/support/feature_based_enrollments.html:41
+#: lms/templates/support/feature_based_enrollments.html:44
+msgid "Reason"
+msgstr "Причина"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:99
 msgid "Batch Beta Tester Addition"
@@ -16512,6 +16879,10 @@ msgstr "Додати Адміністратора"
 msgid "Beta Testers"
 msgstr "Бета Тестери"
 
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:222
+msgid "Add Beta Tester"
+msgstr "Додати бета-тестера"
+
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:227
 msgid "Discussion Admins"
 msgstr "Адміністратори обговорень"
@@ -16532,6 +16903,10 @@ msgstr "Собі"
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:31
 msgid "Staff and Administrators"
 msgstr "Персонал та адміністратори"
+
+#: lms/templates/instructor/instructor_dashboard_2/send_email.html:35
+msgid "All Learners"
+msgstr "Усі студенти"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:44
 msgid "Cohort: "
@@ -16692,6 +17067,10 @@ msgstr ""
 msgid "Show Task Status"
 msgstr "Показати статус задачі"
 
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:165
+msgid "Rescore All Problems"
+msgstr "Заново оцінити всі завдання"
+
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:166
 msgid "Rescore All Problems Only If Score Improves"
 msgstr "Видалити спроби тільки якщо загальний бал підвищиться"
@@ -16707,6 +17086,12 @@ msgstr "Видалити усі спроби студента"
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:225
 msgid "Show the status for the tasks that you submitted for this problem."
 msgstr "Показати статуси відправлених на перевірку задач в цьому завданні."
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download_2/certificates.html:10
+#: lms/templates/instructor/instructor_dashboard_2/data_download_2/grading.html:11
+#: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:10
+msgid "Note"
+msgstr "Примітка"
 
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:7
 msgid "My Courses"
@@ -16724,13 +17109,39 @@ msgstr "Будь ласка, оберіть бажану мову"
 msgid "Explore Courses"
 msgstr "Обрати курси"
 
+#: lms/templates/peer_grading/peer_grading.html:24
+#: lms/templates/peer_grading/peer_grading_closed.html:4
+#: lms/templates/peer_grading/peer_grading_problem.html:13
+msgid "Peer Grading"
+msgstr "Взаємна перевірка"
+
 #: lms/templates/peer_grading/peer_grading.html:37
 msgid "Due date"
 msgstr "Кінцева дата"
 
+#: lms/templates/peer_grading/peer_grading.html:38
+msgid "Graded"
+msgstr "Оцінено"
+
+#: lms/templates/peer_grading/peer_grading.html:39
+msgid "Available"
+msgstr "Доступно"
+
 #: lms/templates/peer_grading/peer_grading_problem.html:21
 msgid "Hide Question"
 msgstr "Сховати питання"
+
+#: lms/templates/peer_grading/peer_grading_problem.html:33
+msgid "Student Response"
+msgstr "Відповідь студента"
+
+#: lms/templates/peer_grading/peer_grading_problem.html:47
+msgid "Written Feedback"
+msgstr "Письмовий відгук"
+
+#: lms/templates/peer_grading/peer_grading_problem.html:75
+msgid "Start Grading!"
+msgstr "Почати оцінювання!"
 
 #: lms/templates/registration/password_reset_confirm.html:37
 msgid "Invalid Password Reset Link"
@@ -16743,6 +17154,10 @@ msgstr "Будь ласка, зачекайте"
 #: lms/templates/student_account/login_and_register.html:12
 msgid "Sign in or Register"
 msgstr "Увійдіть або зареєструйтесь"
+
+#: lms/templates/ux/reference/bootstrap/course-skeleton.html:51
+msgid "Start Course"
+msgstr "Розпочати курс"
 
 #: lms/templates/verify_student/_verification_help.html:9
 msgid "Have questions?"
@@ -16760,6 +17175,11 @@ msgstr "Технічні вимоги"
 #: lms/templates/verify_student/reverify.html:10
 msgid "Re-Verification"
 msgstr "Повторна перевірка"
+
+#: lms/templates/verify_student/reverify_not_allowed.html:8
+#: lms/templates/verify_student/reverify_not_allowed.html:12
+msgid "Identity Verification"
+msgstr "Перевірка особистості"
 
 #: lms/templates/widgets/cookie-consent.html:21
 msgid "Got it!"
@@ -16850,3 +17270,147 @@ msgstr "Додайте текст Авторського Права сюди!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Редактор коду"
+
+#: lms/djangoapps/instructor/views/api.py:1428
+msgid "Certificate link"
+msgstr ""
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:43
+msgid ""
+"Usernames must not contain the following symbols: #, <, >, [, ], |, {, }, /,"
+" \\, :, @"
+msgstr ""
+
+#: xmodule/course_block.py:1056
+msgid "Select Course Font Family"
+msgstr ""
+
+#: xmodule/course_block.py:1058
+msgid ""
+"\n"
+"            Select course family in which you want to display your course.\n"
+"            Available options are \"font-trebuchet\", \"font-open-sans\", \"font-noto-kufi-arabic\", \"font-montserrat\", and \"font-source-sans-pro\".\n"
+"            If value is invalid or empty the default font-family will be \"Helvetica Neue\".\n"
+"            "
+msgstr ""
+
+#: xmodule/course_block.py:1068
+msgid "Issue Open Badges"
+msgstr ""
+
+#: xmodule/course_block.py:1070
+msgid ""
+"Issue Open Badges badges for this course. Badges are generated when "
+"certificates are created."
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:21
+msgid ""
+"Click to generate a CSV grade report for all currently enrolled students.!!"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:16
+msgid "Unlock The World’s Knowledge"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:65
+msgid "Featured"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:66
+msgid "Recently Added"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:67
+msgid "All Courses"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:80
+msgid "See what we have been up to"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:81
+msgid "View All News >"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:87
+msgid "19 April 2021"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:92
+msgid ""
+"Wikipedia readers in Latin America invited to support 20 years of free "
+"knowledge through new fundraising campaign"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:95
+msgid "By Pats Pena"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:96
+#: tutorindigo/templates/indigo/lms/templates/index.html:112
+msgid "Read More >"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:107
+msgid "26 Februrary 2021"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:110
+msgid "Wikipedia needs local journalism and the open Web"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:111
+msgid "By Jan Gerlach"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:125
+msgid "Subscribe to news about ongoing projects and initiatives"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/index.html:131
+msgid "Subscribe"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:23
+msgid "has successfully completed"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:24
+msgid "the"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:24
+msgid "program."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:61
+msgid "Certificate"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:61
+msgid "of Achievement"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:49
+msgid "What to study next?"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:88
+msgid "Already Enrolled"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
+msgid ""
+"WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning "
+"platform for the Wikimedia movement. It offers a comprehensive range of "
+"self-paced and instructor-led courses aimed at capacity building and "
+"leadership development within the Wikimedia community. Courses on WikiLearn "
+"are collaboratively developed by and for Wikimedians with a commitment to "
+"accessibility and diversity. For inquiries, contact the Community "
+"Development team at "
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
+msgid "Discover courses"
+msgstr ""

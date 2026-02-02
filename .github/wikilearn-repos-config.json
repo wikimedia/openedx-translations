@@ -1,0 +1,66 @@
+{
+    "release_config": {
+        "name": "teak",
+        "openedx_default_ref": "release/teak"
+    },
+    "custom_repos": {
+        "python": [
+            {
+                "repo": "openedx-wikilearn-features",
+                "organization": "wikimedia",
+                "branch": "master",
+                "new_repo": true
+            },
+            {
+                "repo": "edx-platform",
+                "organization": "wikimedia",
+                "branch": "develop-teak",
+                "replaces_default": true
+            }
+        ],
+        "javascript": [
+            {
+                "repo": "frontend-app-messenger",
+                "organization": "wikimedia",
+                "branch": "develop",
+                "new_repo": true
+            },
+            {
+                "repo": "edx-frontend-app-learning",
+                "organization": "wikimedia",
+                "branch": "develop-teak",
+                "replaces_default": true,
+                "default_repo_name": "frontend-app-learning"
+            },
+            {
+                "repo": "frontend-app-discussions",
+                "organization": "edly-io",
+                "branch": "develop-teak-wikilearn",
+                "replaces_default": true
+            },
+            {
+                "repo": "frontend-app-account",
+                "organization": "edly-io",
+                "branch": "develop-teak-wikilearn",
+                "replaces_default": true
+            },
+            {
+                "repo": "frontend-app-authoring",
+                "organization": "edly-io",
+                "branch": "develop-teak-wikilearn",
+                "replaces_default": true,
+                "default_repo_name": "frontend-app-course-authoring"
+            }
+        ],
+        "generic": [
+            {
+                "repo": "tutor-indigo-wikilearn",
+                "organization": "wikimedia",
+                "branch": "develop",
+                "new_repo": true,
+                "extraction_method": "django",
+                "transifex_file_type": "po"
+            }
+        ]
+    }
+}

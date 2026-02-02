@@ -3,16 +3,16 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-# 
+#
 # Translators:
 # Brian Smith, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -22,12 +22,12 @@ msgstr ""
 "PO-Revision-Date: 2025-07-23 17:30+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Russian (https://app.transifex.com/open-edx/teams/6205/ru/)\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: cms/static/cms/js/xblock/cms.runtime.v1.js:113
 #: cms/static/js/certificates/views/signatory_details.js:72
@@ -8084,3 +8084,15 @@ msgstr ""
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
 msgid "Sorry, no results were found."
 msgstr "Ничего не найдено."
+
+#: tutorindigo/templates/indigo/lms/static/js/courses.js:24
+msgid "What to study next?"
+msgstr "Что изучать дальше?"
+
+#: tutorindigo/templates/indigo/lms/static/js/courses.js:27
+msgid "Show All Courses"
+msgstr "Показать все курсы"
+
+#: tutorindigo/templates/indigo/lms/static/js/courses.js:77
+msgid "No results found"
+msgstr ""

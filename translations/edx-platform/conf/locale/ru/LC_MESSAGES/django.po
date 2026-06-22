@@ -19814,44 +19814,35 @@ msgstr "Добавьте сюда ваш текст об авторских пр
 msgid "Code Editor"
 msgstr "Редактор кода"
 
-#: lms/djangoapps/instructor/views/api.py:1428
-msgid "Certificate link"
-msgstr "Ссылка на сертификат"
-
-#: openedx/core/djangoapps/user_api/accounts/__init__.py:43
+#: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
 msgid ""
-"Usernames must not contain the following symbols: #, <, >, [, ], |, {, }, /,"
-" \\, :, @"
-msgstr ""
-"Имена пользователей не должны содержать следующие символы: #, <, >, [, ], |,"
-" {, }, /, \\, :, @"
-
-#: xmodule/course_block.py:1056
-msgid "Select Course Font Family"
-msgstr ""
-
-#: xmodule/course_block.py:1058
-msgid ""
-"\n"
-"            Select course family in which you want to display your course.\n"
-"            Available options are \"font-trebuchet\", \"font-open-sans\", \"font-noto-kufi-arabic\", \"font-montserrat\", and \"font-source-sans-pro\".\n"
-"            If value is invalid or empty the default font-family will be \"Helvetica Neue\".\n"
-"            "
+"WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning "
+"platform for the Wikimedia movement. It offers a comprehensive range of "
+"self-paced and instructor-led courses aimed at capacity building and "
+"leadership development within the Wikimedia community. Courses on WikiLearn "
+"are collaboratively developed by and for Wikimedians with a commitment to "
+"accessibility and diversity. For inquiries, contact the Community "
+"Development team at "
 msgstr ""
 
-#: xmodule/course_block.py:1068
-msgid "Issue Open Badges"
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:27
+msgid "has successfully completed"
 msgstr ""
 
-#: xmodule/course_block.py:1070
-msgid ""
-"Issue Open Badges badges for this course. Badges are generated when "
-"certificates are created."
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
+msgid "the"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:21
-msgid ""
-"Click to generate a CSV grade report for all currently enrolled students.!!"
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
+msgid "program."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
+msgid "Certificate"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
+msgid "of Achievement"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:16
@@ -19917,26 +19908,6 @@ msgstr ""
 msgid "Subscribe"
 msgstr "Подписаться"
 
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:23
-msgid "has successfully completed"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:24
-msgid "the"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:24
-msgid "program."
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:61
-msgid "Certificate"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:61
-msgid "of Achievement"
-msgstr ""
-
 #: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:49
 msgid "What to study next?"
 msgstr "Что изучать дальше?"
@@ -19945,17 +19916,46 @@ msgstr "Что изучать дальше?"
 msgid "Already Enrolled"
 msgstr ""
 
-#: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
-msgid ""
-"WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning "
-"platform for the Wikimedia movement. It offers a comprehensive range of "
-"self-paced and instructor-led courses aimed at capacity building and "
-"leadership development within the Wikimedia community. Courses on WikiLearn "
-"are collaboratively developed by and for Wikimedians with a commitment to "
-"accessibility and diversity. For inquiries, contact the Community "
-"Development team at "
-msgstr ""
-
 #: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
 msgid "Discover courses"
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:1428
+msgid "Certificate link"
+msgstr "Ссылка на сертификат"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:43
+msgid ""
+"Usernames must not contain the following symbols: #, <, >, [, ], |, {, }, /,"
+" \\, :, @"
+msgstr ""
+"Имена пользователей не должны содержать следующие символы: #, <, >, [, ], |,"
+" {, }, /, \\, :, @"
+
+#: xmodule/course_block.py:1056
+msgid "Select Course Font Family"
+msgstr ""
+
+#: xmodule/course_block.py:1058
+msgid ""
+"\n"
+"            Select course family in which you want to display your course.\n"
+"            Available options are \"font-trebuchet\", \"font-open-sans\", \"font-noto-kufi-arabic\", \"font-montserrat\", and \"font-source-sans-pro\".\n"
+"            If value is invalid or empty the default font-family will be \"Helvetica Neue\".\n"
+"            "
+msgstr ""
+
+#: xmodule/course_block.py:1068
+msgid "Issue Open Badges"
+msgstr ""
+
+#: xmodule/course_block.py:1070
+msgid ""
+"Issue Open Badges badges for this course. Badges are generated when "
+"certificates are created."
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:21
+msgid ""
+"Click to generate a CSV grade report for all currently enrolled students.!!"
 msgstr ""

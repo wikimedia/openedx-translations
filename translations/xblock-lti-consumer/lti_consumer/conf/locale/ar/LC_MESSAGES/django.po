@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Brian Smith, 2025
-# Sulaiman Muthanna, 2025
+# Sulaiman Muthanna, 2026
 # 
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2025-07-23 17:30+0000\n"
-"Last-Translator: Sulaiman Muthanna, 2025\n"
+"Last-Translator: Sulaiman Muthanna, 2026\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,14 +25,11 @@ msgstr ""
 msgid "Missing LTI 1.3 authentication token."
 msgstr "رمز مصادقة LTI 1.3 مفقود."
 
-#: lti_1p3/extensions/rest_framework/authentication.py:45
-msgid "Invalid token header. No credentials provided."
-msgstr "الـtoken في الـheader غير صالِح. لم تُقدَّم معلومات الاعتِماد."
-
 #: lti_1p3/extensions/rest_framework/authentication.py:49
 msgid "Invalid token header. Token string should not contain spaces."
 msgstr ""
-"رأس الرمز المميز غير صالح. يجب ألا تحتوي سلسلة الرمز المميز على مسافات."
+"رأس الرمز الوصول (Token header) غير صالح. يجب ألا تحتوي سلسلة رمز الوصول على"
+" مسافات."
 
 #: lti_1p3/extensions/rest_framework/authentication.py:57
 msgid "LTI configuration not found."
@@ -40,7 +37,7 @@ msgstr "لم يتم العثور على إعدادات LTI."
 
 #: lti_1p3/extensions/rest_framework/authentication.py:66
 msgid "Invalid token signature."
-msgstr "توقيع الـtoken غير صالِح."
+msgstr "توقيع رمز الوصول غير صالِح."
 
 #: lti_xblock.py:133
 msgid "No valid user id found in endpoint URL"
@@ -60,15 +57,15 @@ msgstr "الإعدادات المُمكِن إعادة استِخدامها"
 
 #: lti_xblock.py:261
 msgid "Display Name"
-msgstr "الاسم الظاهِر"
+msgstr "الاسم الظاهر"
 
 #: lti_xblock.py:263
 msgid ""
 "Enter the name that students see for this component. Analytics reports may "
 "also use the display name to identify this component."
 msgstr ""
-"أدخِل الاسم الذي يراه الطلاب لهذا المُكوّن. قد تستخدم تقارير التحليلات أيضاً"
-" الاسم الظاهر لتعريف هذا المُكوّن."
+"أدخِل الاسم الذي يراه الطلاب لهذا المكون. قد تستخدم تقارير التحليلات أيضاً "
+"الاسم الظاهر لتعريف هذا المكون."
 
 #: lti_xblock.py:267
 msgid "LTI Consumer"
@@ -149,8 +146,8 @@ msgid ""
 "authorization prior to doing the launch request."
 msgstr ""
 "أدخِل رابط تفويض OIDC لأداة LTI 1.3 (يمكن أن يُسمى أيضاً رابط تسجيل الدخول "
-"أو رابط بَدء تسجيل الدخول).<br /> هذا هو الرابط الذي سيستخدمه نظام إدارة "
-"التعلّم (LMS) لبدء ترخيص LTI قبل إجراء طلب النشر."
+"أو رابط بدء تسجيل الدخول).<br /> هذا هو الرابط الذي سيستخدمه نظام إدارة "
+"التعلم (LMS) لبدء ترخيص LTI قبل إجراء طلب النشر."
 
 #: lti_xblock.py:333
 msgid "Registered Redirect URIs"
@@ -165,14 +162,10 @@ msgid ""
 "valid redirect uri's the tool may request."
 msgstr ""
 "الروابط الصالحة التي قد تطلب منا الأداة إعادة توجيه رمز تعريف الهوية (ID "
-"Token) إليها. غالباً ما تكون روابطِ إعادة التوجيه مُطابقة لرابط التشغيل أو "
-"رابط الربط العميق، فإذا كان هذا الحقل فارغاً، ستُستخدَم كروابط افتراضية. إذا"
-" كنت تريد استخدام روابط إعادة توجيه مختلفة، فأدخِلها هنا. إذا استخدمت هذا "
-"الحقل، فينبغي عليك إدخال جميع روابط إعادة التوجيه التي قد تطلبها الإداة."
-
-#: lti_xblock.py:345
-msgid "Tool Public Key Mode"
-msgstr "وَضع المِفتاح العام للأداة"
+"Token) إليها. غالباً ما تكون روابط إعادة التوجيه مطابقة لرابط التشغيل أو "
+"رابط الربط العميق، فإذا كان هذا الحقل فارغاً، ستُستخدم كروابط افتراضية. إذا "
+"كنت تريد استخدام روابط إعادة توجيه مختلفة، فأدخِلها هنا. إذا استخدمت هذا "
+"الحقل، فينبغي عليك إدخال جميع روابط إعادة التوجيه التي قد تطلبها الأداة."
 
 #: lti_xblock.py:353
 msgid "Select how the tool's public key information will be specified."
@@ -224,23 +217,23 @@ msgstr "فَعِّل خدمات تزويد الأسماء والأدوار في 
 
 #: lti_xblock.py:394
 msgid "Deep linking"
-msgstr "الرَبط العميق (Deep linking)"
+msgstr "الربط العميق"
 
 #: lti_xblock.py:395
 msgid "Select True if you want to enable LTI Advantage Deep Linking."
-msgstr "يُرجى اختِيار \"نعم\" إذا أرَدتَ تفعيل الرَبط العميق لـ LTI Advantage."
+msgstr "يُرجى اختيار \"نعم\" إذا أردت تفعيل الربط العميق لـ LTI Advantage."
 
 #: lti_xblock.py:400
 msgid "Deep Linking Launch URL"
-msgstr "رابِط إطلاق الارتِباط العميق"
+msgstr "رابط تشغيل الربط العميق"
 
 #: lti_xblock.py:404
 msgid ""
 "Enter the LTI Advantage Deep Linking Launch URL. If the tool does not "
 "specify one, use the same value as 'Tool Launch URL'."
 msgstr ""
-"أدخِل رابِط تشغيل الرَبط العميق لـ LTI Advantage. إذا لَم تُحَدِّد الأداة "
-"واحداً، فاستَخدِم نفس قيمة \"رابِط تشغيل الأداة\"."
+"أدخِل رابط تشغيل الربط العميق لـ LTI Advantage. إذا لم تُحدّد الأداة واحداً،"
+" فاستخدِم نفس قيمة \"رابط تشغيل الأداة\"."
 
 #: lti_xblock.py:409
 msgid "LTI Assignment and Grades Service"
@@ -248,26 +241,7 @@ msgstr "خدمة الواجبات والدرجات في LTI"
 
 #: lti_xblock.py:411
 msgid "Disabled"
-msgstr "معطل"
-
-#: lti_xblock.py:412
-msgid "Allow tools to submit grades only (declarative)"
-msgstr "اِسمَح للإدَوات بِإرسال الدَرَجات فقط (تصريحياً)"
-
-#: lti_xblock.py:413
-msgid "Allow tools to manage and submit grade (programmatic)"
-msgstr "اِسمَح للإدَوات بِإدارة التقديرِ وإرسالِه (آلِياً)"
-
-#: lti_xblock.py:418
-msgid ""
-"Enable the LTI-AGS service and select the functionality enabled for LTI "
-"tools. The 'declarative' mode (default) will provide a tool with a LineItem "
-"created from the XBlock settings, while the 'programmatic' one will allow "
-"tools to manage, create and link the grades."
-msgstr ""
-"فَعِّل خدمة LTI-AGS وحدد الوظيفة المُمكّنة لأدوات LTI. سيوفر وضع "
-"\"declarative\" (الافتراضي) أداة تحتوي على LineItem تم إنشاؤه من إعدادات "
-"XBlock، بينما سيسمح وضع \"برمجياً\" للأدوات بإدارة الدرجات وإنشائها وربطها."
+msgstr "معطّل"
 
 #: lti_xblock.py:426
 msgid "LTI ID"
@@ -306,14 +280,6 @@ msgstr "نص الزر"
 msgid "Inline Height"
 msgstr "الارتِفاع الخطّي"
 
-#: lti_xblock.py:503
-msgid "Modal Height"
-msgstr "ارتِفاع النافِذة المُنبَثِقة"
-
-#: lti_xblock.py:513
-msgid "Modal Width"
-msgstr "عَرْضُ النافِذة المُنبَثِقة"
-
 #: lti_xblock.py:523
 msgid "Scored"
 msgstr "مُقيَّم "
@@ -331,45 +297,28 @@ msgid ""
 "Enter the number of points possible for this component.  The default value "
 "is 1.0.  This setting is only used when Scored is set to True."
 msgstr ""
-"أدخِل عدد الدرجات المُمكِنة لهذا المُكوّن. العدد الافتراضي هو 1.0. يُستخدَم "
-"هذا الإعداد فقط عندما يتم تعيين 'Scored' على \"نعم\"."
+"أدخِل عدد الدرجات الممكنة لهذا المكون. العدد الافتراضي هو 1.0. يُستخدم هذا "
+"الإعداد فقط عند تعيين خيار 'Scored' على \"نعم\"."
 
 #: lti_xblock.py:540
 msgid ""
 "The score kept in the xblock KVS -- duplicate of the published score in "
 "django DB"
 msgstr ""
-"حُفِظَت النتيجة في xblock KVS -- وهي نُسخة مطابقة للنتيجة المنشورة في قاعدة "
+"حُفظت النتيجة في xblock KVS -- وهي نسخة مطابقة للنتيجة المنشورة في قاعدة "
 "بيانات django"
 
 #: lti_xblock.py:545
 msgid "Comment as returned from grader, LTI2.0 spec"
-msgstr "التعليق العائِد مِن المُقَيِّم، LTI2.0 spec"
+msgstr "التعليق العائد من المصحّح، LTI2.0 spec"
 
 #: lti_xblock.py:550
 msgid "Hide External Tool"
-msgstr "اخفِ الأداة الخارجية"
-
-#: lti_xblock.py:552
-msgid ""
-"Select True if you want to use this component as a placeholder for syncing "
-"with an external grading  system rather than launch an external tool.  This "
-"setting hides the Launch button and any IFrames for this component."
-msgstr ""
-"يُرجى اختيار \"نعم\" إذا أردت استخدام هذا المُكوّن كعُنصر نائب للمزامنة مع "
-"نظام تقييم خارجي بدلاً من تشغيل أداة خارجية. سيُخفي هذا الإعداد زِر التشغيل "
-"وأيّ iFrames لهذا المُكوّن."
+msgstr "اخفِ الأداة الخارجية "
 
 #: lti_xblock.py:560
 msgid "Accept grades past deadline"
 msgstr "اقبَل الدَرَجات بَعد انقِضاء المَوْعِد النِهائي"
-
-#: lti_xblock.py:561
-msgid ""
-"Select True to allow third party systems to post grades past the deadline."
-msgstr ""
-"يُرجى اختِيار \"نعم\" للسماح لأنظِمةٍ خارجيةٍ بِنَشرِ الدرجات بَعد انقِضاء "
-"الموعد النِهائي."
 
 #: lti_xblock.py:569
 msgid "Request user's username"
@@ -399,11 +348,11 @@ msgstr "اطلُب البَريد الإلِكتروني للمُستَخدِم"
 #. service.
 #: lti_xblock.py:585
 msgid "Select True to request the user's email address."
-msgstr "يُرجى اختِيار \"نعم\" لِطلب البَريد الإلِكتروني للمُستَخدِم."
+msgstr "يُرجى اختيار \"نعم\" لطلب البريد الإلكتروني للمستخدم."
 
 #: lti_xblock.py:591
 msgid "Send extra parameters"
-msgstr "أَرسِل مُعطيات إضافية"
+msgstr "أرسِل معطيات إضافية"
 
 #: lti_xblock.py:592
 msgid ""
@@ -411,9 +360,9 @@ msgid ""
 "Identifiable Information. The processors are site-wide, please consult the "
 "site administrator if you have any questions."
 msgstr ""
-"يُرجى اختيار \"نَعم\" لإرسال مُعطيات إضافية، والتي قد تَتَضمَّن معلومات "
-"تعريف شخصية. المُعالِجات موجودة على مُستَوى الموقع، لذا يُرجى استشارة مُشرِف"
-" الموقع إذا كانت لديك أي تَساؤلات."
+"يُرجى اختيار \"نعم\" لإرسال معطيات إضافية، والتي قد تتضمن معلومات تعريف "
+"شخصية. المعالجات موجودة على مستوى الموقع، لذا يُرجى استشارة مشرف الموقع إذا "
+"كانت لديك أيّ أسئلة."
 
 #: lti_xblock.py:667
 msgid "Custom Parameters must be a list"
@@ -434,9 +383,7 @@ msgstr ""
 #: lti_xblock.py:708
 msgid ""
 "The specified LTI ID is not configured in this course's Advanced Settings."
-msgstr ""
-"لَم يُضبَط مُعَرَّف LTI المُحَدَّد في الإعدادات المُتَقَدِّمة لِهذا "
-"المُقَرَّر."
+msgstr "لم يُضبط معرّف LTI المحدد في الإعدادات المتقدمة لهذا المساق."
 
 #: lti_xblock.py:837 lti_xblock.py:1128
 msgid "Could not get user data for current request"
@@ -469,10 +416,6 @@ msgstr "[LTI]: لم يُعثَر على مُستَخدِم حقيقي يُقاب
 #: models.py:84
 msgid "Configuration Stored on XBlock fields"
 msgstr "الإعدادات المُخَزّنة في حُقول XBlock"
-
-#: models.py:85
-msgid "Configuration Stored on this model"
-msgstr "الإعدادات المُخَزّنة في هذا النَموذج"
 
 #: models.py:86
 msgid "Configuration Stored on external service"
@@ -522,14 +465,6 @@ msgstr ""
 "تحتاج إعدادات LTI التي تستخدم إعدادات ممكن إعادة استخدامها إلى مُعرّف خارجي "
 "بنَسَق \"x:y\"."
 
-#: models.py:267
-msgid ""
-"LTI Configuration stored on the model for LTI 1.3 must have a value for one "
-"of lti_1p3_tool_public_key or lti_1p3_tool_keyset_url."
-msgstr ""
-"يجب أن تحتوي إعدادات LTI المُخزّنة في إصدار LTI 1.3 إمّا على "
-"lti_1p3_tool_public_key أو lti_1p3_tool_keyset_url."
-
 #: models.py:274
 msgid ""
 "CONFIG_ON_XBLOCK and CONFIG_EXTERNAL are not supported for LTI 1.3 "
@@ -543,7 +478,7 @@ msgstr "إعدادات LTI غير صالِحة."
 
 #: plugin/views.py:575
 msgid "The selected content type is not supported by Open edX."
-msgstr "نَوْع المُحتَوى الذي اخترته لا تدعمه Open edX."
+msgstr "نوع المحتوى الذي اخترته لا تدعمه Open edX."
 
 #: plugin/views.py:590
 msgid "You don't have access to save LTI Content Items."
@@ -554,35 +489,30 @@ msgid ""
 "Please check that you have course staff permissions and double check this "
 "block's LTI settings."
 msgstr ""
-"مِن فَضلِك تَحَقَّق مِن أنَّك تمتلك صلاحيات طاقِم المُقَرَّر،وكذلك تحَقَّق "
-"مَرَّة أُخرى مِن إعدادات LTI للكُتلة هذه."
+"من فضلك تحقَّق من أنّك تمتلك صلاحيات طاقم المساق، وكذلك تحقَّق مرة أخرى من "
+"إعدادات LTI لهذه الكتلة."
 
 #: templates/html/lti-dl/dl_response_error.html:6
 msgid "LTI Deep Linking failed."
-msgstr "فَشِل الرَبط العميق لـ LTI."
+msgstr "فشل الربط العميق لـ LTI."
 
 #: templates/html/lti-dl/dl_response_saved.html:6
 msgid "LTI Deep Linking"
-msgstr "الرَبط العميق لـLTI"
+msgstr "الربط العميق لـLTI"
 
 #: templates/html/lti-dl/dl_response_saved.html:10
 msgid "The LTI Deep Linking content was successfully saved in the LMS."
-msgstr ""
-"حُفِظَ مُحتَوى الرَبط العميق لـ LTI بِنَجاح في نِظام إدارة التَعَلُّم (LMS)."
+msgstr "حُفظ محتوى الربط العميق لـ LTI بنجاح في نظام إدارة التعلم (LMS)."
 
 #: templates/html/lti-dl/dl_response_saved.html:13
 msgid "You can safely close this page now."
 msgstr "يُمكِنك الآن إغلاق هذه الصفحة بأمان."
 
-#: templates/html/lti_1p3_permission_error.html:10
-msgid "Unauthorized."
-msgstr "غير مصرح."
-
 #: templates/html/lti_1p3_permission_error.html:13
 msgid ""
 "Students don't have permissions to perform LTI Deep Linking configuration "
 "launches."
-msgstr "لا يمتَلِك الطلّاب الإذن لتشغيل إعدادات الربط العميق لـLTI."
+msgstr "ليس للطلاب صلاحيات لتنفيذ إعدادات تشغيل الربط العميق لـLTI."
 
 #: templates/html/lti_1p3_studio.html:3
 msgid "LTI 1.3 Launches can only be performed from the LMS."
@@ -619,28 +549,27 @@ msgstr "رابط تسجيل الدخول: "
 
 #: templates/html/lti_1p3_studio.html:39
 msgid "Deep Linking is configured on this tool."
-msgstr "لقد ضُبِطَ الرَبط العَميق على هذه الأَداة."
+msgstr "أُعِدّت هذه الأداة للربط العميق."
 
 #: templates/html/lti_1p3_studio.html:40
 msgid "The Deep Linking configuration stored is presented below:"
-msgstr "تُعرَض أدناه إعدادات الرَبط العميق المُخَزَّنة:"
+msgstr "تُعرَض أدناه إعدادات الربط العميق المخزّنة:"
 
 #: templates/html/lti_1p3_studio.html:45
 msgid "If you run deep linking again, the content above will be replaced."
-msgstr ""
-"إذا شَغَّلتَ الرَبط العميق مَرَّة أُخرى، فإنَّ المُحتَوى أعلاه سَيُستَبدَل."
+msgstr "إذا شغّلت الربط العميق مرة أخرى، فسيُستبدل المحتوى أعلاه."
 
 #: templates/html/lti_1p3_studio.html:49
 msgid "You can configure this tool's content using LTI Deep Linking."
-msgstr "يمكنك إعداد محتوى هذه الأداة باستخدام LTI Deep Linking."
+msgstr "يمكنك ضبط إعدادات محتوى هذه الأداة باستخدام الربط العميق لـLTI."
 
 #: templates/html/lti_1p3_studio.html:50
 msgid "To do that, make sure the block is published and click the link below:"
-msgstr "لِعَمل ذلك، تأَكَّد مِن نَشر الكُتلة ثُمّ انقُر على الرابِط أدناه:"
+msgstr "لعمل ذلك، تأكَّد من نشر الكتلة ثم انقر على الرابط أدناه:"
 
 #: templates/html/lti_1p3_studio.html:53
 msgid "Deep Linking Launch - Configure tool"
-msgstr "تشغيل الرَبط العَميق - أداة ضَبط الإعدادات"
+msgstr "تشغيل الربط العميق - أداة ضبط الإعدادات"
 
 #: templates/html/lti_launch.html:27
 msgid "Press to Launch"
@@ -654,7 +583,7 @@ msgstr "حدث خطأ أثناء تشغيل أداة LTI: "
 #: templates/html/lti_proctoring_start_error.html:13
 msgid ""
 "If you're seeing this on a live course, please contact the course staff."
-msgstr "إذا رأيت هذا في مُقَرَّرٍ نَشِط، فَيُرجى الاتِصال بطاقِم المُقَرَّر."
+msgstr "إذا رأيت هذا في مساق نشط، فيُرجى الاتصال بطاقم المساق."
 
 #: templates/html/lti_proctoring_start_error.html:10
 msgid "There was an error while starting your LTI proctored assessment."
@@ -670,7 +599,7 @@ msgstr "العودة إلى الامتحان."
 
 #: static/js/xblock_lti_consumer.js:143
 msgid "Cancel"
-msgstr "إلغاء"
+msgstr "ألغِ"
 
 #: static/js/xblock_lti_consumer.js:145
 msgid "OK"
@@ -681,45 +610,47 @@ msgid ""
 "Click OK to have your username, full name, and e-mail address sent to a 3rd "
 "party application."
 msgstr ""
-"أضغط موافق لإرسال اسم المستخدم والاسم الكامل وعنوان البريد الإلكتروني إلى "
-"تطبيق تابع لجهة خارجية."
+"انقر على \"موافق\" لإرسال اسم المستخدم والاسم الكامل وعنوان بريدك الإلكتروني"
+" إلى تطبيق تابع لجهة خارجية."
 
 #: static/js/xblock_lti_consumer.js:180
 msgid ""
 "Click OK to have your username and e-mail address sent to a 3rd party "
 "application."
 msgstr ""
-"انقُر على \"مُوافِق\" لارسال اسم المُستَخدِم وعُنوان البِريد الإلِكتروني "
-"الخاصَّين بك إلى تطبيق تابِع لجِهة خارجية."
+"انقر على \"موافق\"، لإرسال اسم المستخدم وعنوان بريدك الإلكتروني إلى تطبيق "
+"تابع لجهة خارجية."
 
 #: static/js/xblock_lti_consumer.js:183
 msgid ""
 "Click OK to have your username and full name sent to a 3rd party "
 "application."
 msgstr ""
-"انقُر على \"مُوافِق\" لإرسال اسم المُستَخدِم والاسم الكامِل الخاصَّين بك إلى"
-" تطبيق تابِع لجِهة خارجية."
+"انقر على \"موافق\"، لإرسال اسمك الكامل واسم المستخدم إلى تطبيق تابع لجهة "
+"خارجية."
 
 #: static/js/xblock_lti_consumer.js:186
 msgid ""
 "Click OK to have your full name and e-mail address sent to a 3rd party "
 "application."
 msgstr ""
-"اضغط موافق لإرسال اسمك الكامل وعنوان بريدك الإلكتروني إلى تطبيق تابع لجهة "
-"خارجية."
+"انقر على \"موافق\" لإرسال اسمك الكامل وعنوان بريدك الإلكتروني إلى تطبيق تابع"
+" لجهة خارجية."
 
 #: static/js/xblock_lti_consumer.js:189
 msgid "Click OK to have your username sent to a 3rd party application."
-msgstr "اضغط موافق لإرسال اسم المستخدم الخاص بك إلى تطبيق جهة خارجية."
+msgstr ""
+"انقر على \"موافق\" لإرسال اسم المستخدم الخاص بك إلى تطبيق تابع لجهة خارجية."
 
 #: static/js/xblock_lti_consumer.js:191
 msgid "Click OK to have your full name sent to a 3rd party application."
-msgstr "اضغط موافق لإرسال اسمك الكامل إلى تطبيق جهة خارجية."
+msgstr "انقر على \"موافق\" لإرسال اسمك الكامل إلى تطبيق تابع لجهة خارجية."
 
 #: static/js/xblock_lti_consumer.js:193
 msgid "Click OK to have your e-mail address sent to a 3rd party application."
-msgstr "اضغط موافق لإرسال عنوان بريدك الإلكتروني إلى تطبيق تابع لجهة خارجية."
+msgstr ""
+"انقر على \"موافق\" لإرسال عنوان بريدك الإلكتروني إلى تطبيق تابع لجهة خارجية."
 
 #: static/js/xblock_lti_consumer.js:200
 msgid "Click Cancel to return to this page without sending your information."
-msgstr "اضغط إلغاء للعودة إلى هذه الصفحة دون إرسال معلوماتك."
+msgstr "انقر على \"ألغِ\" للعودة إلى هذه الصفحة دون إرسال معلوماتك."

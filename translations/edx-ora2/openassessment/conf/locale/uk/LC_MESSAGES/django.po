@@ -6,6 +6,7 @@
 # 
 # Translators:
 # Brian Smith, 2025
+# Yana Lovyagina <yana.lovyagina@raccoongang.com>, 2026
 # 
 msgid ""
 msgstr ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-25 00:35+0000\n"
 "PO-Revision-Date: 2025-07-23 17:30+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
+"Last-Translator: Yana Lovyagina <yana.lovyagina@raccoongang.com>, 2026\n"
 "Language-Team: Ukrainian (https://app.transifex.com/open-edx/teams/6205/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -491,13 +492,58 @@ msgstr " Пояснення до варіанту"
 msgid "Step: Peer Assessment"
 msgstr "Крок: Оцінювання студентами"
 
+#: templates/legacy/edit/oa_edit_peer_assessment.html:15
+msgid ""
+"Peer Assessment allows students to provide feedback to other students and "
+"also receive feedback from others in their final grade. Often, though not "
+"always, this step is preceded by Self Assessment or Learner Training steps."
+msgstr ""
+"Взаємне оцінювання дозволяє студентам надавати зворотний зв'язок іншим "
+"студентам, а також отримувати відгуки від інших про оцінку. Часто, хоча і не"
+" завжди, цьому кроку передують етапи самооцінки або навчання учнів."
+
+#: templates/legacy/edit/oa_edit_peer_assessment.html:18
+msgid ""
+"Configuration: For this step to be configured you must specify the number of"
+" peer reviews a student will be assessed with, and the number of peer a "
+"student must grade. Additional options can be specified."
+msgstr ""
+"Конфігурація: для налаштування цього кроку необхідно вказати кількість "
+"рецензій від колег, за якими студент буде оцінюватися, а також кількість "
+"колег, чиї відповіді студент повинен оцінити сам. Можна вказати додаткові "
+"параметри."
+
+#: templates/legacy/edit/oa_edit_peer_assessment.html:23
+msgid "View Options & Configuration"
+msgstr "Переглянути параметри та конфігурацію"
+
 #: templates/legacy/edit/oa_edit_peer_assessment.html:29
 msgid "Must Grade"
 msgstr "Обов'язкова оцінка"
 
+#: templates/legacy/edit/oa_edit_peer_assessment.html:32
+msgid ""
+"Specify the number of peer assessments that each learner must complete. "
+"Valid numbers are 1 to 99."
+msgstr ""
+"Вкажіть кількість оцінювань колег, яку повинен виконати кожен учень. Дійсні "
+"числа - від 1 до 99."
+
 #: templates/legacy/edit/oa_edit_peer_assessment.html:36
 msgid "Graded By"
 msgstr "Оцінено"
+
+#: templates/legacy/edit/oa_edit_peer_assessment.html:39
+msgid ""
+"Specify the number of learners that each response must be assessed by. Valid"
+" numbers are 1 to 99."
+msgstr ""
+"Вкажіть кількість студентів, які мають перевірити кожну відповідь. Число має"
+" бути від 1 до 99."
+
+#: templates/legacy/edit/oa_edit_peer_assessment.html:43
+msgid "Enable Flexible Peer Grade Averaging"
+msgstr "Увімкнути гнучке усереднення оцінок колег"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:49
 #, python-format
@@ -519,9 +565,28 @@ msgstr ""
 msgid "Grading strategy for the peer assessment"
 msgstr "Стратегія оцінювання для взаємооцінки"
 
+#: templates/legacy/edit/oa_edit_peer_assessment.html:62
+msgid "Mean"
+msgstr "Середній"
+
 #: templates/legacy/edit/oa_edit_peer_assessment.html:63
 msgid "Median (default)"
 msgstr "Медіана (за замовчуванням)"
+
+#: templates/legacy/edit/oa_edit_peer_assessment.html:66
+msgid ""
+"Select the preferred grading strategy for the peer assessment. By default, "
+"the median across all peer reviews is used to calculate the final grade. If "
+"you select the mean, the average of all peer reviews will be used."
+msgstr ""
+"Виберіть бажану стратегію оцінювання для взаємного оцінювання. За змовчанням"
+" для розрахунку остаточної оцінки використовується медіана всіх оцінок "
+"колег. Якщо вибрати середнє значення, буде використано середнє значення всіх"
+" оцінок колег."
+
+#: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:5
+msgid "Peer Assessment Deadlines"
+msgstr "Терміни оцінювання студентами"
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:10
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:10
@@ -533,15 +598,53 @@ msgstr "Дата початку"
 msgid "Start Time"
 msgstr "Час початку"
 
+#: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:27
+msgid "The date and time when learners can begin assessing peer responses."
+msgstr "Дата та час, коли учні можуть почати оцінювати відповіді колег."
+
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:31
 #: templates/legacy/edit/oa_edit_self_assessment_schedule.html:31
 #: templates/legacy/staff_area/oa_staff_area.html:119
 msgid "Due Date"
 msgstr "Кінцева дата"
 
+#: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:40
+#: templates/legacy/edit/oa_edit_self_assessment_schedule.html:40
+msgid "Due Time"
+msgstr "Час виконання"
+
+#: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:48
+msgid "The date and time when all peer assessments must be complete."
+msgstr "Дата та час, коли всі оцінювання студентами повинні бути виконані."
+
 #: templates/legacy/edit/oa_edit_prompt.html:8
 msgid "You cannot delete a prompt after the assignment has been released."
 msgstr "Не можна видаляти параметр після публікації завдання."
+
+#: templates/legacy/edit/oa_edit_prompts.html:10
+msgid ""
+"Prompts. Replace the sample text with your own text. For more information, "
+"see the ORA documentation."
+msgstr ""
+"Підказки. Замініть текст прикладу власним текстом. Для додаткових пояснень "
+"перегляньте документацію з Вільних Відповідей (ORA). "
+
+#: templates/legacy/edit/oa_edit_prompts.html:22
+msgid "Add Prompt"
+msgstr "Додати підказку"
+
+#: templates/legacy/edit/oa_edit_rubric.html:14
+msgid ""
+"Rubrics are made up of criteria, which usually contain one or more options. "
+"Each option has a point value. This template contains two sample criteria "
+"and their options. Replace the sample text with your own text. For more "
+"information, see the ORA documentation."
+msgstr ""
+"Рубрики створюються з критеріїв, які мають один або кілька варіантів. Кожен "
+"варіант має ваговий коефіцієнт. У цьому зразку містяться два приклади "
+"критеріїв та варіантів до них. Замініть текст прикладу на власний. Для "
+"додаткових пояснень перегляньте документацію до відповідей у довільній формі"
+" (ORA)."
 
 #: templates/legacy/edit/oa_edit_rubric.html:29
 msgid "Add Criterion"

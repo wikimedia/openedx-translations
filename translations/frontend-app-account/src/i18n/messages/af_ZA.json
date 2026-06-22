@@ -1,5 +1,5 @@
 {
-  "account.notification.description": "",
+  "account.notification.description": "Rekeningvlak-instellings is van toepassing op alle kursusse. Kennisgewings vir individuele kursusse kan binne elke kursus verander word en sal rekeningvlak-instellings ignoreer.",
   "account.page.title": "Rekening | {siteName}",
   "account.settings.banner.beta.language": "Jy het jou taal op {beta_language} gestel, wat tans nie volledig vertaal is nie. Jy kan ons help om hierdie taal volledig te vertaal deur by die Transifex-gemeenskap aan te sluit en vertalings uit Engels by te voeg vir leerders wat {beta_language} praat.",
   "account.settings.banner.beta.language.action.help.translate": "Help Vertaal in {beta_language}",
@@ -312,7 +312,7 @@
   "id.verification.support": "ondersteun",
   "id.verification.upload.help.button": "Skakel oor na oplaaimodus",
   "idv.submission.alert.error": "Ons het &#39;n tegniese fout teëgekom terwyl ons probeer het om ID-verifikasie in te dien. Dit kan &#39;n tydelike probleem wees, so probeer asseblief weer oor &#39;n paar minute. As die probleem voortduur, gaan asseblief na {support_link} vir hulp.",
-  "notification.cadence.description": "",
+  "notification.cadence.description": "Daaglikse kennisgewings word by {dailyTime} afgelewer. Weeklikse kennisgewings word by {weeklyTime} afgelewer.",
   "notification.default.info": "Kennisgewings vir sekere aktiwiteite is by verstek geaktiveer, soos hier uiteengesit",
   "notification.dropdown.applies": "Van toepassing op alle kursusse",
   "notification.dropdown.course.applies": "Ignoreer rekeningwye instellings",

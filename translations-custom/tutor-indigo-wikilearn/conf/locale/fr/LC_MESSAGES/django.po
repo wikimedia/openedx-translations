@@ -12,6 +12,45 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
+msgid ""
+"WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning "
+"platform for the Wikimedia movement. It offers a comprehensive range of "
+"self-paced and instructor-led courses aimed at capacity building and "
+"leadership development within the Wikimedia community. Courses on WikiLearn "
+"are collaboratively developed by and for Wikimedians with a commitment to "
+"accessibility and diversity. For inquiries, contact the Community "
+"Development team at "
+msgstr ""
+"WikiLearn, hébergé par la Wikimedia Foundation, est une plateforme "
+"d'apprentissage dédiée au mouvement Wikimedia. Il propose une gamme complète"
+" de cours à votre rythme et dirigés par un instructeur visant au "
+"renforcement des capacités et au développement du leadership au sein de la "
+"communauté Wikimédia. Les cours sur WikiLearn sont développés en "
+"collaboration par et pour les Wikimédiens avec un engagement en faveur de "
+"l'accessibilité et de la diversité. Pour toute demande de renseignements, "
+"contactez l'équipe de développement communautaire au "
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:27
+msgid "has successfully completed"
+msgstr "a terminé avec succès"
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
+msgid "the"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
+msgid "program."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
+msgid "Certificate"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
+msgid "of Achievement"
+msgstr ""
+
 #: tutorindigo/templates/indigo/lms/templates/index.html:16
 msgid "Unlock The World’s Knowledge"
 msgstr "Déverrouiller la connaissance du monde"
@@ -77,26 +116,6 @@ msgstr "S’abonner aux nouvelles sur les projets et initiatives en cours"
 msgid "Subscribe"
 msgstr "S’abonner"
 
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:23
-msgid "has successfully completed"
-msgstr "a terminé avec succès"
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:24
-msgid "the"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:24
-msgid "program."
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:61
-msgid "Certificate"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:61
-msgid "of Achievement"
-msgstr ""
-
 #: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:49
 msgid "What to study next?"
 msgstr "Qu’étudier ensuite ?"
@@ -104,25 +123,6 @@ msgstr "Qu’étudier ensuite ?"
 #: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:88
 msgid "Already Enrolled"
 msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
-msgid ""
-"WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning "
-"platform for the Wikimedia movement. It offers a comprehensive range of "
-"self-paced and instructor-led courses aimed at capacity building and "
-"leadership development within the Wikimedia community. Courses on WikiLearn "
-"are collaboratively developed by and for Wikimedians with a commitment to "
-"accessibility and diversity. For inquiries, contact the Community "
-"Development team at "
-msgstr ""
-"WikiLearn, hébergé par la Wikimedia Foundation, est une plateforme "
-"d'apprentissage dédiée au mouvement Wikimedia. Il propose une gamme complète"
-" de cours à votre rythme et dirigés par un instructeur visant au "
-"renforcement des capacités et au développement du leadership au sein de la "
-"communauté Wikimédia. Les cours sur WikiLearn sont développés en "
-"collaboration par et pour les Wikimédiens avec un engagement en faveur de "
-"l'accessibilité et de la diversité. Pour toute demande de renseignements, "
-"contactez l'équipe de développement communautaire au "
 
 #: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
 msgid "Discover courses"

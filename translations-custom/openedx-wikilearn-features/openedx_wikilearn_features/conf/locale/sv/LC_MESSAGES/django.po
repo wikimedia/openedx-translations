@@ -517,7 +517,8 @@ msgid ""
 "%(comment_username)s mentioned you in the comment on post: "
 "<b>%(thread_title)s</b>:"
 msgstr ""
-"%(comment_username)s nämnde dig i kommentaren på inlägg: <b>%(thread_title)s</b>:"
+"%(comment_username)s nämnde dig i kommentaren på inlägg: "
+"<b>%(thread_title)s</b>:"
 
 #: openedx_wikilearn_features/wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.html:33
 #: openedx_wikilearn_features/wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.txt:13

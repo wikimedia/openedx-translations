@@ -1,0 +1,143 @@
+# edX translation file.
+# Copyright (C) 2024 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2024.
+# 
+# Translators:
+# Brian Smith, 2025
+# Yana Lovyagina <yana.lovyagina@raccoongang.com>, 2026
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-25 00:40+0000\n"
+"PO-Revision-Date: 2025-07-23 17:31+0000\n"
+"Last-Translator: Yana Lovyagina <yana.lovyagina@raccoongang.com>, 2026\n"
+"Language-Team: Ukrainian (https://app.transifex.com/open-edx/teams/6205/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: extensions/filters.py:58
+msgid "Reports"
+msgstr "Звіти"
+
+#: settings/common.py:31
+msgid "Course Dashboard"
+msgstr "Інформаційна панель курсу"
+
+#: settings/common.py:37
+msgid "Individual Learner Dashboard"
+msgstr "Індивідуальна інформаційна панель учня"
+
+#: settings/common.py:43
+msgid "At-Risk Learners Dashboard"
+msgstr "Інформаційна панель для учнів групи ризику"
+
+#: settings/common.py:110
+msgid "Course"
+msgstr "Курс"
+
+#: settings/common.py:118
+msgid "Graded Subsection"
+msgstr "Оцінений Підрозділ"
+
+#: settings/common.py:126
+msgid "Problem"
+msgstr "Задача"
+
+#: settings/common.py:134
+msgid "Video"
+msgstr "Відео"
+
+#: static/html/superset.html:9
+msgid ""
+"Superset is not configured properly. Please contact your system "
+"administrator."
+msgstr ""
+"Superset налаштовано неправильно. Будь ласка, зверніться до свого системного"
+" адміністратора."
+
+#: static/html/superset_student.html:4
+msgid ""
+"Superset is only visible to course staff and instructors. Please contact "
+"your system administrator."
+msgstr ""
+"Superset бачать лише співробітники курсу та викладачі. Будь ласка, "
+"зверніться до свого системного адміністратора."
+
+#: utils.py:165
+#, python-brace-format
+msgid ""
+"Unable to fetch Superset guest token, Superset server error "
+"{server_response}"
+msgstr ""
+"Не вдалося отримати гостьовий токен Superset, помилка сервера Superset "
+"{server_response}"
+
+#: utils.py:174
+msgid ""
+"Unable to fetch Superset guest token, mostly likely due to invalid "
+"settings.SUPERSET_CONFIG"
+msgstr ""
+"Не вдалося отримати гостьовий токен Superset, імовірно, через недійсні "
+"налаштування SUPERSET_CONFIG"
+
+#: views.py:87
+#, python-brace-format
+msgid "Course not found: '{course_id}'"
+msgstr "Курс не знайдено: '{course_id}'"
+
+#: views.py:114
+#, python-brace-format
+msgid "Invalid course id: '{course_id}'"
+msgstr "Недійсний ідентифікатор курсу: '{course_id}'"
+
+#: views.py:172
+#, python-brace-format
+msgid "Invalid usage id: '{usage_id}'"
+msgstr "Неправильне використання id: '{usage_id}'"
+
+#: views.py:201
+#, python-brace-format
+msgid "No dashboard for block type: '{block_type}'"
+msgstr "Немає панелі для типу блоку: '{block_type}'"
+
+#: xblock.py:48 xblock.py:49
+msgid "Display name"
+msgstr "Відображуване ім'я"
+
+#: xblock.py:50
+msgid "Superset Dashboard"
+msgstr "Інформаційна панель Superset"
+
+#: xblock.py:55
+msgid "Dashboard UUID"
+msgstr "UUID інформаційної панелі"
+
+#: xblock.py:57
+msgid ""
+"The ID of the dashboard to embed. Available in the Superset embed dashboard "
+"UI."
+msgstr ""
+"Ідентифікатор інформаційної панелі для вбудовування. Доступно в інтерфейсі "
+"інформаційної панелі Superset Embed."
+
+#: xblock.py:64
+msgid "Filters"
+msgstr "Фільтри"
+
+#: xblock.py:66
+msgid ""
+"List of SQL filters to apply to the\n"
+"               dashboard. E.g: [\"org='edX'\", \"country in ('us', 'co')\"]\n"
+"               The fields used here must be available on every dataset used by the dashboard.\n"
+"               "
+msgstr ""
+"Список фільтрів SQL для застосування до панелі приладів. Наприклад: "
+"[\"org='edX'\", \"country in ('us', 'co')\"] Поля, які тут використовуються,"
+" мають бути доступні в кожному наборі даних, який використовується "
+"інформаційною панеллю. "

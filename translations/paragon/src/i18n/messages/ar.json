@@ -6,31 +6,31 @@
     "string": "يَفتَح في علامة تبويب جديدة"
   },
   "dropzone.Dropzone.invalidSizeLessError": {
-    "developer_comment": "A message shown when a file with less than minimum allowed size is being uploaded in Dropzone.",
+    "developer_comment": "",
     "string": "يجب أن يكون حجم الملف أكبر من {size}."
   },
   "dropzone.Dropzone.invalidSizeMoreError": {
-    "developer_comment": "A message shown when a file with more than maximum allowed size is being uploaded in Dropzone.",
+    "developer_comment": "",
     "string": "يجب أن يكون حجم الملف أقل من {size}."
   },
   "dropzone.Dropzone.invalidType": {
-    "developer_comment": "A message shown when a file with wrong MIME type is being uploaded.",
+    "developer_comment": "",
     "string": "نوع الملف يجب ان يكون {count, plural, one {{typeString} الملف} other {احدى من  {typeString} ملفات}}."
   },
   "dropzone.Dropzone.multipleDraggedError": {
-    "developer_comment": "A message shown when multiple files are dragged over Dropzone.",
+    "developer_comment": "",
     "string": "يسمح بتحميل ملف واحد فقط."
   },
   "dropzone.Dropzone.unexpectedValidationError": {
-    "developer_comment": "A message shown in case file validation in Dropzone component for unknown reason.",
+    "developer_comment": "",
     "string": "حدثت مشكلة غير متوقعة أثناء التحقق من صحة الملف. رجاءً حاول مرة اخرى."
   },
   "dropzone.Dropzone.uploadError": {
-    "developer_comment": "A message shown in case file upload in Dropzone component results in an error.",
-    "string": "حدثت مشكلة أثناء رفع ملفك. رجاءً حاول مجددًا."
+    "developer_comment": "",
+    "string": "حدثت مشكلة أثناء رفع ملفك. من فضلك حاوِل مجدداً."
   },
   "pgn.Alert.closeLabel": {
-    "developer_comment": "Label of a close button on Alert component",
+    "developer_comment": "",
     "string": "تجاهل"
   },
   "pgn.CardCarousel.scrollToNext": {
@@ -50,83 +50,83 @@
     "string": "انتقل إلى السابق"
   },
   "pgn.DataTable.BaseSelectionStatus.allSelectedText": {
-    "developer_comment": "Text for all selected label",
+    "developer_comment": "",
     "string": "تم تحديد الـ {numSelectedRows} كلها"
   },
   "pgn.DataTable.BaseSelectionStatus.clearSelectionText": {
-    "developer_comment": "A label of clear all selection button.",
-    "string": "إلغاء التحديد"
+    "developer_comment": "",
+    "string": "ألغِ التحديد"
   },
   "pgn.DataTable.BaseSelectionStatus.selectAllText": {
-    "developer_comment": "A label for select all button.",
-    "string": "تحديد الـ {itemCount} كلها"
+    "developer_comment": "",
+    "string": ""
   },
   "pgn.DataTable.BaseSelectionStatus.selectedText": {
-    "developer_comment": "Text for selected label",
+    "developer_comment": "",
     "string": "تم تحديد {numSelectedRows}"
   },
   "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": {
-    "developer_comment": "Text for selected label when table is paginated",
+    "developer_comment": "",
     "string": "تم تحديد {numSelectedRows} ({numSelectedRowsOnPage} موضح أدناه)"
   },
   "pgn.DataTable.ExpandAll.collapseAllLabel": {
-    "developer_comment": "Label of an action button that collapses all expandable rows of DataTable.",
+    "developer_comment": "",
     "string": "طي الكل"
   },
   "pgn.DataTable.ExpandAll.expandAllLabel": {
-    "developer_comment": "Label of an action button that expands all expandable rows of DataTable.",
-    "string": "وَسِّع الكُل"
+    "developer_comment": "",
+    "string": "وسِّع الكل"
   },
   "pgn.DataTable.FilterStatus.clearFiltersText": {
-    "developer_comment": "A text that appears on the `Clear filters` button",
-    "string": "إزالة المرشحات"
+    "developer_comment": "",
+    "string": "امسح المُرشِّحات"
   },
   "pgn.DataTable.RowStatus.statusText": {
-    "developer_comment": "A text describing how many rows is shown in the table",
+    "developer_comment": "",
     "string": "عَرض {firstRow} - {lastRow} مِن {itemCount}."
   },
   "pgn.DataTable.SidebarFilters.title": {
-    "developer_comment": "Title for the sidebar filters component",
-    "string": "المرشحات"
+    "developer_comment": "عنوان مكون مُرشِّحات الشريط الجانبي",
+    "string": "المُرشِّحات"
   },
   "pgn.DataTable.paginationLabel": {
-    "developer_comment": "الاسم المُتاح لعنصر التنقّل في مُكوّن ترقيم الصفحات",
-    "string": "ترقيم الصفحات في الجَدول"
+    "developer_comment": "الاسم المُتاح لعنصر التنقّل في مكون ترقيم الصفحات",
+    "string": "ترقيم الصفحات في الجدول"
   },
   "pgn.Dropzone.DefaultContent.fileSizeBetween": {
-    "developer_comment": "A message shown when uploaded file's size must be in given range.",
+    "developer_comment": "",
     "string": "بين {sizeMin} و {sizeMax}"
   },
   "pgn.Dropzone.DefaultContent.fileSizeMax": {
-    "developer_comment": "A message shown when uploaded file's size must be more than some value.",
+    "developer_comment": "",
     "string": "أقصى قيمة {sizeMax}"
   },
   "pgn.Dropzone.DefaultContent.fileSizeMin": {
-    "developer_comment": "A message shown when uploaded file's size must be more than some value.",
+    "developer_comment": "",
     "string": "أدنى قيمة {sizeMin}"
   },
   "pgn.Dropzone.DefaultContent.fileTypeRestriction": {
-    "developer_comment": "A message shown when uploaded file must be of certain type(s).",
+    "developer_comment": "",
     "string": "ارفع ملفات {count ، plural, one {{firstPart}} other {{firstPart} أو {secondPart}}}."
   },
   "pgn.Dropzone.DefaultContent.label": {
-    "developer_comment": "A text that appears as a label for input of Dropzone component.",
-    "string": "اسحب و ألق ملفك هنا أو انقر للرفع."
+    "developer_comment": "",
+    "string": "اسحب ملفك وأفلِته هنا، أو انقر لاختيار ملف لرفعه."
   },
   "pgn.Dropzone.UploadProgress.cancelLabel": {
-    "developer_comment": "Label of a cancel button that is shown during file upload in Dropzone component.",
-    "string": "إلغاء"
+    "developer_comment": "",
+    "string": "ألغِ"
   },
   "pgn.Dropzone.UploadProgress.uploadLabel": {
-    "developer_comment": "A text that is shown near a progress bar during file upload in Dropzone component.",
-    "string": "رفع {filename} جارٍ."
+    "developer_comment": "",
+    "string": "جاري رفع {filename}. "
   },
   "pgn.FormAutosuggest.iconButtonClosed": {
-    "developer_comment": "A message shown in case when the autosuggest menu is opened.",
+    "developer_comment": "",
     "string": "إغلاق قائمة الخيارات"
   },
   "pgn.FormAutosuggest.iconButtonOpened": {
-    "developer_comment": "A message shown in case when the autosuggest menu is closed.",
+    "developer_comment": "",
     "string": "فتح قائمة الخيارات"
   },
   "pgn.ProductTour.Checkpoint.bottom-position-text": {
@@ -138,7 +138,7 @@
     "string": "بداية صفحة الخُطوة {step}"
   },
   "pgn.Toast.closeLabel": {
-    "developer_comment": "Close label for Toast component",
+    "developer_comment": "",
     "string": "إغلاق "
   }
 }

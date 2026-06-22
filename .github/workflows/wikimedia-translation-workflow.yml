@@ -110,6 +110,7 @@ jobs:
 
       - name: Install Python Requirements
         run: |
+          pip install -r requirements/pip.txt
           pip install -r requirements/translations.txt || true
 
           # Install repo-specific requirements

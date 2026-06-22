@@ -22,8 +22,7 @@ msgstr "证书链接"
 msgid ""
 "Usernames must not contain the following symbols: #, <, >, [, ], |, {, }, /,"
 " \\, :, @"
-msgstr "用户名不得包含以下符号：#, <, >, [, ], |, {, }, /,"
-" \\, :, @"
+msgstr "用户名不得包含以下符号：#, <, >, [, ], |, {, }, /, \\, :, @"
 
 #: xmodule/course_block.py:1056
 msgid "Select Course Font Family"

@@ -7,7 +7,7 @@ msgstr ""
 "PO-Revision-Date: 2023-06-13 09:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
-"Language: en\n"
+"Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,11 +16,11 @@ msgstr ""
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"
-msgstr ""
+msgstr "Cad atá le staidéar a dhéanamh ina dhiaidh seo?"
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27
 msgid "Show All Courses"
-msgstr "Mostra tutti i corsi"
+msgstr "Taispeáin Gach Cúrsa"
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:77
 msgid "No results found"

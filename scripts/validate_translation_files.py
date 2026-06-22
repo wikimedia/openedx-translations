@@ -132,7 +132,9 @@ def validate_translation_files(
       return 1 for invalid translations.
     """
     if translations_dirs is None:
-        translations_dirs = ['translations', 'translations-custom', 'translations-upstream']
+        translations_dirs = ['translations-custom', 'translations']
+    elif isinstance(translations_dirs, str):
+        translations_dirs = [translations_dirs]
 
     all_valid = True
     all_invalid_lines = []
@@ -172,7 +174,7 @@ def main():  # pragma: no cover
         '--dirs',
         action='store',
         type=str,
-        default='translations,translations-custom,translations-upstream',
+        default='translations-custom,translations',
         help='Comma-separated list of directories to validate (default: translations,translations-custom,translations-upstream)'
     )
     args = parser.parse_args()

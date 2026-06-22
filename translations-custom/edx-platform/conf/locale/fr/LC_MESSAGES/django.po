@@ -24,7 +24,7 @@ msgid ""
 " \\, :, @"
 msgstr ""
 "Les noms d'utilisateur ne doivent pas contenir les symboles suivants: #, "
-"<, >, [, ], ➡, {, }, /, \\,:, @"
+"<, >, [, ], |, {, }, /, \\, :, @"
 
 #: xmodule/course_block.py:1056
 msgid "Select Course Font Family"

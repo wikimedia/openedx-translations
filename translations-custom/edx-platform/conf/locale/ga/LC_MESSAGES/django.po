@@ -7,7 +7,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: en\n"
+"Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,17 +16,19 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:1428
 msgid "Certificate link"
-msgstr "證書連結"
+msgstr "Nasc teastais"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:43
 msgid ""
 "Usernames must not contain the following symbols: #, <, >, [, ], |, {, }, /,"
 " \\, :, @"
-msgstr "使用者名稱不能包含以下符號：#, <, >, [, ], |, {, }, /, \\, :, @"
+msgstr ""
+"Ní féidir na siombailí seo a leanas a bheith in ainmneacha úsáideora: #, <, "
+">, [, ], |, {, }, /, \\, :, @"
 
 #: xmodule/course_block.py:1056
 msgid "Select Course Font Family"
-msgstr "選擇課程字體"
+msgstr "Roghnaigh Teaghlach Clónna Cúrsa"
 
 #: xmodule/course_block.py:1058
 msgid ""
@@ -37,9 +39,9 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            請選擇要顯示在課程裡的字體。\n"
-"             可用的選項有「font-trebuchet」、「font-open-sans」、「font-noto-kufi-arabic」、「font-montserrat」、和「font-source-sans-pro」。\n"
-"            若值為無效或是空白內容，預設字體會是「Helvetica Neue」。\n"
+"            Roghnaigh an teaghlach cúrsa inar mian leat do chúrsa a thaispeáint.\n"
+"            Is iad na roghanna atá ar fáil ná \"font-trebuchet\", \"font-open-sans\", \"font-noto-kufi-arabic\", \"font-montserrat\", agus \"font-source-sans-pro\".\n"
+"            Mura bhfuil an luach bailí nó folamh, is é \"Helvetica Neue\" an teaghlach cló réamhshocraithe.\n"
 "            "
 
 #: xmodule/course_block.py:1068

@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Brian Smith, 2025
-# Sulaiman Muthanna, 2025
+# Sulaiman Muthanna, 2026
 # 
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2025-07-23 17:30+0000\n"
-"Last-Translator: Sulaiman Muthanna, 2025\n"
+"Last-Translator: Sulaiman Muthanna, 2026\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,10 +66,6 @@ msgstr "مقبول"
 msgid "Poor"
 msgstr " مُتَدَنِّي"
 
-#: feedback.py:78
-msgid "Freeform user prompt"
-msgstr "مطالبة المستخدم ذات الشكل الحر"
-
 #: feedback.py:84 feedback.py:100
 msgid "Random number generated for p. -1 if uninitialized"
 msgstr "تم إنشاء رقم عشوائي لـ p. -1 إذا لم تتم تهيئته"
@@ -92,11 +88,11 @@ msgstr "الآراء والملاحظات"
 
 #: feedback.py:112
 msgid "Display Name"
-msgstr "الاسم المعروض"
+msgstr "الاسم الظاهر"
 
 #: feedback.py:113
 msgid "Provide Feedback"
-msgstr "تقديم الاراء والتقيمات"
+msgstr "قدِّم ملاحظاتك"
 
 #: feedback.py:118 templates/html/studio_view.html:17
 msgid "Voting message"
@@ -108,7 +104,7 @@ msgstr "شكرا لتصويتك!"
 
 #: feedback.py:124 templates/html/studio_view.html:25
 msgid "Feedback message"
-msgstr "رسالة التقييم"
+msgstr "رسالة آراء وملاحظات"
 
 #: feedback.py:125
 msgid "Thank you for your feedback!"
@@ -155,7 +151,7 @@ msgstr "متوسط تقييم"
 
 #: static/html/feedback_instructor.html:19
 msgid "Feedback "
-msgstr "تعليق "
+msgstr "الآراء والملاحظات"
 
 #: static/html/feedback_instructor.html:40
 msgid "Comment"
@@ -171,7 +167,7 @@ msgstr "لا يوجد تصويت"
 
 #: templates/html/feedback.html:17
 msgid "Submit Feedback"
-msgstr "إرسال الملاحظات"
+msgstr "أرسِل ملاحظاتك"
 
 #: templates/html/studio_view.html:5
 msgid ""
@@ -184,7 +180,7 @@ msgstr ""
 
 #: templates/html/studio_view.html:9
 msgid "Display name"
-msgstr "عرض الاسم"
+msgstr "الاسم الظاهر"
 
 #: templates/html/studio_view.html:12
 msgid "The name of the component."
@@ -214,21 +210,13 @@ msgstr "صح"
 msgid "Whether to show the aggregate report to students."
 msgstr "ما إذا كان سَيُعرَض التقرير الإجمالي للطُلّاب."
 
-#: templates/html/studio_view.html:44
-msgid "Freeform prompt"
-msgstr "إدخال حُر"
-
 #: templates/html/studio_view.html:47
 msgid "Example: Please provide us feedback on this section."
 msgstr "مثال: يرجى تزويدنا بتعليقاتك على هذا القسم."
 
-#: templates/html/studio_view.html:52
-msgid "Freeform placeholder"
-msgstr "تلميح الإدخال الحُرّ"
-
 #: templates/html/studio_view.html:55
 msgid "This is shown as grayed out text before the student has answered."
-msgstr "سيظهر هذا النص بِلَونٍ رمادي قبل أنْ يُجيب الطالِب."
+msgstr "سيظهر هذا النص بلون رمادي قبل أن يُجيب الطالب."
 
 #: templates/html/studio_view.html:60
 msgid "Likert icon set"

@@ -1,26 +1,32 @@
 {
+  "Hyperlink.externalLinkAltText": {
+    "string": "в новій вкладці"
+  },
+  "Hyperlink.externalLinkTitle": {
+    "string": "Відкриває в на новій вкладці"
+  },
   "dropzone.Dropzone.invalidSizeLessError": {
-    "developer_comment": "Повідомлення, яке відображається, коли в Dropzone завантажується файл, розмір якого менший за мінімально допустимий.",
-    "string": "Файл має бути більшим за {size} ."
+    "developer_comment": "Повідомлення, що відображається, коли в Dropzone завантажується файл розміром менше мінімально дозволеного.",
+    "string": "Файл має бути більшим ніж {size} ."
   },
   "dropzone.Dropzone.invalidSizeMoreError": {
-    "developer_comment": "Повідомлення, яке відображається, коли в Dropzone завантажується файл, розмір якого перевищує максимально допустимий.",
-    "string": "Файл має бути меншим за {size} ."
+    "developer_comment": "Повідомлення, що відображається, коли в Dropzone завантажується файл, розмір якого перевищує максимально дозволений.",
+    "string": "Файл має бути меншим ніж {size} ."
   },
   "dropzone.Dropzone.invalidType": {
     "developer_comment": "Повідомлення, яке відображається, коли завантажується файл із неправильним типом MIME.",
-    "string": "Тип файлу має бути {count, plural, one { файл {typeString} } other {один із файлів {typeString} }}."
+    "string": "Тип файлу має бути {count, plural, one { file {typeString} } other {one of {typeString} files}}."
   },
   "dropzone.Dropzone.multipleDraggedError": {
-    "developer_comment": "Повідомлення, яке відображається, коли кілька файлів перетягується через Dropzone.",
+    "developer_comment": "Повідомлення, яке відображається, коли кілька файлів перетягується в Dropzone.",
     "string": "Дозволено лише одне завантаження."
   },
   "dropzone.Dropzone.unexpectedValidationError": {
-    "developer_comment": "Повідомлення, яке відображається під час перевірки файлу справи в компоненті Dropzone з невідомої причини.",
-    "string": "Під час перевірки файлу виникла неочікувана проблема. Будь ласка спробуйте ще раз."
+    "developer_comment": "Повідомлення, яке відображається під час перевірки файлу в компоненті Dropzone з невідомої причини.",
+    "string": "Під час перевірки файлу виникла неочікувана проблема. Будь ласка, спробуйте ще раз."
   },
   "dropzone.Dropzone.uploadError": {
-    "developer_comment": "Повідомлення, яке відображається під час завантаження файлу випадку в компонент Dropzone, призводить до помилки.",
+    "developer_comment": "Повідомлення, що відображається, якщо завантаження файлу в компонент Dropzone призводить до помилки.",
     "string": "Під час завантаження файлу виникла проблема. Будь ласка спробуйте ще раз."
   },
   "pgn.Alert.closeLabel": {
@@ -28,19 +34,19 @@
     "string": "Відхилити"
   },
   "pgn.CardCarousel.scrollToNext": {
-    "developer_comment": "Текст доступності, що описує дію для переходу прокручуваної каруселі до наступного елемента",
+    "developer_comment": "Текст спеціальних можливостей, що описує дію переходу до наступного елемента в каруселі з прокруткою.",
     "string": "Перейдіть до наступного"
   },
   "pgn.CardCarousel.scrollToPrevious": {
-    "developer_comment": "Текст доступності, що описує дію для переходу прокручуваної каруселі до попереднього елемента",
+    "developer_comment": "Текст спеціальних можливостей, що описує дію переходу до попереднього елемента в каруселі з прокруткою.",
     "string": "Перейти до попереднього"
   },
   "pgn.ChipCarousel.scrollToNext": {
-    "developer_comment": "Текст доступності, що описує дію для переходу прокручуваної каруселі до наступного елемента",
+    "developer_comment": "Текст спеціальних можливостей, що описує дію переходу до попереднього елемента в каруселі з прокруткою.",
     "string": "Перейдіть до наступного"
   },
   "pgn.ChipCarousel.scrollToPrevious": {
-    "developer_comment": "Текст доступності, що описує дію для переходу прокручуваної каруселі до попереднього елемента",
+    "developer_comment": "Текст спеціальних можливостей, що описує дію переходу до попереднього елемента в каруселі з прокруткою.",
     "string": "Перейти до попереднього"
   },
   "pgn.DataTable.BaseSelectionStatus.allSelectedText": {
@@ -60,15 +66,15 @@
     "string": "{numSelectedRows} вибрано"
   },
   "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": {
-    "developer_comment": "Текст для вибраного мітка, коли таблицю розбивають на сторінки",
-    "string": "{numSelectedRows} вибрано ( {numSelectedRowsOnPage} показано нижче)"
+    "developer_comment": "Текст для вибраної мітки, коли таблиця розбита на сторінки.",
+    "string": "{numSelectedRows} selected ( {numSelectedRowsOnPage} shown below)"
   },
   "pgn.DataTable.ExpandAll.collapseAllLabel": {
     "developer_comment": "Мітка кнопки дії, яка згортає всі розгорнуті рядки DataTable.",
     "string": "Згорнути всі"
   },
   "pgn.DataTable.ExpandAll.expandAllLabel": {
-    "developer_comment": "Мітка кнопки дії, яка розгортає всі розгорнуті рядки DataTable.",
+    "developer_comment": "Мітка кнопки дії, яка розгортає всі розгортаємі рядки DataTable.",
     "string": "Розгорнути всі"
   },
   "pgn.DataTable.FilterStatus.clearFiltersText": {
@@ -80,8 +86,12 @@
     "string": "Показано {firstRow} - {lastRow} з {itemCount} ."
   },
   "pgn.DataTable.SidebarFilters.title": {
-    "developer_comment": "Заголовок для компонента фільтрів бічної панелі",
+    "developer_comment": "Заголовок компонента фільтрів бічної панелі",
     "string": "Фільтри"
+  },
+  "pgn.DataTable.paginationLabel": {
+    "developer_comment": "Доступне ім'я для елемента навігації компонента пагінації",
+    "string": "пагінація таблиці"
   },
   "pgn.Dropzone.DefaultContent.fileSizeBetween": {
     "developer_comment": "Повідомлення, що відображається під час завантаження, розмір файлу має бути в заданому діапазоні.",
@@ -89,14 +99,14 @@
   },
   "pgn.Dropzone.DefaultContent.fileSizeMax": {
     "developer_comment": "Повідомлення, що відображається під час завантаження розміру файлу, має бути більше певного значення.",
-    "string": "Макс {sizeMax}"
+    "string": "Максимальний {sizeMax}"
   },
   "pgn.Dropzone.DefaultContent.fileSizeMin": {
-    "developer_comment": "Повідомлення, що відображається під час завантаження розміру файлу, має бути більше певного значення.",
-    "string": "Мін. {sizeMin}"
+    "developer_comment": "Повідомлення, що відображається, коли розмір завантаженого файлу має бути більшим за певне значення.",
+    "string": "Мінімальний {sizeMin}"
   },
   "pgn.Dropzone.DefaultContent.fileTypeRestriction": {
-    "developer_comment": "Повідомлення, яке відображається під час завантаження файлу, має бути певного типу.",
+    "developer_comment": "Повідомлення, що відображається, коли завантажений файл має бути певного типу.",
     "string": "Завантажте {count, plural, one { {firstPart} files} other { {firstPart} or {secondPart} files}}"
   },
   "pgn.Dropzone.DefaultContent.label": {
@@ -120,11 +130,11 @@
     "string": "Відкрийте меню параметрів"
   },
   "pgn.ProductTour.Checkpoint.bottom-position-text": {
-    "developer_comment": "Повідомлення програми зчитування з екрана, щоб сповістити користувача про те, що він розташований у нижній частині кроку ознайомлення з продуктом.",
+    "developer_comment": "Повідомлення зчитувача з екрана, яке сповіщає користувача про те, що він знаходиться внизу кроку огляду продукту.",
     "string": "Нижня частина кроку {step}"
   },
   "pgn.ProductTour.Checkpoint.top-position-text": {
-    "developer_comment": "Повідомлення програми зчитування з екрана, щоб сповістити користувача про те, що він розташований у нижній частині кроку ознайомлення з продуктом.",
+    "developer_comment": "Повідомлення зчитувача з екрана, яке сповіщає користувача про те, що він знаходиться внизу кроку огляду продукту.",
     "string": "Верхня частина кроку {step}"
   },
   "pgn.Toast.closeLabel": {

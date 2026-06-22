@@ -6,6 +6,7 @@
 # 
 # Translators:
 # Brian Smith, 2025
+# Sulaiman Muthanna, 2026
 # 
 msgid ""
 msgstr ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-25 00:37+0000\n"
 "PO-Revision-Date: 2025-07-23 17:30+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
+"Last-Translator: Sulaiman Muthanna, 2026\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,7 +38,7 @@ msgid ""
 "Something has gone wrong ending your exam. Please reload the page and start "
 "again."
 msgstr ""
-"حدث خطأ ما أثناء إنهاء الاختبار. يرجى إعادة تحميل الصفحة والبدء من جديد."
+"حدث خطأ ما أثناء انهاء اختبارك. من فضلك أعِد تحميل الصفحة وابدأ من جديد."
 
 #: static/proctoring/js/exam_action_handler.js:159
 #: static/proctoring/js/exam_action_handler.js:170
@@ -55,7 +56,7 @@ msgid ""
 "Something has gone wrong starting your exam. Please reload the page and "
 "start again."
 msgstr ""
-"حدث خطأ ما أثناء بدء الاختبار. يرجى إعادة تحميل الصفحة والبدء من جديد."
+"حدث خطأ ما أثناء بدء اختبارك. من فضلك أعِد تحميل الصفحة وابدأ من جديد."
 
 #: static/proctoring/js/exam_action_handler.js:197
 msgid ""
@@ -64,23 +65,13 @@ msgid ""
 msgstr ""
 "حدث خطأ ما أثناء إنهاء الاختبار. يرجى التحقق مرة أخرى من تشغيل التطبيق."
 
-#: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:218
-#: static/proctoring/js/views/proctored_exam_allowance_view.js:13
-#: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:82
-msgid "Review Policy Exception"
-msgstr "مراجعة استثناء السياسة"
-
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:224
 msgid "Add Time(Minutes)"
-msgstr "إضافة وقت (دقائق)"
+msgstr "أضِف وقتاً (بالدقائق)"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:226
 msgid "Add Multiplier as a Number Greater Than 1"
 msgstr "أضف المضاعف كرقم أكبر من 1"
-
-#: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:228
-msgid "Add Policy Exception"
-msgstr "إضافة استثناء السياسة"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:268
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:276
@@ -162,19 +153,19 @@ msgstr "خطأ"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:23
 msgid "Onboarding Missing"
-msgstr "عملية مفقودة"
+msgstr "التسجيل مفقود"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:24
 msgid "Onboarding Pending"
-msgstr "العملية معلقة"
+msgstr "التسجيل معلق"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:25
 msgid "Onboarding Failed"
-msgstr "فشل العملية"
+msgstr "تعذّر التسجيل"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:26
 msgid "Onboarding Expired"
-msgstr "العملية منتهية الصلاحية"
+msgstr "انتهت صلاحية التسجيل"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:179
 msgid "Practice"
@@ -190,11 +181,11 @@ msgstr "مؤقّت"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:214
 msgid "Are you sure you want to remove this student's exam attempt?"
-msgstr "هل أنت متأكد أنك تريد إزالة محاولة الاختبار لهذا الطالب؟"
+msgstr "هل أنت واثق من رغبتك في إزالة محاولة الامتحان لهذا الطالب؟"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:248
 msgid "Are you sure you want to resume this student's exam attempt?"
-msgstr "هل أنت متأكد أنك تريد استئناف محاولة الاختبار لهذا الطالب؟"
+msgstr "هل أنت واثق من رغبتك في استئناف محاولة الامتحان لهذا الطالب؟"
 
 #: static/proctoring/js/views/proctored_exam_info.js:13
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:29
@@ -203,29 +194,28 @@ msgstr "لم يبدأ بعد"
 
 #: static/proctoring/js/views/proctored_exam_info.js:14
 msgid "You have not started your onboarding exam."
-msgstr "لم تبدأ امتحانك التحضيري."
+msgstr "لم تبدأ امتحان القبول."
 
 #: static/proctoring/js/views/proctored_exam_info.js:18
 msgid "You have started your onboarding exam."
-msgstr "لقد بدأت امتحانك التحضيري."
+msgstr "لقد بدأت امتحان القبول."
 
 #: static/proctoring/js/views/proctored_exam_info.js:22
 msgid "You have submitted your onboarding exam."
-msgstr "لقد سلمت امتحانك التحضيري."
+msgstr "لقد سلّمت أجوبة امتحان القبول."
 
 #: static/proctoring/js/views/proctored_exam_info.js:35
 msgid "Your onboarding exam has been approved in this course."
-msgstr "تم اعتماد امتحانك التحضيري في هذه الدورة."
+msgstr "تمت الموافقة على امتحان القبول في هذا المساق."
 
 #: static/proctoring/js/views/proctored_exam_info.js:39
 msgid "Your onboarding exam has been rejected. Please retry onboarding."
-msgstr "تم رفض امتحانك التحضيري. رجاءً حاول إجراء الامتحان مجددًا."
+msgstr "لقد رُفض امتحان القبول. من فضلك حاوِل مجدداً."
 
 #: static/proctoring/js/views/proctored_exam_info.js:43
 msgid ""
 "An error has occurred during your onboarding exam. Please retry onboarding."
-msgstr ""
-"حدث خطأ أثناء امتحان التهيئة الخاص بك. رجاءً حاول إجراء الامتحان مجددًا."
+msgstr "لقد حدث خطأ أثناء امتحان القبول. من فضلك حاول مجدداً."
 
 #: static/proctoring/js/views/proctored_exam_info.js:46
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:32
@@ -234,7 +224,7 @@ msgstr "معتمد من دورة آخرى"
 
 #: static/proctoring/js/views/proctored_exam_info.js:47
 msgid "Your onboarding exam has been approved in another course."
-msgstr "تم اعتماد امتحانك التحضيري من دورة آخرى."
+msgstr "تمت الموافقة على امتحان القبول في مساق آخر."
 
 #: static/proctoring/js/views/proctored_exam_info.js:49
 msgid ""
@@ -242,8 +232,8 @@ msgid ""
 "onboarding exam in order to ensure that your setup still meets the "
 "requirements for proctoring."
 msgstr ""
-"إن تغير جهازك، فإننا نصحك بإكمال الامتحان التحضيري لهذه الدورة، و ذلك للتأكد"
-" من أن إعداداتك لا تزال تستوفي متطلبات المراقبة."
+"إذا تغير جهازك، فنوصيك بإتمام امتحان القبول لهذا المساق، لنتأكّد من أنّ "
+"إعداداتك لا تزال تلبي متطلبات المُراقَبة."
 
 #: static/proctoring/js/views/proctored_exam_info.js:55
 msgid "Expiring Soon"
@@ -255,9 +245,8 @@ msgid ""
 "is expiring soon. Please complete onboarding again to ensure that you will "
 "be able to continue taking proctored exams."
 msgstr ""
-"تمت الموافقة على ملفك الشخصي التحضيري. مع ذلك فإن وضعيتك إزاء التحضير ستنتهي"
-" صلاحيتها قريبا. يرجى  يرجى إتمام التحضيرات مجددًا لتضمن قدرتك على مواصلة "
-"إجراء الاختبارات المراقبة."
+"تمت الموافقة على ملف تسجيلك. ومع ذلك ستنتهي صلاحية تسجيلك قريباً. يرجى إتمام"
+" التسجيل مجدداً لتتأكَّد من قدرتك على مواصلة إجراء الامتحانات المُراقَبة."
 
 #: static/proctoring/js/views/proctored_exam_info.js:64
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:38
@@ -269,8 +258,8 @@ msgid ""
 "Your onboarding status has expired. Please complete onboarding again to "
 "continue taking proctored exams."
 msgstr ""
-"انتهت صلاحية ملفك التحضيري. يرجى إتمام التحضيرات مجددًا لمواصلة إجراء "
-"الاختبارات المراقبة."
+"لقد انتهت صلاحية تسجيلك. يُرجى إتمام التسجيل مجدداً لمواصلة إجراء الامتحانات"
+" المُراقَبة."
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:30
 msgid "Setup Started"
@@ -278,11 +267,11 @@ msgstr "بدأ الإعداد"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:31
 msgid "Onboarding Started"
-msgstr "بدأ الإعداد"
+msgstr "بدأ التسجيل"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:40
 msgid "Onboarding Reset Failed Due to Past Due Exam"
-msgstr "فشلت إعادة تعيين الإعداد بسبب تأخر موعد الامتحان"
+msgstr "تعذّر إعادة تعيين امتحان القبول، لأنّه انقضى موعد الامتحان "
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:42
 msgid "Audit"
@@ -290,7 +279,7 @@ msgstr "مراجعة"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:43
 msgid "Honor"
-msgstr "ميثاق الشرف"
+msgstr "فخري"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:44
 msgid "Professional"
@@ -317,5 +306,5 @@ msgid ""
 "Are you sure you want to leave this page? \n"
 "To pass your proctored exam you must also pass the online proctoring session review."
 msgstr ""
-"هل أنت متأكد أنك تريد مغادرة هذه الصفحة؟\n"
-" لاجتياز الاختبار الخاضع للمراقبة، يجب عليك أيضًا اجتياز مراجعة جلسة المراقبة عبر الإنترنت."
+"هل أنت واثق من رغبتك في مغادرة هذه الصفحة؟\n"
+"لاجتياز امتحانك المُراقَب، يجب عليك أيضاً اجتياز مراجعة جلسة المُراقَبة عبر الإنترنت."

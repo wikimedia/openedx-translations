@@ -108,11 +108,11 @@ msgstr "معرّف التقييم"
 
 #: data.py:962
 msgid "Assessment Scored Date"
-msgstr "تاريخ التقييم المسجل"
+msgstr "تاريخ تسجيل نتيجة التقييم"
 
 #: data.py:963
 msgid "Assessment Scored Time"
-msgstr "الوقت المسجل في التقييم"
+msgstr "وقت تسجيل نتيجة التقييم"
 
 #: data.py:964
 msgid "Assessment Type"
@@ -260,15 +260,6 @@ msgid ""
 msgstr ""
 "لإضافة المزيد من امتدادات الملفات، اختر أنواع ملفات مخصصة وأدخل القائمة "
 "الكاملة لامتدادات الملفات المقبولة التي سيتم تضمينها."
-
-#: templates/legacy/edit/oa_edit_basic_settings_list.html:91
-msgid "Allow LaTeX Responses"
-msgstr "إتاحة الردود بواسطة نظام ’LaTeX‘"
-
-#: templates/legacy/edit/oa_edit_basic_settings_list.html:97
-msgid "Specify whether learners can write LaTeX formatted strings"
-msgstr ""
-"حدّد ما إذا كان يمكن للطلاب كتابة سلاسل محرفيّة باستخدام تنسيق ’LaTeX‘"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:102
 #: templates/legacy/leaderboard/oa_leaderboard_show.html:8
@@ -1867,7 +1858,7 @@ msgstr "أرسِل"
 
 #: templates/legacy/staff_area/oa_staff_area.html:90
 msgid "Learner Progress"
-msgstr "تقدّم المتعلّم"
+msgstr "تقدم المتعلم"
 
 #: templates/legacy/staff_area/oa_staff_area.html:94
 #: templates/legacy/staff_area/oa_staff_area.html:117
@@ -1924,7 +1915,7 @@ msgstr ""
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:34
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:24
 msgid "Learner Response"
-msgstr "ردّ المتعلّم"
+msgstr "إجابة المتعلم"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:39
 msgid "The teams's response to the prompt above"
@@ -1997,7 +1988,7 @@ msgstr ""
 
 #: templates/legacy/staff_area/oa_student_info.html:28
 msgid "Learner's Response"
-msgstr "ردّ المتعلّم"
+msgstr "إجابة المتعلم"
 
 #: templates/legacy/staff_area/oa_student_info.html:30
 msgid "Team's Response"
@@ -2141,7 +2132,7 @@ msgstr ""
 
 #: templates/legacy/staff_area/oa_student_info.html:177
 msgid "The problem has not been started."
-msgstr "لم ثُبدأ هذه المسألة بعد."
+msgstr "لم تبدأ هذه المسألة بعد."
 
 #: templates/legacy/staff_area/oa_student_info.html:181
 msgid "The problem has not been completed."
@@ -2487,14 +2478,6 @@ msgstr "تمت إعادة ضبط الإرسال بنجاح."
 msgid "Invalid block id."
 msgstr "معرف كتلة غير صالح."
 
-#: xblock/rubric_reuse_mixin.py:72
-#, python-brace-format
-msgid ""
-"No Open Response Assessment found in {course_id} with block id {block_id}"
-msgstr ""
-"لم يُعثَر على تقييم الإجابات المفتوحة في {course_id} بمُعَرَّف كُتلة "
-"{block_id}"
-
 #: xblock/staff_area_mixin.py:42
 msgid "You do not have permission to schedule training"
 msgstr "عذرًا، ليست لديك صلاحية جدولة التدريب."
@@ -2631,8 +2614,8 @@ msgid ""
 "'{date}' is an invalid date format. Make sure the date is formatted as YYYY-"
 "MM-DDTHH:MM:SS."
 msgstr ""
-"تُعد '{date}' صيغة غير صحيحة للتاريخ. يُرجى التأكّد من كتابة التاريخ بهذه "
-"الصيغة YYYY-MM-DDTHH:MM:SS."
+"تُعد '{date}' صيغة غير صحيحة للتاريخ. يُرجى التأكد من كتابة التاريخ بهذا "
+"التنسق YYYY-MM-DDTHH:MM:SS."
 
 #: xblock/utils/resolve_dates.py:57
 #, python-brace-format

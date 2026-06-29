@@ -1231,9 +1231,9 @@ msgid ""
 "course.  Leave this blank if the course has not yet been migrated to the "
 "ecommerce service."
 msgstr ""
-"اختياري: هذه هي وحدة إدارة المخزون (SKU) لـ iOS المُسجَّلة في متجر Apple "
-"لهذا الوضع من المساق. اترك هذا الحقل فارغاً إذا لم يكن المساق قد رُحِّل إلى "
-"خدمة التجارة الإلكترونية بعد."
+"اختياري: هذه هي وحدة إدارة المخزون (SKU) لـ iOS المسجلة في متجر Apple لهذا "
+"الوضع من المساق. اترك هذا الحقل فارغاً إذا لم يكن المساق قد رُحِّل إلى خدمة "
+"التجارة الإلكترونية بعد."
 
 #: common/djangoapps/course_modes/models.py:158
 msgid ""
@@ -2851,7 +2851,7 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"                    أنت مُسجَّل في %(course_name)s في %(platform_name)s. يحتوي هذا المساق على امتحانات مُراقَبة.\n"
+"                    أنت مسجل في %(course_name)s في %(platform_name)s. يحتوي هذا المساق على امتحانات مراقبة.\n"
 "                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:38
@@ -2920,8 +2920,8 @@ msgid ""
 "You are enrolled in %(course_name)s at %(platform_name)s. This course "
 "contains proctored exams."
 msgstr ""
-"أنت مُسجَّل في %(course_name)s في %(platform_name)s. يحتوي هذا المساق على "
-"امتحانات مُراقَبة."
+"أنت مسجل في %(course_name)s في %(platform_name)s. يحتوي هذا المساق على "
+"امتحانات مراقبة."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:5
 #, python-format
@@ -4270,9 +4270,7 @@ msgstr "التَّقييم المَرِن بَين الزُمَلاء لِتقي
 #: lms/djangoapps/courseware/plugins.py:272
 msgid ""
 "Course level settings for Flexible Peer Grading Open Response Assessments."
-msgstr ""
-"إعدادات مُستَوى المُقَرَّر للتَّقييم المَرِن بَين الزُمَلاء لِتقييمات "
-"الإِجابات المفتوحة."
+msgstr "إعدادات المساق للتقييم المرن بين الزملاء لتقييم الإجابات المفتوحة."
 
 #: lms/djangoapps/courseware/tabs.py:36
 #: lms/djangoapps/courseware/views/views.py:2217
@@ -4700,8 +4698,8 @@ msgid ""
 "Invalid course mode: {mode}. Falling back to the default mode, or keeping "
 "the current mode in case the user is already enrolled."
 msgstr ""
-"وضع المُقَرَّر غير صالح: {mode}. سيُعاد إلى الوضع الافتراضي، أو يُحتفَظ "
-"بالوضع الحالي في حال كان المُستَخدِم مُسَجَّلاً بالفِعل."
+"وضع المساق غير صالح: {mode}. سيُعاد إلى الوضع الافتراضي، أو يُحتفظ بالوضع "
+"الحالي في حال كان المستخدم مسجّلاً بالفعل. "
 
 #: lms/djangoapps/instructor/views/api.py:469
 #, python-brace-format
@@ -5162,8 +5160,8 @@ msgid ""
 "Student {user} is already on the certificate invalidation list and cannot be"
 " added to the certificate exception list."
 msgstr ""
-"الطالب {user} موجود بالفِعل في قائمة إبطال الشهادات، ولا يمكن أن يُضاف إلى "
-"قائمة استثناءات الشهادة"
+"الطالب {user} موجود بالفعل في قائمة إبطال الشهادات، ولا يمكن أن يُضاف إلى "
+"قائمة استثناءات الشهادة."
 
 #: lms/djangoapps/instructor/views/api.py:3508
 #, python-brace-format
@@ -5209,7 +5207,7 @@ msgid ""
 "Certificate of {user} has already been invalidated. Please check your "
 "spelling and retry."
 msgstr ""
-"لقد أُبطلت شهادة {user} بالفِعل. من فضلك تحقق من صحة كتابة الاسم ثم أعِد "
+"لقد أُبطلت شهادة {user} بالفعل. من فضلك تحقق من صحة كتابة الاسم ثم أعِد "
 "المحاولة."
 
 #: lms/djangoapps/instructor/views/api.py:3878
@@ -8010,15 +8008,13 @@ msgid ""
 "If enabled, discussion topics will be created for each non-graded unit in "
 "the course. A UI for discussions will show up with each unit."
 msgstr ""
-"في حال تمكين هذا الخيار، فسوف تُنشَأ مواضيع المُناقشة لكل وَحدة غير "
-"مُقَيَّمة في المُقَرَّر. ستَظهر واجِهة للمُناقشات مع كل وَحدة."
+"إذا فُعّل هذا الخيار، فستُنشأ مواضيع المناقشة لكل وحدة غير مقيّمة في المساق."
+" وستظهر واجهة للمناقشات مع كل وحدة."
 
 #: openedx/core/djangoapps/discussions/models.py:453
 msgid ""
 "If enabled, discussion topics will be created for graded units as well."
-msgstr ""
-"في حال تمكين هذا الخيار، فسوف تُنشَأ مواضيع المُناقشة للوحدات المُقَيَّمة "
-"أيضاً"
+msgstr "إذا فُعّل هذا الخيار، فستُنشأ مواضيع المناقشة للوحدات المقيّمة أيضاً."
 
 #: openedx/core/djangoapps/discussions/models.py:457
 msgid ""
@@ -8675,7 +8671,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:27
 msgid "Keep learning today"
-msgstr "تابع التعلّم اليوم"
+msgstr "استمر في التعلم اليوم"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:31
 #, python-brace-format
@@ -8710,12 +8706,12 @@ msgstr "ابدأ التعلم الآن"
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/subject.txt:4
 #, python-format
 msgid "Keep learning on %(platform_name)s"
-msgstr "واصل التعلّم على %(platform_name)s"
+msgstr "استمر في التعلم على %(platform_name)s"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/subject.txt:6
 #, python-format
 msgid "Keep learning in %(course_name)s"
-msgstr "واصل التعلّم في %(course_name)s"
+msgstr "استمر في التعلم في %(course_name)s"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.html:10
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/upgradereminder/email/body.txt:5
@@ -10186,15 +10182,15 @@ msgid ""
 "Your files have been submitted. As soon as your submission is graded, this "
 "message will be replaced with the grader's feedback."
 msgstr ""
-"لقد أُرسلت ملفاتك. لقد اُرسلت إجابتك. ستُستبدل هذه الرسالة بملاحظات المصحّح "
-"بمجرد انتهاء تقييم إجابتك."
+"لقد أُرسلت ملفاتك. ستُستبدل هذه الرسالة بملاحظات المصحّح بمجرد انتهاء تقييم "
+"إجابتك."
 
 #: xmodule/capa/inputtypes.py:806
 msgid ""
 "Your answer has been submitted. As soon as your submission is graded, this "
 "message will be replaced with the grader's feedback."
 msgstr ""
-"لقد اُرسلت إجابتك. ستُستبدل هذه الرسالة بملاحظات المصحّح بمجرد انتهاء تقييم "
+"لقد أُرسلت إجابتك. ستُستبدل هذه الرسالة بملاحظات المصحّح بمجرد انتهاء تقييم "
 "إجابتك."
 
 #: xmodule/capa/inputtypes.py:819
@@ -14409,7 +14405,7 @@ msgstr ""
 
 #: edx_proctoring_proctortrack/backends/proctortrack_rest.py:35
 msgid "Click on the \"Start Proctored Exam\" button below to continue."
-msgstr "أُنقر على زر \"بدء الامتحان المراقب\" أدناه للمتابعة."
+msgstr "انقر على زر \"ابدأ الامتحان المراقب\" أدناه للمتابعة."
 
 #: cms/templates/404.html:7 cms/templates/error.html:12
 #: lms/templates/static_templates/404.html:9
@@ -14987,8 +14983,8 @@ msgid ""
 "To update these settings go to the {link_start}Proctored Exam Settings "
 "page{link_end}."
 msgstr ""
-"لتحديث هذه الإعدادات يرجى الذهاب إلى {link_start}صفحة إعدادات الاختبار "
-"المراقب المتقدمة{link_end}."
+"لتحديث هذه الإعدادات اذهب إلى {link_start}صفحة إعدادات الامتحان "
+"المراقب{link_end}."
 
 #: cms/templates/course_outline.html:175
 #, python-brace-format
@@ -14996,7 +14992,7 @@ msgid ""
 "To update these settings go to the {link_start}Advanced Settings "
 "page{link_end}."
 msgstr ""
-"لتحديث هذه الإعدادات يرجى الذهاب إلى  {link_start}صفحة الإعدادات "
+"لتحديث هذه الإعدادات اذهب إلى  {link_start}صفحة الإعدادات "
 "المتقدمة{link_end}."
 
 #: cms/templates/course_outline.html:182
@@ -15937,13 +15933,6 @@ msgstr ""
 #: cms/templates/howitworks.html:190
 msgid "More than Just Lectures"
 msgstr "أكثر من مجرّد محاضرات"
-
-#: cms/templates/howitworks.html:193
-msgid ""
-"Quickly create videos, text snippets, inline discussions, and a variety of "
-"problem types."
-msgstr ""
-"أَنشئ بسرعة فيديوهات، ومقتطفات نصّية، ونقاشات ضمنية، ومختلف أنواع المسائل. "
 
 #: cms/templates/howitworks.html:206
 #, python-brace-format
@@ -16996,7 +16985,7 @@ msgstr "عملية إعادة التحقّق داخل المساق {number} "
 
 #: cms/templates/settings.html:192
 msgid "Course Pacing"
-msgstr "أسلوب التعلّم المتّبع في المساق:"
+msgstr "أسلوب التعلم المتّبع في المساق"
 
 #: cms/templates/settings.html:193
 msgid "Set the pacing for this course"
@@ -17066,10 +17055,6 @@ msgstr "اليوم الأخير الذي يكون فيه المساق نشطاً
 #: cms/templates/settings.html:246
 msgid "Course End Time"
 msgstr "وقت انتهاء المساق"
-
-#: cms/templates/settings.html:259 cms/templates/settings.html:276
-msgid "Immediately upon passing"
-msgstr "بِمُجَرَّد اجتِياز الامتِحان"
 
 #: cms/templates/settings.html:260
 msgid "End date of course"
@@ -17690,10 +17675,6 @@ msgstr "مأخوذ من المكتبة - ولكن الرابط الأصلي غي
 msgid "Sourced from a library."
 msgstr "مَأخوذ مِن مكتبة."
 
-#: cms/templates/studio_xblock_wrapper.html:143
-msgid "Update available - click to sync"
-msgstr "التَحدِيث مُتاح - أُنقُر للمُزامَنة"
-
 #: cms/templates/studio_xblock_wrapper.html:146
 msgid "Update available"
 msgstr "التَحدِيث مُتاح"
@@ -18050,11 +18031,6 @@ msgstr "العودة إلى {link_start}الصفحة الرئيسية{link_end}.
 #: cms/templates/widgets/deprecated-course-key-warning.html:20
 msgid "Support will be removed in an upcoming release."
 msgstr "ستتم إزالة الدعم في الإصدار القادم."
-
-#: cms/templates/widgets/deprecated-course-key-warning.html:25
-#, python-brace-format
-msgid "Support will be removed on {expiration_date}."
-msgstr "سوف يُزال الدَعم في {expiration_date}"
 
 #: cms/templates/widgets/deprecated-course-key-warning.html:37
 msgid "This course uses a legacy storage format."
@@ -20328,9 +20304,7 @@ msgstr ""
 #: lms/templates/bulk_email/unsubscribe_success.html:25
 #, python-brace-format
 msgid "You have successfully unsubscribed from {org} {course} emails."
-msgstr ""
-"لقد أُلغيَ اشتِراكك في رَسائِل البَريد الإلِكتروني لـ {org} {course} "
-"بِنَجاح."
+msgstr "لقد أُلغي اشتراكك في رسائل البريد الإلكتروني لـ {org} {course} بنجاح."
 
 #: lms/templates/bulk_email/unsubscribe_success.html:31
 #, python-brace-format
@@ -20397,11 +20371,6 @@ msgstr "لا تستخدم مسافات في التعابير."
 msgid "For constants, indicate multiplication explicitly (example: 5*c)."
 msgstr "بالنسبة للثوابت، حدِّد عملية الضرب بوضوح (مثلًا: 5*c). "
 
-#: lms/templates/calculator/toggle_calculator.html:41
-msgid "For affixes, type the number and affix without a space (example: 5c)."
-msgstr ""
-"بالنسبة لللاحقات، أَدخِل الرقم والملحق من دون مسافة بينهما (مثلًا: 5c).  "
-
 #: lms/templates/calculator/toggle_calculator.html:42
 msgid ""
 "For functions, type the name of the function, then the expression in "
@@ -20447,11 +20416,6 @@ msgid "+ - * / (add, subtract, multiply, divide)"
 msgstr "+ - * / (زائد، ناقص، ضرب، قسمة)"
 
 #. Translators: Please do not translate mathematical symbols.
-#: lms/templates/calculator/toggle_calculator.html:73
-msgid "^ (raise to a power)"
-msgstr "^ (أي مرفوع لأُسّ)"
-
-#. Translators: Please do not translate mathematical symbols.
 #: lms/templates/calculator/toggle_calculator.html:75
 msgid "|| (parallel resistors)"
 msgstr "|| (مقاومات متوازية)"
@@ -20462,13 +20426,6 @@ msgstr "|| (مقاومات متوازية)"
 #: lms/templates/calculator/toggle_calculator.html:86
 msgid "Constants"
 msgstr "الثوابت "
-
-#. Translators: This refers to symbols that appear at the end of a number,
-#. such
-#. as the percent sign (%)
-#: lms/templates/calculator/toggle_calculator.html:95
-msgid "Affixes"
-msgstr "اللاحقات"
 
 #: lms/templates/calculator/toggle_calculator.html:96
 msgid "Percent sign (%)"
@@ -20490,21 +20447,11 @@ msgstr "الاقترانات المثلثية"
 msgid "Scientific notation"
 msgstr "الكتابة العلميّة للأعداد"
 
-#. Translators: 10^ is a mathematical symbol. Please do not translate.
-#: lms/templates/calculator/toggle_calculator.html:127
-msgid "10^ and the exponent"
-msgstr "10^ والأُسّ"
-
 #. Translators: this is part of scientific notation. Please see
 #. http://en.wikipedia.org/wiki/Scientific_notation#E_notation
 #: lms/templates/calculator/toggle_calculator.html:132
 msgid "e notation"
 msgstr "الكتابة البرمجية للأعداد"
-
-#. Translators: 1e is a mathematical symbol. Please do not translate.
-#: lms/templates/calculator/toggle_calculator.html:134
-msgid "1e and the exponent"
-msgstr "‏1e والأُسّ"
 
 #: lms/templates/calculator/toggle_calculator.html:143
 msgid "Calculate"
@@ -20881,7 +20828,7 @@ msgid ""
 "graded and non-graded assignments, while the course is running"
 msgstr ""
 "احظَ بصلاحية الوصول إلى {start_bold} جميع أنشطة المساق {end_bold}، بما في "
-"ذلك الواجبات المُقيّمة وغير المُقيّمة، طوال مدة المساق"
+"ذلك الواجبات المقيّمة وغير المقيّمة، طوال مدة المساق"
 
 #: lms/templates/course_modes/fbe.html:24
 msgid "Show more"
@@ -22239,12 +22186,6 @@ msgstr "مع خالص تحيّاتنا،"
 msgid "Warm regards,<br>The {platform_name} Team"
 msgstr "مع خالص تحيّاتنا،<br>فريق {platform_name} "
 
-#. Translators: please translate the text inside [[ ]]. This is meant as a
-#. template for course teams to use.
-#: lms/templates/emails/business_order_confirmation_email.txt:87
-msgid "Dear [[Name]]"
-msgstr "مرحباً [[اسم المتعلّم]]،"
-
 #: lms/templates/emails/business_order_confirmation_email.txt:89
 #, python-brace-format
 msgid ""
@@ -22510,7 +22451,7 @@ msgstr "طلب الحصول على مساعدة مالية"
 
 #: lms/templates/financial-assistance/financial-assistance.html:23
 msgid "A Note to Learners"
-msgstr "ملاحظة للمتعلّمين"
+msgstr "ملاحظة للمتعلمين"
 
 #. Translators: This string will not be used in Open edX installations.
 #: lms/templates/financial-assistance/financial-assistance.html:25
@@ -22816,7 +22757,7 @@ msgstr "عدد المسجّلين (المشرفون والطاقم والطلا�
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:19
 msgid "Audit"
-msgstr "مُستمِع"
+msgstr "مستمع"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:22
 msgid "Honor"
@@ -25177,6 +25118,7 @@ msgid "Subscribe"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:49
+#: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"
 msgstr ""
 
@@ -25186,6 +25128,147 @@ msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
 msgid "Discover courses"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/discovery/course_card.underscore:26
+msgid "Starts: %(start_date)s"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:6
+msgid "Already have an {platformName} account?"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:17
+msgid "Create an account using"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:30
+msgid "Create account using %(providerName)s."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:37
+msgid "Use my institution/campus credentials"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:44
+msgid "or create a new one here"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:49
+msgid "Create an Account"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:62
+msgid "Support education research by providing additional information"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:17
+msgid "Sign in to continue learning as {email}"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:19
+msgid "Sign in to continue learning"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:22
+msgid ""
+"You already have an edX account with your {enterprise_name} email address."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:24
+msgid ""
+"Going forward, your account information will be updated and maintained by "
+"{enterprise_name}."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:26
+msgid ""
+"You can view your information or unlink from {enterprise_name} anytime in "
+"your Account Settings."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:28
+msgid "To continue learning with this account, sign in below."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:30
+msgid "Sign In with"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:37
+msgid ""
+"Sign in here using your email address and password, or use one of the "
+"providers listed below."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:39
+msgid "Sign in here using your email address and password."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:41
+msgid "If you do not yet have an account, use the button below to register."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:46
+msgid "Use my university info"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:51
+msgid "or sign in with"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:64
+msgid "Sign in with"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:75
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:102
+msgid "Sign in with %(providerName)s"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:85
+msgid "First time here?"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:90
+msgid "Create an account with"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
+msgid "Create Your Account via Meta-Wiki"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
+msgid ""
+"It's quick and easy! Make sure to use a valid email to unlock all courses "
+"and content. This helps ensure you can recover your account if you forget "
+"your password or encounter login issues."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
+msgid "You can see this"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
+msgid "video"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
+msgid "in case you need more help"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:111
+msgid ""
+"Tip: Did you know WikiLearn is available in multiple languages? Check the "
+"menu in the top right to switch to yours!"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/learner_dashboard/program_card.underscore:34
+msgid "Remaining"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/static/js/courses.js:27
+msgid "Show All Courses"
 msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:1428

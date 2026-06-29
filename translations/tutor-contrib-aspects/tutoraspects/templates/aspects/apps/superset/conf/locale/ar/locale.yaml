@@ -96,6 +96,7 @@ en:
   Duration (Seconds): المدة (بالثواني)
   Email: البريد الإلكتروني
   Engagement: التفاعل
+  Enrolled At: مسجّل في
   Enrollees by Enrollment Track: المسجّلون وفقاً لمسار التسجيل
   Enrollees per Enrollment Track: المسجّلون لكل مسار تسجيل
   Enrollment: التسجيل
@@ -159,7 +160,6 @@ en:
   Name Org: اسم المؤسسة
   Number of Learners: عدد المتعلمين
   Number of Videos: عدد مقاطع الفيديو
-  Number of Videos Watched: عدد مقاطع الفيديو التي شوهِدت
   Only available in versions Redwood and later: متاح فقط في إصدارات Redwood والأحدث منها
   Operator Dashboard: لوحة تحكم المُشغّل
   Org: المؤسسة
@@ -268,7 +268,7 @@ en:
   Visited On: تمّت زيارته في
   Watched Entire Video: شاهد الفيديو بالكامل
   Watched Time: الوقت المشاهد
-  audit: مُستمِع
+  audit: مستمع
   failed: لم ينجح
   graded: مقيّم
   honor: فخري

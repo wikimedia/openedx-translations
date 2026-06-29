@@ -5,8 +5,8 @@
 # 
 # Translators:
 # Translators:
+# Brian Smith, 2025
 # Eden Huthmacher, 2025
-# Brian Smith, 2026
 # Sulaiman Muthanna, 2026
 # 
 msgid ""
@@ -361,10 +361,6 @@ msgstr "معرّف مؤسسة Salesforce"
 msgid "Salesforce Security Token"
 msgstr "رمز الأمان لـ Salesforce"
 
-#: apps/core/models.py:149
-msgid "Is a Salesforce Sandbox?"
-msgstr "هل بيئة الاختبار (Sandbox) هي Salesforce ؟"
-
 #: apps/core/models.py:155
 msgid "Case Record Type Id"
 msgstr "رمز نوع سجل الحالة"
@@ -401,10 +397,6 @@ msgstr "تحرير الرابط"
 #: apps/course_metadata/admin.py:896
 msgid "Edit course run exclusions"
 msgstr "تحرير تضمينات مشغل المساق"
-
-#: apps/course_metadata/admin.py:898
-msgid "(save and continue editing to create a link)"
-msgstr "(حفظ والاستمرار في التحرير لإنشاء الرابط )"
 
 #: apps/course_metadata/admin.py:1036
 #, python-format
@@ -524,7 +516,7 @@ msgstr "أنشِئ مساقاً"
 
 #: apps/course_metadata/choices.py:55
 msgid "Course Partial Update"
-msgstr "تحديث جزئي للدورة"
+msgstr "تحديث جزئي للمساق"
 
 #: apps/course_metadata/choices.py:56
 msgid "Course Rerun"
@@ -538,29 +530,13 @@ msgstr "تحديث جزئي لتشغيل الدورة"
 msgid "Pending"
 msgstr "في الانتظار"
 
-#: apps/course_metadata/choices.py:65 apps/course_metadata/choices.py:76
-msgid "Verified"
-msgstr "موثَّقة"
-
-#: apps/course_metadata/choices.py:66
-msgid "Processing"
-msgstr "جاري المُعَالَجة"
-
 #: apps/course_metadata/choices.py:67
 msgid "Completed"
 msgstr "مكتمل"
 
-#: apps/course_metadata/choices.py:68
-msgid "Failed"
-msgstr "فَشِل"
-
 #: apps/course_metadata/choices.py:69
 msgid "Partially Completed"
 msgstr "مكتمل جزئياً"
-
-#: apps/course_metadata/choices.py:70
-msgid "Errored"
-msgstr "حَدَث خطأ"
 
 #: apps/course_metadata/choices.py:74
 msgid "Honor"
@@ -568,15 +544,11 @@ msgstr "فخري"
 
 #: apps/course_metadata/choices.py:75
 msgid "Credit"
-msgstr "علامة"
-
-#: apps/course_metadata/choices.py:77
-msgid "Professional"
-msgstr "مهنيّ"
+msgstr "ساعات دراسية معتمدة"
 
 #: apps/course_metadata/choices.py:78
 msgid "Executive Education"
-msgstr "تعليم تنفيذي"
+msgstr "التعليم التنفيذي"
 
 #: apps/course_metadata/choices.py:79
 msgid "Paid Executive Education"
@@ -600,7 +572,7 @@ msgstr "المنصة"
 
 #: apps/course_metadata/choices.py:87
 msgid "Organization"
-msgstr "المؤسسة"
+msgstr "المؤسسة "
 
 #: apps/course_metadata/choices.py:91
 msgid "Short"
@@ -774,10 +746,6 @@ msgstr "معرف فريد عالمي \"UUID\""
 msgid "Course to backpopulate."
 msgstr "المساق المطلوب إعادة تفحصه."
 
-#: apps/course_metadata/management/commands/backpopulate_course_type.py:27
-msgid "KEY"
-msgstr "مفتاح/ أساسي"
-
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:29
 msgid "Organization to backpopulate."
 msgstr "المؤسسة المطلوب إعادة تفحصها."
@@ -801,10 +769,6 @@ msgid ""
 "command line."
 msgstr ""
 "استخدم الوسائط من نموذج BackpopateCourseTypeConfig عوضًا عن سطر الأوامر."
-
-#: apps/course_metadata/management/commands/backpopulate_course_type.py:64
-msgid "You must specify --partner"
-msgstr "عليك أن تحدد --شريكًا"
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:71
 #, python-brace-format
@@ -857,14 +821,6 @@ msgstr "وسيطة ذات تنسيق سيئ \"{}\"، يجب أن تكون بصي
 msgid "Malformed argument \"{}\", UUIDs cannot be equal"
 msgstr "وسيطة ذات تنسيق سيئ \"{}\", لايمكن أن تساوي UUIDs"
 
-#: apps/course_metadata/management/commands/delete_person_dups.py:85
-msgid "Deleting"
-msgstr "جاري الحذف"
-
-#: apps/course_metadata/management/commands/delete_person_dups.py:85
-msgid "Would delete"
-msgstr "ترغب بالحذف"
-
 #: apps/course_metadata/management/commands/delete_person_dups.py:86
 msgid "Name"
 msgstr "الاسم"
@@ -877,21 +833,13 @@ msgstr "تأييدات"
 msgid "Programs"
 msgstr "البرامج"
 
-#: apps/course_metadata/management/commands/delete_person_dups.py:89
-msgid "Course Runs"
-msgstr "مجرى الدورة"
-
 #: apps/course_metadata/management/commands/delete_person_dups.py:90
 msgid "Target"
 msgstr "الهدف"
 
-#: apps/course_metadata/management/commands/delete_person_dups.py:129
-msgid "You must specify --partner-code"
-msgstr "عليك أن تحدد -رمز--شريك"
-
 #: apps/course_metadata/management/commands/delete_person_dups.py:132
 msgid "You must specify at least one person"
-msgstr "يجب أن تحدد شخصًا واحدًا على الأقل"
+msgstr "يجب أن تحدد شخصاً واحداً على الأقل"
 
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:23
 #, python-brace-format
@@ -961,10 +909,6 @@ msgid ""
 msgstr ""
 "يرجى عدم استخدام أي مسافات أو أحرف الحلات الخاصة غير النقطة أو الشرطة "
 "السفلية أو الواصلة. سيتم استخدام هذا المفتاح في مفتاح المساق."
-
-#: apps/course_metadata/models.py:248
-msgid "Spanish Description"
-msgstr "وصف إسباني"
 
 #: apps/course_metadata/models.py:249
 msgid ""
@@ -1044,7 +988,7 @@ msgstr ""
 
 #: apps/course_metadata/models.py:488
 msgid "Please provide an image file with transparent background"
-msgstr "الرجاء تقديم ملف صورة مع خلفية شفافة"
+msgstr "من فضلك قدِّم ملفاً يحتوي على صورة ذات خلفية شفافة."
 
 #: apps/course_metadata/models.py:491 apps/course_metadata/models.py:535
 #: apps/course_metadata/models.py:701 apps/course_metadata/models.py:739
@@ -1306,14 +1250,6 @@ msgstr "المستقبل"
 msgid "Past"
 msgstr "الماضي"
 
-#: apps/course_metadata/models.py:2229 apps/course_metadata/models.py:3305
-msgid "Blocked"
-msgstr "تم الحظر"
-
-#: apps/course_metadata/models.py:2230 apps/course_metadata/models.py:3306
-msgid "Unrestricted"
-msgstr "إلغاء القيود"
-
 #: apps/course_metadata/models.py:2251
 msgid ""
 "Title specific for this run of a course. Leave this value blank to default "
@@ -1463,14 +1399,6 @@ msgstr "أداة ربط مختصرة لموقع التسويق."
 #: apps/course_metadata/models.py:3317
 msgid "The lifecycle status of this Program."
 msgstr "حالة دورة حياة هذا البرنامج."
-
-#: apps/course_metadata/models.py:3329
-msgid ""
-"If this box is not checked, courses will be ordered as in the courses select"
-" box above."
-msgstr ""
-"إذا لم يتم تحديد هذا المربع، سيتم ترتيب الدورات كما في مربع تحديد الدورات "
-"أعلاه."
 
 #: apps/course_metadata/models.py:3344
 msgid ""
@@ -1705,17 +1633,9 @@ msgstr "شهادة"
 msgid "Checkmark"
 msgstr "Checkmark"
 
-#: apps/course_metadata/models.py:4183
-msgid "Clock"
-msgstr "الساعة"
-
 #: apps/course_metadata/models.py:4184
 msgid "Desktop"
 msgstr "سطح المكتب"
-
-#: apps/course_metadata/models.py:4185
-msgid "Info"
-msgstr "معلومات"
 
 #: apps/course_metadata/models.py:4186
 msgid "Sitemap"
@@ -1740,10 +1660,6 @@ msgstr "لوحة الدائرة"
 #: apps/course_metadata/models.py:4191
 msgid "Star"
 msgstr "نجمة"
-
-#: apps/course_metadata/models.py:4192
-msgid "Trophy"
-msgstr "وسام"
 
 #: apps/course_metadata/models.py:4196
 msgid "Icon FA class"
@@ -1791,11 +1707,7 @@ msgstr "فيسبوك"
 
 #: apps/course_metadata/models.py:4420
 msgid "Twitter"
-msgstr "تويتر"
-
-#: apps/course_metadata/models.py:4421
-msgid "Blog"
-msgstr "مدونة"
+msgstr "تويتر (أكس)"
 
 #: apps/course_metadata/models.py:4422
 msgid "Others"
@@ -1919,7 +1831,7 @@ msgstr "ألغِ"
 
 #: apps/course_metadata/templates/admin/course_metadata/course_run.html:27
 msgid "Back to Program"
-msgstr "عودة إلى البرنامج"
+msgstr "عُد إلى المساق"
 
 #: apps/course_metadata/templates/admin/course_metadata/course_run.html:29
 msgid "Save Course Run"
@@ -1933,17 +1845,7 @@ msgstr "الصفحة الرئيسية"
 
 #: apps/course_metadata/templates/admin/course_metadata/course_skills.html:26
 msgid "Course Skills"
-msgstr "مهارات الدورة"
-
-#: apps/course_metadata/templates/admin/course_metadata/refresh_course_skills.html:22
-#: apps/course_metadata/templates/admin/course_metadata/refresh_course_skills.html:32
-msgid "Refresh Course Skills"
-msgstr "تحديث مهارات الدورة"
-
-#: apps/course_metadata/templates/admin/course_metadata/refresh_program_skills.html:22
-#: apps/course_metadata/templates/admin/course_metadata/refresh_program_skills.html:32
-msgid "Refresh Program Skills"
-msgstr "تحديث مهارات البرنامج"
+msgstr "مهارات المساق"
 
 #: apps/course_metadata/templates/course_metadata/email/comment.html:7
 #, python-format
@@ -1999,7 +1901,7 @@ msgstr ""
 #, python-brace-format
 msgid "{link_start}{preview_url}{link_middle}View this About page.{link_end}"
 msgstr ""
-"{link_start}{preview_url}{link_middle}اطّلع على صفحة \"حول المساق\" "
+"{link_start}{preview_url}{link_middle}اطّلِع على صفحة \"حول المساق\" "
 "هذه.{link_end}"
 
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:33
@@ -2009,12 +1911,12 @@ msgstr ""
 msgid ""
 "{link_start}{contact_us_email}{link_middle}{contact_us_email}{link_end}"
 msgstr ""
-"{link_start}{contact_us_email}{link_middle}{contact_us_email} {link_end}"
+"{link_start}{contact_us_email}{link_middle}{contact_us_email}{link_end}"
 
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:11
 #, python-format
 msgid "View this About page. %(preview_url)s"
-msgstr "اطّلع على صفحة \"حول المساق\" هذه.%(preview_url)s"
+msgstr "اطّلِع على صفحة \"حول المساق\" هذه.%(preview_url)s"
 
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:15
 #: apps/course_metadata/templates/course_metadata/email/legal_review.txt:15

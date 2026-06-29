@@ -563,8 +563,7 @@ msgid ""
 "The encrypted OAuth client identifier. It will be encrypted when stored in "
 "the database."
 msgstr ""
-"مُعَرَّف عميل OAuth المُشَفَّر. سيكون مُشَفَراً عندما يُخَزَّن في قاعِدة "
-"البيانات."
+"معرّف عميل OAuth المشفّر. سيكون مشفّراً عندما يُخزن في قاعدة البيانات."
 
 #: integrated_channels/sap_success_factors/models.py:117
 msgid "Base URL of success factors API."
@@ -582,9 +581,7 @@ msgstr "عوامل النجاح معرف المستخدم."
 msgid ""
 "The encrypted OAuth client secret. It will be encrypted when stored in the "
 "database."
-msgstr ""
-"سِر عميل OAuth المُشَفَّر. سيكون مُشَفَراً عندما يُخَزَّن في قاعِدة "
-"البيانات."
+msgstr "سر عميل OAuth المشفّر. سيكون مشفّراً عندما يُخزن في قاعدة البيانات."
 
 #: integrated_channels/sap_success_factors/models.py:173
 msgid "Type of SAP User (admin or user)."
@@ -1545,7 +1542,7 @@ msgid ""
 "Whether the enterprise subsidy is revoked, e.g., when a user's license is "
 "revoked."
 msgstr ""
-"ما إذا كان قد تم إلغاء دعم المؤسسة، على سبيل المثال، عند إلغاء ترخيص "
+"ما إذا كان قد أُلغي الدعم المالي المؤسسة، على سبيل المثال، عند إلغاء ترخيص "
 "المستخدم."
 
 #: enterprise/models.py:2530
@@ -1560,6 +1557,17 @@ msgstr ""
 "المُقَرَّر أو نُسخة المُقَرَّر الذي يَجِب على المُستَخدِمين المُرتبطين به "
 "أنْ يُسَجِّلوا تِلقائِياً فيه."
 
+#: enterprise/models.py:2710
+#, python-brace-format
+msgid ""
+"A default enrollment intention with this enterprise customer and content key"
+" already exists, but is soft-deleted. Please restore it <a "
+"href=\"{existing_record_admin_url}\">here</a>."
+msgstr ""
+"يوجد نية تسجيل افتراضية بالفعل مع عميل المؤسسة هذا ومفتاح المحتوى، لكنها "
+"محذوفة بشكل مؤقت. يرجى استعادتها من <a "
+"href=\"{existing_record_admin_url}\">هنا</a>."
+
 #: enterprise/models.py:2793
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
@@ -1567,7 +1575,7 @@ msgid ""
 "object means that all available content items will be included in the "
 "catalog.  Must be unique."
 msgstr ""
-"متغيرات الاستعلام التي ستُستخدم لتصفية نتائج بحث / جميع نتائج نقطة النهاية "
+"متغيرات الاستعلام التي ستُستخدم لتصفية نتائج بحث/جميع نتائج نقطة النهاية "
 "الخاصة بـ Discovery Service، محددة على أنّها كائن JSON. كائن JSON الفارغ "
 "يعني أنّ جميع عناصر المحتوى المتاحة ستُدرج في الدليل. يجب أن تكون هذه "
 "المتغيرات فريدة من نوعها."
@@ -1599,7 +1607,7 @@ msgid ""
 "object means that all available content items will be included in the "
 "catalog."
 msgstr ""
-"متغيرات الاستعلام التي ستُستخدم لتصفية نتائج بحث / جميع نتائج نقطة النهاية "
+"متغيرات الاستعلام التي ستُستخدم لتصفية نتائج بحث/جميع نتائج نقطة النهاية "
 "الخاصة بـ Discovery Service، محددة على أنّها كائن JSON. كائن JSON الفارغ "
 "يعني أنّ جميع عناصر المحتوى المتاحة ستُدرج في الدليل."
 
@@ -1665,14 +1673,6 @@ msgstr "طريقة التوصيل"
 #: enterprise/models.py:3387
 msgid "The method in which the data should be sent."
 msgstr "الطريقة التي يجب أن يتم بها إرسال البيانات."
-
-#: enterprise/models.py:3392
-msgid ""
-"Specifies whether report should be compressed. Without compression files "
-"will not be password protected or encrypted."
-msgstr ""
-"يحدد ما إذا كان ينبغي ضغط التقرير. بدون ضغط الملفات لن تكون محمية بكلمة مرور"
-" أو مشفرة."
 
 #: enterprise/models.py:3399
 msgid "PGP Encryption Key"
@@ -1768,50 +1768,17 @@ msgstr ""
 msgid "SFTP Host name"
 msgstr "اسم مضيف SFTP"
 
-#: enterprise/models.py:3466
-msgid "If the delivery method is sftp, the host to deliver the report to."
-msgstr "إذا كانت طريقة التسليم هي sftp، فيجب على المضيف تسليم التقرير إليه."
-
 #: enterprise/models.py:3471
 msgid "SFTP Port"
 msgstr "منفذ SFTP"
-
-#: enterprise/models.py:3472
-msgid "If the delivery method is sftp, the port on the host to connect to."
-msgstr ""
-"إذا كانت طريقة التسليم هي sftp، فيجب الاتصال بالمنفذ الموجود على المضيف."
 
 #: enterprise/models.py:3479
 msgid "SFTP username"
 msgstr "اسم مستخدم SFTP"
 
-#: enterprise/models.py:3480
-msgid ""
-"If the delivery method is sftp, the username to use to securely access the "
-"host."
-msgstr ""
-"إذا كانت طريقة التسليم هي sftp، اسم المستخدم الذي سيتم استخدامه للوصول بشكل "
-"آمن إلى المضيف."
-
-#: enterprise/models.py:3486
-msgid ""
-"If the delivery method is sftp, the password to use to securely access the "
-"host. The password will be encrypted when stored in the database."
-msgstr ""
-"إذا كانت طريقة التسليم هي sftp، فستكون كلمة المرور المستخدمة للوصول إلى "
-"المضيف بشكل آمن. سيتم تشفير كلمة المرور عند تخزينها في قاعدة البيانات."
-
 #: enterprise/models.py:3493
 msgid "SFTP file path"
 msgstr "مسار ملف SFTP"
-
-#: enterprise/models.py:3494
-msgid ""
-"If the delivery method is sftp, the path on the host to deliver the report "
-"to."
-msgstr ""
-"إذا كانت طريقة التسليم هي sftp، فهو المسار الموجود على المضيف لتسليم التقرير"
-" إليه."
 
 #: enterprise/models.py:3602
 msgid "Delivery method cannot be updated"
@@ -1840,23 +1807,6 @@ msgid "Decrypted password must be set if the delivery method is email."
 msgstr ""
 "يجب تعيين كلمة المرور التي تم فك تشفيرها إذا كانت طريقة التسليم هي البريد "
 "الإلكتروني."
-
-#: enterprise/models.py:3639
-msgid "SFTP Hostname must be set if the delivery method is sftp."
-msgstr "يجب تعيين اسم مضيف SFTP إذا كانت طريقة التسليم هي sftp."
-
-#: enterprise/models.py:3641
-msgid "SFTP username must be set if the delivery method is sftp."
-msgstr "يجب تعيين اسم مستخدم SFTP إذا كانت طريقة التسليم هي sftp."
-
-#: enterprise/models.py:3643
-msgid "SFTP File Path must be set if the delivery method is sftp."
-msgstr "يجب تعيين مسار ملف SFTP إذا كانت طريقة التسليم هي sftp."
-
-#: enterprise/models.py:3646
-msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
-msgstr ""
-"يجب تعيين كلمة مرور SFTP التي تم فك تشفيرها إذا كانت طريقة التسليم هي SFTP."
 
 #: enterprise/models.py:3709
 msgid ""
@@ -1966,7 +1916,7 @@ msgstr "الاسم المستخدم لتكوين الدخول الموحّد (SS
 
 #: enterprise/models.py:4395
 msgid "The identity provider integrated with by the SSO orchestrator ."
-msgstr "لقد دُمِج مُزوِّد الهوية بواسطة منسّق تسجيل الدخول الموحد (SSO)."
+msgstr "لقد دُمج مزوّد الهوية بواسطة منسّق تسجيل الدخول الموحد (SSO)."
 
 #: enterprise/models.py:4404
 msgid "The metadata url of the identity provider."
@@ -2074,12 +2024,6 @@ msgstr "اللحظة التي يتم فيها كتابة سجل العضوية �
 #: enterprise/models.py:4845
 msgid "Current status of the membership record"
 msgstr "الوضع الحالي لسجل العضوية"
-
-#: enterprise/models.py:4852
-msgid ""
-"The moment at which the membership record was revoked by an Enterprise "
-"admin."
-msgstr "اللحظة التي تم فيها إلغاء سجل العضوية بواسطة مسؤول المؤسسة."
 
 #: enterprise/models.py:4865
 msgid "Enterprise Group Membership"
@@ -2652,7 +2596,7 @@ msgstr "الالتحاق بالبرنامج"
 
 #: enterprise/views.py:2098
 msgid "enrolled"
-msgstr "مُسَجَّل"
+msgstr "مسجل"
 
 #: enterprise/views.py:2099
 msgid "already enrolled, must pay for certificate"

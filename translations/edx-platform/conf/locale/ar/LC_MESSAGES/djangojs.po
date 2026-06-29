@@ -65,8 +65,7 @@ msgid ""
 "This certificate has already been activated and is live. Are you sure you "
 "want to continue editing?"
 msgstr ""
-"هذه الشهادة نشطة وموجودة بالفِعل! هل أنت واثق من رغبتك في الاستمرار "
-"بالتعديل؟"
+"هذه الشهادة نشطة وموجودة بالفعل! هل أنت واثق من رغبتك في الاستمرار بالتعديل؟"
 
 #: cms/static/js/certificates/views/certificate_details.js:48
 msgid "Yes, allow edits to the active Certificate"
@@ -689,7 +688,7 @@ msgid ""
 "The following files already exist in this course but don't match the version"
 " used by the component you pasted:"
 msgstr ""
-"الملفات التالية موجودة بالفِعل في هذا المساق ولكنها لا توافق الإصدار الذي "
+"الملفات التالية موجودة بالفعل في هذا المساق ولكنها لا توافق الإصدار الذي "
 "يستخدمه المكون الذي ألصقته:"
 
 #: cms/static/js/views/course_outline.js:407
@@ -1055,10 +1054,6 @@ msgstr "أأنشر كل التغييرات غير المنشورة لـ {item} �
 msgid "Publish"
 msgstr "انشر"
 
-#: cms/static/js/views/modals/course_outline_modals.js:239
-msgid "Highlights for {display_name}"
-msgstr "لمحات عن {display_name}"
-
 #: cms/static/js/views/modals/course_outline_modals.js:279
 msgid "Enable Course Highlight Emails"
 msgstr "تفعيل رسائل البريد الإلكتروني عن تلميحات المساق"
@@ -1305,6 +1300,10 @@ msgstr ""
 msgid "content group"
 msgstr "مجموعة المحتوى"
 
+#: cms/static/js/views/partition_group_list.js:23
+msgid "Add your first content group"
+msgstr "أضِف مجموعة المحتوى الأولى لك"
+
 #: cms/static/js/views/partition_group_list.js:25
 msgid "You have not created any content groups yet."
 msgstr "لم تُنشِئ أيّ مجموعات محتوى بعد."
@@ -1475,7 +1474,7 @@ msgstr "لقد اجريت بعض التغييرات، ولكن هناك بعض �
 #: cms/static/js/views/validation.js:25
 msgid ""
 "Please address the errors on this page first, and then save your progress."
-msgstr "يُرجى تصحيح الأخطاء في هذه الصفحة أوّلًا، ثم حفّظ خطوات تقدّمك."
+msgstr "يُرجى تصحيح الأخطاء في هذه الصفحة أولاً، ثم حفظ تقدمك."
 
 #: cms/static/js/views/validation.js:118
 msgid "Save Changes"
@@ -2871,9 +2870,8 @@ msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Add to Exception List\" button."
 msgstr ""
-"حقل اسم الطالب/عنوان البريد الإلكتروني مطلوب ولا يمكن تركه فارغًا. يُرجى ملء"
-" اسم المستخدم/البريد الإلكتروني ومن ثم الضغط على زر \"أضف إلى قائمة "
-"الاستثناء\""
+"حقل اسم المستخدم/البريد الإلكتروني للطالب مطلوب ولا يمكن أن يُترك فارغاً. من"
+" فضلك املأ الحقل، ومن ثم اضغط على زر \"أضِف إلى قائمة الاستثناء\"."
 
 #: lms/static/js/certificates/models/certificate_invalidation.js:28
 msgid ""
@@ -2894,45 +2892,37 @@ msgstr "خطأ في الخادم، من فضلك حدِّث الصفحة ثم ح
 msgid "<%- user %> already in exception list."
 msgstr "<%- user %>  موجود مسبقًا في قائمة الاستثناء."
 
-#: lms/static/js/certificates/views/certificate_allowlist_editor.js:69
-msgid ""
-"<%- user %> has been successfully added to the exception list. Click "
-"Generate Exception Certificate below to send the certificate."
-msgstr ""
-"تم إضافة <%- user %> بنجاح إلى قائمة الاستثناء. أنقر على أنشئ شهادة "
-"استثنائية أدناه لإرسال الشهادة."
-
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:106
 msgid " learners were successfully added to exception list"
-msgstr "تم إضافة الطلّاب بنجاح إلى قائمة الإستثناء"
+msgstr "لقد أُضيف المتعلمون إلى قائمة الإستثناء بنجاح"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:107
 msgid " learner was successfully added to the exception list"
-msgstr "جرت إضافة طالب بنجاح إلى قائمة الإستثناء"
+msgstr "لقد أُضيف المتعلم إلى قائمة الإستثناء بنجاح"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:112
 msgid ""
 " records are not in the correct format and have not been added to the "
 "exception list"
-msgstr "صيغ السِجِلات غير صحيحة، ولذا لم يُضافوا إلى قائمة الاستثناء"
+msgstr "صيغ السِجلات غير صحيحة، ولم يُضافوا إلى قائمة الاستثناء"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:114
 msgid ""
 " record is not in the correct format and has not been added to the exception"
 " list"
-msgstr "صيغة السِجِل غير صحيحة، ولذا لم يُضَف إلى قائمة الاستثناء"
+msgstr "صيغة السِجل غير صحيحة، ولم يُضف إلى قائمة الاستثناء"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:120
 msgid ""
 " learner accounts cannot be found and have not been added to the exception "
 "list"
-msgstr "لم يُعثر على حسابات المتعلمين، ولذا لم يُضافوا إلى قائمة الاستثناء"
+msgstr "لم يُعثر على حسابات المتعلمين، ولم يُضافوا إلى قائمة الاستثناء"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:122
 msgid ""
 " learner account cannot be found and has not been added to the exception "
 "list"
-msgstr "لم يُعثر على حساب المتعلم، ولذا لم يُضَف إلى قائمة الاستثناء"
+msgstr "لم يُعثر على حساب المتعلم، ولم يُضف إلى قائمة الاستثناء"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:128
 msgid " learners already appear on the exception list in this course"
@@ -2946,13 +2936,13 @@ msgstr "طالب مضاف في لائحة الاستثناء من قبل, في �
 msgid ""
 " learners are not enrolled in this course and have not added to the "
 "exception list"
-msgstr "الطلّاب غير مسجلين في المساق ولم تتم إضافتهم إلى لائحة الاستثناءات"
+msgstr "الطلاب غير مسجلين في المساق، ولم يُضافوا إلى قائمة الاستثناء"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:136
 msgid ""
 " learner is not enrolled in this course and has not been added to the "
 "exception list"
-msgstr "الطالب غير مسجّل في هذا المساق، ولم يُضَف إلى قائمة الاستثناء."
+msgstr "الطالب غير مسجل في هذا المساق، ولم يُضف إلى قائمة الاستثناء."
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:150
 msgid " learners encountered unknown errors"
@@ -2971,8 +2961,8 @@ msgid ""
 "Certificate of <%= user %> has already been invalidated. Please check your "
 "spelling and retry."
 msgstr ""
-"لقد أُبطلت شهادة <%= user %> بالفِعل. من فضلك تحقق من صحة كتابة الاسم ثم "
-"أعِد المحاولة."
+"لقد أُبطلت شهادة <%= user %> بالفعل. من فضلك تحقق من صحة كتابة الاسم ثم أعِد"
+" المحاولة."
 
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:59
 msgid "Certificate has been successfully invalidated for <%= user %>."
@@ -3228,12 +3218,12 @@ msgstr "يُرجى إدخال اسم مستخدم أو عنوان بريد إل�
 #: lms/static/js/groups/views/cohort_editor.js:175
 msgid "{numUsersAdded} learner has been added to this cohort. "
 msgid_plural "{numUsersAdded} learners have been added to this cohort. "
-msgstr[0] "لم يُضَف أي متعلم إلى هذه الشُعبة"
-msgstr[1] "أُضيفَ متعلم واحد إلى هذه الشُعبة. "
-msgstr[2] "أُضيفَ متعلمان إلى هذه الشُعبة. "
-msgstr[3] "أُضيفَ {numUsersAdded} متعلمين إلى هذه الشُعبة. "
-msgstr[4] "أُضيفَ {numUsersAdded} متعلماً إلى هذه الشُعبة. "
-msgstr[5] "أُضيفَ {numUsersAdded} متعلمٍ إلى هذه الشُعبة. "
+msgstr[0] "لم يُضَف أيّ متعلم إلى هذه الشعبة."
+msgstr[1] "أُضيف متعلم واحد إلى هذه الشعبة."
+msgstr[2] "أُضيف متعلمان إلى هذه الشعبة."
+msgstr[3] "أُضيف {numUsersAdded} متعلمين إلى هذه الشعبة."
+msgstr[4] "أُضيف {numUsersAdded} متعلماً إلى هذه الشعبة."
+msgstr[5] "أُضيف {numUsersAdded} متعلم إلى هذه الشعبة."
 
 #: lms/static/js/groups/views/cohort_editor.js:195
 msgid "{numMoved} learner was moved from {prevCohort}"
@@ -3248,12 +3238,12 @@ msgstr[5] "نُقِلَ {numMoved} متعلم من {prevCohort}"
 #: lms/static/js/groups/views/cohort_editor.js:205
 msgid "{numPresent} learner was already in the cohort"
 msgid_plural "{numPresent} learners were already in the cohort"
-msgstr[0] "لم يَكُن أي متعلم موجود في الشُعبة من قبل"
-msgstr[1] "كان هناك متعلم واحد موجود بالفِعل في الشُعبة"
-msgstr[2] "كان هناك متعلمان موجودان بالفِعل في الشُعبة"
-msgstr[3] "كان هناك {numPresent} متعلمين موجودين بالفِعل في الشُعبة"
-msgstr[4] "كان هناك {numPresent} متعلماً موجوداً بالفِعل في الشُعبة"
-msgstr[5] "كان هناك {numPresent} متعلم موجود بالفِعل في الشُعبة"
+msgstr[0] "لم يَكُن أيّ متعلم موجود في الشعبة من قبل "
+msgstr[1] "كان هناك متعلم واحد موجود بالفعل في الشعبة "
+msgstr[2] "كان هناك متعلمان موجودان بالفعل في الشعبة"
+msgstr[3] "كان هناك {numPresent} متعلمين موجودين بالفعل في الشعبة"
+msgstr[4] "كان هناك {numPresent} متعلماً موجوداً بالفعل في الشعبة"
+msgstr[5] "كان هناك {numPresent} متعلم موجود بالفعل في الشعبة"
 
 #: lms/static/js/groups/views/cohort_editor.js:231
 msgid "{email}"
@@ -3487,7 +3477,7 @@ msgstr "البريد الإلكتروني"
 #: lms/static/js/instructor_dashboard/membership.js:117
 #: lms/static/js/instructor_dashboard/membership.js:173
 msgid "Revoke access"
-msgstr "إلغاء صلاحيات الوصول"
+msgstr "ألغِ صلاحية الوصول"
 
 #: lms/static/js/instructor_dashboard/membership.js:117
 msgid "Group"
@@ -3553,7 +3543,7 @@ msgstr ""
 #: lms/static/js/instructor_dashboard/membership.js:518
 #: lms/static/js/instructor_dashboard/membership.js:728
 msgid "This field must not be blank"
-msgstr "يَجِب ألّا يُترَك هذا الحقل خالياً"
+msgstr "يجب ألّا يُترك هذا الحقل فارغاً"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:534
@@ -3667,7 +3657,7 @@ msgstr "يجب ملء خانة الموضوع في رسالتك عبر البر�
 
 #: lms/static/js/instructor_dashboard/send_email.js:70
 msgid "Your message cannot be blank."
-msgstr "لا يمكن لرسالتك عبر البريد الإلكتروني أن تكون فارغة."
+msgstr "لا يمكن أن تُترك رسالتك فارغةً."
 
 #: lms/static/js/instructor_dashboard/send_email.js:73
 msgid "Your message must have at least one target."
@@ -4034,7 +4024,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/util.js:207
 msgid "Sent By"
-msgstr "المرسِل"
+msgstr "أرسلها"
 
 #: lms/static/js/instructor_dashboard/util.js:215
 msgid "Sent To"
@@ -4055,10 +4045,6 @@ msgstr "انسخ البريد الإلكتروني إلى المحرر"
 #: lms/static/js/instructor_dashboard/util.js:287
 msgid "Subject:"
 msgstr "الموضوع:"
-
-#: lms/static/js/instructor_dashboard/util.js:288
-msgid "Sent By:"
-msgstr "المرسِل:"
 
 #: lms/static/js/instructor_dashboard/util.js:289
 msgid "Time Sent:"
@@ -4467,17 +4453,6 @@ msgstr ""
 msgid "An unexpected error has occurred."
 msgstr "حدث خطأ غير متوقع."
 
-#: lms/static/js/student_account/views/LoginView.js:277
-msgid ""
-"You have successfully signed into %(currentProvider)s, but your "
-"%(currentProvider)s account does not have a linked %(platformName)s account."
-" To link your accounts, sign in now using your %(platformName)s password."
-msgstr ""
-"تم الحصول على معلوماتك من %(currentProvider)s، لكنّ حسابك على "
-"%(currentProvider)s غير مرتبط بأي حساب على %(platformName)s. لربط حساباتك؛ "
-"يُرجى تعبئة البيانات المطلوبة والمتبقية في صفحة التسجيل على "
-"%(platformName)s."
-
 #: lms/static/js/student_account/views/RegisterView.js:339
 msgid "(required)"
 msgstr "(مطلوب)"
@@ -4872,7 +4847,7 @@ msgstr "{label}: {status}"
 
 #: xmodule/js/src/capa/display.js:712
 msgid "This problem has been reset."
-msgstr "تم إعادة ضبط هذه المسألة."
+msgstr "لقد أُعيد ضبط هذه المسألة."
 
 #: xmodule/js/src/capa/display.js:1018
 msgid "unsubmitted"
@@ -4965,12 +4940,6 @@ msgstr "نقاط إرساء"
 #: xmodule/js/src/html/edit.js:270
 msgid "Author"
 msgstr "المؤلف"
-
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: xmodule/js/src/html/edit.js:275
-msgid "Background color"
-msgstr "لون الخلفية"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -5918,26 +5887,6 @@ msgstr "لون النص"
 msgid "Text to display"
 msgstr "النص المعروض"
 
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: xmodule/js/src/html/edit.js:1150
-msgid ""
-"The URL you entered seems to be an email address. Do you want to add the "
-"required mailto: prefix?"
-msgstr ""
-"يبدو أنّ الرابط الذي أدخلته هو عنوان بريد إلكتروني، هل تريد إضافة ’mailto:‘"
-"  في المقدمة؟"
-
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: xmodule/js/src/html/edit.js:1155
-msgid ""
-"The URL you entered seems to be an external link. Do you want to add the "
-"required http:// prefix?"
-msgstr ""
-"يبدو أن الرابط الذي أدخلته هو رابط خارجي، هل تريد إضافة البادئة المطلوبة "
-"http:// ؟"
-
 #. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -6077,7 +6026,7 @@ msgid ""
 msgstr ""
 "انقر على \"موافق\" لإرسال اسم المستخدم الخاص بك إلى تطبيق تابع لجهة خارجية.\n"
 "\n"
-"انقُر على \"ألغِ\" للعودة إلى هذه الصفحة دون إرسال معلوماتك."
+"انقر على \"ألغِ\" للعودة إلى هذه الصفحة دون إرسال معلوماتك."
 
 #: xmodule/js/src/lti/lti.js:28
 msgid ""
@@ -6157,7 +6106,7 @@ msgstr "إلغاء كتم الصوت"
 #: xmodule/js/src/video/00_i18n.js:19
 #: xmodule/js/src/video/04_video_full_screen.js:229
 msgid "Exit full browser"
-msgstr "الخروج من وضع ملء الشاشة"
+msgstr "الخروج من وضع ملء الشاشة في المتصفح"
 
 #: xmodule/js/src/video/00_i18n.js:20
 #: xmodule/js/src/video/04_video_full_screen.js:7
@@ -6392,8 +6341,8 @@ msgid ""
 "minimum completion percentage to limit access to this subsection. Allowed "
 "values are 0-100"
 msgstr ""
-"حدِّد قسماً فرعياً كمتطلب، وأدخِل النسبة المئوية الأدنى للدرجة والحد الأدنى "
-"لنسبة الإنجاز، لتقييد الوصول إلى هذا القسم الفرعي، القِيَم المسموح بها هي "
+"حدد قسماً فرعياً كمتطلب، ثم أدخِل النسبة المئوية الأدنى للدرجة والحد الأدنى "
+"لنسبة الإنجاز، لتقييد الوصول إلى هذا القسم الفرعي، القِيم المسموح بها هي "
 "0-100"
 
 #: cms/templates/js/access-editor.underscore:11
@@ -6430,7 +6379,7 @@ msgstr "استخدمه كمتطلّب أساسي"
 
 #: cms/templates/js/access-editor.underscore:51
 msgid "Make this subsection available as a prerequisite to other content"
-msgstr "أتِح هذا القسم الفرعي كمتطلب مسبق لمحتوى آخر"
+msgstr "اجعل هذا القسم الفرعي متاحاً كمتطلب مسبق لمحتوى آخر"
 
 #: cms/templates/js/active-video-upload.underscore:8
 msgid "Read More"
@@ -6928,7 +6877,7 @@ msgstr "إعدادات المراقبة"
 #: cms/templates/js/course-outline.underscore:240
 #: cms/templates/js/course-outline.underscore:242
 msgid "Configure"
-msgstr "اضبِط الإعدادات"
+msgstr "اضبط الإعدادات"
 
 #: cms/templates/js/course-outline.underscore:215
 #: cms/templates/js/tag-count.underscore:2
@@ -6972,11 +6921,6 @@ msgstr "مجدوَل:"
 #: lms/templates/ccx/schedule.underscore:103
 msgid "Unscheduled"
 msgstr "غير مجدوَل"
-
-#: cms/templates/js/course-outline.underscore:311
-#: cms/templates/js/highlights-editor.underscore:2
-msgid "Section Highlights"
-msgstr "أبرز سمات القسم"
 
 #: cms/templates/js/course-outline.underscore:318
 #: cms/templates/js/course-outline.underscore:351
@@ -7649,10 +7593,6 @@ msgstr "توقيت الإصدار بحسب التوقيت العالمي الم�
 msgid "Clear Release Date/Time"
 msgstr "احذف تاريخ/وقت الإصدار"
 
-#: cms/templates/js/self-paced-due-date-editor.underscore:5
-msgid "Due in:"
-msgstr "تَبَقَّى لِمَوْعِد التسليم:"
-
 #: cms/templates/js/self-paced-due-date-editor.underscore:8
 msgid "weeks from learner enrollment date"
 msgstr "الأسابيع منذ تاريخ انضمام المتعلم"
@@ -7836,7 +7776,7 @@ msgstr "أرسِل بريداً إلكترونياً إلى {email}"
 
 #: cms/templates/js/team-member.underscore:32
 msgid "Promote another member to Admin to remove your admin rights"
-msgstr "يُرجى ترقية عضو آخر إلى درجة مشرِف لتتمكّن من إلغاء حقوقك كمشرِف."
+msgstr "يُرجى ترقية عضو آخر ليكون مشرفاً لتتمكن من إلغاء حقوقك كمشرف"
 
 #: cms/templates/js/team-member.underscore:44
 #, python-brace-format
@@ -7943,11 +7883,11 @@ msgid ""
 "before the learners start the exam, along with the {linkStart}general "
 "proctored exam rules{linkEnd}."
 msgstr ""
-"وضِّح أيّ قواعد أو استثناءات للقواعد ينبغي أن يطبقها فريق مراجعة المُراقَبة "
+"وضِّح أيّ قواعد أو استثناءات للقواعد ينبغي أن يطبقها فريق مراجعة المراقبة "
 "أثناء مراجعتهم لمقاطع الفيديو. على سبيل المثال، يمكنك توضيح أنّ استخدام "
 "الآلات الحاسبة مسموح به. يجب أن تكون هذه القواعد المعمول بها مرئية للمتعلمين"
 " قبل بدء الامتحان، بالإضافة إلى {linkStart}القواعد العامة للامتحانات "
-"المُراقَبة{linkEnd}."
+"المراقبة{linkEnd}."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:90
 msgid "General Proctored Exam Rules"
@@ -8405,14 +8345,6 @@ msgstr "أضِف منشوراً"
 msgid "Visible to"
 msgstr "ظاهر لـ"
 
-#: common/static/common/templates/discussion/templates.underscore:443
-msgid ""
-"Discussion admins, moderators, and TAs can make their posts visible to all "
-"students or specify a single group."
-msgstr ""
-"يستطيع مدراء المناقشة والمنسقون ومجموعة مساعدي المعلمين إظهار منشوراتهم "
-"لجميع المتعلمين أو لمجموعة محددة فقط."
-
 #: common/static/common/templates/discussion/templates.underscore:447
 msgid "All Groups"
 msgstr "كل المجموعات"
@@ -8444,7 +8376,7 @@ msgstr "أضف ردًا للموضوع ذي العلاقة لمساعدة الآ
 
 #: common/static/common/templates/discussion/templates.underscore:548
 msgid "(Community TA)"
-msgstr "(مجتمع مساعدي المعلمين)"
+msgstr "(مساعدو التدريس المجتمعي)"
 
 #: common/static/common/templates/discussion/templates.underscore:550
 msgid "(Staff)"
@@ -9049,8 +8981,8 @@ msgid ""
 "The following information is already a part of your {platform} profile and "
 "is required for your application. To edit this information go to "
 msgstr ""
-"المعلومات التالية هي جزء بالفِعل من ملف {platform} الخاص بك، وهي مطلوبة "
-"لتطبيقك. لتعديل هذه المعلومات اذهب إلى"
+"المعلومات التالية هي جزء بالفعل من ملفك في {platform}، وهي مطلوبة لتطبيقك. "
+"لتعديل هذه المعلومات اذهب إلى "
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:24
 msgid "Email address"
@@ -9580,7 +9512,7 @@ msgid ""
 "program. To complete the program, you must earn a verified certificate for "
 "each course."
 msgstr ""
-"تتبَّع وخَطِّط تقدمك من خلال المساقات الـ %(count)s في هذا البرنامج. لإتمام "
+"تتبّع وخطّط تقدمك من خلال المساقات الـ %(count)s في هذا البرنامج. لإتمام "
 "البرنامج، يجب أن تحصل على شهادة موثّقة لكل مساق فيه."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:56
@@ -9643,8 +9575,8 @@ msgid ""
 "To complete the program, you must earn a verified certificate for each "
 "course."
 msgstr ""
-"تتبَّع وخَطِّط تقدمك من خلال المساقات الـ %(count)s في هذا البرنامج. لإتمام "
-"البرنامج، يجب أن تحصل على شهادة موثّقة لكل مساق فيه."
+"تتبّع وخطّط تقدمك من خلال المساقات الـ %(count)s في هذا البرنامج. لإتمام "
+"البرنامج، يجب أن تحصل على شهادة مُوثّقة لكل مساق فيه."
 
 #: lms/templates/learner_dashboard/program_header_view.underscore:15
 #, python-brace-format
@@ -9732,14 +9664,9 @@ msgstr "التسجيل باستخدام بيانات اعتماد المؤسسة
 msgid "First time here?"
 msgstr "هل هذه أول زيارة لك هنا؟"
 
-#: lms/templates/student_account/login.underscore:14
-#, python-brace-format
-msgid "Sign in to continue learning as {email}"
-msgstr "تسجيل الدخول لمتابعة التعلم كـ {email}"
-
 #: lms/templates/student_account/login.underscore:16
 msgid "Sign in to continue learning"
-msgstr "تسجيل الدخول لمتابعة التعلم"
+msgstr "سجِّل دخولك لمتابعة التعلم"
 
 #: lms/templates/student_account/login.underscore:19
 #, python-brace-format
@@ -9758,7 +9685,7 @@ msgstr ""
 
 #: lms/templates/student_account/login.underscore:25
 msgid "To continue learning with this account, sign in below."
-msgstr "لمتابعة التعلم باستخدام هذا الحساب ، قم بتسجيل الدخول أدناه."
+msgstr "لمتابعة التعلم باستخدام هذا الحساب، سجِّل دخولك أدناه."
 
 #: lms/templates/student_account/login.underscore:27
 msgid "Sign In"
@@ -10131,16 +10058,6 @@ msgid "Can we match the photo you took with the one on your ID?"
 msgstr ""
 "هل يمكننا مطابقة الصورة التي التقطتها مع صورتك الموجودة على بطاقتك الشخصية؟ "
 
-#: lms/templates/verify_student/incourse_reverify.underscore:35
-msgid ""
-"As part of the verification process, you take a photo of both your face and "
-"a government-issued photo ID. Our authorization service confirms your "
-"identity by comparing the photo you take with the photo on your ID."
-msgstr ""
-"كجزء من عملية التحقّق، يُرجى أخذ صورة لكلٍّ من وجهك وبطاقتك الشخصية الصادرة "
-"عن جهة حكومية. ثمّ يعمل قسمنا المسؤول عن خدمة التحقّق على تأكيد هويّتك "
-"بمقارنة الصورة التي تلتقطها مع الصورة الموجودة على بطاقتك الشخصية.     "
-
 #: lms/templates/verify_student/incourse_reverify.underscore:40
 #, python-format
 msgid ""
@@ -10176,14 +10093,6 @@ msgstr "فعِّل حسابك"
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:93
 msgid "Photo ID"
 msgstr "معرّف الصورة"
-
-#: lms/templates/verify_student/intro_step.underscore:53
-msgid ""
-"A driver's license, passport, or other government-issued ID with your name "
-"and photo"
-msgstr ""
-"رخصة القيادة، أو جواز السفر، أو بطاقة شخصية صادرة عن الحكومة، بحيث تحمل أي "
-"واحدة من هذه الوثائق اسمك وصورتك "
 
 #: lms/templates/verify_student/intro_step.underscore:61
 #: lms/templates/verify_student/make_payment_step.underscore:77
@@ -10289,13 +10198,6 @@ msgstr "لا بدّ من إثبات هويّتك قبل تاريخ {date} من �
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:85
 msgid "To receive a certificate, you must also verify your identity."
 msgstr "لا بدّ من إثبات هويّتك للحصول على شهادة."
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:96
-msgid ""
-"Your ID must be a government-issued photo ID that clearly shows your face."
-msgstr ""
-"يجب أن تكون الهوية المستخدمة هوية رسمية صادرة عن جهة حكومية تحمل صورة شخصية "
-"لك تظهر وجهك بوضوح."
 
 #: lms/templates/verify_student/reverify_success_step.underscore:2
 msgid "Identity Verification In Progress"

@@ -135,10 +135,6 @@ msgstr ""
 " منطقة الهدف. حالة التقييم: تقدم المسألة رداً فقط بعد أن يضع الطالب جميع "
 "العناصر المتاحة داخل مناطق الهدف."
 
-#: drag_and_drop_v2.py:100
-msgid "Standard"
-msgstr "قياسي"
-
 #: drag_and_drop_v2.py:101
 msgid "Assessment"
 msgstr "التقييم"
@@ -166,10 +162,6 @@ msgstr "هل تريد عرض العنوان للطلاب؟"
 #: drag_and_drop_v2.py:127
 msgid "Problem text"
 msgstr "نص المسألة"
-
-#: drag_and_drop_v2.py:128
-msgid "The description of the problem or instructions shown to the learner."
-msgstr "وصف المسألة أو التعليمات الموضحة للطالب."
 
 #: drag_and_drop_v2.py:135
 msgid "Show \"Problem\" heading"
@@ -200,10 +192,6 @@ msgstr "الإعداد الافتراضي"
 msgid "Always"
 msgstr "دائماً"
 
-#: drag_and_drop_v2.py:152
-msgid "Attempted or Past Due"
-msgstr "محاولة أو انتهى"
-
 #: drag_and_drop_v2.py:153
 msgid "Closed"
 msgstr "مغلق"
@@ -224,40 +212,6 @@ msgstr "ثقل المسألة"
 msgid "Defines the number of points the problem is worth."
 msgstr "يحدد عدد النقاط التي تستحقها المسألة."
 
-#: drag_and_drop_v2.py:174
-msgid "Item background color"
-msgstr "لون خلفية العنصر"
-
-#: drag_and_drop_v2.py:175
-msgid ""
-"The background color of draggable items in the problem (example: 'blue' or "
-"'#0000ff')."
-msgstr ""
-"لون الخلفية للعناصر القابلة للسحب في المسألة (على سبيل المثال: \"أزرق\" أو "
-"'#0000ff')."
-
-#: drag_and_drop_v2.py:182
-msgid "Item text color"
-msgstr "لون نص العنصر"
-
-#: drag_and_drop_v2.py:183
-msgid "Text color to use for draggable items (example: 'white' or '#ffffff')."
-msgstr ""
-"لون النص المستخدم مع العناصر القابلة للسحب (على سبيل المثال: \"أبيض\" أو "
-"'#ffffff')"
-
-#: drag_and_drop_v2.py:190
-msgid "Maximum items per zone"
-msgstr "لقد وصلت الحد الاعلى من العناصر في المنطقة الواحدة."
-
-#: drag_and_drop_v2.py:191
-msgid ""
-"This setting limits the number of items that can be dropped into a single "
-"zone."
-msgstr ""
-"يحدد هذا الاعداد الحد الاعلى من العناصر الذي يمكن اضافتها الى المنطقة "
-"الواحدة."
-
 #: drag_and_drop_v2.py:198
 msgid "Problem data"
 msgstr "بيانات المسألة"
@@ -271,14 +225,6 @@ msgstr ""
 "معلومات عن المناطق والعناصر والملاحظات والشرح والصورة الخلفية لهذه المسألة. "
 "تأتي هذه المعلومات من المُدخلات التي يقدمها مؤلف المساق عبر المحرر التفاعلي "
 "عند إعداد المسألة."
-
-#: drag_and_drop_v2.py:210
-msgid ""
-"Information about current positions of items that a learner has dropped on "
-"the target image."
-msgstr ""
-"المعلومات بشأن الأوضاع الحالية للعناصر التي أسقطها الطالب في الصورة "
-"المستهدفة."
 
 #: drag_and_drop_v2.py:217
 msgid "Number of attempts learner used"
@@ -333,10 +279,6 @@ msgstr "الملاحظات الأولية"
 msgid "Final feedback"
 msgstr "الملاحظات النهائية"
 
-#: templates/html/drag_and_drop_edit.html:100
-msgid "Explanation Text"
-msgstr "نص الشرح"
-
 #: templates/html/drag_and_drop_edit.html:109
 msgid "Zones"
 msgstr "المناطق"
@@ -348,26 +290,6 @@ msgstr "صورة الخلفية"
 #: templates/html/drag_and_drop_edit.html:117
 msgid "Provide custom image"
 msgstr "تقديم صورة مخصصة"
-
-#: templates/html/drag_and_drop_edit.html:121
-msgid "Generate image automatically"
-msgstr "توليد الصورة تلقائيا"
-
-#: templates/html/drag_and_drop_edit.html:126
-msgid "Background URL"
-msgstr "URL للخلفية"
-
-#: templates/html/drag_and_drop_edit.html:133
-msgid "Change background"
-msgstr "تغيير الخلفية"
-
-#: templates/html/drag_and_drop_edit.html:135
-msgid ""
-"For example, 'http://example.com/background.png' or "
-"'/static/background.png'."
-msgstr ""
-"على سبيل المثال، 'http://example.com/background.png' أو "
-"'/static/background.png'."
 
 #: templates/html/drag_and_drop_edit.html:142
 msgid "Number of columns"
@@ -396,10 +318,6 @@ msgstr "ارتفاع المنطقة"
 #: templates/html/drag_and_drop_edit.html:178
 msgid "Size of a single zone in pixels."
 msgstr "حجم المنطقة الواحدة بالبكسل."
-
-#: templates/html/drag_and_drop_edit.html:184
-msgid "Background description"
-msgstr "وصف الخلفية"
 
 #: templates/html/drag_and_drop_edit.html:189
 msgid ""
@@ -441,15 +359,15 @@ msgstr "تعريف العناصر"
 
 #: templates/html/drag_and_drop_edit.html:278
 msgid "Add an item"
-msgstr "إضافة عنصر"
+msgstr "أضِف عنصراً"
 
 #: templates/html/drag_and_drop_edit.html:288
 msgid "Continue"
-msgstr "استمرار"
+msgstr "استمِر"
 
 #: templates/html/drag_and_drop_edit.html:292
 msgid "Save"
-msgstr "حفظ"
+msgstr "احفظ"
 
 #: templates/html/drag_and_drop_edit.html:296
 msgid "Cancel"
@@ -458,7 +376,7 @@ msgstr "ألغِ"
 #: utils.py:121
 #, python-brace-format
 msgid "Your highest score is {score}"
-msgstr "أعلى درجاتك هي {score}"
+msgstr "أعلى درجة لديك هي {score}"
 
 #: utils.py:122
 #, python-brace-format
@@ -543,10 +461,6 @@ msgstr "وُضع بشكل صحيح في: {zone_title}"
 msgid ", draggable, grabbed"
 msgstr "، قابل للسحب، ممسوك"
 
-#: public/js/drag_and_drop.js:182
-msgid ", draggable"
-msgstr "، قابل للسحب"
-
 #: public/js/drag_and_drop.js:259
 msgid "No items placed here"
 msgstr "لم يُوضع أيّ عنصر هنا"
@@ -554,10 +468,6 @@ msgstr "لم يُوضع أيّ عنصر هنا"
 #: public/js/drag_and_drop.js:265
 msgid "Items placed here: "
 msgstr "العناصر الموضوعة هنا:"
-
-#: public/js/drag_and_drop.js:300
-msgid "droppable"
-msgstr "قابل للاسقاط"
 
 #: public/js/drag_and_drop.js:321 public/js/drag_and_drop.js:325
 msgid "Feedback"
@@ -569,7 +479,7 @@ msgstr "الشرح"
 
 #: public/js/drag_and_drop.js:357 public/js/drag_and_drop.js:547
 msgid "Close"
-msgstr "إغلاق "
+msgstr "أغلِق"
 
 #: public/js/drag_and_drop.js:360 public/js/drag_and_drop.js:595
 msgid "Keyboard Help"
@@ -637,7 +547,7 @@ msgstr "لقد استخدمت {used} من أصل {total} محاولات."
 
 #: public/js/drag_and_drop.js:412
 msgid "Submit"
-msgstr "إرسال"
+msgstr "إرسِل"
 
 #: public/js/drag_and_drop.js:453
 msgid "Show Answer"
@@ -645,15 +555,11 @@ msgstr "اعرض الجواب"
 
 #: public/js/drag_and_drop.js:466
 msgid "Go to Beginning"
-msgstr "انتقل إلى البداية"
+msgstr "انتقِل إلى البداية"
 
 #: public/js/drag_and_drop.js:472
 msgid "Reset"
-msgstr "إعادة تعيين"
-
-#: public/js/drag_and_drop.js:506 public/js/drag_and_drop.js:1243
-msgid "Some of your answers were not correct."
-msgstr "بعض إجاباتك لم تكن صحيحة."
+msgstr "أعِد التعيين"
 
 #: public/js/drag_and_drop.js:507 public/js/drag_and_drop.js:1246
 msgid "Hints:"
@@ -662,10 +568,6 @@ msgstr "تلميحات:"
 #: public/js/drag_and_drop.js:577
 msgid "Correct"
 msgstr "صحيح"
-
-#: public/js/drag_and_drop.js:577
-msgid "Incorrect"
-msgstr "خاطئ"
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -734,10 +636,6 @@ msgstr "بنك العناصر"
 #: public/js/drag_and_drop.js:898
 msgid "An error occurred. Unable to load drag and drop problem."
 msgstr "لقد حدث خطأ. تعذّر تحميل مسألة السحب والإفلات."
-
-#: public/js/drag_and_drop.js:1387
-msgid "You cannot add any more items to this zone."
-msgstr "لا يمكنك إضافة المزيد من العناصر إلى هذه المنطقة."
 
 #: public/js/drag_and_drop_edit.js:123 public/js/drag_and_drop_edit.js:524
 #: public/js/drag_and_drop_edit.js:755

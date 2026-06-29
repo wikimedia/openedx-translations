@@ -23,11 +23,11 @@ msgstr ""
 
 #: recommender.py:314
 msgid "Invalid location URL provided"
-msgstr "قُدِّمَ عُنوان رابِط إلِكتروني (URL) غير صالِح"
+msgstr "لقد قُدّم رابط غير صالح "
 
 #: recommender.py:325
 msgid "The resource you are attempting to provide already exists"
-msgstr "المَوْرِد الذي تُحاوِل تَوفِيرَه موجود بِالفِعل"
+msgstr "المورد الذي تحاول تقديمه موجود بالفعل"
 
 #: recommender.py:338
 msgid ""
@@ -37,7 +37,7 @@ msgstr "المورد الذي تحاول تقديمه قد منعه الطاقم
 
 #: recommender.py:355
 msgid "The selected resource does not exist"
-msgstr "المَوْرِد المُحَدَّد غير موجود"
+msgstr "المورد المحدد غير موجود"
 
 #: recommender.py:403
 msgid "Size of uploaded file exceeds threshold"
@@ -53,7 +53,7 @@ msgstr "أوصِ بهذا المورد دون إذن"
 
 #: recommender.py:797
 msgid "You don't have the permission to remove this resource"
-msgstr "ليس لديك الإذن لإزالة هذا المَوْرِد"
+msgstr "ليس لديك الصلاحية لإزالة هذا المورد"
 
 #: recommender.py:848
 msgid "Only staff can import resources"
@@ -90,7 +90,7 @@ msgstr ""
 
 #: templates/recommender.html:121
 msgid "Download resources"
-msgstr "نَزِّل المَوارِد"
+msgstr "نزِّل الموارد"
 
 #: templates/recommender.html:122 templates/recommender.html:148
 msgid "Upload resources"
@@ -126,11 +126,11 @@ msgstr "&lt;الموارد ذات الصلة"
 
 #: templates/recommender.html:147
 msgid "Resources (in JSON format):"
-msgstr "المَوارِد (بِنَسَق JSON):"
+msgstr "الموارد (بتسنيق JSON):"
 
 #: templates/recommender.html:147
 msgid "Provide a file of resource list in JSON format"
-msgstr "وَفِّر مَلَف قائِمة المَوارِد بِصيغة JSON"
+msgstr "وفِّر ملف قائمة الموارد بتنسيق JSON"
 
 #: templates/recommender.html:153 templates/recommender.html:163
 #: templates/recommender.html:173
@@ -162,7 +162,7 @@ msgid ""
 "Provide a meaningful title so other students know whether this is useful to "
 "them"
 msgstr ""
-"قَدِّم عُنواناً ذا مَعنى لكي يَعرِف الطلّاب الآخرون فيما إذا كان مُفيداً لهم"
+"قدِّم عنواناً ذا معنى لكي يعرف الطلاب الآخرون فيما إذا كان مفيداً لهم "
 
 #: templates/recommender.html:189
 msgid "Location"
@@ -180,8 +180,7 @@ msgstr "الوصف"
 msgid ""
 "Provide a meaningful description so other students know whether this is "
 "useful to them"
-msgstr ""
-"قَدِّم وَصفاً ذا مَعنى لكي يَعرِف الطلّاب الآخرون فيما إذا كان مُفيداً لهم"
+msgstr "قدِّم وصفاً ذا معنى لكي يعرف الطلاب الآخرون فيما إذا كان مفيداً لهم"
 
 #: templates/recommender.html:202
 msgid "Preview screenshot:"
@@ -189,7 +188,7 @@ msgstr "معاينة لقطة الشاشة:"
 
 #: templates/recommender.html:202
 msgid "Provide a resource screenshot"
-msgstr "وَفِّر لَقطة شاشة للمَوارِد"
+msgstr "قدِّم لقطة شاشة للموارد"
 
 #: templates/recommender.html:203
 msgid "Save change"
@@ -201,7 +200,7 @@ msgstr "اكتب وصفاً للموارد"
 
 #: templates/recommender.html:227
 msgid "Provide a file of resource screenshot"
-msgstr "وَفِّر ملفاً يحتوي على لَقطات شاشة للمَوارِد"
+msgstr "قدِّم ملفاً يحتوي على لقطات شاشة للموارد"
 
 #: templates/recommender.html:228
 msgid "Add resource"
@@ -232,10 +231,6 @@ msgstr ""
 "هل تريد أن تأخذ المستخدمين في جولة قصيرة عندما يرون RecommenderXBlock للمرة "
 "الأولى؟"
 
-#: templates/recommenderstudio.html:21
-msgid "Do you want to disable the UX functions which are under development?"
-msgstr "هل تُريد أنْ تُعَطِّل وظائِف الـUX التي لا تزال قَيْد التطوير؟"
-
 #: templates/recommenderstudio.html:36
 msgid "How many resources you want to show in each page of the resource list?"
 msgstr "كم عدد الموارد التي تريد إظهارها في كل صفحة من قائمة الموارد؟"
@@ -258,15 +253,15 @@ msgstr "انصح بمصدر جديد ربما يكون مفيداً للطلاب
 
 #: static/js/src/cats.js:66
 msgid "Edit this resource"
-msgstr "عَدِّل هذا المَوْرِد"
+msgstr "عدِّل هذا المورد"
 
 #: static/js/src/cats.js:67
 msgid "Upvote if the resource is helpful"
-msgstr "صَوِّت لصالحه إذا كان المَورِد مفيداً"
+msgstr "صوِّت لصالحه إذا كان المورد مفيداً"
 
 #: static/js/src/cats.js:68
 msgid "Downvote if the resource is not helpful"
-msgstr "صَوِّت ضِده إذا لم يَكُن المَورِد مفيداً"
+msgstr "صوِّت ضِده إذا لم يكن المورد مفيداً"
 
 #: static/js/src/cats.js:69
 msgid "Votes"
@@ -290,21 +285,12 @@ msgid ""
 " concise, but give enough detail to let students know whether this resources"
 " is useful to them"
 msgstr ""
-"قَدِّم مُلَخَّصاً قصيراً (1-3 جُمَل) للمَورِد؛ يُفتَرَض أنْ يكون مّما قَلَّ "
-"ودَلَّ، على أنْ يكون بتفاصيل كافية ليَعرف الطلّاب ما إذا كانت هذه الموارِد "
-"مفيدة لهم."
+"قدِّم ملخصاً قصيراً (1-3 جُمل) للمورد؛ يُفترض أن يكون مّما قلَّ ودلَّ، على "
+"أن يكون بتفاصيل كافية لكي يعرف الطلاب فيما إذا كانت هذه الموارد مفيدة لهم"
 
 #: static/js/src/cats.js:74 static/js/src/cats.js:78
 msgid "Cut-and-paste the URL of the resource."
 msgstr "قُص، ثم ألصِق رابط المورد."
-
-#: static/js/src/cats.js:75 static/js/src/cats.js:79
-msgid ""
-"Give a paragraph of summary of the resource; the summary should be more "
-"detailed than you gave in Title"
-msgstr ""
-"إعطِ مُلَخَّصاً للمَورِد كفقرة؛ يَجِب أنْ يكون المُلَخَّص أكثر تفصيلاً مما "
-"قدمته في العنوان"
 
 #: static/js/src/cats.js:76 static/js/src/cats.js:80
 msgid ""
@@ -379,19 +365,19 @@ msgstr "المحتوى الذي كتبته لم يتم إرساله بعد. هل
 
 #: static/js/src/cats.js:107 static/js/src/cats.js:199
 msgid "Import resources"
-msgstr "استَوْرِد المَوارِد"
+msgstr "استورد الموارد"
 
 #: static/js/src/cats.js:108
 msgid "Suggest resource"
-msgstr "اقتَرِح مَوْرِداً"
+msgstr "اقترِح مورداً"
 
 #: static/js/src/cats.js:109 static/js/src/cats.js:207
 msgid "Edit existing resource"
-msgstr "عَدِّل مَوْرِداً موجوداً مُسبَقاً"
+msgstr "عدِّل المورد الموجود"
 
 #: static/js/src/cats.js:110
 msgid "Flag Resource"
-msgstr "أبلِغ عن المَوْرِد"
+msgstr "أبلِغ عن المورد"
 
 #: static/js/src/cats.js:111
 msgid "Endorse Resource"
@@ -403,23 +389,23 @@ msgstr "أزِل المورد"
 
 #: static/js/src/cats.js:116
 msgid "Upload resources in JSON format to the database."
-msgstr "ارفَغ المَوارِد بِنَسَق JSON إلى قاعِدة البيانات."
+msgstr "ارفع الموارد بتنسيق JSON إلى قاعدة البيانات."
 
 #: static/js/src/cats.js:117
 msgid ""
 "Suggest a resource which can help other students with this problem. Please "
 "do not give the answer directly."
 msgstr ""
-"اقتَرِح مَورِداً يُمكِنه مساعدة الطلّاب الآخَرين في حل هذه المَسألة. مِن "
-"فَضلِك لا تُعطِ الجواب بشكل مباشر."
+"اقترِح مورداً يمكنه مساعدة الطلاب الآخَرين في حل هذه المسألة. من فضلك لا "
+"تعطِ الجواب بشكل مباشر. "
 
 #: static/js/src/cats.js:118
 msgid ""
 "Edit the resource and make it more helpful for other students with this "
 "problem. Please do not give the answer directly."
 msgstr ""
-"عَدِّل المَورِد واجعله أكثر فائدة للطلّاب الآخَرين الذين لديهم هذه المسألة. "
-"مِن فَضلِك لا تُعطِ الجواب بشكل مباشر."
+"عدِّل المورد واجعله أكثر فائدة للطلاب الآخرين الذين لديهم هذه المسألة. من "
+"فضلك لا تعطِ الجواب بشكل مباشر. "
 
 #: static/js/src/cats.js:119
 msgid ""

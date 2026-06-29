@@ -52,19 +52,15 @@ msgstr "ممتاز"
 
 #: feedback.py:43 feedback.py:165
 msgid "Good"
-msgstr "جيّد"
+msgstr "جيد"
 
 #: feedback.py:43 feedback.py:166
 msgid "Average"
-msgstr "متوسّط"
+msgstr "متوسط"
 
 #: feedback.py:43 feedback.py:167
 msgid "Fair"
 msgstr "مقبول"
-
-#: feedback.py:43 feedback.py:168
-msgid "Poor"
-msgstr " مُتَدَنِّي"
 
 #: feedback.py:84 feedback.py:100
 msgid "Random number generated for p. -1 if uninitialized"
@@ -97,10 +93,6 @@ msgstr "قدِّم ملاحظاتك"
 #: feedback.py:118 templates/html/studio_view.html:17
 msgid "Voting message"
 msgstr "رسالة التصويت"
-
-#: feedback.py:119
-msgid "Thank you for voting!"
-msgstr "شكرا لتصويتك!"
 
 #: feedback.py:124 templates/html/studio_view.html:25
 msgid "Feedback message"
@@ -135,11 +127,11 @@ msgstr "من فضلك خذ لحظة للتفكير بعناية."
 
 #: feedback.py:387
 msgid "Please vote!"
-msgstr "الرجاء التصويت!"
+msgstr "صوِّت لطفاً!"
 
 #: static/html/feedback_instructor.html:10
 msgid "Component"
-msgstr "عنصر"
+msgstr "مكون"
 
 #: static/html/feedback_instructor.html:13
 msgid "Number of ratings"
@@ -206,10 +198,6 @@ msgstr "خطأ"
 msgid "True"
 msgstr "صح"
 
-#: templates/html/studio_view.html:39
-msgid "Whether to show the aggregate report to students."
-msgstr "ما إذا كان سَيُعرَض التقرير الإجمالي للطُلّاب."
-
 #: templates/html/studio_view.html:47
 msgid "Example: Please provide us feedback on this section."
 msgstr "مثال: يرجى تزويدنا بتعليقاتك على هذا القسم."
@@ -230,13 +218,9 @@ msgstr "وجوه (سعيد إلى حزين)"
 msgid "Faces (sad to happy)"
 msgstr "الوُجوه (من الوَجه الحزين إلى السعيد)"
 
-#: templates/html/studio_view.html:64
-msgid "Numeric"
-msgstr "رقمي"
-
 #: templates/html/studio_view.html:65
 msgid "Stars"
-msgstr "النجوم"
+msgstr "نجوم"
 
 #: templates/html/studio_view.html:68
 msgid "We can either show happy/sad faces, numbers 1-5 or stars."
@@ -289,11 +273,11 @@ msgstr "خيار 5 من Likert"
 
 #: templates/html/studio_view.html:116
 msgid "Example: Poor"
-msgstr "مثال: مُتَدَنِّي"
+msgstr "على سبيل المثال: متدني"
 
 #: templates/html/studio_view.html:123
 msgid "Save"
-msgstr "حفظ"
+msgstr "احفظ"
 
 #: templates/html/studio_view.html:126
 msgid "Cancel"

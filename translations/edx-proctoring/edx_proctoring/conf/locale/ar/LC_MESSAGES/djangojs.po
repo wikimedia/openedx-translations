@@ -38,7 +38,7 @@ msgid ""
 "Something has gone wrong ending your exam. Please reload the page and start "
 "again."
 msgstr ""
-"حدث خطأ ما أثناء انهاء اختبارك. من فضلك أعِد تحميل الصفحة وابدأ من جديد."
+"حدث خطأ ما أثناء انهاء امتحانك. من فضلك أعِد تحميل الصفحة وابدأ من جديد."
 
 #: static/proctoring/js/exam_action_handler.js:159
 #: static/proctoring/js/exam_action_handler.js:170
@@ -56,7 +56,7 @@ msgid ""
 "Something has gone wrong starting your exam. Please reload the page and "
 "start again."
 msgstr ""
-"حدث خطأ ما أثناء بدء اختبارك. من فضلك أعِد تحميل الصفحة وابدأ من جديد."
+"حدث خطأ ما أثناء بدء امتحانك. من فضلك أعِد تحميل الصفحة وابدأ من جديد."
 
 #: static/proctoring/js/exam_action_handler.js:197
 msgid ""
@@ -246,7 +246,7 @@ msgid ""
 "be able to continue taking proctored exams."
 msgstr ""
 "تمت الموافقة على ملف تسجيلك. ومع ذلك ستنتهي صلاحية تسجيلك قريباً. يرجى إتمام"
-" التسجيل مجدداً لتتأكَّد من قدرتك على مواصلة إجراء الامتحانات المُراقَبة."
+" التسجيل مجدداً لتتأكد من قدرتك على مواصلة إجراء الامتحانات المراقبة."
 
 #: static/proctoring/js/views/proctored_exam_info.js:64
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:38
@@ -259,7 +259,7 @@ msgid ""
 "continue taking proctored exams."
 msgstr ""
 "لقد انتهت صلاحية تسجيلك. يُرجى إتمام التسجيل مجدداً لمواصلة إجراء الامتحانات"
-" المُراقَبة."
+" المراقبة."
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:30
 msgid "Setup Started"

@@ -26714,6 +26714,7 @@ msgid "Subscribe"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:49
+#: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"
 msgstr ""
 
@@ -26723,6 +26724,147 @@ msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
 msgid "Discover courses"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/discovery/course_card.underscore:26
+msgid "Starts: %(start_date)s"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:6
+msgid "Already have an {platformName} account?"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:17
+msgid "Create an account using"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:30
+msgid "Create account using %(providerName)s."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:37
+msgid "Use my institution/campus credentials"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:44
+msgid "or create a new one here"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:49
+msgid "Create an Account"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:62
+msgid "Support education research by providing additional information"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:17
+msgid "Sign in to continue learning as {email}"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:19
+msgid "Sign in to continue learning"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:22
+msgid ""
+"You already have an edX account with your {enterprise_name} email address."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:24
+msgid ""
+"Going forward, your account information will be updated and maintained by "
+"{enterprise_name}."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:26
+msgid ""
+"You can view your information or unlink from {enterprise_name} anytime in "
+"your Account Settings."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:28
+msgid "To continue learning with this account, sign in below."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:30
+msgid "Sign In with"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:37
+msgid ""
+"Sign in here using your email address and password, or use one of the "
+"providers listed below."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:39
+msgid "Sign in here using your email address and password."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:41
+msgid "If you do not yet have an account, use the button below to register."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:46
+msgid "Use my university info"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:51
+msgid "or sign in with"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:64
+msgid "Sign in with"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:75
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:102
+msgid "Sign in with %(providerName)s"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:85
+msgid "First time here?"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:90
+msgid "Create an account with"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
+msgid "Create Your Account via Meta-Wiki"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
+msgid ""
+"It's quick and easy! Make sure to use a valid email to unlock all courses "
+"and content. This helps ensure you can recover your account if you forget "
+"your password or encounter login issues."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
+msgid "You can see this"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
+msgid "video"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
+msgid "in case you need more help"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:111
+msgid ""
+"Tip: Did you know WikiLearn is available in multiple languages? Check the "
+"menu in the top right to switch to yours!"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/learner_dashboard/program_card.underscore:34
+msgid "Remaining"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/static/js/courses.js:27
+msgid "Show All Courses"
 msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:1428

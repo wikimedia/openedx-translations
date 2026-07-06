@@ -48,10 +48,6 @@ msgstr "أسماء المستخدمين الذين لديهم وصول مباش�
 msgid "Start date cannot be after the End date"
 msgstr "لا يمكن أن يأتي تاريخ البدء بعد تاريخ النهاية"
 
-#: apps/api/serializers.py:1028
-msgid "Term cannot be changed"
-msgstr "لا يمكن تغيير المصطلح"
-
 #: apps/api/serializers.py:1048
 msgid "Language in which the course is administered"
 msgstr "اللغة التي يتم  تقديم الدورة بها"
@@ -1799,7 +1795,7 @@ msgstr "معرّف هوية المستخدم العالمي للمساق"
 
 #: apps/course_metadata/models.py:4825
 msgid "User who uploaded the file"
-msgstr "المُستَخدِم الذي رَفَع المَلَف"
+msgstr "المستخدم الذي رفع الملف"
 
 #: apps/course_metadata/models.py:4830
 msgid "Summary of the task"

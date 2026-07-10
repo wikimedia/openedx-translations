@@ -197,6 +197,14 @@ def update_custom_layer(extracted_dir):
             process_json_diff(extracted_file, comparison_source, comparison_custom,
                               rel_path, supported_langs, comparison_extracted, is_merge_source)
 
+    # Fill custom-layer MFE placeholders with the English source string so
+    # translators see what each opaque JSON key means. These are custom-only keys
+    # (disjoint from upstream), so this never overrides an upstream translation;
+    # merge_final adds them as custom-only entries (English until translated).
+    # PO files are untouched: the msgid already shows the English source.
+    print("--- Filling custom MFE placeholders with English source ---")
+    fill_empty_mfe_translations_with_source(CUSTOM_DIR)
+
 
 def create_or_update_po_placeholders(extracted_file, rel_path, supported_langs):
     """

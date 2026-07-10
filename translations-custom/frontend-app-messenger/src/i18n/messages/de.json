@@ -1,6 +1,6 @@
 {
-  "messenger.button.cancel": "",
-  "messenger.button.close": "",
+  "messenger.button.cancel": "Cancel",
+  "messenger.button.close": "Close",
   "messenger.button.newMessage": "Neue Nachricht",
   "messenger.button.reply": "Antworten",
   "messenger.button.send": "Senden",
@@ -10,7 +10,7 @@
   "messenger.error.sendMessages": "Fehler beim Senden von Nachrichten. Bitte versuche es noch einmal!",
   "messenger.error.userConversation": "Konversation des Benutzers kann nicht geladen werden:",
   "messenger.error.userSearch": "Benutzer können nicht gesucht werden.",
-  "messenger.inbox.noConversation": "",
+  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "Posteingang",
   "messenger.label.message": "Nachricht",
   "messenger.label.newMessage": "Neue Nachricht",
@@ -19,7 +19,7 @@
   "messenger.placeholder.searchUsers": "Nach Benutzer suchen",
   "messenger.placeholder.select": "Auswählen",
   "messenger.placeholder.typeMessage": "Gib deine Nachricht ein...",
-  "messenger.placeholder.username": "",
+  "messenger.placeholder.username": "username",
   "messenger.success.sendMessage": "Die Nachricht wurde gesendet.",
   "messenger.success.sendMessages": "Die Nachricht(en) wurde(n) gesendet."
 }

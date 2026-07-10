@@ -1,6 +1,6 @@
 {
-  "messenger.button.cancel": "",
-  "messenger.button.close": "",
+  "messenger.button.cancel": "Cancel",
+  "messenger.button.close": "Close",
   "messenger.button.newMessage": "Джангы Билдириу",
   "messenger.button.reply": "Джууабла",
   "messenger.button.send": "Джибер",
@@ -10,7 +10,7 @@
   "messenger.error.sendMessages": "Билдириулени джибериуде халат. Джангыдан сынагъыз!",
   "messenger.error.userConversation": "Къошулуучуну ушахын джюклеялмадыкъ:",
   "messenger.error.userSearch": "Къошулуучуланы табаргъа болмайды.",
-  "messenger.inbox.noConversation": "",
+  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "Киргенле",
   "messenger.label.message": "Билдириу",
   "messenger.label.newMessage": "Джангы Билдириу",
@@ -19,7 +19,7 @@
   "messenger.placeholder.searchUsers": "Къошулуучуланы изле",
   "messenger.placeholder.select": "Сайла",
   "messenger.placeholder.typeMessage": "Билдириугюзню джазыгъыз...",
-  "messenger.placeholder.username": "",
+  "messenger.placeholder.username": "username",
   "messenger.success.sendMessage": "Билдириу джиберилди.",
   "messenger.success.sendMessages": "Билдириу(ле) джиберилдиле."
 }

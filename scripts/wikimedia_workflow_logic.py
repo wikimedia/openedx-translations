@@ -633,11 +633,87 @@ def update_mfe_localized_placeholders(custom_data, rel_path, supported_langs):
         print(f"    Updated {updated_count} MFE language files")
 
 
+# Locales that Transifex/upstream no longer provides and that we therefore
+# maintain by hand as a committed baseline in translations/ (e.g. ar_MA,
+# Moroccan Arabic). merge_final rebuilds translations/ from upstream, which does
+# not contain these, so they must be preserved across the rebuild. Once upstream
+# re-adds a language, drop it from this set so it flows in normally again.
+MANUAL_LOCALES = {'ar_MA'}
+
+
+def belongs_to_manual_locale(path, manual_locales=MANUAL_LOCALES):
+    """True if a file path lives under a hand-maintained locale (PO dir or MFE json)."""
+    path_str = str(path)
+    for locale in manual_locales:
+        if f"/{locale}/" in path_str or path.name == f"{locale}.json":
+            return True
+    return False
+
+
+def fill_empty_mfe_translations_with_source(base_dir=FINAL_DIR):
+    """
+    Restore pre-upgrade fallback behavior for MFE JSON translations.
+
+    MFE translation files ship every source key, with an empty string for
+    untranslated entries. react-intl renders a present-but-empty value as blank
+    instead of falling back to the English source, so any missing translation
+    shows as empty. Fill each empty value with the English source string from the
+    sibling src/i18n/transifex_input.json so missing translations show English.
+
+    (.po/gettext files are unaffected: an empty msgstr already falls back to the
+    msgid, i.e. the English source.)
+    """
+    filled_files = 0
+    filled_values = 0
+    for source_file in base_dir.glob("**/src/i18n/transifex_input.json"):
+        try:
+            with open(source_file, encoding="utf-8") as f:
+                source = json.load(f)
+        except Exception as e:
+            print(f"  WARNING: cannot read source {source_file}: {e}")
+            continue
+
+        messages_dir = source_file.parent / "messages"
+        if not messages_dir.is_dir():
+            continue
+
+        for lang_file in messages_dir.glob("*.json"):
+            try:
+                with open(lang_file, encoding="utf-8") as f:
+                    data = json.load(f)
+            except Exception:
+                continue
+
+            changed = 0
+            for key, value in data.items():
+                if str(value).strip():
+                    continue  # already translated
+                src_val = source.get(key)
+                if isinstance(src_val, dict):
+                    src_val = src_val.get("defaultMessage") or src_val.get("message") or src_val.get("string")
+                if src_val and str(src_val).strip():
+                    data[key] = src_val
+                    changed += 1
+
+            if changed:
+                with open(lang_file, "w", encoding="utf-8") as f:
+                    json.dump(data, f, indent=2, sort_keys=True, ensure_ascii=False)
+                filled_files += 1
+                filled_values += changed
+
+    if filled_values:
+        print(f"  Filled {filled_values} empty translation(s) across {filled_files} MFE file(s) with English source")
+
+
 def merge_final():
     """
     Step 4: Combine Upstream and Custom Layer.
     Handles languages that exist in custom but not in upstream.
     Excludes dummy/test locales (qqq) from custom overlay only.
+    Preserves hand-maintained MANUAL_LOCALES (absent from upstream) across the rebuild
+    so their native baseline in translations/ survives, keeping their structure
+    consistent with supported languages (native in translations/, custom-only in custom/).
+    Custom-layer translations always take precedence over all other sources.
     Special handling: Repos in REPO_MERGE_CONFIG are merged into their target repos during this step.
     """
     print("--- Merging Final Layer (Step 4) ---")
@@ -646,11 +722,25 @@ def merge_final():
     # Languages to exclude from custom overlay (keep in upstream as-is)
     exclude_langs = {'qqq'}
 
+    # Capture the hand-maintained baseline (e.g. ar_MA) before the rebuild wipes
+    # translations/, then restore it after copying upstream (which lacks it).
+    preserved_manual = {}
     if FINAL_DIR.exists():
+        for existing_file in FINAL_DIR.glob("**/*"):
+            if existing_file.is_file() and belongs_to_manual_locale(existing_file):
+                preserved_manual[existing_file.relative_to(FINAL_DIR)] = existing_file.read_bytes()
         shutil.rmtree(FINAL_DIR)
 
     # Start with upstream (includes qqq from upstream)
     shutil.copytree(UPSTREAM_DIR, FINAL_DIR)
+
+    # Restore the hand-maintained baseline before overlaying custom on top
+    for rel_path, data in preserved_manual.items():
+        restored_file = FINAL_DIR / rel_path
+        ensure_directory(restored_file.parent)
+        restored_file.write_bytes(data)
+    if preserved_manual:
+        print(f"  Preserved {len(preserved_manual)} hand-maintained file(s) for {sorted(MANUAL_LOCALES)} (absent from upstream)")
 
     # Overlay custom - skip excluded languages and handle repo merging
     for ext in ["**/*.po", "**/*.json"]:
@@ -697,10 +787,26 @@ def merge_final():
                     final_po = polib.pofile(final_file)
                     custom_po = polib.pofile(custom_file)
 
+                    # Index the base by (msgid, msgctxt) so custom overrides in
+                    # place instead of appending duplicate message definitions.
+                    index = {(e.msgid, e.msgctxt): e for e in final_po}
+
                     added = 0
                     for entry in custom_po:
-                        if entry.msgid and not entry.obsolete:
+                        if not entry.msgid or entry.obsolete:
+                            continue
+                        key = (entry.msgid, entry.msgctxt)
+                        existing = index.get(key)
+                        if existing is None:
                             final_po.append(entry)
+                            index[key] = entry
+                            added += 1
+                        elif entry.msgstr or entry.msgstr_plural:
+                            # Custom layer wins over all other sources, but only
+                            # a non-empty custom translation overrides the base.
+                            existing.msgstr = entry.msgstr
+                            if entry.msgstr_plural:
+                                existing.msgstr_plural = entry.msgstr_plural
                             added += 1
 
                     final_po.save(final_file)
@@ -740,17 +846,27 @@ def merge_final():
                     continue
 
                 try:
-                    final_data.update(custom_data)
-                    added = len(custom_data)
+                    # Custom layer wins over all other sources; a non-empty custom
+                    # value overrides the base, an empty custom value never clobbers
+                    # an existing base translation (it only fills a missing key).
+                    added = 0
+                    for key, value in custom_data.items():
+                        if str(value).strip() or key not in final_data:
+                            final_data[key] = value
+                            added += 1
 
                     with open(final_file, "w", encoding="utf-8") as f:
                         json.dump(final_data, f, indent=2, sort_keys=True, ensure_ascii=False)
 
                     if added > 0:
                         merge_target = f"{final_path}" if target_repo else f"{rel_path}"
-                        print(f"  Merged JSON {merge_target}: +{added} custom keys appended")
+                        print(f"  Merged JSON {merge_target}: +{added} custom keys applied")
                 except Exception as e:
                     print(f"  ERROR writing merged JSON {rel_path}: {e}")
+
+    # Fill empty MFE translations with the English source so missing strings
+    # render in English rather than blank (restores pre-upgrade behavior).
+    fill_empty_mfe_translations_with_source()
 
     # Print summary of merged repos
     merged_repos = [f"{src} → {config['merge_into']}" for src, config in REPO_MERGE_CONFIG.items()]

@@ -343,7 +343,7 @@
   "id.verification.support": "support",
   "id.verification.upload.help.button": "Switch to Upload Mode",
   "idv.submission.alert.error": "We encountered a technical error while trying to submit ID verification. This might be a temporary issue, so please try again in a few minutes. If the problem persists, please go to {support_link} for help.",
-  "notification.dropdown.select.course": "",
+  "notification.dropdown.select.course": "Select a course you’re enrolled in to view its notification preferences.",
   "notification.preference.app.title": "{ key, select, discussion {Discussions} coursework {Course Work} updates {Updates} other {{key}} }",
   "notification.preference.channel": "{ text, select, web {Web} email {Email} push {Push} other {{text}} }",
   "notification.preference.guide.body": "Notifications for certain activities are enabled by default,",

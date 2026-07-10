@@ -3228,12 +3228,12 @@ msgstr[5] "أُضيف {numUsersAdded} متعلم إلى هذه الشعبة."
 #: lms/static/js/groups/views/cohort_editor.js:195
 msgid "{numMoved} learner was moved from {prevCohort}"
 msgid_plural "{numMoved} learners were moved from {prevCohort}"
-msgstr[0] "لم يُنقَل أيّ متعلم من {prevCohort}"
-msgstr[1] "نُقِلَ متعلم واحد من {prevCohort}"
-msgstr[2] "نُقِلَ متعلمان من {prevCohort}"
-msgstr[3] "نُقِلَ {numMoved} متعلمين من {prevCohort}"
-msgstr[4] "نُقِلَ {numMoved} متعلماً من {prevCohort}"
-msgstr[5] "نُقِلَ {numMoved} متعلم من {prevCohort}"
+msgstr[0] "لم يُنقل أيّ متعلم من {prevCohort}"
+msgstr[1] "نُقل متعلم واحد من {prevCohort}"
+msgstr[2] "نُقل متعلمان من {prevCohort}"
+msgstr[3] "نُقل {numMoved} متعلمين من {prevCohort}"
+msgstr[4] "نُقل {numMoved} متعلماً من {prevCohort}"
+msgstr[5] "نُقل {numMoved} متعلم من {prevCohort}"
 
 #: lms/static/js/groups/views/cohort_editor.js:205
 msgid "{numPresent} learner was already in the cohort"
@@ -6291,7 +6291,7 @@ msgstr ""
 
 #: xmodule/js/src/video/09_video_caption.js:840
 msgid "Video transcript"
-msgstr "التفريغ النصّي للفيديو"
+msgstr "التفريغ النصي للفيديو"
 
 #: xmodule/js/src/video/09_video_caption.js:843
 msgid "Start of transcript. Skip to the end."
@@ -6430,7 +6430,7 @@ msgstr "مدعوم مؤقتاً"
 
 #: cms/templates/js/add-xblock-component.underscore:2
 msgid "Add New Component"
-msgstr "إضافة مكوِّن جديد"
+msgstr "أضِف مكوناً جديداً"
 
 #: cms/templates/js/advanced_entry.underscore:14
 msgid "Deprecated"
@@ -6691,7 +6691,7 @@ msgid ""
 "Learners do not see the subsection in the course outline. The subsection is "
 "not included in grade calculations."
 msgstr ""
-"لا يرى المتعلمون القسم الفرعي في مخطط المساق. لم يُضمَّن القسم الفرعي في "
+"لا يرى المتعلمون القسم الفرعي في مخطط المساق. لم يُضمّن القسم الفرعي في "
 "حسابات الدرجة."
 
 #: cms/templates/js/content-visibility-editor.underscore:42
@@ -7021,10 +7021,6 @@ msgstr "مشاركة الفيديو"
 msgid "Learn more"
 msgstr "اعرف المزيد"
 
-#: cms/templates/js/course-video-transcript-preferences.underscore:3
-msgid "Transcript Turnaround"
-msgstr "المدة المستغرقة لإنجاز التفريغ النصّي"
-
 #: cms/templates/js/course-video-transcript-preferences.underscore:8
 msgid "Transcript Fidelity"
 msgstr "دقة التفريغ النصي"
@@ -7283,8 +7279,8 @@ msgid ""
 "When sharing this link with your learners, they will see the content of the "
 "subsection along with the header and footer of your LMS."
 msgstr ""
-"عندما تُشارك هذا الرابط مع المتعلمين لديك، فيسرون محتوى القِسم الفرعي "
-"بالإضافة إلى رأس وتذييل نظام إدارة التعلّم (LMS) الخاص بك."
+"عند مشاركة هذا الرابط مع المتعلمين لديك، فسيرون محتوى القسم الفرعي بالإضافة "
+"إلى رأس وتذييل نظام إدارة التعلم (LMS) الخاص بك. "
 
 #: cms/templates/js/grading-editor.underscore:1
 msgid "Grading"
@@ -7360,8 +7356,8 @@ msgid ""
 "Enter 3-5 highlights to include in the email message that learners receive "
 "for this section (250 character limit)."
 msgstr ""
-"أدخل 3-5 سمات بارزة أو لمحات لتضمينها في رسالة البريد الإلكتروني التي "
-"يتلقاها الطلاب لهذا القسم (250 حرفاً كحد أقصى)."
+"أدخِل 3-5 فقرات هامّة لتضمينها في رسالة البريد الإلكتروني التي يتلقاها "
+"المتعلمون لهذا القسم (250 حرف كحدٍ أقصى)."
 
 #: cms/templates/js/highlights-editor.underscore:36
 #: cms/templates/js/highlights-editor.underscore:49
@@ -9868,7 +9864,7 @@ msgstr "الأسئلة الشائعة"
 #: lms/templates/verify_student/incourse_reverify.underscore:33
 #, python-format
 msgid "Why does %(platformName)s need my photo?"
-msgstr "لماذا قد تحتاج %(platformName)s إلى صورتي؟"
+msgstr "لماذا يحتاج %(platformName)s صورتي؟"
 
 #: lms/templates/verify_student/face_photo_step.underscore:44
 msgid ""
@@ -10118,10 +10114,6 @@ msgid ""
 "account."
 msgstr ""
 "أُرسلت رسالة بريد إلكتروني إلى {userEmail} تحتوي على رابط لتفعيل حسابك."
-
-#: lms/templates/verify_student/make_payment_step.underscore:48
-msgid "Why activate?"
-msgstr "لماذا يجب علي تفعيل الحساب؟"
 
 #: lms/templates/verify_student/make_payment_step.underscore:50
 msgid ""

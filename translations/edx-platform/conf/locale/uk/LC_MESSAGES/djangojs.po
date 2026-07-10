@@ -7784,17 +7784,69 @@ msgstr ""
 msgid "Total Number"
 msgstr "Загальна кількість"
 
+#: cms/templates/js/course_grade_policy.underscore:23
+msgid ""
+"The number of subsections in the course that contain problems of this "
+"assignment type."
+msgstr "Кількість підрозділів у курсі, які містять задачі такого типу."
+
 #: cms/templates/js/course_grade_policy.underscore:27
 msgid "Number of Droppable"
 msgstr "Кількість завдань, які можна пропустити"
+
+#: cms/templates/js/course_grade_policy.underscore:29
+msgid ""
+"The number of assignments of this type that will be dropped. The lowest "
+"scoring assignments are dropped first."
+msgstr ""
+"Кількість завдань цього типу, які буде скинуто. Завдання з найнижчою оцінкою"
+" скидаються у першу чергу."
 
 #: cms/templates/js/course_grade_policy.underscore:37
 msgid "Warning: "
 msgstr "Попередження:"
 
+#: cms/templates/js/course_grade_policy.underscore:40
+#, python-brace-format
+msgid ""
+"The number of {type} assignments defined here does not match the current "
+"number of {type} assignments in the course:"
+msgstr ""
+"Кількість завдань {type}, яка визначена тут, не відповідає поточній "
+"кількості завдань {type} у курсі:"
+
+#: cms/templates/js/course_grade_policy.underscore:47
+msgid "There are no assignments of this type in the course."
+msgstr "Завдань такого типу в курсі немає."
+
+#: cms/templates/js/course_grade_policy.underscore:51
+#, python-brace-format
+msgid "{assignment_count} {type} assignment(s) found:"
+msgstr "Знайдено {assignment_count} завдань типу {type}:"
+
+#: cms/templates/js/course_grade_policy.underscore:71
+#, python-brace-format
+msgid ""
+"The number of {type} assignments in the course matches the number defined "
+"here."
+msgstr ""
+"Кількість завдань {type} у курсі відповідає кількості, визначеній тут."
+
 #: cms/templates/js/course_info_handouts.underscore:3
 msgid "Course Handouts"
 msgstr "Роздаткові матеріали курсу"
+
+#: cms/templates/js/course_info_handouts.underscore:9
+msgid "You have no handouts defined"
+msgstr "У вас немає визначених роздаткових матеріалів"
+
+#: cms/templates/js/course_info_handouts.underscore:13
+msgid ""
+"There is invalid code in your content. Please check to make sure it is valid"
+" HTML."
+msgstr ""
+"У вашому контенті є недійсний код. Будь ласка, переконайтеся, що це "
+"правильний HTML."
 
 #: cms/templates/js/course_info_update.underscore:5
 msgid "Date"
@@ -7813,9 +7865,30 @@ msgstr "Обговорення"
 msgid "Enable discussion"
 msgstr "Включити обговорення"
 
+#: cms/templates/js/discussion-editor.underscore:12
+msgid "Topics for unpublished units would not be created"
+msgstr "Теми для неопублікованих блоків не створюватимуться"
+
+#: cms/templates/js/discussion-editor.underscore:16
+msgid "Please enable discussions for graded units from the"
+msgstr "Увімкніть обговорення для оцінених блоків із"
+
+#: cms/templates/js/discussion-editor.underscore:24
+msgid "Discussion Configuration"
+msgstr "Конфігурація обговорення"
+
 #: cms/templates/js/due-date-editor.underscore:3
 msgid "Due Date:"
 msgstr "Кінцева дата:"
+
+#: cms/templates/js/due-date-editor.underscore:9
+msgid "Due Time in UTC:"
+msgstr "Термін придатності в UTC:"
+
+#: cms/templates/js/due-date-editor.underscore:17
+#: cms/templates/js/due-date-editor.underscore:19
+msgid "Clear Grading Due Date"
+msgstr "Очистити Кінцеву Дату"
 
 #: cms/templates/js/edit-chapter.underscore:3
 msgid "Chapter Name"
@@ -7836,6 +7909,11 @@ msgstr ""
 msgid "Chapter Asset"
 msgstr "Елементи розділу"
 
+#: cms/templates/js/edit-chapter.underscore:10
+#, python-brace-format
+msgid "path/to/introductionToCookieBaking-CH{order}.pdf"
+msgstr "path/to/introductionToCookieBaking-CH {order}.pdf"
+
 #: cms/templates/js/edit-chapter.underscore:11
 msgid "upload a PDF file or provide the path to a Studio asset file"
 msgstr ""
@@ -7845,15 +7923,31 @@ msgstr ""
 msgid "Upload PDF"
 msgstr "Завантажити PDF"
 
+#: cms/templates/js/edit-chapter.underscore:14
+msgid "delete chapter"
+msgstr "видалити розділ"
+
+#: cms/templates/js/edit-textbook.underscore:10
+msgid "Textbook information"
+msgstr "Інформація про підручник"
+
 #: cms/templates/js/edit-textbook.underscore:12
 msgid "Textbook Name"
 msgstr "Назва підручника"
+
+#: cms/templates/js/edit-textbook.underscore:13
+msgid "Introduction to Cookie Baking"
+msgstr "Вступ до Випікання Печива"
 
 #: cms/templates/js/edit-textbook.underscore:14
 msgid ""
 "provide the title/name of the text book as you would like your students to "
 "see it"
 msgstr "створіть заголовок / назву підручника, яку бачитимуть студенти"
+
+#: cms/templates/js/edit-textbook.underscore:18
+msgid "Chapter information"
+msgstr "Інформація про розділ"
 
 #: cms/templates/js/edit-textbook.underscore:21
 msgid "Add a Chapter"
@@ -7863,9 +7957,29 @@ msgstr "Додати розділ"
 msgid "Edit Title"
 msgstr "Редагувати заголовок"
 
+#: cms/templates/js/edit-upstream-alert.underscore:4
+msgid "You are editing content from a Library."
+msgstr "Ви редагуєте контент з бібліотеки."
+
+#: cms/templates/js/edit-upstream-alert.underscore:6
+msgid ""
+"Edits made here will only be reflected in this course. These edits may be "
+"overridden later if updates are accepted."
+msgstr ""
+"Правки, зроблені тут, будуть відображені тільки в цьому курс. Ці правки "
+"можуть бути переписані пізніше, якщо оновлення будуть прийняті."
+
 #: cms/templates/js/edit-upstream-alert.underscore:14
 msgid "View in Library"
 msgstr "Переглянути в бібліотеці"
+
+#: cms/templates/js/embed-link-share-link-editor.underscore:5
+msgid ""
+"Embed your subsection content directly on a page using an iframe, and view "
+"it without the LMS header and footer."
+msgstr ""
+"Вставте вміст свого підрозділу безпосередньо на сторінку за допомогою iframe"
+" та переглядайте його без верхнього та нижнього колонтитулів LMS."
 
 #: cms/templates/js/embed-link-share-link-editor.underscore:11
 #: cms/templates/js/full-page-share-link-editor.underscore:11
@@ -7876,6 +7990,14 @@ msgstr "Натисніть, щоб скопіювати посилання в б
 #: cms/templates/js/full-page-share-link-editor.underscore:15
 msgid "Copy link"
 msgstr "Копіювати посилання"
+
+#: cms/templates/js/full-page-share-link-editor.underscore:5
+msgid ""
+"When sharing this link with your learners, they will see the content of the "
+"subsection along with the header and footer of your LMS."
+msgstr ""
+"Якщо ви поділитеся цим посиланням зі своїми учнями, вони побачать вміст "
+"підрозділу разом із верхнім і нижнім колонтитулами вашої LMS. "
 
 #: cms/templates/js/grading-editor.underscore:1
 msgid "Grading"
@@ -7889,13 +8011,98 @@ msgstr "Оцінити як:"
 msgid "Not Graded"
 msgstr "Не оцінюються"
 
+#: cms/templates/js/group-configuration-details.underscore:52
+#: cms/templates/js/group-configuration-editor.underscore:53
+msgid "Cannot delete when in use by an experiment"
+msgstr "Неможливо видалити, якщо використовується експериментом"
+
+#: cms/templates/js/group-configuration-details.underscore:61
+msgid "This Group Configuration is used in:"
+msgstr "Конфігурація цієї Групи використовується у:"
+
+#: cms/templates/js/group-configuration-details.underscore:84
+#, python-brace-format
+msgid ""
+"This Group Configuration is not in use. Start by adding a content experiment"
+" to any Unit via the {linkStart}Course Outline{linkEnd}."
+msgstr ""
+"Ця Конфігурація Групи не використовується. Почніть з додавання "
+"єкспериментального контенту до будь якого блоку через {linkStart} Структуру "
+"Курсу{linkEnd}."
+
+#: cms/templates/js/group-configuration-editor.underscore:9
+msgid "Group Configuration information"
+msgstr "Інформація з Конфігурації Групи"
+
+#: cms/templates/js/group-configuration-editor.underscore:11
+msgid "Group Configuration Name"
+msgstr "Назва Конфігурації Групи"
+
+#: cms/templates/js/group-configuration-editor.underscore:14
+msgid "Group Configuration ID"
+msgstr "ID Конфігурації Групи"
+
+#: cms/templates/js/group-configuration-editor.underscore:19
+msgid "This is the Name of the Group Configuration"
+msgstr "Це назва Конфігурації Групи. "
+
+#: cms/templates/js/group-configuration-editor.underscore:20
+msgid "Name or short description of the configuration"
+msgstr "Назва або короткий опис конфігурації"
+
+#: cms/templates/js/group-configuration-editor.underscore:24
+msgid "This is the Description of the Group Configuration"
+msgstr "Це Опис Конфігурації групи."
+
+#: cms/templates/js/group-configuration-editor.underscore:25
+msgid "Optional long description"
+msgstr "Необов'язковий повний опис"
+
+#: cms/templates/js/group-configuration-editor.underscore:29
+msgid "Group information"
+msgstr "Інформація про групу"
+
+#: cms/templates/js/group-configuration-editor.underscore:31
+msgid ""
+"Name of the groups that students will be assigned to, for example, Control, "
+"Video, Problems. You must have two or more groups."
+msgstr ""
+"Назви груп, до яких будуть призначатися учні, наприклад, \"Контроль\", "
+"\"Відео\", \"Задачі\". Вам потрібно мати дві або більше груп."
+
 #: cms/templates/js/group-configuration-editor.underscore:33
 msgid "Add another group"
 msgstr "Додати іншу групу"
 
+#: cms/templates/js/group-configuration-editor.underscore:39
+msgid ""
+"This configuration is currently used in content experiments. If you make "
+"changes to the groups, you may need to edit those experiments."
+msgstr ""
+"Ця конфігурація наразі використовується в експериментах з контенту. Якщо ви "
+"зробите зміни у групі, вам може знадобитися редагування цих експериментів."
+
 #: cms/templates/js/group-edit.underscore:4
 msgid "delete group"
 msgstr "видалити групу"
+
+#: cms/templates/js/highlights-editor.underscore:5
+msgid ""
+"Enter 3-5 highlights to include in the email message that learners receive "
+"for this section (250 character limit)."
+msgstr ""
+"Введіть 3-5 ключових слів, які потрібно включити до електронного "
+"повідомлення, яке отримають учні для цього розділу (ліміт 250 символів)."
+
+#: cms/templates/js/highlights-editor.underscore:36
+#: cms/templates/js/highlights-editor.underscore:49
+#, python-brace-format
+msgid "Highlight {highlight_index}"
+msgstr "Основні моменти {highlight_index}"
+
+#: cms/templates/js/highlights-editor.underscore:55
+msgid "A highlight to look forward to this week."
+msgstr "Основні моменти, які очікуються на цьому тижні."
 
 #: cms/templates/js/license-selector.underscore:3
 msgid "License Type"
@@ -7911,6 +8118,11 @@ msgstr "Дізнайтеся більше про {license_name}"
 msgid "Options for {license_name}"
 msgstr "Опції для {license_name}"
 
+#: cms/templates/js/license-selector.underscore:37
+#, python-brace-format
+msgid "The following options are available for the {license_name} license."
+msgstr "Для ліцензії {license_name} доступні наступні параметри."
+
 #: cms/templates/js/license-selector.underscore:74
 msgid "License Display"
 msgstr "Відображення ліцензіі"
@@ -7921,6 +8133,10 @@ msgid ""
 "pages within your course:"
 msgstr "Наступне повідомлення буде показано у нижній частині програми курсу:"
 
+#: cms/templates/js/license-selector.underscore:101
+msgid "Creative Commons licensed content, with terms as follow:"
+msgstr "Захищено ліцензією Creative Commons на умовах:"
+
 #: cms/templates/js/license-selector.underscore:105
 msgid "Some Rights Reserved"
 msgstr "Деякі права захищені."
@@ -7929,6 +8145,11 @@ msgstr "Деякі права захищені."
 #, python-format
 msgid "%(new_item_message)s"
 msgstr "%(new_item_message)s"
+
+#: cms/templates/js/list.underscore:17
+#, python-format
+msgid "New %(item_type)s"
+msgstr "Новий %(item_type)s"
 
 #: cms/templates/js/metadata-dict-entry.underscore:9
 #: cms/templates/js/metadata-file-uploader-entry.underscore:5
@@ -7950,15 +8171,75 @@ msgstr "Очистити"
 msgid "Clear Value"
 msgstr "Очистити значення"
 
+#: cms/templates/js/metadata-file-uploader-item.underscore:2
+#: cms/templates/js/video-transcripts.underscore:42
+#: cms/templates/js/video/metadata-translations-item.underscore:8
+msgid "Download"
+msgstr "Завантажити"
+
+#: cms/templates/js/move-xblock-list.underscore:7
+#, python-brace-format
+msgid "{categoryText} in {parentDisplayname}"
+msgstr "{categoryText} у {parentDisplayname}"
+
 #: cms/templates/js/move-xblock-list.underscore:28
 msgid "Current location"
 msgstr "Поточне місцезнаходження"
+
+#: cms/templates/js/move-xblock-list.underscore:41
+msgid "Currently selected"
+msgstr "Зараз обрано"
+
+#: cms/templates/js/no-textbooks.underscore:2
+msgid "You haven't added any textbooks to this course yet."
+msgstr "Ви не додали підручники до цього курсу."
+
+#: cms/templates/js/no-textbooks.underscore:2
+msgid "Add your first textbook"
+msgstr "Додати ваш перший підручник"
 
 #: cms/templates/js/paging-header.underscore:7
 #: common/static/common/templates/components/paging-footer.underscore:2
 #: common/static/common/templates/discussion/templates.underscore:586
 msgid "Previous"
 msgstr "Попередній"
+
+#: cms/templates/js/partition-group-details.underscore:47
+msgid "This group controls access to:"
+msgstr "Ця група контролює доступ до:"
+
+#: cms/templates/js/partition-group-details.underscore:59
+#, python-brace-format
+msgid ""
+"In the {linkStart}Course Outline{linkEnd}, use this group to control access "
+"to a component."
+msgstr ""
+"В  {linkStart}Структурі курсу{linkEnd}, використовуйте цю групу для "
+"контролювання доступу до компоненту."
+
+#: cms/templates/js/previous-video-upload-list.underscore:2
+msgid "Previous Uploads"
+msgstr "Попередні завантаження"
+
+#: cms/templates/js/previous-video-upload-list.underscore:5
+msgid "Download available encodings (.csv)"
+msgstr "Завантажити доступні кодіровки (.csv)"
+
+#: cms/templates/js/previous-video-upload-list.underscore:12
+msgid "Thumbnail"
+msgstr "Мініатюра"
+
+#: cms/templates/js/previous-video-upload-list.underscore:16
+msgid "Video ID"
+msgstr "Ідентифікатор відео"
+
+#: cms/templates/js/previous-video-upload-list.underscore:17
+msgid "Transcripts"
+msgstr "Субтитри"
+
+#: cms/templates/js/previous-video-upload-list.underscore:18
+msgid "Video Status"
+msgstr "Статус Відео"
 
 #: cms/templates/js/previous-video-upload-list.underscore:19
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:24
@@ -7976,11 +8257,20 @@ msgstr "Видалити це відео"
 msgid "Remove {video_name} video"
 msgstr "Видалити {video_name} відео"
 
+#: cms/templates/js/publish-history.underscore:2
+msgid "Never published"
+msgstr "Ще не опубліковане"
+
 #: cms/templates/js/publish-history.underscore:4
 #, python-format
 msgid "Last published %(last_published_date)s by %(publish_username)s"
 msgstr ""
 "Остання публікація %(last_published_date)s автором %(publish_username)s"
+
+#: cms/templates/js/publish-history.underscore:10
+#: cms/templates/js/publish-xblock.underscore:54
+msgid "Previously published"
+msgstr "Раніше опубліковані"
 
 #: cms/templates/js/publish-xblock.underscore:2
 msgid "Draft (Never published)"
@@ -7993,6 +8283,31 @@ msgstr "Видимість тільки для персоналу"
 #: cms/templates/js/publish-xblock.underscore:6
 msgid "Published and Live"
 msgstr "Опубліковане та доступне студентам"
+
+#: cms/templates/js/publish-xblock.underscore:8
+msgid "Published (not yet released)"
+msgstr "Опубліковано (ще не випущено)"
+
+#: cms/templates/js/publish-xblock.underscore:10
+msgid "Draft (Unpublished changes)"
+msgstr "Чернетка (зміни неопубліковані)"
+
+#: cms/templates/js/publish-xblock.underscore:13
+msgid "Release:"
+msgstr "Випуск:"
+
+#: cms/templates/js/publish-xblock.underscore:23
+msgid "Publishing Status"
+msgstr "Статус пубілкації"
+
+#: cms/templates/js/publish-xblock.underscore:31
+#, python-brace-format
+msgid ""
+"Draft saved on {lastSavedStart}{editedOn}{lastSavedEnd} by "
+"{editedByStart}{editedBy}{editedByEnd}"
+msgstr ""
+"Проект збережено на {lastSavedStart}{editedOn}{lastSavedEnd}  "
+"{editedByStart}{editedBy}{editedByEnd}"
 
 #: cms/templates/js/publish-xblock.underscore:43
 #, python-brace-format
@@ -8029,9 +8344,117 @@ msgstr "з %(section_or_subsection)s"
 msgid "Staff and Learners"
 msgstr "Персонал та студенти"
 
+#: cms/templates/js/publish-xblock.underscore:108
+#: cms/templates/js/staff-lock-editor.underscore:37
+msgid "Hide from learners"
+msgstr "Сховати від слухачів"
+
+#: cms/templates/js/publish-xblock.underscore:113
+msgid "Note: Do not hide graded assignments after they have been released."
+msgstr "Примітка: Не приховуйте оцінювані завдання після їх випуску."
+
+#: cms/templates/js/publish-xblock.underscore:137
+msgid "Copy Unit"
+msgstr "Скопіювати Блок"
+
 #: cms/templates/js/release-date-editor.underscore:1
 msgid "Release Date and Time"
 msgstr "Дата і час випуску"
+
+#: cms/templates/js/release-date-editor.underscore:5
+msgid "Release Date:"
+msgstr "Дата Випуску:"
+
+#: cms/templates/js/release-date-editor.underscore:11
+msgid "Release Time in UTC:"
+msgstr "Час Випуску у UTC:"
+
+#: cms/templates/js/release-date-editor.underscore:21
+#: cms/templates/js/release-date-editor.underscore:23
+msgid "Clear Release Date/Time"
+msgstr "Очистити Дату/Час Випуску"
+
+#: cms/templates/js/self-paced-due-date-editor.underscore:5
+msgid "Due in:"
+msgstr "Термін виконання:"
+
+#: cms/templates/js/self-paced-due-date-editor.underscore:8
+msgid "weeks from learner enrollment date"
+msgstr "тижні з дати реєстрації слухача на курс"
+
+#: cms/templates/js/self-paced-due-date-editor.underscore:14
+#, python-brace-format
+msgid ""
+"If a learner starts on {startDate}, this subsection will be due on "
+"{projectedDueIn}."
+msgstr ""
+"Якщо учень почне {startDate}, ця сабсекція завершиться {projectedDueIn}."
+
+#: cms/templates/js/self-paced-due-date-editor.underscore:23
+msgid ""
+"The minimum number of weeks this subsection can be due in is 1 week from the"
+" learner enrollment date."
+msgstr ""
+"Мінімальна кількість тижнів, протягом яких цей підрозділ може бути "
+"виконаний, становить 1 тиждень від дати зарахування учня."
+
+#: cms/templates/js/show-correctness-editor.underscore:2
+msgid "Assessment Results Visibility"
+msgstr "Видимість Результатів Оцінки"
+
+#: cms/templates/js/show-correctness-editor.underscore:7
+msgid "Always show assessment results"
+msgstr "Завжди показувати результати оцінювання"
+
+#: cms/templates/js/show-correctness-editor.underscore:10
+msgid ""
+"When learners submit an answer to an assessment, they immediately see "
+"whether the answer is correct or incorrect, and the score received."
+msgstr ""
+"Коли учні надають відповідь на завдання, вони відразу бачать, чи є відповідь"
+" правильною або неправильною, та отриманий бал."
+
+#: cms/templates/js/show-correctness-editor.underscore:14
+msgid "Never show assessment results"
+msgstr "Ніколи не показувати результати оцінювання"
+
+#: cms/templates/js/show-correctness-editor.underscore:17
+msgid ""
+"Learners never see whether their answers to assessments are correct or "
+"incorrect, nor the score received."
+msgstr ""
+"Учні ніколи не побачать, чи є їхні відповіді на завдання правильними або "
+"неправильними і не побачать отриманий бал."
+
+#: cms/templates/js/show-correctness-editor.underscore:21
+msgid "Show assessment results when subsection is past due"
+msgstr "Показувати результати оцінювання коли підрозділ прострочений"
+
+#: cms/templates/js/show-correctness-editor.underscore:24
+msgid ""
+"Learners do not see whether their answers to assessments were correct or "
+"incorrect, nor the score received, until after the due date for the "
+"subsection has passed."
+msgstr ""
+"Учні не бачать, чи були їхні відповіді на завдання правильними або "
+"неправильними і не бачать отриманий бал до тих пір, поки не закінчиться "
+"термін подання."
+
+#: cms/templates/js/show-correctness-editor.underscore:36
+msgid ""
+"If the subsection does not have a due date, learners always see their scores"
+" when they submit answers to assessments."
+msgstr ""
+"Якщо підрозділ не має терміну, учні завжди бачать свої оцінки, коли вони "
+"надають відповіді на завдання."
+
+#: cms/templates/js/show-textbook.underscore:12
+msgid "PDF Chapters"
+msgstr "Розділи PDF"
+
+#: cms/templates/js/show-textbook.underscore:37
+msgid "View Live"
+msgstr "Дивитись наживо"
 
 #: cms/templates/js/signatory-details.underscore:9
 #: cms/templates/js/signatory-editor.underscore:8
@@ -8043,9 +8466,17 @@ msgstr "Підписант"
 msgid "Signature Image"
 msgstr "Зображення підпису"
 
+#: cms/templates/js/signatory-editor.underscore:11
+msgid "Certificate Signatory Configuration"
+msgstr "Налаштування підписувачів сертифікату"
+
 #: cms/templates/js/signatory-editor.underscore:13
 msgid "Name "
 msgstr "Ім'я"
+
+#: cms/templates/js/signatory-editor.underscore:14
+msgid "Name of the signatory"
+msgstr "Ім'я у підпису"
 
 #: cms/templates/js/signatory-editor.underscore:15
 msgid "The name of this signatory as it should appear on certificates."
@@ -8054,6 +8485,10 @@ msgstr "Ім'я підписанта, яке відображатиметься 
 #: cms/templates/js/signatory-editor.underscore:21
 msgid "Title "
 msgstr "Назва"
+
+#: cms/templates/js/signatory-editor.underscore:22
+msgid "Title of the signatory"
+msgstr "Посада у підпису"
 
 #: cms/templates/js/signatory-editor.underscore:23
 msgid ""
@@ -8066,6 +8501,10 @@ msgstr ""
 #: cms/templates/js/signatory-editor.underscore:29
 msgid "Organization "
 msgstr "Організація"
+
+#: cms/templates/js/signatory-editor.underscore:30
+msgid "Organization of the signatory"
+msgstr "Організація у підпису"
 
 #: cms/templates/js/signatory-editor.underscore:31
 msgid ""
@@ -8084,6 +8523,37 @@ msgstr "Зображення має бути у форматі PNG"
 #: cms/templates/js/signatory-editor.underscore:46
 msgid "Upload Signature Image"
 msgstr "Завантажити зображення підпису"
+
+#: cms/templates/js/staff-lock-editor.underscore:4
+msgid "Unit Visibility"
+msgstr "Видимість Блоку курса"
+
+#: cms/templates/js/staff-lock-editor.underscore:6
+msgid "Section Visibility"
+msgstr "Видимість розділу"
+
+#: cms/templates/js/staff-lock-editor.underscore:14
+msgid "Visible to learners"
+msgstr "Видно для учнів"
+
+#: cms/templates/js/staff-lock-editor.underscore:16
+msgid ""
+"It is visible to learners, ensuring that all learners can view its contents."
+msgstr ""
+"Він видимий для учнів, що гарантує, що всі учні можуть переглядати його "
+"вміст."
+
+#: cms/templates/js/staff-lock-editor.underscore:22
+msgid "Hide in Course Outline, accessible via Link"
+msgstr "Сховати в структурі курсу, доступній за посиланням"
+
+#: cms/templates/js/staff-lock-editor.underscore:24
+msgid ""
+"It is intentionally hidden from standard navigation, ensuring that only "
+"individuals with the link can view its contents."
+msgstr ""
+"Він навмисно прихований від стандартної навігації, гарантуючи, що лише "
+"особи, які мають посилання, можуть переглядати його вміст."
 
 #: cms/templates/js/team-member.underscore:4
 msgid "Current Role:"

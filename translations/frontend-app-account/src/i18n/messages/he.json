@@ -343,7 +343,7 @@
   "id.verification.support": "תמיכה",
   "id.verification.upload.help.button": "מעבר למצב העלאה",
   "idv.submission.alert.error": "נתקלנו בשגיאה טכנית בעת ניסיון לשלוח אימות מזהה. ייתכן שזו בעיה זמנית, אז נסה שוב בעוד מספר דקות. אם הבעיה נמשכת, אנא עבור אל {support_link} לקבלת עזרה.",
-  "notification.dropdown.select.course": "",
+  "notification.dropdown.select.course": "Select a course you’re enrolled in to view its notification preferences.",
   "notification.preference.app.title": "{ מפתח, בחר, דיון {דיונים} שיעורי קורס {עבודה בקורס} עדכונים {עדכונים} אחר { {key} } }",
   "notification.preference.channel": "{ text, select, web {Web} email {Email} push {Push} other { {text} } }",
   "notification.preference.guide.body": "התראות עבור פעילויות מסוימות מופעלות כברירת מחדל,",

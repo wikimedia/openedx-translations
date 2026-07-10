@@ -139,7 +139,7 @@ msgstr "السبب"
 
 #: templates/recommender.html:157
 msgid "Reason for why this resource should be removed"
-msgstr "السبب لضرورة إزالة هذا المورد"
+msgstr "سبب ضرورة إزالة هذا المورد"
 
 #: templates/recommender.html:167
 msgid "Reason for why this resource should be endorsed"
@@ -147,7 +147,7 @@ msgstr "سبب التوصية بهذا المورد"
 
 #: templates/recommender.html:177
 msgid "Reason for why this resource should be flagged"
-msgstr "السبب لضرورة وضع علامة على هذا المورد"
+msgstr "سبب ضرورة وضع علامة على هذا المورد"
 
 #: templates/recommender.html:183 templates/recommender.html:208
 msgid "Title"
@@ -192,7 +192,7 @@ msgstr "قدِّم لقطة شاشة للموارد"
 
 #: templates/recommender.html:203
 msgid "Save change"
-msgstr "احفَظ التغييرات"
+msgstr "احفظ التعديل"
 
 #: templates/recommender.html:222
 msgid "Provide a resource description"
@@ -344,7 +344,7 @@ msgstr "انقر لعرض الموارد بترتيب التصويت التنا�
 msgid ""
 "Here is a list of reasons why students think this resource problematic:"
 msgstr ""
-"فيما يلي قائمة بالأسباب التي تجعل الطلاب يعتقدون أن هذا المورد يمثل مشكلة:"
+"هذه قائمة بالأسباب التي تجعل الطلاب يعتقدون أنّ هذا المورد يسبب مشكلة:"
 
 #: static/js/src/cats.js:94
 msgid "The reason why it is endorsed is:"
@@ -423,7 +423,7 @@ msgstr "أوصِ بهذا المورد واذكر سبب التوصية."
 
 #: static/js/src/cats.js:121
 msgid "Remove this resource and give the reason why you do that."
-msgstr "أزِل هذا المورد واذكر سبب إزالته"
+msgstr "أزِل هذا المورد واذكر سبب إزالته."
 
 #: static/js/src/cats.js:191
 msgid "From page {fromPage} To page {toPage}"
@@ -460,10 +460,6 @@ msgstr "أبلِغ عن المَوْرِد"
 #: static/js/src/cats.js:212
 msgid "Unflag resource"
 msgstr "ألغِ الإبلاغ عن المورد"
-
-#: static/js/src/cats.js:215
-msgid "Endorse resource"
-msgstr "اعتَمِد المَوْرِد"
 
 #: static/js/src/cats.js:216
 msgid "Unendorse resource"

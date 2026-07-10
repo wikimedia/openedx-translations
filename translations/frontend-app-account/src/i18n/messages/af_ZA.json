@@ -317,7 +317,7 @@
   "notification.dropdown.applies": "Van toepassing op alle kursusse",
   "notification.dropdown.course.applies": "Ignoreer rekeningwye instellings",
   "notification.dropdown.label": "Kies kennisgewings vir",
-  "notification.dropdown.select.course": "",
+  "notification.dropdown.select.course": "Select a course you’re enrolled in to view its notification preferences.",
   "notification.preference.app.title": "{ sleutel, kies, bespreek {Besprekings} kursuswerk {Kursuswerk} opdaterings {Opdaterings} gradering {Gradering} ander { {key} } }",
   "notification.preference.channel": "{ teks, kies, web {Web} e-pos {E-pos} druk {Push} ander { {text} } }",
   "notification.preference.emailCadence": "{ teks, kies, Daagliks {Daily} Weekliks {Weekly} Onmiddellik {Immediately} ander { {text} } }",

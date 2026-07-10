@@ -74,7 +74,7 @@ msgid ""
 "email will be forwarded to a third party application."
 msgstr ""
 "أدخِل وصفاً لتطبيق الجهة الخارجية. وفي حال طلب اسم المستخدم و/أو البريد "
-"الإلكتروني، فاستَخدِم هذا الصندوق النصّي لإعلام المستخدمين عن سبب إرسال اسم "
+"الإلكتروني، فاستخدِم هذا الصندوق النصي لإعلام المستخدمين عن سبب إرسال اسم "
 "المستخدم و/أو البريد الإلكتروني الخاص بهم إلى تطبيق لجهة خارجية."
 
 #: lti_xblock.py:280
@@ -87,9 +87,9 @@ msgid ""
 "staff provided you with a pre-configured LTI reusable Tool ID, "
 "select'Reusable Configuration' and enter it in the text field below."
 msgstr ""
-"اختَر \"إعدادات الكُتلة\" لإعداد أداة LTI جديدة. إذا زودك فريق الدعم بمُعرّف"
-" أداة LTI قابلة لإعادة الاستخدام تم إعدادها مُسبقاً، فاختَر \"الإعدادات "
-"القابلة لإعادة الاستخدام\" وأدخِله في الحقل النصّي أدناه."
+"اختَر \"إعدادات الكتلة\" لإعداد أداة LTI جديدة. إذا زودك فريق الدعم بمعرّف "
+"أداة LTI قابلة لإعادة الاستخدام تم إعدادها مسبقاً، فاختَر \"الإعدادات "
+"القابلة لإعادة الاستخدام\" وأدخِله في الحقل النصي أدناه. "
 
 #: lti_xblock.py:292
 msgid "LTI Version"
@@ -323,7 +323,7 @@ msgstr "يَجِب أنْ تكون المُعطيات المُخَصَّصة ف�
 
 #: lti_xblock.py:674
 msgid "Custom Parameters should be strings in \"x=y\" format."
-msgstr "يَجِب أنْ تكون المُعطَياتُ المُخَصَّصةُ سلاسِلَ نَصّية بِنَسَق \"x=y\""
+msgstr "يجب أن تكون المعطيات المخصصة سلاسل نصّية بتنسيق \"x=y\". "
 
 #: lti_xblock.py:684
 msgid ""
@@ -347,8 +347,8 @@ msgid ""
 "Could not parse LTI passport: {lti_passport!r}. Should be \"id:key:secret\" "
 "string."
 msgstr ""
-"تَعذّر تفسير معلومات استيثاق LTI: {lti_passport!r}. يَجِب أنْ تكون سِلسلة "
-"نصّية بِنَسَق \"id:key:secret\"."
+"تعذّر تفسير معلومات استيثاق LTI: {lti_passport!r}. يجب أن تكون سلسلة نصّية "
+"بتنسيق \"id:key:secret\". "
 
 #: lti_xblock.py:895 lti_xblock.py:909 lti_xblock.py:925
 msgid "Could not get user id for current request"
@@ -359,8 +359,8 @@ msgid ""
 "Could not parse custom parameter: {custom_parameter!r}. Should be \"x=y\" "
 "string."
 msgstr ""
-"تَعذّر تفسير المُعطيات المُخَصَّصة: {custom_parameter!r}. يَجِب أنْ تكون "
-"سِلسلة نصّية بِنَسَق \"x=y\"."
+"تعذّر تفسير المعطيات المخصصة: {custom_parameter!r}. يجب أن تكون سلسلة نصّية "
+"بتنسيق \"x=y\"."
 
 #: lti_xblock.py:1446
 msgid "[LTI]: Real user not found against anon_id: {}"
@@ -404,7 +404,7 @@ msgstr "معرف العميل الذي تستخدمه أداة LTI"
 
 #: models.py:255
 msgid "LTI Configuration stores on XBlock needs a block location set."
-msgstr "تحتاج مخازِن إعدادات LTI في XBlock إلى تعيين مَوقِع الكُتلة."
+msgstr "تحتاج مخازن إعدادات LTI في XBlock إلى تعيين موقع الكتلة."
 
 #: models.py:260
 msgid ""

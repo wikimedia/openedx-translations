@@ -1,4 +1,4 @@
 {
-  "unexpected.error.message.text": "",
-  "unexpected.error.button.text": "Încearcă din nou"
+  "unexpected.error.button.text": "Încearcă din nou",
+  "unexpected.error.message.text": "An unexpected error occurred. Please click the button below to refresh the page."
 }

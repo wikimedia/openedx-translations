@@ -343,7 +343,7 @@
   "id.verification.support": "support",
   "id.verification.upload.help.button": "Skift til uploadtilstand",
   "idv.submission.alert.error": "Vi stødte på en teknisk fejl under forsøget på at indsende id-bekræftelse. Dette kan være et midlertidigt problem, så prøv igen om et par minutter. Hvis problemet fortsætter, skal du gå til {support_link} for at få hjælp",
-  "notification.dropdown.select.course": "",
+  "notification.dropdown.select.course": "Select a course you’re enrolled in to view its notification preferences.",
   "notification.preference.app.title": "{ nøgle, vælg, diskussion {Discussions} kurser {Course Work} opdateringer {Opdateringer} andet { {key} } }",
   "notification.preference.channel": "{ tekst, vælg, web {Web} e-mail {E-mail} push {Push} anden { {text} } }",
   "notification.preference.guide.body": "Meddelelser for visse aktiviteter er aktiveret by default ,",

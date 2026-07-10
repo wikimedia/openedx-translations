@@ -317,7 +317,7 @@
   "notification.dropdown.applies": "Поширюється на всі курси",
   "notification.dropdown.course.applies": "Перевизначає загальні налаштування облікового запису",
   "notification.dropdown.label": "Виберіть сповіщення для",
-  "notification.dropdown.select.course": "",
+  "notification.dropdown.select.course": "Select a course you’re enrolled in to view its notification preferences.",
   "notification.preference.app.title": "{ key, select, discussion {Обговорення} coursework {Course Work} updates {Оновлення} grading {Оцінювання} other { {key} } }",
   "notification.preference.channel": "{ text, select, web {Web} email {Email} push {Push} other { {text} } }",
   "notification.preference.emailCadence": "{ text, select, Daily {Daily} Weekly {Weekly} Immediately {Immediately} other { {text} } }",

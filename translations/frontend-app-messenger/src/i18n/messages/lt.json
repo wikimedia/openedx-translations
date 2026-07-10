@@ -1,16 +1,16 @@
 {
-  "messenger.button.cancel": "",
-  "messenger.button.close": "",
+  "messenger.button.cancel": "Cancel",
+  "messenger.button.close": "Close",
   "messenger.button.newMessage": "Nauja žinutė",
   "messenger.button.reply": "Atsakyti",
   "messenger.button.send": "Siųsti",
   "messenger.error.loadConversation": "Nepavyko įkelti pokalbių:",
-  "messenger.error.readMessages": "",
+  "messenger.error.readMessages": "Error in marking messages read.",
   "messenger.error.sendMessage": "Klaida siunčiant pranešimą. Pabandykite dar kartą!",
   "messenger.error.sendMessages": "Klaida siunčiant žinutes. Pabandykite dar kartą!",
   "messenger.error.userConversation": "Nepavyko įkelti naudotojo pokalbio:",
   "messenger.error.userSearch": "Negalima ieškoti naudotojų.",
-  "messenger.inbox.noConversation": "",
+  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "Gautieji",
   "messenger.label.message": "Pranešimas",
   "messenger.label.newMessage": "Nauja žinutė",
@@ -19,7 +19,7 @@
   "messenger.placeholder.searchUsers": "Ieškoti naudotojų",
   "messenger.placeholder.select": "Pasirinkti",
   "messenger.placeholder.typeMessage": "Įveskite savo žinutę...",
-  "messenger.placeholder.username": "",
+  "messenger.placeholder.username": "username",
   "messenger.success.sendMessage": "Žinutė išsiųsta.",
-  "messenger.success.sendMessages": ""
+  "messenger.success.sendMessages": "Message(s) have been sent."
 }

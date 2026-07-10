@@ -514,14 +514,6 @@ msgstr "وقت الاستحقاق"
 msgid "You cannot delete a prompt after the assignment has been released."
 msgstr "لا يمكنك حذف السؤال بعد نشر الواجب."
 
-#: templates/legacy/edit/oa_edit_prompts.html:10
-msgid ""
-"Prompts. Replace the sample text with your own text. For more information, "
-"see the ORA documentation."
-msgstr ""
-"علامات الاستعداد. يُرجى استبدال النص النموذجي بنصّك الخاص بك. ولمزيد من "
-"المعلومات، تفضّل بمراجعة قسم توثيق \"مقيِّم الإجابات المفتوحة\"."
-
 #: templates/legacy/edit/oa_edit_prompts.html:22
 msgid "Add Prompt"
 msgstr "إضافة علامة استعداد"
@@ -915,11 +907,11 @@ msgstr "أرسِل ملاحظاتك عن تقييم الزملاء"
 
 #: templates/legacy/grade/oa_grade_incomplete.html:16
 msgid "Not Completed"
-msgstr "غير مكتمِل"
+msgstr "غير مكتمل"
 
 #: templates/legacy/grade/oa_grade_incomplete.html:33
 msgid "You have not completed all the steps of this problem."
-msgstr "لم تَستكمِل جميع خطوات هذه المسألة."
+msgstr "لم تكمل جميع خطوات هذه المسألة."
 
 #: templates/legacy/grade/oa_grade_not_started.html:16
 msgid "Not Started"
@@ -1685,7 +1677,7 @@ msgstr ""
 #: templates/legacy/self/oa_self_complete.html:18
 #: templates/legacy/student_training/student_training_complete.html:17
 msgid "Complete"
-msgstr "مكتمِل"
+msgstr "مكتمل"
 
 #: templates/legacy/response/oa_response_graded.html:30
 #: templates/legacy/response/oa_response_submitted.html:51
@@ -2538,7 +2530,7 @@ msgstr ""
 
 #: xblock/staff_area_mixin.py:703
 msgid "Please enter valid reason to remove the submission."
-msgstr "يُرجى إدخال سبب صالح لحذف التقديم."
+msgstr "يُرجى إعطاء سبب صالح لحذف الإجابة."
 
 #: xblock/staff_area_mixin.py:714
 msgid "Submission not found"
@@ -2656,19 +2648,6 @@ msgstr "ترتيب التقييم الذي اخترته غير صالح."
 #: xblock/utils/validation.py:134
 msgid "In peer assessment, the \"Must Grade\" value must be a positive integer."
 msgstr "في تقييم الزملاء، يجب أن تكون قيمة \"يجب اللتقييم\" عددًا صحيحًا موجبًا."
-
-#: xblock/utils/validation.py:137
-msgid "In peer assessment, the \"Graded By\" value must be a positive integer."
-msgstr ""
-"في تقييم الزملاء، يجب أن تكون قيمة \"مقيَّم من قِبل\" عددًا صحيحًا موجبًا."
-
-#: xblock/utils/validation.py:141
-msgid ""
-"In peer assessment, the \"Must Grade\" value must be greater than or equal "
-"to the \"Graded By\" value."
-msgstr ""
-"في تقييم الزملاء، يجب أن تكون قيمة \"يجب التقييم\" عددًا أكبر من قيمة "
-"\"مقيَّم من قِبل\" أو مساويًا لها."
 
 #: xblock/utils/validation.py:150
 msgid "You must provide at least one example response for learner training."

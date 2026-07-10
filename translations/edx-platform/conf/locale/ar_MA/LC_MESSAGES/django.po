@@ -25200,3 +25200,31 @@ msgstr ""
 msgid ""
 "Click to generate a CSV grade report for all currently enrolled students.!!"
 msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/ace_common/edx_ace/common/base_body.html:66
+msgid "Go to %(platform_name)s Home Page"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/ace_common/edx_ace/common/base_body.html:109
+msgid "%(platform_name)s on Twitter"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/ace_common/edx_ace/common/base_body.html:125
+msgid "%(platform_name)s on Google Plus"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/ace_common/edx_ace/common/base_body.html:133
+msgid "%(platform_name)s on Reddit"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/ace_common/edx_ace/common/base_body.html:147
+msgid "Download the iOS app on the Apple Store"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/ace_common/edx_ace/common/base_body.html:154
+msgid "Download the Android app on the Google Play Store"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/courseware/course_about_sidebar_header.html:62
+msgid "Post a Facebook message to say you've enrolled in this course"
+msgstr ""

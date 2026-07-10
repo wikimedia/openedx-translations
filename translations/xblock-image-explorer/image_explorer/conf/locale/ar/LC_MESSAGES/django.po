@@ -35,7 +35,7 @@ msgstr "مستكشف الصور"
 
 #: image_explorer.py:66
 msgid "Hot Spots Coordinates Centered"
-msgstr "توسيط إحداثيات النُقاط النَشِطة"
+msgstr "توسيط إحداثيات النقاط النشطة"
 
 #: image_explorer.py:72
 msgid "Store hotspots opened by student, for completion"
@@ -59,7 +59,7 @@ msgstr "عنوان مستكشف الصور الذي يُعرَض للمستخد�
 
 #: templates/html/image_explorer_edit.html:17
 msgid "Hotspot coordinates centered"
-msgstr "تتمحور إحداثيات نقطة الاتصال"
+msgstr "توسيط إحداثيات النقاط النشطة"
 
 #: templates/html/image_explorer_edit.html:19
 msgid ""

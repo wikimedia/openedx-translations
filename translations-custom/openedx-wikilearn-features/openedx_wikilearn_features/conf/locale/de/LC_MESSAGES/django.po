@@ -705,3 +705,28 @@ msgstr ""
 #: meta_translations/templates/translations.html:11
 msgid "{studio_name} Home"
 msgstr ""
+
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:40
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:40
+msgid "Username"
+msgstr ""
+
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:41
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:41
+msgid "Grade"
+msgstr ""
+
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:42
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:42
+msgid "Certificate Type"
+msgstr ""
+
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:43
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:43
+msgid "Certificate Creation Date"
+msgstr ""
+
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:44
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:44
+msgid "Certificate link"
+msgstr ""

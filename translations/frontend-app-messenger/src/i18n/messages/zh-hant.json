@@ -1,6 +1,6 @@
 {
-  "messenger.button.cancel": "",
-  "messenger.button.close": "",
+  "messenger.button.cancel": "Cancel",
+  "messenger.button.close": "Close",
   "messenger.button.newMessage": "新訊息",
   "messenger.button.reply": "回覆",
   "messenger.button.send": "發送",
@@ -10,7 +10,7 @@
   "messenger.error.sendMessages": "發送訊息時出現錯誤。請再重試一次！",
   "messenger.error.userConversation": "無法載入使用者的對談：",
   "messenger.error.userSearch": "無法搜尋使用者。",
-  "messenger.inbox.noConversation": "",
+  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "收件匣",
   "messenger.label.message": "訊息",
   "messenger.label.newMessage": "新訊息",
@@ -19,7 +19,7 @@
   "messenger.placeholder.searchUsers": "搜尋使用者",
   "messenger.placeholder.select": "選擇",
   "messenger.placeholder.typeMessage": "輸入您的訊息…",
-  "messenger.placeholder.username": "",
+  "messenger.placeholder.username": "username",
   "messenger.success.sendMessage": "訊息已發送。",
   "messenger.success.sendMessages": "訊息已發送。"
 }

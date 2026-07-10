@@ -7,11 +7,11 @@ msgstr ""
 "PO-Revision-Date: 2023-06-13 09:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
-"Language: en\n"
+"Language: ar_MA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "Domain: djangojs\n"
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:24
@@ -10322,15 +10322,3 @@ msgstr ""
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
 msgid "Sorry, no results were found."
 msgstr "عذرًا، لا توجد أي نتائج."
-
-#: tutorindigo/templates/indigo/lms/static/js/courses.js:24
-msgid "What to study next?"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/static/js/courses.js:27
-msgid "Show All Courses"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/static/js/courses.js:77
-msgid "No results found"
-msgstr ""

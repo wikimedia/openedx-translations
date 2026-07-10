@@ -1,6 +1,6 @@
 {
-  "messenger.button.cancel": "",
-  "messenger.button.close": "",
+  "messenger.button.cancel": "Cancel",
+  "messenger.button.close": "Close",
   "messenger.button.newMessage": "Novo sporočilo",
   "messenger.button.reply": "Odgovori",
   "messenger.button.send": "Pošlji",
@@ -10,7 +10,7 @@
   "messenger.error.sendMessages": "Napaka pri pošiljanju sporočil. Prosimo, poskusite znova!",
   "messenger.error.userConversation": "Pogovora uporabnika ni mogoče naložiti:",
   "messenger.error.userSearch": "Uporabnikov ni mogoče iskati.",
-  "messenger.inbox.noConversation": "",
+  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "Prejeta pošta",
   "messenger.label.message": "Sporočilo",
   "messenger.label.newMessage": "Novo sporočilo",
@@ -19,7 +19,7 @@
   "messenger.placeholder.searchUsers": "Poišči uporabnike",
   "messenger.placeholder.select": "Izberite",
   "messenger.placeholder.typeMessage": "Vnesite svoje sporočilo ...",
-  "messenger.placeholder.username": "",
+  "messenger.placeholder.username": "username",
   "messenger.success.sendMessage": "Sporočilo je poslano.",
   "messenger.success.sendMessages": "Sporočilo(a) je(so) bilo(a) poslano(a)."
 }

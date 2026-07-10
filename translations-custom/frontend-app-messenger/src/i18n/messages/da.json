@@ -1,16 +1,16 @@
 {
-  "messenger.button.cancel": "",
-  "messenger.button.close": "",
+  "messenger.button.cancel": "Cancel",
+  "messenger.button.close": "Close",
   "messenger.button.newMessage": "Ny besked",
   "messenger.button.reply": "Svar",
   "messenger.button.send": "Send",
-  "messenger.error.loadConversation": "",
-  "messenger.error.readMessages": "",
+  "messenger.error.loadConversation": "Unable to load conversations.",
+  "messenger.error.readMessages": "Error in marking messages read.",
   "messenger.error.sendMessage": "Fejl ved afsending af besked. Prøv venligst igen!",
-  "messenger.error.sendMessages": "",
+  "messenger.error.sendMessages": "Error in sending messages. Please try again!",
   "messenger.error.userConversation": "Kan ikke indlæse brugerens samtale:",
-  "messenger.error.userSearch": "",
-  "messenger.inbox.noConversation": "",
+  "messenger.error.userSearch": "Unable to search users.",
+  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "Indbakke",
   "messenger.label.message": "Besked",
   "messenger.label.newMessage": "Ny besked",
@@ -19,7 +19,7 @@
   "messenger.placeholder.searchUsers": "Søg brugere",
   "messenger.placeholder.select": "Vælg",
   "messenger.placeholder.typeMessage": "Skriv din besked...",
-  "messenger.placeholder.username": "",
+  "messenger.placeholder.username": "username",
   "messenger.success.sendMessage": "Besked er sendt.",
-  "messenger.success.sendMessages": ""
+  "messenger.success.sendMessages": "Message(s) have been sent."
 }

@@ -1,6 +1,6 @@
 {
-  "messenger.button.cancel": "",
-  "messenger.button.close": "",
+  "messenger.button.cancel": "Cancel",
+  "messenger.button.close": "Close",
   "messenger.button.newMessage": "Jańa xabar",
   "messenger.button.reply": "Juwap beriw",
   "messenger.button.send": "Jiberiw",
@@ -8,9 +8,9 @@
   "messenger.error.readMessages": "Xabarlardı oqılǵan dep belgilewde qátelik.",
   "messenger.error.sendMessage": "Xabarlardı jiberiwde qátelik. Márhámát, taǵı bir márte urınıp kóriń!",
   "messenger.error.sendMessages": "Xabarlardı jiberiwde qátelik. Márhámát, taǵı bir márte urınıp kóriń!",
-  "messenger.error.userConversation": "",
-  "messenger.error.userSearch": "",
-  "messenger.inbox.noConversation": "",
+  "messenger.error.userConversation": "Unable to load conversation of user:",
+  "messenger.error.userSearch": "Unable to search users.",
+  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "Kiriwshi xatqutı",
   "messenger.label.message": "Xabar",
   "messenger.label.newMessage": "Jańa xabar",
@@ -19,7 +19,7 @@
   "messenger.placeholder.searchUsers": "Paydalanıwshılardı izlew",
   "messenger.placeholder.select": "Saylaw",
   "messenger.placeholder.typeMessage": "Xabarıńızdı jazıń...",
-  "messenger.placeholder.username": "",
+  "messenger.placeholder.username": "username",
   "messenger.success.sendMessage": "Xabar jiberildi.",
   "messenger.success.sendMessages": "Xabar(lar) jiberildi."
 }

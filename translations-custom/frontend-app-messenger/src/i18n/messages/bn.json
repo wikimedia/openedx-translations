@@ -1,25 +1,13 @@
 {
-  "messenger.button.cancel": "Cancel",
-  "messenger.button.close": "Close",
   "messenger.button.newMessage": "নতুন বার্তা",
   "messenger.button.reply": "উত্তর দিন",
   "messenger.button.send": "পাঠান",
-  "messenger.error.loadConversation": "Unable to load conversations.",
-  "messenger.error.readMessages": "Error in marking messages read.",
   "messenger.error.sendMessage": "বার্তা প্রেরণে ত্রুটি। অনুগ্রহ করে আবার চেষ্টা করুন!",
   "messenger.error.sendMessages": "বার্তা প্রেরণে ত্রুটি। অনুগ্রহ করে আবার চেষ্টা করুন!",
-  "messenger.error.userConversation": "Unable to load conversation of user:",
-  "messenger.error.userSearch": "Unable to search users.",
-  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "ইনবক্স",
-  "messenger.label.message": "Message",
   "messenger.label.newMessage": "নতুন বার্তা",
   "messenger.label.users": "ব্যবহারকারী",
   "messenger.placeholder.enterMessage": "বার্তা লিখুন ...",
   "messenger.placeholder.searchUsers": "ব্যবহারকারী অনুসন্ধান করুন",
-  "messenger.placeholder.select": "Select",
-  "messenger.placeholder.typeMessage": "আপনার বার্তা লিখুন...",
-  "messenger.placeholder.username": "username",
-  "messenger.success.sendMessage": "Message has been sent.",
-  "messenger.success.sendMessages": "Message(s) have been sent."
+  "messenger.placeholder.typeMessage": "আপনার বার্তা লিখুন..."
 }

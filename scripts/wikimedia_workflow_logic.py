@@ -197,13 +197,13 @@ def update_custom_layer(extracted_dir):
             process_json_diff(extracted_file, comparison_source, comparison_custom,
                               rel_path, supported_langs, comparison_extracted, is_merge_source)
 
-    # Fill custom-layer MFE placeholders with the English source string so
-    # translators see what each opaque JSON key means. These are custom-only keys
-    # (disjoint from upstream), so this never overrides an upstream translation;
-    # merge_final adds them as custom-only entries (English until translated).
-    # PO files are untouched: the msgid already shows the English source.
-    print("--- Filling custom MFE placeholders with English source ---")
-    fill_empty_mfe_translations_with_source(CUSTOM_DIR)
+    # Enforce the absence convention on custom MFE files: keep only genuine
+    # translations, dropping empty and source-equal placeholders (and any file that
+    # ends up empty). Untranslated strings are indicated by an absent key; the bot
+    # translates from transifex_input.json and adds keys as strings are completed.
+    # PO files are untouched (an empty msgstr already falls back to the msgid).
+    print("--- Enforcing absence convention on custom MFE files ---")
+    strip_untranslated_mfe_translations(CUSTOM_DIR)
 
 
 def create_or_update_po_placeholders(extracted_file, rel_path, supported_langs):
@@ -658,21 +658,22 @@ def belongs_to_manual_locale(path, manual_locales=MANUAL_LOCALES):
     return False
 
 
-def fill_empty_mfe_translations_with_source(base_dir=FINAL_DIR):
+def strip_untranslated_mfe_translations(base_dir=FINAL_DIR):
     """
-    Restore pre-upgrade fallback behavior for MFE JSON translations.
+    Enforce the absence convention for MFE JSON translations.
 
-    MFE translation files ship every source key, with an empty string for
-    untranslated entries. react-intl renders a present-but-empty value as blank
-    instead of falling back to the English source, so any missing translation
-    shows as empty. Fill each empty value with the English source string from the
-    sibling src/i18n/transifex_input.json so missing translations show English.
+    A language file must contain ONLY genuinely-translated strings. An untranslated
+    string is indicated by the absence of its key (the app falls back to the
+    component's English defaultMessage on its own), and a language with no
+    translations at all has no file. Remove any entry whose value is empty or equal
+    to the English source in the sibling src/i18n/transifex_input.json, and delete a
+    language file once it holds no real translations.
 
-    (.po/gettext files are unaffected: an empty msgstr already falls back to the
-    msgid, i.e. the English source.)
+    (.po/gettext files are untouched: an empty msgstr already falls back to the
+    msgid, so gettext already follows this convention.)
     """
-    filled_files = 0
-    filled_values = 0
+    removed_values = 0
+    removed_files = 0
     for source_file in base_dir.glob("**/src/i18n/transifex_input.json"):
         try:
             with open(source_file, encoding="utf-8") as f:
@@ -692,25 +693,31 @@ def fill_empty_mfe_translations_with_source(base_dir=FINAL_DIR):
             except Exception:
                 continue
 
-            changed = 0
+            kept = {}
             for key, value in data.items():
-                if str(value).strip():
-                    continue  # already translated
+                if not str(value).strip():
+                    continue  # empty -> untranslated
                 src_val = source.get(key)
                 if isinstance(src_val, dict):
                     src_val = src_val.get("defaultMessage") or src_val.get("message") or src_val.get("string")
-                if src_val and str(src_val).strip():
-                    data[key] = src_val
-                    changed += 1
+                if src_val is not None and str(value) == str(src_val):
+                    continue  # equals English source -> untranslated
+                kept[key] = value
 
-            if changed:
+            if len(kept) == len(data):
+                continue  # nothing to strip
+
+            if kept:
                 with open(lang_file, "w", encoding="utf-8") as f:
-                    json.dump(data, f, indent=2, sort_keys=True, ensure_ascii=False)
-                filled_files += 1
-                filled_values += changed
+                    json.dump(kept, f, indent=2, sort_keys=True, ensure_ascii=False)
+                removed_values += len(data) - len(kept)
+            else:
+                lang_file.unlink()  # no real translations -> drop the file
+                removed_files += 1
+                removed_values += len(data)
 
-    if filled_values:
-        print(f"  Filled {filled_values} empty translation(s) across {filled_files} MFE file(s) with English source")
+    if removed_values or removed_files:
+        print(f"  Stripped {removed_values} untranslated MFE entr(ies); removed {removed_files} empty language file(s)")
 
 
 def merge_final():
@@ -872,9 +879,9 @@ def merge_final():
                 except Exception as e:
                     print(f"  ERROR writing merged JSON {rel_path}: {e}")
 
-    # Fill empty MFE translations with the English source so missing strings
-    # render in English rather than blank (restores pre-upgrade behavior).
-    fill_empty_mfe_translations_with_source()
+    # Enforce the absence convention on the final MFE files: untranslated strings
+    # are absent (the app falls back to its built-in English source), not empty.
+    strip_untranslated_mfe_translations()
 
     # Print summary of merged repos
     merged_repos = [f"{src} → {config['merge_into']}" for src, config in REPO_MERGE_CONFIG.items()]

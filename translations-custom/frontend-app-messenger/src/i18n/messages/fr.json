@@ -1,6 +1,4 @@
 {
-  "messenger.button.cancel": "Cancel",
-  "messenger.button.close": "Close",
   "messenger.button.newMessage": "Nouveau message",
   "messenger.button.reply": "Répondre",
   "messenger.button.send": "Envoyer",
@@ -10,16 +8,13 @@
   "messenger.error.sendMessages": "Erreur lors de l’envoi des messages. Veuillez essayer à nouveau !",
   "messenger.error.userConversation": "Impossible de charger la conversation de l’utilisateur :",
   "messenger.error.userSearch": "Impossible de rechercher des utilisateurs.",
-  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "Boîte de réception",
-  "messenger.label.message": "Message",
   "messenger.label.newMessage": "Nouveau message",
   "messenger.label.users": "Utilisateurs",
   "messenger.placeholder.enterMessage": "Saisissez le message...",
   "messenger.placeholder.searchUsers": "Rechercher des utilisateurs",
   "messenger.placeholder.select": "Sélectionner",
   "messenger.placeholder.typeMessage": "Saisissez votre message...",
-  "messenger.placeholder.username": "username",
   "messenger.success.sendMessage": "Le message a été envoyé.",
   "messenger.success.sendMessages": "Le(s) message(s) ont été envoyés."
 }

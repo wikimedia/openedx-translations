@@ -1,6 +1,4 @@
 {
-  "messenger.button.cancel": "Cancel",
-  "messenger.button.close": "Close",
   "messenger.button.newMessage": "הודעה חדשה",
   "messenger.button.reply": "תגובה",
   "messenger.button.send": "שליחה",
@@ -10,7 +8,6 @@
   "messenger.error.sendMessages": "שגיאה בשליחת ההודעה. נא לנסות שוב!",
   "messenger.error.userConversation": "לא ניתן לטעון את שיחת המשתמש:",
   "messenger.error.userSearch": "לא ניתן לחפש משתמשים.",
-  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "תיבת דואר נכנס",
   "messenger.label.message": "הודעה",
   "messenger.label.newMessage": "הודעה חדשה",
@@ -19,7 +16,6 @@
   "messenger.placeholder.searchUsers": "חיפוש משתמשים",
   "messenger.placeholder.select": "בחירה",
   "messenger.placeholder.typeMessage": "הקלידו את הודעתכם...",
-  "messenger.placeholder.username": "username",
   "messenger.success.sendMessage": "ההודעה נשלחה.",
   "messenger.success.sendMessages": "הודעות נשלחו."
 }

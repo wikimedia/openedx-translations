@@ -1,6 +1,4 @@
 {
-  "messenger.button.cancel": "Cancel",
-  "messenger.button.close": "Close",
   "messenger.button.newMessage": "رسالة جديدة",
   "messenger.button.reply": "رد",
   "messenger.button.send": "إرسال",
@@ -10,7 +8,6 @@
   "messenger.error.sendMessages": "حصل خطأ عند إرسال الرسائل. حاول مرة اخرى!",
   "messenger.error.userConversation": "تعذر تحميل محادثة المستخدم:",
   "messenger.error.userSearch": "تعذر البحث عن المستخدمين.",
-  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "صندوق الواردات",
   "messenger.label.message": "رسالة",
   "messenger.label.newMessage": "رسالة جديدة",
@@ -19,7 +16,6 @@
   "messenger.placeholder.searchUsers": "البحث عن مستخدم",
   "messenger.placeholder.select": "تحديد",
   "messenger.placeholder.typeMessage": "اكتب رسالتك...",
-  "messenger.placeholder.username": "username",
   "messenger.success.sendMessage": "تم ارسال الرسالة.",
   "messenger.success.sendMessages": "تم إرسال الرسالة (الرسائل)."
 }

@@ -1,6 +1,4 @@
 {
-  "messenger.button.cancel": "Cancel",
-  "messenger.button.close": "Close",
   "messenger.button.newMessage": "Nieuw bericht",
   "messenger.button.reply": "Antwoorden",
   "messenger.button.send": "Verzenden",
@@ -10,7 +8,6 @@
   "messenger.error.sendMessages": "Fout bij het verzenden van berichten. Probeer het nog eens.",
   "messenger.error.userConversation": "Kan gesprek van gebruiker niet laden:",
   "messenger.error.userSearch": "Kan gebruikers niet zoeken.",
-  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "Postvak IN",
   "messenger.label.message": "Bericht",
   "messenger.label.newMessage": "Nieuw bericht",
@@ -19,7 +16,6 @@
   "messenger.placeholder.searchUsers": "Gebruikers zoeken",
   "messenger.placeholder.select": "Selecteren",
   "messenger.placeholder.typeMessage": "Schrijf uw bericht…",
-  "messenger.placeholder.username": "username",
   "messenger.success.sendMessage": "Bericht verzonden.",
   "messenger.success.sendMessages": "Bericht(en) verzonden."
 }

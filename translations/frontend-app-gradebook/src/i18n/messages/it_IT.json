@@ -3,7 +3,6 @@
   "gradebook.BulkManagementHistoryView.csvUploadLabel": "Carica il file di valutazione CSV",
   "gradebook.BulkManagementHistoryView.heading": "Storico di gestione di massa",
   "gradebook.BulkManagementHistoryView.successDialog": "CSV in elaborazione. Il caricamento dei file potrebbe impiegare diversi minuti per essere completato.",
-  "gradebook.GradebookFilters.apply": "Apply",
   "gradebook.GradebookFilters.assignmentFilterLabel": "Compito",
   "gradebook.GradebookFilters.assignmentTypesLabel": "Tipi di compito",
   "gradebook.GradebookFilters.assignmentsFilterLabel": "Compiti",
@@ -16,7 +15,6 @@
   "gradebook.GradebookFilters.overallGradeFilterLabel": "Voto Finale",
   "gradebook.GradebookFilters.studentGroupsFilterLabel": "Gruppi di studenti",
   "gradebook.GradebookFilters.trackAll": "Traccia tutto",
-  "gradebook.GradebookFilters.tracks": "Tracks",
   "gradebook.GradebookHeader.appLabel": "Registro delle valutazioni",
   "gradebook.GradebookHeader.backButton": "Torna al Dashboard",
   "gradebook.GradebookHeader.frozenWarning": "Le valutazioni per questo corso ora sono congelate. La modifica delle valutazioni non è più permessa.",
@@ -30,7 +28,6 @@
   "gradebook.GradesTab.FilterBadges.courseGrade": "Valutazione del Corso",
   "gradebook.GradesTab.FilterBadges.includeCourseRoleMembers": "Includi i membri del team del corso",
   "gradebook.GradesTab.FilterBadges.track": "Traccia",
-  "gradebook.GradesTab.usersVisibilityLabel": "Showing {filteredUsers} of {totalUsers} total learners",
   "gradebook.GradesView.BulkManagementControls.bulkManagementLabel": "Download delle valutazioni",
   "gradebook.GradesView.EditModal.Overrides.adjustedGradeHeader": "Valutazione adeguata",
   "gradebook.GradesView.EditModal.Overrides.dateHeader": "Data",
@@ -65,13 +62,9 @@
   "gradebook.GradesView.scoreViewLabel": "Vista del punteggio",
   "gradebook.GradesView.search.hint": "Ricerca per username, email o chiave dello studente",
   "gradebook.GradesView.search.label": "Cerca uno studente",
-  "gradebook.GradesView.table.headings.email": "Email",
-  "gradebook.GradesView.table.headings.fullName": "Full Name",
   "gradebook.GradesView.table.headings.totalGrade": "Totale della valutazione (%)",
   "gradebook.GradesView.table.headings.username": "Nome utente",
   "gradebook.GradesView.table.labels.studentKey": "Chiave dello studente*",
   "gradebook.GradesView.table.labels.username": "Nome utente",
-  "gradebook.GradesView.table.noResultsFound": "No results found",
-  "gradebook.GradesView.table.totalGradePercentage": "I dati della valutazione complessiva sono sempre mostrati in termini percentuali",
-  "gradebook.page.title": "Gradebook | {siteName}"
+  "gradebook.GradesView.table.totalGradePercentage": "I dati della valutazione complessiva sono sempre mostrati in termini percentuali"
 }

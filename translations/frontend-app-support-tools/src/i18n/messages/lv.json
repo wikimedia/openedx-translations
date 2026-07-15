@@ -1,7 +1,6 @@
 {
   "configuration.customersPage.otherSubsidiesColumn": "Citas subsīdijas",
   "configuration.customersPage.otherSubsidiesColumn.tooltip": "Ietver piedāvājumus un kodus",
-  "configuration.customersPage.viewSubsidiesColumn.tooltip": "A checkmark indicates an active subsidy.",
   "copy.public.record.link": "Kopējiet publiskā ieraksta saiti",
   "course.reset.alert.warning": "Vai esat pārliecināti? Tādējādi tiks dzēsti visi šī kursa dalībnieka dati. Tas var notikt tikai vienu reizi vienam dalībniekam vienā kursā.",
   "earned.status": "Nopelnīts",

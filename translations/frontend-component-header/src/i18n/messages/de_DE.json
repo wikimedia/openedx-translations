@@ -5,7 +5,6 @@
   "header.label.account.menu": "Benutzerkontomenü",
   "header.label.account.menu.for": "Benutzerkontomenü für {username}",
   "header.label.account.nav": "Benutzerkonto",
-  "header.label.app.nav": "App",
   "header.label.courseOutline": "Zurück zur Kursübersicht im Studio",
   "header.label.main.header": "Hauptseite",
   "header.label.main.menu": "Hauptmenü",
@@ -28,11 +27,9 @@
   "header.user.menu.dashboard": "Meine Kurse",
   "header.user.menu.login": "Anmelden",
   "header.user.menu.logout": "Abmelden",
-  "header.user.menu.maintenance": "Maintenance",
   "header.user.menu.order.history": "Bestellverlauf",
   "header.user.menu.profile": "Profil",
   "header.user.menu.register": "Registrieren",
   "header.user.menu.studio": "Studioheim",
-  "header.user.menu.studio.home": "Studioheim",
-  "header.user.menu.studio.maintenance": "Maintenance"
+  "header.user.menu.studio.home": "Studioheim"
 }

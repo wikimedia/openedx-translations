@@ -5,7 +5,6 @@
   "profile.bio.about.me": "Haqqımda",
   "profile.bio.empty": "Qısa bio əlavə edin",
   "profile.certificate.completion.date.label": "Tamamlandı {date}-də",
-  "profile.certificate.organization.label": "From",
   "profile.certificates.my.certificates": "Mənim Sertifikatlarım",
   "profile.certificates.types.professional": "Peşəkar sertifikat",
   "profile.certificates.types.unknown": "Sertifikat",
@@ -40,7 +39,6 @@
   "profile.loading": "Profil yüklənir...",
   "profile.name.details": "Bu, hesabınızda və sertifikatlarınızda görünən addır.",
   "profile.name.empty": "Adı əlavə edin",
-  "profile.name.full.name": "Full Name",
   "profile.no.certificates": "Siz hələ heç bir sertifikat əldə etməmisiniz.",
   "profile.notfound.message": "Axtardığınız səhifə mövcud deyil və ya URL-də səhv var. Zəhmət olmasa, URL-i yoxlayın və yenidən cəhd edin.",
   "profile.page.title": "Profil | {siteName}",
@@ -49,10 +47,8 @@
   "profile.profileavatar.change-button": "Dəyiş",
   "profile.profileavatar.remove.button": "Silin",
   "profile.profileavatar.upload-button": "Şəkil yüklə",
-  "profile.sociallinks.add": "Add {network}",
   "profile.sociallinks.social.links": "Sosial bağlantılar",
   "profile.username.description": "Profil məlumatlarınız yalnız sizə görünür. Yalnız istifadəçi adınız {siteName} üzərində başqalarına görünür.",
   "profile.viewMyRecords": "Qeydlərimə baxış",
-  "profile.visibility.who.everyone": "Everyone on {siteName}",
   "profile.visibility.who.just.me": "Yalnız mən"
 }

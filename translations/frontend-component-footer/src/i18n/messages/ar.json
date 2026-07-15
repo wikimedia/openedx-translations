@@ -1,5 +1,4 @@
 {
-  "authoring.footer.accessibilityRequest.link.label": "Accessibility Accomodation Request",
   "authoring.footer.help.closeHelp.button.label": "اخفِ تعليمات الاستوديو",
   "authoring.footer.help.contactUs.button.label": "اتصل بنا",
   "authoring.footer.help.edx101.button.label": "الالتحاق بمساق edX 101",
@@ -22,7 +21,6 @@
   "footer.edxLinks.business": "edX للشركات",
   "footer.edxLinks.careers": "الوظائف",
   "footer.edxLinks.news": "الأخبار",
-  "footer.edxLinks.openEdx": "Open edX",
   "footer.languageForm.select.label": "اختر لغة",
   "footer.languageForm.submit.label": "تطبيق",
   "footer.legalLinks.a11yPolicy": "سياسة إتاحة الوصول لذوي الاحتياجات الخاصة",

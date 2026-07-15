@@ -163,6 +163,10 @@ msgstr "هل تريد عرض العنوان للطلاب؟"
 msgid "Problem text"
 msgstr "نص المسألة"
 
+#: drag_and_drop_v2.py:128
+msgid "The description of the problem or instructions shown to the learner."
+msgstr "وصف المسألة، أو التعليمات المعروضة للطالب."
+
 #: drag_and_drop_v2.py:135
 msgid "Show \"Problem\" heading"
 msgstr "أظهِر عنوان \"المسألة\""
@@ -192,9 +196,17 @@ msgstr "الإعداد الافتراضي"
 msgid "Always"
 msgstr "دائماً"
 
+#: drag_and_drop_v2.py:151
+msgid "Answered"
+msgstr "أُجيب عنه"
+
 #: drag_and_drop_v2.py:153
 msgid "Closed"
 msgstr "مغلق"
+
+#: drag_and_drop_v2.py:154
+msgid "Finished"
+msgstr "انتهى"
 
 #: drag_and_drop_v2.py:156
 msgid "Past Due"
@@ -211,6 +223,14 @@ msgstr "ثقل المسألة"
 #: drag_and_drop_v2.py:167
 msgid "Defines the number of points the problem is worth."
 msgstr "يحدد عدد النقاط التي تستحقها المسألة."
+
+#: drag_and_drop_v2.py:182
+msgid "Item text color"
+msgstr "لون نص العنصر"
+
+#: drag_and_drop_v2.py:190
+msgid "Maximum items per zone"
+msgstr "الحد الأقصى للعناصر في المنطقة الواحدة"
 
 #: drag_and_drop_v2.py:198
 msgid "Problem data"
@@ -279,6 +299,10 @@ msgstr "الملاحظات الأولية"
 msgid "Final feedback"
 msgstr "الملاحظات النهائية"
 
+#: templates/html/drag_and_drop_edit.html:100
+msgid "Explanation Text"
+msgstr "نص الشرح"
+
 #: templates/html/drag_and_drop_edit.html:109
 msgid "Zones"
 msgstr "المناطق"
@@ -290,6 +314,26 @@ msgstr "صورة الخلفية"
 #: templates/html/drag_and_drop_edit.html:117
 msgid "Provide custom image"
 msgstr "تقديم صورة مخصصة"
+
+#: templates/html/drag_and_drop_edit.html:121
+msgid "Generate image automatically"
+msgstr "توليد الصورة تلقائياً"
+
+#: templates/html/drag_and_drop_edit.html:126
+msgid "Background URL"
+msgstr "رابط الخلفية"
+
+#: templates/html/drag_and_drop_edit.html:133
+msgid "Change background"
+msgstr "غيِّر الخلفية"
+
+#: templates/html/drag_and_drop_edit.html:135
+msgid ""
+"For example, 'http://example.com/background.png' or "
+"'/static/background.png'."
+msgstr ""
+"على سبيل المثال، 'http://example.com/background.png' أو "
+"'/static/background.png'."
 
 #: templates/html/drag_and_drop_edit.html:142
 msgid "Number of columns"
@@ -318,6 +362,14 @@ msgstr "ارتفاع المنطقة"
 #: templates/html/drag_and_drop_edit.html:178
 msgid "Size of a single zone in pixels."
 msgstr "حجم المنطقة الواحدة بالبكسل."
+
+#: templates/html/drag_and_drop_edit.html:181
+msgid "Generate image and zones"
+msgstr "توليد الصور والمناطق"
+
+#: templates/html/drag_and_drop_edit.html:184
+msgid "Background description"
+msgstr "وصف الخلفية"
 
 #: templates/html/drag_and_drop_edit.html:189
 msgid ""
@@ -461,6 +513,10 @@ msgstr "وُضع بشكل صحيح في: {zone_title}"
 msgid ", draggable, grabbed"
 msgstr "، قابل للسحب، ممسوك"
 
+#: public/js/drag_and_drop.js:182
+msgid ", draggable"
+msgstr "، قابل للسحب"
+
 #: public/js/drag_and_drop.js:259
 msgid "No items placed here"
 msgstr "لم يُوضع أيّ عنصر هنا"
@@ -468,6 +524,14 @@ msgstr "لم يُوضع أيّ عنصر هنا"
 #: public/js/drag_and_drop.js:265
 msgid "Items placed here: "
 msgstr "العناصر الموضوعة هنا:"
+
+#: public/js/drag_and_drop.js:297
+msgid ", dropzone"
+msgstr "، مناطق سحب وإفلات"
+
+#: public/js/drag_and_drop.js:300
+msgid "droppable"
+msgstr "قابل للإفلات"
 
 #: public/js/drag_and_drop.js:321 public/js/drag_and_drop.js:325
 msgid "Feedback"
@@ -569,6 +633,10 @@ msgstr "تلميحات:"
 msgid "Correct"
 msgstr "صحيح"
 
+#: public/js/drag_and_drop.js:577
+msgid "Incorrect"
+msgstr "غير صحيح"
+
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
 #. points will always be at least 1. We pluralize based on the total number of
@@ -632,6 +700,10 @@ msgstr "مسألة"
 #: public/js/drag_and_drop.js:687
 msgid "Item Bank"
 msgstr "بنك العناصر"
+
+#: public/js/drag_and_drop.js:732
+msgid "Drop Targets"
+msgstr "أماكن الإفلات"
 
 #: public/js/drag_and_drop.js:898
 msgid "An error occurred. Unable to load drag and drop problem."

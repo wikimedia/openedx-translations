@@ -37,7 +37,6 @@
   "bulk.email.form.scheduleBox": "このメールを将来の日付にスケジュールする",
   "bulk.email.form.scheduled.success": "メールが正常にスケジュールされました",
   "bulk.email.form.subject.error": "件名が必要です",
-  "bulk.email.form.subject.tip": "(Maximum 128 characters)",
   "bulk.email.instructions.caution": "注意！",
   "bulk.email.instructions.caution.message.new.email": "メール送信を選択すると、新しいメールメッセージが送信キューに追加され、キャンセルすることはできません。",
   "bulk.email.instructions.proofreading": "学習者に送るメールは週に1通までにすることをお勧めします。メールを送信する前に、テキストを注意深く確認し、まず自分に送信して、フォーマットをプレビューし、埋め込まれた画像やリンクが正しく機能することを確認してください。",

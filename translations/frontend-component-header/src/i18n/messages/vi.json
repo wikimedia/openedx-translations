@@ -18,7 +18,6 @@
   "header.links.programs": "Chương trình",
   "header.links.schools": "Trường học &amp; Đối tác",
   "header.menu.account.label": "Tài khoản",
-  "header.menu.aria-label": "User Options",
   "header.menu.dashboard.label": "Bảng điều khiển",
   "header.menu.orderHistory.label": "Lịch sử đơn hàng",
   "header.menu.profile.label": "Hồ sơ",
@@ -28,11 +27,9 @@
   "header.user.menu.dashboard": "Bảng điều khiển",
   "header.user.menu.login": "Đăng nhập",
   "header.user.menu.logout": "Đăng xuất",
-  "header.user.menu.maintenance": "Maintenance",
   "header.user.menu.order.history": "Lịch sử đơn hàng",
   "header.user.menu.profile": "Hồ sơ",
   "header.user.menu.register": "Đăng ký",
   "header.user.menu.studio": "Trang chủ Studio",
-  "header.user.menu.studio.home": "Trang chủ Studio",
-  "header.user.menu.studio.maintenance": "Maintenance"
+  "header.user.menu.studio.home": "Trang chủ Studio"
 }

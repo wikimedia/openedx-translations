@@ -25,8 +25,6 @@
   "ora-grading.ListView.tableHeaders.username": "მომხმარებლის სახელი",
   "ora-grading.ListView.viewAllResponses": "ყველა პასუხის ნახვა",
   "ora-grading.ListView.viewSelectedResponses": "არჩეული პასუხების ნახვა ( {value} )",
-  "ora-grading.NotificationsBanner.Message": "You can now enable notifications for ORA assignments that require staff grading, from the",
-  "ora-grading.NotificationsBanner.linkMessage": "preferences center.",
   "ora-grading.RadioCriterion.optionPoints": "{points} ქულა",
   "ora-grading.RadioCriterion.rubricSelectedError": "რუბრიკის შერჩევა სავალდებულოა",
   "ora-grading.ResponseDisplay.FilePopoverCell.filePopoverDescriptionTitle": "ფაილის აღწერა",

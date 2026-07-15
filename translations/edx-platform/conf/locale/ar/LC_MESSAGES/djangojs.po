@@ -12,6 +12,7 @@
 #
 # Translators:
 # Brian Smith, 2026
+# Transifex Bot <>, 2026
 # Sulaiman Muthanna, 2026
 #
 #, fuzzy
@@ -1942,6 +1943,12 @@ msgstr "تحميل الردود {numResponses} التالية"
 msgid "Are you sure you want to delete this post?"
 msgstr "هل أنت واثق من رغبتك في حذف هذا المنشور؟"
 
+#: common/static/common/js/discussion/views/response_comment_show_view.js:59
+#: common/static/common/templates/discussion/templates.underscore:553
+#: common/static/common/templates/discussion/templates.underscore:624
+msgid "anonymous"
+msgstr "مخفي الهوية"
+
 #: common/static/common/js/discussion/views/response_comment_view.js:106
 msgid "Are you sure you want to delete this comment?"
 msgstr "هل أنت واثق من رغبتك في حذف هذا التعليق؟"
@@ -3392,6 +3399,10 @@ msgstr "نأسف لحدوث خطأ أثناء إعادة إعداد الشهاد
 msgid "Loading data..."
 msgstr "جاري تحميل البيانات..."
 
+#: lms/static/js/instructor_dashboard/data_download.js:123
+msgid "Error generating anonymous IDs. Please try again."
+msgstr "حدث خطأ إثناء إنشاء المعرّفات مخفية الهوية. من فضلك حاول مجدداً."
+
 #: lms/static/js/instructor_dashboard/data_download.js:149
 #: lms/static/js/instructor_dashboard/data_download_2.js:49
 msgid "Error generating proctored exam results. Please try again."
@@ -3758,6 +3769,10 @@ msgstr ""
 "حدث خطأ أثناء محاولة الحصول على حالة تسجيل '<%- student_id %>'. تأكَّد من "
 "صحة كتابة معرّف الطالب."
 
+#: lms/static/js/instructor_dashboard/student_admin.js:91
+msgid "Retrieving enrollment status..."
+msgstr "جاري استرداد حالة التسجيل..."
+
 #: lms/static/js/instructor_dashboard/student_admin.js:118
 msgid ""
 "Error getting student progress url for '<%- student_id %>'. Make sure that "
@@ -4060,7 +4075,7 @@ msgstr "الرسالة:"
 
 #: lms/static/js/instructor_dashboard/util.js:399
 msgid "No tasks currently running."
-msgstr "لا توجد مهام جارية حاليًّا."
+msgstr "لا توجد مهام جارية حالياً."
 
 #: lms/static/js/instructor_dashboard/util.js:501
 msgid "File Name"
@@ -6459,7 +6474,7 @@ msgstr "الإجراءات"
 
 #: cms/templates/js/asset-library.underscore:67
 msgid "You haven't added any assets to this course yet."
-msgstr "لم تُضِف أي مواد ملحقة بهذا المساق بعد. "
+msgstr "لم تُضِف أيّ مواد ملحقة بهذا المساق بعد."
 
 #: cms/templates/js/asset-library.underscore:67
 msgid "Upload your first asset"
@@ -6664,7 +6679,7 @@ msgstr "اخفِ المحتوى بعد تاريخ الانتهاء"
 
 #: cms/templates/js/content-visibility-editor.underscore:21
 msgid "Hide content after due date"
-msgstr "اخفِ المحتوى بعد تاريخ الاستحقاق"
+msgstr "أخفِ المحتوى بعد تاريخ الاستحقاق"
 
 #: cms/templates/js/content-visibility-editor.underscore:26
 msgid ""
@@ -6904,12 +6919,6 @@ msgstr "اسحب لإعادة الترتيب"
 msgid "Release Status:"
 msgstr "وضع الإصدار:"
 
-#: cms/templates/js/course-outline.underscore:290
-#: cms/templates/js/publish-xblock.underscore:15
-#: cms/templates/js/xblock-outline.underscore:43
-msgid "Released:"
-msgstr "صَدَر:"
-
 #: cms/templates/js/course-outline.underscore:293
 #: cms/templates/js/publish-xblock.underscore:17
 msgid "Scheduled:"
@@ -6957,7 +6966,7 @@ msgstr ""
 #: cms/templates/js/course-outline.underscore:457
 #: cms/templates/js/xblock-outline.underscore:57
 msgid "You haven't added any content to this course yet."
-msgstr "لم تُضِف أي محتوى إلى هذا المساق بعد."
+msgstr "لم تُضِف أيّ محتوى بعد إلى هذا المساق."
 
 #: cms/templates/js/course-outline.underscore:461
 #: cms/templates/js/course-outline.underscore:482
@@ -6983,10 +6992,6 @@ msgstr "ماذا يُوجَد في حافِظَتِك؟"
 #: cms/templates/js/course-settings-learning-fields.underscore:2
 msgid "Learning Outcome"
 msgstr "المُخرَجات التَعَلُّمية"
-
-#: cms/templates/js/course-settings-learning-fields.underscore:3
-msgid "Add a learning outcome here"
-msgstr "أضِف مُخرَج تَعَلُّمٍ هنا"
 
 #: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:3
 msgid "Press discard changes to discard your changes."
@@ -7832,10 +7837,10 @@ msgid ""
 "examination rules. Please note that setting this exam as proctored will "
 "change the visibility settings to \"Hide content after due date.\""
 msgstr ""
-"الامتحانات المُراقَبة هي امتحانات مُحدّدة بوقت، وهي تسجّل فيديو لكل متعلم "
-"يُجري الامتحان. ويُراجَع الفيديو لاحقاً للتأكّد من أنّ المتعلم قد التزم "
-"بقواعد الامتحان. يُرجى الانتباه إلى أنّ تعيين هذا الامتحان كامتحان مُراقَب "
-"سيُغيّر إعدادات ظهوره إلى \"اخفِ المحتوى بعد تاريخ الاستحقاق\"."
+"الامتحانات المراقبة هي امتحانات محددة بوقت، وهي تسجّل فيديو لكل متعلم يُجري "
+"الامتحان. ويُراجَع الفيديو لاحقاً للتأكد من أنّ المتعلم قد التزم بقواعد "
+"الامتحان. يُرجى الانتباه إلى أنّ تعيين هذا الامتحان كامتحان مراقب سيُغيّر "
+"إعدادات ظهوره إلى \"أخفِ المحتوى بعد تاريخ الاستحقاق\"."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:49
 msgid "Onboarding"
@@ -8348,6 +8353,10 @@ msgstr "كل المجموعات"
 #: common/static/common/templates/discussion/templates.underscore:477
 msgid "follow this post"
 msgstr "تابِع هذا المنشور"
+
+#: common/static/common/templates/discussion/templates.underscore:483
+msgid "post anonymously to classmates"
+msgstr "انشر لزملائك في الصف دون الإفصاح عن هويتك"
 
 #: common/static/common/templates/discussion/templates.underscore:507
 msgid "Error posting your message."
@@ -8874,7 +8883,7 @@ msgstr "اعرض المزيد"
 #: lms/templates/courseware/proctored-exam-status.underscore:35
 #: lms/templates/courseware/proctored-exam-status.underscore:36
 msgid "Show Less"
-msgstr "اعرض القليل"
+msgstr "اعرِض القليل"
 
 #: lms/templates/discovery/course_card.underscore:6
 msgid "LEARN MORE"
@@ -10299,7 +10308,7 @@ msgstr ""
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:25
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
 msgid "Sorry, no results were found."
-msgstr "عذراً، لم يُعثر على نتائج."
+msgstr "عذراً، لم يُعثر على أيّ نتيجة."
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"

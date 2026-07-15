@@ -1,6 +1,4 @@
 {
-  "messenger.button.cancel": "Cancel",
-  "messenger.button.close": "Close",
   "messenger.button.newMessage": "新消息",
   "messenger.button.reply": "回复",
   "messenger.button.send": "发送",
@@ -10,7 +8,6 @@
   "messenger.error.sendMessages": "发送讯息时出现错误。请再试一次！",
   "messenger.error.userConversation": "无法加载用户对话：",
   "messenger.error.userSearch": "无法搜索用户。",
-  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "收件箱",
   "messenger.label.message": "消息",
   "messenger.label.newMessage": "新消息",
@@ -19,7 +16,6 @@
   "messenger.placeholder.searchUsers": "搜索用户",
   "messenger.placeholder.select": "选择",
   "messenger.placeholder.typeMessage": "输入您的讯息...",
-  "messenger.placeholder.username": "username",
   "messenger.success.sendMessage": "信息已发送。",
   "messenger.success.sendMessages": "信息已发送"
 }

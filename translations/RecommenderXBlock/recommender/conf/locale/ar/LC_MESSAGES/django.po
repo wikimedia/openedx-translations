@@ -213,7 +213,7 @@ msgstr "إعداد التكوين"
 #: templates/recommenderstudio.html:9
 msgid ""
 "Set the student-view, client side configurations for RecommenderXblock."
-msgstr "قُم بتعيين إعدادات جانب العميل لعرض الطالب لـ RecommenderXblock."
+msgstr "قم بتعيين إعدادات جانب العميل لعرض الطالب لـ RecommenderXblock."
 
 #: templates/recommenderstudio.html:12 templates/recommenderstudio.html:18
 msgid "Yes"
@@ -431,7 +431,7 @@ msgstr "من الصفحة {fromPage} إلى الصفحة {toPage}"
 
 #: static/js/src/cats.js:196
 msgid "Export resources"
-msgstr "صَدِّر المَوارِد"
+msgstr "صدِّر الموارد"
 
 #: static/js/src/cats.js:198
 msgid "Entering import resource mode"
@@ -443,7 +443,7 @@ msgstr "تفعيل وضع إضافة الموارد"
 
 #: static/js/src/cats.js:203
 msgid "Add new resource"
-msgstr "أضِف مَوْرِداً جديداً"
+msgstr "أضِف مورداً جديداً"
 
 #: static/js/src/cats.js:206
 msgid "Entering edit resource mode"

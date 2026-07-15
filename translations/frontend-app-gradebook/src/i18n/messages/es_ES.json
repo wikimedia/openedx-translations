@@ -3,7 +3,6 @@
   "gradebook.BulkManagementHistoryView.csvUploadLabel": "Cargar calificación desde CSV",
   "gradebook.BulkManagementHistoryView.heading": "Historial de administración masiva",
   "gradebook.BulkManagementHistoryView.successDialog": "Procesando archivo CSV. La subida de archivos puede tardar varios minutos en completarse.",
-  "gradebook.GradebookFilters.apply": "Apply",
   "gradebook.GradebookFilters.assignmentFilterLabel": "Tarea",
   "gradebook.GradebookFilters.assignmentTypesLabel": "Tipos de tarea",
   "gradebook.GradebookFilters.assignmentsFilterLabel": "Tareas",
@@ -30,7 +29,6 @@
   "gradebook.GradesTab.FilterBadges.courseGrade": "Calificación del curso",
   "gradebook.GradesTab.FilterBadges.includeCourseRoleMembers": "Incluir miembros del equipo del curso",
   "gradebook.GradesTab.FilterBadges.track": "Itinerario",
-  "gradebook.GradesTab.usersVisibilityLabel": "Showing {filteredUsers} of {totalUsers} total learners",
   "gradebook.GradesView.BulkManagementControls.bulkManagementLabel": "Descargar calificaciones",
   "gradebook.GradesView.EditModal.Overrides.adjustedGradeHeader": "Calificación modificada",
   "gradebook.GradesView.EditModal.Overrides.dateHeader": "Fecha",
@@ -66,12 +64,9 @@
   "gradebook.GradesView.search.hint": "Buscar por nombre de usuario, correo electrónico o clave de estudiante",
   "gradebook.GradesView.search.label": "Buscar a un estudiante",
   "gradebook.GradesView.table.headings.email": "Correo electrónico",
-  "gradebook.GradesView.table.headings.fullName": "Full Name",
   "gradebook.GradesView.table.headings.totalGrade": "Calificación total (%)",
   "gradebook.GradesView.table.headings.username": "Nombre de usuario",
   "gradebook.GradesView.table.labels.studentKey": "Student Key*",
   "gradebook.GradesView.table.labels.username": "Nombre de usuario",
-  "gradebook.GradesView.table.noResultsFound": "No results found",
-  "gradebook.GradesView.table.totalGradePercentage": "Los valores de las calificaciones totales se muestran siempre como porcentajes",
-  "gradebook.page.title": "Gradebook | {siteName}"
+  "gradebook.GradesView.table.totalGradePercentage": "Los valores de las calificaciones totales se muestran siempre como porcentajes"
 }

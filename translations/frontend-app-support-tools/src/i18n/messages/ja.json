@@ -14,8 +14,6 @@
   "record.table.header.course.id": "コースID",
   "record.table.header.course.name": "コース名",
   "record.table.header.date.earned": "取得日",
-  "record.table.header.highest.grade": "Highest grade earned",
-  "record.table.header.letter.grade": "Letter Grade",
   "record.table.header.school": "学校",
   "record.table.header.status": "ステータス",
   "record.table.header.verified.attempts": "認証済みの試行",

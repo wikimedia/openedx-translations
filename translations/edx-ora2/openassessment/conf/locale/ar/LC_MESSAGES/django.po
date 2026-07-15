@@ -62,6 +62,10 @@ msgstr "يفتقد المثال {example_number} خياراً لـ\"{criterion_n
 msgid "Peer"
 msgstr "زميل"
 
+#: assessment/score_type_constants.py:22
+msgid "Self"
+msgstr "ذاتي"
+
 #: assessment/score_type_constants.py:23
 msgid "Staff"
 msgstr "الطاقم"
@@ -118,6 +122,10 @@ msgstr "وقت تسجيل نتيجة التقييم"
 msgid "Assessment Type"
 msgstr "نوع التقييم"
 
+#: data.py:965
+msgid "Anonymous Scorer Id"
+msgstr "معرّف صاحب النتيجة مخفي الهوية"
+
 #: data.py:967
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:59
 msgid "Overall Feedback"
@@ -151,9 +159,18 @@ msgstr "الآراء والملاحظات التي تم انتقاؤها"
 msgid "Feedback on Assessment"
 msgstr "الآراء والملاحظات المتعلقة بالتقييم"
 
+#: data.py:976
+msgid "Response Files"
+msgstr "ملفات الإجابات"
+
 #: data.py:1367
 msgid "No description provided."
 msgstr "لم يتم تقديم أي وصف."
+
+#: data.py:1626 templates/legacy/edit/oa_edit_criterion.html:54
+#: xblock/studio_mixin.py:58
+msgid "None"
+msgstr "لا شيء"
 
 #: templates/legacy/edit/oa_edit.html:28
 msgid "Save"
@@ -261,6 +278,14 @@ msgstr ""
 "لإضافة المزيد من امتدادات الملفات، اختر أنواع ملفات مخصصة وأدخل القائمة "
 "الكاملة لامتدادات الملفات المقبولة التي سيتم تضمينها."
 
+#: templates/legacy/edit/oa_edit_basic_settings_list.html:91
+msgid "Allow LaTeX Responses"
+msgstr "إتاحة الإجابات بصيغة \"LaTeX\""
+
+#: templates/legacy/edit/oa_edit_basic_settings_list.html:97
+msgid "Specify whether learners can write LaTeX formatted strings"
+msgstr "حدد ما إذا كان بإمكان الطلاب أن يكتبوا نصوصاً بصيغة \"LaTeX\""
+
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:102
 #: templates/legacy/leaderboard/oa_leaderboard_show.html:8
 #: templates/legacy/leaderboard/oa_leaderboard_waiting.html:10
@@ -285,9 +310,17 @@ msgstr ""
 msgid "When Teams Enabled is set to true, Top Responses will be disabled."
 msgstr "عندما يتم تعيين الفرق الممكّنة إلى صحيح، سيتم تعطيل أهم الإجابات."
 
+#: templates/legacy/edit/oa_edit_basic_settings_list.html:129
+msgid "Teams Enabled"
+msgstr "الفرق مفعّلة"
+
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:136
 msgid "Specify whether team submissions are allowed for this response."
 msgstr "حدد ما إذا كانت تقديمات الفريق متاحة لهذه الإجابة أم لا"
+
+#: templates/legacy/edit/oa_edit_basic_settings_list.html:141
+msgid "Select Team-Set"
+msgstr "اختَر مجموعة الفِرق"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:155
 msgid "Show Rubric During Response"
@@ -1369,6 +1402,15 @@ msgstr ""
 "            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 
+#: templates/legacy/response/oa_response.html:54
+#: templates/legacy/self/oa_self_assessment.html:56
+msgid "In Progress"
+msgstr "جاري التقييم"
+
+#: templates/legacy/response/oa_response.html:66
+msgid "Enter your team's response to the prompt."
+msgstr "أدخِل إجابة فريقك على السؤال."
+
 #: templates/legacy/response/oa_response.html:68
 msgid ""
 "\n"
@@ -1580,16 +1622,16 @@ msgid ""
 "One team member should submit a response with the team’s shared files and a "
 "text response on behalf of the entire team."
 msgstr ""
-"يجب على عضو واحد في الفريق تقديم إجابة مرفقة بملفات الفريق وإجابة نصية نيابة"
-" عن كامل أعضاء الفريق."
+"يجب على عضو واحد فقط في الفريق تقديم إجابة مرفِقاً بها الملفات التي اشترك "
+"بعملها الفريق وإجابة نصية نيابة عن كل أعضاء الفريق. "
 
 #: templates/legacy/response/oa_response.html:308
 msgid ""
 "One team member should submit a response with the team’s shared files on "
 "behalf of the entire team."
 msgstr ""
-"يجب على عضو واحد في الفريق تقديم إجابة مرفقة بملفات الفريق وإجابة نصية نيابة"
-" عن كامل أعضاء الفريق."
+"يجب على عضو واحد فقط في الفريق تقديم إجابة مرفِقاً بها الملفات التي اشترك "
+"بعملها الفريق نيابة عن كل أعضاء الفريق."
 
 #: templates/legacy/response/oa_response.html:310
 msgid ""
@@ -1847,6 +1889,10 @@ msgstr "يُرجى إدخال اسم عضوية الفريق أو عنوان ا�
 #: templates/legacy/staff_area/oa_staff_area.html:56
 msgid "Submit"
 msgstr "أرسِل"
+
+#: templates/legacy/staff_area/oa_staff_area.html:84
+msgid "Location"
+msgstr "الموقع "
 
 #: templates/legacy/staff_area/oa_staff_area.html:90
 msgid "Learner Progress"

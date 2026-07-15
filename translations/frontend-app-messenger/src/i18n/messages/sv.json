@@ -1,6 +1,4 @@
 {
-  "messenger.button.cancel": "Cancel",
-  "messenger.button.close": "Close",
   "messenger.button.newMessage": "Nytt meddelande",
   "messenger.button.reply": "Svara",
   "messenger.button.send": "Skicka",
@@ -10,7 +8,6 @@
   "messenger.error.sendMessages": "Fel när meddelande skulle skickas. Försök gärna igen!",
   "messenger.error.userConversation": "Det gick inte att ladda användarens konversation:",
   "messenger.error.userSearch": "Det går inte att söka efter användare.",
-  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "Inkorg",
   "messenger.label.message": "Meddelande",
   "messenger.label.newMessage": "Nytt meddelande",
@@ -19,7 +16,6 @@
   "messenger.placeholder.searchUsers": "Sök efter användare",
   "messenger.placeholder.select": "Välj",
   "messenger.placeholder.typeMessage": "Skriv ditt meddelande...",
-  "messenger.placeholder.username": "username",
   "messenger.success.sendMessage": "Meddelandet har skickats.",
   "messenger.success.sendMessages": "Meddelande(n) har skickats."
 }

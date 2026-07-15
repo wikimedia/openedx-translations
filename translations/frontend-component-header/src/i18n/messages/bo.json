@@ -28,11 +28,9 @@
   "header.user.menu.dashboard": "གཙོ་ངོས།",
   "header.user.menu.login": "ནང་འཛུལ།",
   "header.user.menu.logout": "ཕྱིར་ཐོན།",
-  "header.user.menu.maintenance": "Maintenance",
   "header.user.menu.order.history": "ལོ་རྒྱུས་ཀྱི་གོ་རིམ་སྒྲིག",
   "header.user.menu.profile": "ངོ་སྤྲོད་སྙིང་བསྡུས།",
   "header.user.menu.register": "ཐོ་འགོད་བྱོས།",
   "header.user.menu.studio": "སྒྲིག་སྟེགས་གཙོ་ངོས།",
-  "header.user.menu.studio.home": "སྒྲིག་སྟེགས་གཙོ་ངོས།",
-  "header.user.menu.studio.maintenance": "Maintenance"
+  "header.user.menu.studio.home": "སྒྲིག་སྟེགས་གཙོ་ངོས།"
 }

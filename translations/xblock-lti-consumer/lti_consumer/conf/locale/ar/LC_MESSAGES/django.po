@@ -45,7 +45,7 @@ msgstr "لم يُعثر على معرّف مستخدم صالح في رابط ن
 
 #: lti_xblock.py:146
 msgid "Configuration on block"
-msgstr "إعدادات الكُتلة"
+msgstr "إعدادات الكتلة"
 
 #: lti_xblock.py:150
 msgid "Database Configuration"
@@ -135,7 +135,7 @@ msgstr ""
 
 #: lti_xblock.py:333
 msgid "Registered Redirect URIs"
-msgstr "عناوين URI المُسَجَّلة المُخَصَّصة لإعادة التوجيه"
+msgstr "الروابط المسجلة المخصصة لإعادة التوجيه"
 
 #: lti_xblock.py:335
 msgid ""
@@ -364,11 +364,11 @@ msgstr ""
 
 #: lti_xblock.py:1446
 msgid "[LTI]: Real user not found against anon_id: {}"
-msgstr "[LTI]: لم يُعثَر على مُستَخدِم حقيقي يُقابِل anon_id: {}"
+msgstr "[LTI]: لم يُعثر على مستخدم حقيقي يقابل anon_id: {}"
 
 #: models.py:84
 msgid "Configuration Stored on XBlock fields"
-msgstr "الإعدادات المُخَزّنة في حُقول XBlock"
+msgstr "الإعدادات المخزّنة في حقول XBlock "
 
 #: models.py:86
 msgid "Configuration Stored on external service"
@@ -402,10 +402,6 @@ msgstr "مجموعة مَفاتيح JWK للمنصة التي تَمَّ إنش�
 msgid "Client ID used by LTI tool"
 msgstr "معرف العميل الذي تستخدمه أداة LTI"
 
-#: models.py:255
-msgid "LTI Configuration stores on XBlock needs a block location set."
-msgstr "تحتاج مخازن إعدادات LTI في XBlock إلى تعيين موقع الكتلة."
-
 #: models.py:260
 msgid ""
 "LTI Configuration using reusable configuration needs a external ID in "
@@ -428,10 +424,6 @@ msgstr "إعدادات LTI غير صالِحة."
 #: plugin/views.py:575
 msgid "The selected content type is not supported by Open edX."
 msgstr "نوع المحتوى الذي اخترته لا تدعمه Open edX."
-
-#: plugin/views.py:590
-msgid "You don't have access to save LTI Content Items."
-msgstr "ليست لديك صلاحية حِفظ عناصِر مُحتَوى LTI."
 
 #: plugin/views.py:591
 msgid ""

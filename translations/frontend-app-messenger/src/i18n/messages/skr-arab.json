@@ -1,16 +1,7 @@
 {
-  "messenger.button.cancel": "Cancel",
-  "messenger.button.close": "Close",
   "messenger.button.newMessage": "نواں سنیہا",
   "messenger.button.reply": "جواب",
   "messenger.button.send": "بھیڄو",
-  "messenger.error.loadConversation": "Unable to load conversations.",
-  "messenger.error.readMessages": "Error in marking messages read.",
-  "messenger.error.sendMessage": "Error in sending message. Please try again!",
-  "messenger.error.sendMessages": "Error in sending messages. Please try again!",
-  "messenger.error.userConversation": "Unable to load conversation of user:",
-  "messenger.error.userSearch": "Unable to search users.",
-  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "ان باکس",
   "messenger.label.message": "سنیہا",
   "messenger.label.newMessage": "نواں سنیہا",
@@ -18,8 +9,5 @@
   "messenger.placeholder.enterMessage": "سنیہا درج کرو۔۔۔",
   "messenger.placeholder.searchUsers": "ورتݨ آلے ڳولو",
   "messenger.placeholder.select": "چݨو",
-  "messenger.placeholder.typeMessage": "Type your message...",
-  "messenger.placeholder.username": "username",
-  "messenger.success.sendMessage": "سنہیا بھیڄ ݙتا ڳئے۔",
-  "messenger.success.sendMessages": "Message(s) have been sent."
+  "messenger.success.sendMessage": "سنہیا بھیڄ ݙتا ڳئے۔"
 }

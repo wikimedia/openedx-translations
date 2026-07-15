@@ -119,11 +119,8 @@
   "account.settings.field.secondary.email.empty": "Voeg &#39;n terugstelling-e-posadres by",
   "account.settings.field.site.language": "Taal van die webwerf",
   "account.settings.field.site.language.help.text": "Die taal wat regdeur hierdie webwerf gebruik word. Hierdie webwerf is tans in &#39;n beperkte aantal tale beskikbaar.",
-  "account.settings.field.social.platform.name.facebook": "Facebook",
   "account.settings.field.social.platform.name.facebook.empty": "Voeg Facebook-profiel by",
-  "account.settings.field.social.platform.name.linkedin": "LinkedIn",
   "account.settings.field.social.platform.name.linkedin.empty": "Voeg LinkedIn-profiel by",
-  "account.settings.field.social.platform.name.twitter": "Twitter",
   "account.settings.field.social.platform.name.twitter.empty": "Voeg Twitter-profiel by",
   "account.settings.field.state": "Staat",
   "account.settings.field.state.empty": "Voeg staat by",
@@ -317,7 +314,6 @@
   "notification.dropdown.applies": "Van toepassing op alle kursusse",
   "notification.dropdown.course.applies": "Ignoreer rekeningwye instellings",
   "notification.dropdown.label": "Kies kennisgewings vir",
-  "notification.dropdown.select.course": "Select a course you’re enrolled in to view its notification preferences.",
   "notification.preference.app.title": "{ sleutel, kies, bespreek {Besprekings} kursuswerk {Kursuswerk} opdaterings {Opdaterings} gradering {Gradering} ander { {key} } }",
   "notification.preference.channel": "{ teks, kies, web {Web} e-pos {E-pos} druk {Push} ander { {text} } }",
   "notification.preference.emailCadence": "{ teks, kies, Daagliks {Daily} Weekliks {Weekly} Onmiddellik {Immediately} ander { {text} } }",
@@ -329,6 +325,5 @@
   "notification.preference.load.more.courses": "Laai meer kursusse",
   "notification.preference.title": "{ teks, kies, kern {Aktiwiteitskennisgewings} newDiscussionPost {Nuwe besprekingsplasings} newQuestionPost {Nuwe vraagplasings} contentReported {Gerapporteerde inhoud} courseUpdates {Kursusopdaterings} oraStaffNotifications {Nuwe ORA-indiening vir personeelgradering} oraGradeAssigned {Opstelopdraggraad ontvang} newInstructorAllLearnersPost {Nuwe plasings van instrukteurs} ander { {text} } }",
   "notification.preference.type.label": "Tik",
-  "notification.preference.web.label": "Web",
   "notification.preferences.notifications.label": "Kennisgewings"
 }

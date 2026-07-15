@@ -1,5 +1,4 @@
 {
-  "gradebook.BulkManagementHistoryView": "Below is a log of previous grade imports. To download a CSV of your gradebook and import grades for override, return to the Gradebook. Please note, after importing grades, it may take a few seconds to process the override.",
   "gradebook.BulkManagementHistoryView.csvUploadLabel": "رفع درجات بصيغة CSV",
   "gradebook.BulkManagementHistoryView.heading": "سجلّ الإدارة بالجملة",
   "gradebook.BulkManagementHistoryView.successDialog": "تتم الآن معالجة CSV. قد يتطلب إتمام رفع الملفات عدة دقائق.",
@@ -43,7 +42,7 @@
   "gradebook.GradesView.EditModal.headers.originalGrade": "الدرجة الأصلية",
   "gradebook.GradesView.EditModal.headers.student": "الطالب",
   "gradebook.GradesView.EditModal.saveGrade": "حفظ الدرجات",
-  "gradebook.GradesView.EditModal.saveVisibility": "Note: Once you save, your changes will be visible to students.",
+  "gradebook.GradesView.EditModal.saveVisibility": "ملاحظة: ستكون تعديلاتك مرئية للطلاب بمجرد حفظها.",
   "gradebook.GradesView.EditModal.title": "تعديل الدرجات",
   "gradebook.GradesView.ImportSuccessToast.description": "نجح الاستيراد! سيتم فورًا تحديث الدرجات.",
   "gradebook.GradesView.ImportSuccessToast.showHistoryViewBtn": "عرض سجلّ النشاط",
@@ -63,7 +62,7 @@
   "gradebook.GradesView.minCourseGradeInvalid": "الدرجة الدنيا يجب أن تكون بين 0 و 100",
   "gradebook.GradesView.percentOption": "نسبة مئوية",
   "gradebook.GradesView.scoreViewLabel": "مظهر الدرجة",
-  "gradebook.GradesView.search.hint": "Search by username, email, or student key",
+  "gradebook.GradesView.search.hint": "ابحث باستخدام اسم المستخدم أو البريد الإلكتروني أو رمز الطالب",
   "gradebook.GradesView.search.label": "ابحث عن متعلم",
   "gradebook.GradesView.table.headings.email": "البريد الإلكتروني",
   "gradebook.GradesView.table.headings.fullName": "الاسم الكامل",
@@ -71,7 +70,7 @@
   "gradebook.GradesView.table.headings.username": "اسم المستخدم",
   "gradebook.GradesView.table.labels.studentKey": "مفتاح الطالب*",
   "gradebook.GradesView.table.labels.username": "اسم المستخدم",
-  "gradebook.GradesView.table.noResultsFound": "لم يُعثَر على نتائج",
+  "gradebook.GradesView.table.noResultsFound": "لم يُعثر على نتائج",
   "gradebook.GradesView.table.totalGradePercentage": "تُعرض الدرجات الإجمالية دائماً على شكل نسب مئوية",
   "gradebook.page.title": "سِجِل الدرجات | {siteName}"
 }

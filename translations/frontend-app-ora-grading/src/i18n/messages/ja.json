@@ -25,8 +25,6 @@
   "ora-grading.ListView.tableHeaders.username": "ユーザー名",
   "ora-grading.ListView.viewAllResponses": "すべての回答を表示",
   "ora-grading.ListView.viewSelectedResponses": "選択した回答を表示 ({value})",
-  "ora-grading.NotificationsBanner.Message": "You can now enable notifications for ORA assignments that require staff grading, from the",
-  "ora-grading.NotificationsBanner.linkMessage": "preferences center.",
   "ora-grading.RadioCriterion.optionPoints": "{points} ポイント",
   "ora-grading.RadioCriterion.rubricSelectedError": "ルーブリックの選択が必要です",
   "ora-grading.ResponseDisplay.FilePopoverCell.filePopoverDescriptionTitle": "ファイルの説明",
@@ -85,7 +83,6 @@
   "ora-grading.ReviewModal.loadErrorMessage1": "この提出物の読み込み中にエラーが発生しました。もう一度読み込んでください。",
   "ora-grading.ReviewModal.loadingResponse": "応答を読み込み中",
   "ora-grading.ReviewModal.reloadSubmission": "提出物を再読み込み",
-  "ora-grading.ReviewModal.resubmitGrade": "Resubmit grate",
   "ora-grading.Rubric.addComments": "コメントを追加（任意）",
   "ora-grading.Rubric.comments": "コメント（任意）",
   "ora-grading.Rubric.gradeSubmitted": "成績が提出されました",
@@ -99,6 +96,5 @@
   "ora-grading.demoAlert.warningMessage": "新しいORAスタッフグレーダーのデモモードでは、成績の提出が無効になっています。",
   "ora-grading.lms-api.gradingStatusDisplay.graded": "採点完了",
   "ora-grading.lms-api.gradingStatusDisplay.inProgress": "あなたは現在この回答を採点しています",
-  "ora-grading.lms-api.gradingStatusDisplay.locked": "Currently being graded by someone else",
   "ora-grading.lms-api.gradingStatusDisplay.ungraded": "未採点"
 }

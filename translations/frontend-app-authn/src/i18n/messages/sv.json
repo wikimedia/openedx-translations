@@ -13,7 +13,6 @@
   "account.locked.out.message.2": "För att vara på den säkra sidan kan du {resetLink} innan du försöker igen.",
   "additional.help.text": "För ytterligare hjälp, kontakta {platformName} support på",
   "allowed.domain.login.error": "Som {allowedDomain}-användare måste du logga in med din {allowedDomain} {tpaLink}.",
-  "complete.your.profile.1": "Complete",
   "complete.your.profile.2": "din profil",
   "confirm.password.label": "Bekräfta lösenord",
   "confirm.your.password": "Bekräfta ditt lösenord",
@@ -176,6 +175,5 @@
   "welcome.to.platform": "Välkommen till {siteName}, {fullName}!",
   "with.site.name": "med {siteName}",
   "your.career.turning.point": "Din karriärvändpunkt",
-  "zendesk.selectTicketForm": "Vänligen välj din förfrågningstyp:",
-  "zendesk.supportTitle": "edX Support"
+  "zendesk.selectTicketForm": "Vänligen välj din förfrågningstyp:"
 }

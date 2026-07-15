@@ -11,7 +11,6 @@
   "header.label.main.menu": "Menú Principal",
   "header.label.main.nav": "Principal",
   "header.label.search.nav": "Buscar contenido",
-  "header.label.secondary.nav": "Secondary",
   "header.label.skip.nav": "Ir al contenido principal",
   "header.links.content.search": "Encontrar nuevo",
   "header.links.courses": "Cursos",
@@ -26,13 +25,10 @@
   "header.navigation.skipNavLink": "Dirígete al contenido principal.",
   "header.user.menu.account.settings": "Cuenta",
   "header.user.menu.dashboard": "Panel de Control",
-  "header.user.menu.login": "Login",
   "header.user.menu.logout": "Cerrar sesión",
-  "header.user.menu.maintenance": "Maintenance",
   "header.user.menu.order.history": "Historial de órdenes",
   "header.user.menu.profile": "Perfil",
   "header.user.menu.register": "Registrarse",
   "header.user.menu.studio": "Inicio Studio",
-  "header.user.menu.studio.home": "Inicio Studio",
-  "header.user.menu.studio.maintenance": "Maintenance"
+  "header.user.menu.studio.home": "Inicio Studio"
 }

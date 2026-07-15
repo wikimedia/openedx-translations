@@ -1,7 +1,6 @@
 {
   "configuration.customersPage.otherSubsidiesColumn": "རོགས་དངུལ་གཞན།",
   "configuration.customersPage.otherSubsidiesColumn.tooltip": "གནང་སྦྱིན་དང་ཨང་བརྡ་ཚུད་ཡོད།",
-  "configuration.customersPage.viewSubsidiesColumn.tooltip": "A checkmark indicates an active subsidy.",
   "copy.public.record.link": "མང་ཚོགས་ཀྱི་ཟིན་ཐོ་ངོ་བཤུ།",
   "course.reset.alert.warning": "ཁྱེད་ཀྱིས་བསུབ་གཏན་འཁེལ་ཡིན་ནམ། འདིས་སློབ་གཉེར་བ་འདིའི་སློབ་ཚན་འདི་དང་འབྲེལ་བའི་གཞི་གྲངས་ཚང་མ་བསུབ་འགྲོ་བ་དང་། འདི་ནི་སློབ་ཚན་རེའི་ནང་སློབ་མ་རེ་ལ་ཐེངས་གཅིག་མ་གཏོགས་མེད་པ་ཡིན།",
   "earned.status": "ཐོབ་པ།",

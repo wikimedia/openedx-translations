@@ -127,7 +127,7 @@ msgstr "نتائِج المُراقبة لـ {course_name} {exam_name}"
 
 #: api.py:2238
 msgid "Taking As Proctored Exam"
-msgstr "امتحان مراقب"
+msgstr "يُجريه كامتحان مراقب"
 
 #: api.py:2243
 msgid "Proctored Option Available"
@@ -136,6 +136,14 @@ msgstr "خيار المراقبة متاح"
 #: api.py:2248
 msgid "Taking As Open Exam"
 msgstr "امتحان مفتوح"
+
+#: api.py:2253 api.py:2258
+msgid "Pending Session Review"
+msgstr "مراجعة الجلسة المعلقة"
+
+#: api.py:2263
+msgid "Passed Proctoring"
+msgstr "نجح في المراقبة"
 
 #: api.py:2268 api.py:2273
 msgid "Failed Proctoring"
@@ -165,6 +173,10 @@ msgstr "امتحان محدّد بوقت"
 msgid "Onboarding status question"
 msgstr "سؤال حالة التسجيل"
 
+#: models.py:391
+msgid "Taking as Proctored"
+msgstr "يُجريه كامتحان مراقب"
+
 #: models.py:395
 msgid "Is Sample Attempt"
 msgstr "هي محاولة على سبيل المثال"
@@ -185,6 +197,10 @@ msgstr "استُئنف"
 msgid "Additional Time (minutes)"
 msgstr "الوقت الإضافي (بالدقائق)"
 
+#: models.py:525
+msgid "Review Policy Exception"
+msgstr "راجِع استثناء السياسة"
+
 #: templates/common/waiting_banner.html:3
 msgid ""
 "\n"
@@ -192,7 +208,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"        ستظهر النتيجة بعد <strong id=\"wait_deadline\">التحميل جارٍ...</strong>    "
+"        ستظهر النتيجة بعد <strong id=\"wait_deadline\">جاري التحميل...</strong>    "
 
 #: templates/emails/proctoring_attempt_satisfactory_email.html:5
 #: templates/emails/proctoring_attempt_submitted_email.html:5
@@ -291,11 +307,12 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"لاستئناف نتائج امتحانك المُراقَب، يُرجى التواصل وتقديم أيّ معلومات ذات صِلة حول امتحانك على\n"
-"\n"
-"<a href=\"%(contact_url)s\">\n"
-"%(contact_url_text)s\n"
-"</a>"
+"        لاستئناف نتائج امتحانك المراقب، يُرجى التواصل وتقديم أيّ معلومات \n"
+"        ذات صِلة حول امتحانك على\n"
+"        <a href=\"%(contact_url)s\">\n"
+"            %(contact_url_text)s\n"
+"        </a>\n"
+"    "
 
 #: templates/onboarding_exam/entrance.html:5
 msgid ""
@@ -611,6 +628,10 @@ msgstr ""
 "        تعرّف على طريقة عمل مُراقَبة الامتحانات، لتستعد للامتحانات المُراقَبة الحقيقية لاحقاً في هذا المساق. هذا الامتحان التدريبي ليس له أيّ أثر \n"
 "        على درجتك في المساق.\n"
 "      "
+
+#: templates/practice_exam/entrance.html:20
+msgid "Continue to my practice exam"
+msgstr "انتقِل إلى الامتحان التدريبي"
 
 #: templates/practice_exam/entrance.html:25
 msgid ""
@@ -944,6 +965,29 @@ msgstr ""
 "        إذا لم تتمكن من العثور على هذا البريد الإلكتروني، فيمكنك إعادة تعيين كلمة مرورك لتفعيل حسابك.\n"
 "      "
 
+#: templates/proctored_exam/inactive_account.html:32
+#, python-format
+msgid ""
+"\n"
+"      If you continue to have trouble please contact <a href=\"%(link_urls.contact_us)s\" target=\"_blank\">\n"
+"      %(platform_name)s Support</a>.\n"
+"    "
+msgstr ""
+"\n"
+"      إذا لم تُحل المشكلة بعد، فيُرجى الاتصال <a href=\"%(link_urls.contact_us)s\" target=\"_blank\">\n"
+"      بفريق دعم %(platform_name)s</a>.\n"
+"    "
+
+#: templates/proctored_exam/instructions.html:6
+msgid ""
+"\n"
+"      Set up and start your proctored exam\n"
+"    "
+msgstr ""
+"\n"
+"      قُم بإعداد وبدء امتحانك المراقب\n"
+"    "
+
 #: templates/proctored_exam/instructions.html:12
 msgid ""
 "\n"
@@ -1026,6 +1070,16 @@ msgstr ""
 "          الخُطوة الثانية\n"
 "        "
 
+#: templates/proctored_exam/instructions.html:64
+msgid ""
+"\n"
+"        Start your system check now. A new window will open for this step and you will verify your identity.\n"
+"      "
+msgstr ""
+"\n"
+"        ابدأ فحص نظامك الآن. ستُفتح نافذة جديدة لهذه الخطوة وستؤكد هويتك.\n"
+"      "
+
 #: templates/proctored_exam/instructions.html:69
 msgid ""
 "\n"
@@ -1039,6 +1093,12 @@ msgstr ""
 #: templates/proctored_exam/instructions.html:74
 msgid "Have a computer with a functioning webcam"
 msgstr "جهِّز حاسوباً مزوّداً بكاميرا ويب تعمل"
+
+#: templates/proctored_exam/instructions.html:75
+msgid "Have your valid photo ID (e.g. driver's license or passport) ready"
+msgstr ""
+"جهِّز بطاقة هوية صالحة تحتوي على صورة شخصية (على سبيل المثال، رخصة القيادة "
+"أو جواز السفر)"
 
 #: templates/proctored_exam/instructions.html:81
 msgid ""
@@ -1138,6 +1198,16 @@ msgstr ""
 "```\n"
 "    "
 
+#: templates/proctored_exam/pending-prerequisites.html:14
+msgid ""
+"\n"
+"    The following prerequisites are in a <strong>pending</strong> state and must be successfully completed before you can proceed:\n"
+"    "
+msgstr ""
+"\n"
+"    المتطلبات المسبقة التالية في وضع <strong>متطلبات معلقة</strong> ويجب أن تكملها بنجاح قبل أن تتمكن من المتابعة:\n"
+"    "
+
 #: templates/proctored_exam/pending-prerequisites.html:30
 msgid ""
 "\n"
@@ -1229,6 +1299,23 @@ msgstr ""
 "\n"
 "هام"
 
+#: templates/proctored_exam/ready_to_start.html:10
+#, python-format
+msgid ""
+"\n"
+"        &#8226; You have %(total_time)s to complete this exam. </br>\n"
+"        &#8226; Once you start the exam, you cannot stop the timer. </br>\n"
+"        &#8226; For all question types, you must click \"submit\" to complete your answer. </br>\n"
+"        &#8226; If time expires before you click \"End My Exam\", only your submitted answers will be graded.\n"
+"      "
+msgstr ""
+"\n"
+"        • لديك %(total_time)s لإتمام هذا الامتحان.</br>\n"
+"        • بمجرد بدء الامتحان، فلا يمكنك إيقاف المؤقت.</br>\n"
+"        • بالنسبة لجميع أنواع الأسئلة، يجب عليك أن تنقر على \"أرسِل\" وذلك لإتمام جوابك.</br>\n"
+"        • إذا انتهى الوقت قبل أن تنقر على \"أنهِ امتحاني\"، فستُقيّم أجوبتك المرسلة فقط.\n"
+"      "
+
 #: templates/proctored_exam/ready_to_start.html:18
 msgid ""
 "\n"
@@ -1248,9 +1335,10 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"يجب عليك الالتزام بالقواعد التالية أثناء إتمامك هذا الامتحان.\n"
-"<strong> إذا انتُهكت هذه القواعد، ستحصل على درجة 0 في الامتحان، ولن تكون مؤهلاً للحصول على ساعات معتمدة في المساق.\n"
-"</strong></br>"
+"         يجب عليك الالتزام بالقواعد التالية أثناء إتمامك هذا الامتحان.\n"
+"         <strong> إذا انتُهكت هذه القواعد، فستحصل على درجة 0 في الامتحان، ولن تكون مؤهلاً للحصول على ساعات دراسية معتمدة في المساق.\n"
+"         </strong></br>\n"
+"      "
 
 #: templates/proctored_exam/ready_to_start.html:29
 #, python-format

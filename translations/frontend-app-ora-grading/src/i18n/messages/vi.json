@@ -25,7 +25,6 @@
   "ora-grading.ListView.tableHeaders.username": "Tên tài khoản",
   "ora-grading.ListView.viewAllResponses": "Xem tất cả phản hồi",
   "ora-grading.ListView.viewSelectedResponses": "Xem các câu trả lời đã chọn ( {value} )",
-  "ora-grading.NotificationsBanner.Message": "You can now enable notifications for ORA assignments that require staff grading, from the",
   "ora-grading.NotificationsBanner.linkMessage": "trung tâm sở thích.",
   "ora-grading.RadioCriterion.optionPoints": "{points} điểm",
   "ora-grading.RadioCriterion.rubricSelectedError": "Lựa chọn phiếu tự đánh giá là bắt buộc",

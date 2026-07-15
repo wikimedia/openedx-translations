@@ -18,7 +18,6 @@
   "header.links.programs": "精選課程",
   "header.links.schools": "學校及合作夥伴",
   "header.menu.account.label": "帳戶",
-  "header.menu.aria-label": "User Options",
   "header.menu.dashboard.label": "控制面板",
   "header.menu.orderHistory.label": "訂單歷史",
   "header.menu.profile.label": "用戶資料",
@@ -28,11 +27,9 @@
   "header.user.menu.dashboard": "控制面板",
   "header.user.menu.login": "登入",
   "header.user.menu.logout": "登出",
-  "header.user.menu.maintenance": "Maintenance",
   "header.user.menu.order.history": "訂單歷史",
   "header.user.menu.profile": "用戶資料",
   "header.user.menu.register": "報名",
   "header.user.menu.studio": "工作室主頁",
-  "header.user.menu.studio.home": "工作室主頁",
-  "header.user.menu.studio.maintenance": "Maintenance"
+  "header.user.menu.studio.home": "工作室主頁"
 }

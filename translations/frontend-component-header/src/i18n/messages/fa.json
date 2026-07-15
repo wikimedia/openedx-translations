@@ -18,7 +18,6 @@
   "header.links.programs": "برنامه‌ها",
   "header.links.schools": "مدارس و شرکا",
   "header.menu.account.label": "حساب‌کاربری",
-  "header.menu.aria-label": "User Options",
   "header.menu.dashboard.label": "پیشخوان",
   "header.menu.orderHistory.label": "سوابق سفارش‌ها",
   "header.menu.profile.label": "پروندۀ شخصی",
@@ -28,11 +27,9 @@
   "header.user.menu.dashboard": "پیشخوان",
   "header.user.menu.login": "ورود",
   "header.user.menu.logout": "خروج",
-  "header.user.menu.maintenance": "Maintenance",
   "header.user.menu.order.history": "سوابق سفارش‌ها",
   "header.user.menu.profile": "پروندۀ شخصی",
   "header.user.menu.register": "ثبت‌نام",
   "header.user.menu.studio": "خانۀ استودیو",
-  "header.user.menu.studio.home": "خانۀ استودیو",
-  "header.user.menu.studio.maintenance": "Maintenance"
+  "header.user.menu.studio.home": "خانۀ استودیو"
 }

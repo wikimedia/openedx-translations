@@ -25,7 +25,6 @@
   "ora-grading.ListView.tableHeaders.username": "Nombre de usuario",
   "ora-grading.ListView.viewAllResponses": "Ver todas las respuestas",
   "ora-grading.ListView.viewSelectedResponses": "Ver respuestas seleccionadas ({value})",
-  "ora-grading.NotificationsBanner.Message": "You can now enable notifications for ORA assignments that require staff grading, from the",
   "ora-grading.NotificationsBanner.linkMessage": "centro de preferencias.",
   "ora-grading.RadioCriterion.optionPoints": "{points} puntos",
   "ora-grading.RadioCriterion.rubricSelectedError": "Se requiere selección de rúbrica",

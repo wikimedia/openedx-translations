@@ -6,7 +6,6 @@
   "header.label.account.menu.for": "{username} üçün hesab menyusu",
   "header.label.account.nav": "Hesab",
   "header.label.app.nav": "Tətbiq",
-  "header.label.courseOutline": "Back to course outline in Studio",
   "header.label.main.header": "Əsas",
   "header.label.main.menu": "Əsas Menyu",
   "header.label.main.nav": "Əsas",
@@ -32,7 +31,6 @@
   "header.user.menu.order.history": "Sifariş tarixi",
   "header.user.menu.profile": "Profil",
   "header.user.menu.register": "Qeydiyyatdan keçin",
-  "header.user.menu.studio": "Studio Home",
   "header.user.menu.studio.home": "Studio Ana Səhifəsi",
   "header.user.menu.studio.maintenance": "Texniki qulluq"
 }

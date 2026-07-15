@@ -5,7 +5,6 @@
   "header.label.account.menu": "Kontu izvēlne",
   "header.label.account.menu.for": "Konta izvēlne {username}",
   "header.label.account.nav": "Konts",
-  "header.label.app.nav": "App",
   "header.label.courseOutline": "Atgriezties uz kursa izklāstu programmā Studio",
   "header.label.main.header": "Galvenā",
   "header.label.main.menu": "Galvenā izvēlne",
@@ -18,7 +17,6 @@
   "header.links.programs": "Programmas",
   "header.links.schools": "Skolas un partneri",
   "header.menu.account.label": "Konts",
-  "header.menu.aria-label": "User Options",
   "header.menu.dashboard.label": "Informācijas panelis",
   "header.menu.orderHistory.label": "Pasūtījumu vēsture",
   "header.menu.profile.label": "Profils",
@@ -28,11 +26,9 @@
   "header.user.menu.dashboard": "Informācijas panelis",
   "header.user.menu.login": "Pieslēgties",
   "header.user.menu.logout": "Izlogoties",
-  "header.user.menu.maintenance": "Maintenance",
   "header.user.menu.order.history": "Pasūtījumu vēsture",
   "header.user.menu.profile": "Profils",
   "header.user.menu.register": "Pierakstīties",
   "header.user.menu.studio": "Studio mājas lapa",
-  "header.user.menu.studio.home": "Studio mājas lapa",
-  "header.user.menu.studio.maintenance": "Maintenance"
+  "header.user.menu.studio.home": "Studio mājas lapa"
 }

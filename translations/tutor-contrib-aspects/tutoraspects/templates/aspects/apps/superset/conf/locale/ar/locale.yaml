@@ -20,6 +20,9 @@ en:
   Active Learners: المتعلمون النشطون
   Active Users Per Organization: المستخدمون النشطون لكل مؤسسة
   Active Within Last 7 Days: كان نشطاً خلال الأيام السبعة الماضية
+  Actor ID: معرّف الفاعل
+  Actor Id: معرّف الفاعل
+  Actors Count: عدد الفاعلين
   Approving State: حالة الموافقة
   At Risk: متعثر
   At-Risk Learners: المتعلمون المتعثرون
@@ -61,6 +64,7 @@ en:
   Course End: موعد انتهاء المساق
   Course Enrollments Over Time: عمليات التسجيل في المساق مع مرور الوقت
   Course Grade: درجة المساق
+  Course ID: معرّف المساق
   Course Info: 'معلومات المساق '
   Course Information: معلومات المساق
   Course Key: مفتاح المساق
@@ -95,6 +99,9 @@ en:
   Distribution of Current Course Grade: التوزيع الإحصائي لدرجة المساق الحالي
   Duration (Seconds): المدة (بالثواني)
   Email: البريد الإلكتروني
+  Emission Day: 'يوم الإصدار '
+  Emission Hour: ساعة الإصدار
+  Emission Time: وقت الإصدار
   Engagement: التفاعل
   Enrolled At: مسجّل في
   Enrollees by Enrollment Track: المسجّلون وفقاً لمسار التسجيل
@@ -160,6 +167,9 @@ en:
   Name Org: اسم المؤسسة
   Number of Learners: عدد المتعلمين
   Number of Videos: عدد مقاطع الفيديو
+  Object ID: معرّف الموضوع
+  Object Id: معرّف الموضوع
+  Object Type: نوع الموضوع
   Only available in versions Redwood and later: متاح فقط في إصدارات Redwood والأحدث منها
   Operator Dashboard: لوحة تحكم المُشغّل
   Org: المؤسسة
@@ -203,6 +213,7 @@ en:
   Responses: الإجابات
   Result: النتيجة
   Rownum: رقم الصف
+  Scaled Score: الدرجة المعيارية
   Section Location and Name: موقع القسم واسمه
   Section Name: اسم القسم
   Section Subsection Video Engagement: التفاعل مع مقاطع فيديو القسم أو القسم الفرعي
@@ -216,6 +227,8 @@ en:
   Segment Range: نطاق المقطع
   Segment Start: بداية المقطع
   Self Paced: تعلّم ذاتي
+  Slice ID: معرّف الشريحة
+  Slice Name: اسم الشريحة
   Start Position: نقطة البداية
   Started At: بدأ في
   Subsection Location and Name: موقع القسم الفرعي واسمه
@@ -225,19 +238,24 @@ en:
   Subsection With Name: قسم فرعي مسمّى
   Subsection with name: قسم فرعي مسمّى
   Success: تم الأمر بنجاح
+  Superset: سوبر سيت (Superset)
+  Superset Active Users: مستخدمو سوبر سيت (Superset) النشطون
   Superset Active Users Over Time: مستخدمو Superset النشطون مع مرور الوقت
   Superset Registered Users Over Time: المستخدمون المسجّلون في  Superset مع مرور الوقت
   Tables: الجداول
   Tag: وسم
   Tags: وُسوم
   Tags Str: سلسلة وُسوم
+  Time Grain: الفاصل الزمني
   Time Last Dumped: وقت آخر استخراج
   Time Range: النطاق الزمني
+  Time Stamp: الطابع الزمني
   Total: المجموع
   Total Courses: إجمالي المساقات
   Total Organizations: العدد الكلي للمؤسسات
   Total Views: العدد الكلي للمشاهدات
   Unique Viewers: المشاهدون الفريدون
+  Unique vs. Repeat Views: المشاهدات الفريدة مقابل المشاهدات المتكررة
   User ID: معرّف المستخدم
   User Info: معلومات المستخدم
   User Name: اسم المستخدم

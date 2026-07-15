@@ -1,6 +1,4 @@
 {
-  "messenger.button.cancel": "Cancel",
-  "messenger.button.close": "Close",
   "messenger.button.newMessage": "Teachtaireacht Nua",
   "messenger.button.reply": "Freagra",
   "messenger.button.send": "Seol",
@@ -10,7 +8,6 @@
   "messenger.error.sendMessages": "Earráid agus teachtaireachtaí á seoladh. Déan iarracht arís!",
   "messenger.error.userConversation": "Ní féidir comhrá an úsáideora a lódáil:",
   "messenger.error.userSearch": "Ní féidir úsáideoirí a chuardach.",
-  "messenger.inbox.noConversation": "No conversation found!",
   "messenger.label.inbox": "Bosca isteach",
   "messenger.label.message": "Teachtaireacht",
   "messenger.label.newMessage": "Teachtaireacht Nua",
@@ -19,7 +16,6 @@
   "messenger.placeholder.searchUsers": "Cuardaigh Úsáideoirí",
   "messenger.placeholder.select": "Roghnaigh",
   "messenger.placeholder.typeMessage": "Clóscríobh do theachtaireacht...",
-  "messenger.placeholder.username": "username",
   "messenger.success.sendMessage": "Tá an teachtaireacht seolta.",
   "messenger.success.sendMessages": "Tá an teachtaireacht/na teachtaireachtaí seolta."
 }

@@ -147,11 +147,8 @@
   "account.settings.field.secondary.email.empty": "Adicionar um endereço de email de recuperação",
   "account.settings.field.site.language": "Idioma do site",
   "account.settings.field.site.language.help.text": "O idioma usado neste site. Este site atualmente suporta um número limitado de idiomas.",
-  "account.settings.field.social.platform.name.facebook": "Facebook",
   "account.settings.field.social.platform.name.facebook.empty": "Adicione perfil de Facebook",
-  "account.settings.field.social.platform.name.linkedin": "LinkedIn",
   "account.settings.field.social.platform.name.linkedin.empty": "Adicione perfil do LinkedIn",
-  "account.settings.field.social.platform.name.twitter": "Twitter",
   "account.settings.field.social.platform.name.twitter.empty": "Adicione perfil de Twitter",
   "account.settings.field.state": "Estado",
   "account.settings.field.state.empty": "Adicionar estado",
@@ -343,7 +340,6 @@
   "id.verification.support": "Suporte",
   "id.verification.upload.help.button": "Alternar para o modo de upload",
   "idv.submission.alert.error": "Encontramos um error técnico ao tentar to enviar ID Verification . this pode ser um problema temporário, então Please tente novamente in alguns minutes . Se Problem persistir, Please vá to {support_link} para obter ajuda.",
-  "notification.dropdown.select.course": "Select a course you’re enrolled in to view its notification preferences.",
   "notification.preference.app.title": "{chave, seleção, discussão {Discussões} curso {Trabalho do curso} atualizações {Atualizações} outro { {key} } }",
   "notification.preference.channel": "{text, select, web {Web} email {Email} push {Push} other { {text} } }",
   "notification.preference.guide.body": "Notificações para determinadas atividades estão habilitadas por default ,",
@@ -354,6 +350,5 @@
   "notification.preference.load.more.courses": "Carregar mais cursos",
   "notification.preference.title": "{ text, select, core {Notificações principais} newDiscussionPost {Novas postagens de discussão} newQuestionPost {Novas postagens de perguntas} contentReported {Conteúdo relatado} courseUpdate {Atualizações do curso} other { {text} } }",
   "notification.preference.type.label": "Tipo",
-  "notification.preference.web.label": "Web",
   "notification.preferences.notifications.label": "Notificações"
 }

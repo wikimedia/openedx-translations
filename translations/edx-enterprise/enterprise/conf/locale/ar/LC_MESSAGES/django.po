@@ -567,15 +567,16 @@ msgstr ""
 
 #: integrated_channels/sap_success_factors/models.py:117
 msgid "Base URL of success factors API."
-msgstr "عنوان URL الأساسي لواجهة برمجة تطبيقات عوامل النجاح."
+msgstr ""
+"الرابط الأساسي لواجهة برمجة التطبيقات (API) لسكسس فاكترز (Success factors)."
 
 #: integrated_channels/sap_success_factors/models.py:124
 msgid "Success factors company identifier."
-msgstr "عوامل النجاح معرف الشركة."
+msgstr "معرّف شركة سكسس فاكترز (Success factors)."
 
 #: integrated_channels/sap_success_factors/models.py:131
 msgid "Success factors user identifier."
-msgstr "عوامل النجاح معرف المستخدم."
+msgstr "معرّف مستخدم سكسس فاكترز (Success factors)."
 
 #: integrated_channels/sap_success_factors/models.py:140
 msgid ""
@@ -1158,6 +1159,12 @@ msgstr "لم يُعثر على المؤسسة"
 #: enterprise/forms.py:64
 msgid "Wrong Enterprise"
 msgstr "مؤسسة خاطئة"
+
+#: enterprise/management/commands/migrate_enterprise_catalogs.py:30
+msgid "Username of a user authorized to access the Enterprise Catalog API."
+msgstr ""
+"اسم المستخدم للمستخدم المخول بالوصول إلى واجهة برمجة التطبيقات (API) لدليل "
+"المؤسسة."
 
 #: enterprise/messages.py:24
 #, python-brace-format
@@ -1987,8 +1994,8 @@ msgid ""
 "SAP specific configuration: the root url of the SAP SuccessFactors OAuth "
 "API."
 msgstr ""
-"الاعدادات الخاصه بـ SAP: العنوان الأساسى URL  لواجهة برمجة تطبيقات SAP "
-"SuccessFactors OAuth."
+"الإعدادات الخاصة بشركة SAP: رابط الجذر لواجهة برمجة التطبيقات (API) لـ SAP "
+"SuccessFactors OAuth API. "
 
 #: enterprise/models.py:4572
 msgid ""
@@ -2068,6 +2075,10 @@ msgstr "ألغِ الموافقة على مشاركة البيانات"
 #: enterprise/templates/enterprise/admin/manage_learners.html:65
 msgid "Manage Learners"
 msgstr "إدارة المتعلمين"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:87
+msgid "Search email address or username"
+msgstr "ابحث باستخدام  عنوان البريد الإلكتروني أو اسم المستخدم"
 
 #: enterprise/templates/enterprise/admin/manage_learners.html:98
 msgid "User Email"

@@ -1,7 +1,6 @@
 {
   "configuration.customersPage.otherSubsidiesColumn": "其他補貼",
   "configuration.customersPage.otherSubsidiesColumn.tooltip": "包括優惠和代碼",
-  "configuration.customersPage.viewSubsidiesColumn.tooltip": "A checkmark indicates an active subsidy.",
   "copy.public.record.link": "複製公共記錄連結",
   "course.reset.alert.warning": "你確定嗎？這將刪除該學生本課程的所有資料。每個學生每門課程只能發生一次。",
   "earned.status": "已獲取",

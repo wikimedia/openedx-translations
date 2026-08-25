@@ -28,9 +28,36 @@ REPO_MERGE_CONFIG = {
 }
 
 
+# The Translate extension (translatewiki.net) only reads source strings from msgid
+# instead of msgstr when the header entry carries the fuzzy flag. Without it the
+# message group reads the empty msgstr values and comes out empty.
+EN_PLURAL_FORMS = "nplurals=2; plural=(n != 1);"
+
+
 def ensure_directory(path):
     if not os.path.exists(path):
         os.makedirs(path, exist_ok=True)
+
+
+def mark_as_source_template(po):
+    """Flag an English .po so Translate treats it as a template.
+
+    polib keeps the header fuzzy flag in `metadata_is_fuzzy`, which is separate
+    from `metadata` - so a `metadata.copy()` onto a fresh POFile silently drops
+    it. Set it explicitly before every save of an English source file.
+    """
+    po.metadata_is_fuzzy = ['fuzzy']
+
+    # xgettext leaves Plural-Forms unresolved when it finds a plural string.
+    # Translate rejects the placeholder, so resolve it for English.
+    plural_forms = po.metadata.get('Plural-Forms', '')
+    if not plural_forms or 'INTEGER' in plural_forms or 'EXPRESSION' in plural_forms:
+        po.metadata['Plural-Forms'] = EN_PLURAL_FORMS
+
+
+def mark_as_translation(po):
+    """Ensure a non-English .po is never flagged as a template."""
+    po.metadata_is_fuzzy = []
 
 
 def get_msgids(po_file_path):
@@ -254,6 +281,7 @@ def create_or_update_po_placeholders(extracted_file, rel_path, supported_langs):
                                 added += 1
 
                         if added > 0:
+                            mark_as_translation(existing_po)
                             existing_po.save(p_path)
                             updated += 1
                             print(f"    ✅ Updated {lang}: +{added} strings")
@@ -278,6 +306,7 @@ def create_or_update_po_placeholders(extracted_file, rel_path, supported_langs):
                                 msgstr="",
                                 occurrences=entry.occurrences
                             ))
+                    mark_as_translation(new_po)
                     new_po.save(p_path)
                     created += 1
                     print(f"    ✅ Created {lang}: {len(en_entries)} strings")
@@ -406,6 +435,7 @@ def process_po_diff(extracted_file, comparison_source, comparison_custom, rel_pa
         custom_en_po.metadata = extracted_po.metadata.copy()
         for entry in custom_entries:
             custom_en_po.append(entry)
+        mark_as_source_template(custom_en_po)
         custom_en_po.save(custom_en_path)
         print(f"  Rebuilt custom file with {len(custom_entries)} filtered strings: {custom_en_path}")
     else:
@@ -431,6 +461,7 @@ def process_po_diff(extracted_file, comparison_source, comparison_custom, rel_pa
                 new_count += 1
 
         if new_count > 0:
+            mark_as_source_template(custom_en_po)
             custom_en_po.save(custom_en_path)
             print(f"  Added {new_count} new custom strings to {custom_en_path}")
 
@@ -474,6 +505,7 @@ def process_po_diff(extracted_file, comparison_source, comparison_custom, rel_pa
                             msgstr=existing_translations.get(entry.msgid, ""),
                             occurrences=entry.occurrences
                         ))
+                    mark_as_translation(rebuilt_po)
                     rebuilt_po.save(custom_lang_path)
                     updated_count += 1
                 else:
@@ -487,6 +519,7 @@ def process_po_diff(extracted_file, comparison_source, comparison_custom, rel_pa
                             added += 1
 
                     if added > 0:
+                        mark_as_translation(custom_lang_po)
                         custom_lang_po.save(custom_lang_path)
                         updated_count += 1
         except ValueError:

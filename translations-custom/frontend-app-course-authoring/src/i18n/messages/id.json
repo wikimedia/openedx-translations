@@ -1,3 +1,6 @@
 {
-  "course-authoring.create-or-rerun-course.translation-options.translated.label": "Terjemahan Kursus kembali berjalan"
+	"@metadata": {
+		"authors": []
+	},
+	"course-authoring.create-or-rerun-course.translation-options.translated.label": "Terjemahan Kursus kembali berjalan"
 }

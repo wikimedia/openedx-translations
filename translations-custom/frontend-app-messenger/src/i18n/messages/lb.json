@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Volvox"
+		]
+	},
+	"messenger.button.close": "Zoumaachen",
+	"messenger.button.cancel": "Ofbriechen",
+	"messenger.button.newMessage": "Neie Message",
+	"messenger.placeholder.username": "Benotzernumm",
+	"messenger.label.newMessage": "Neie Message",
+	"messenger.label.users": "Benotzer",
+	"messenger.inbox.noConversation": "Keng Konversatioun fonnt!"
+}

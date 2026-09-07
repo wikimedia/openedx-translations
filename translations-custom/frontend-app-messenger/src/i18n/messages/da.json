@@ -1,15 +1,18 @@
 {
-  "messenger.button.newMessage": "Ny besked",
-  "messenger.button.reply": "Svar",
-  "messenger.error.sendMessage": "Fejl ved afsending af besked. Prøv venligst igen!",
-  "messenger.error.userConversation": "Kan ikke indlæse brugerens samtale:",
-  "messenger.label.inbox": "Indbakke",
-  "messenger.label.message": "Besked",
-  "messenger.label.newMessage": "Ny besked",
-  "messenger.label.users": "Brugere",
-  "messenger.placeholder.enterMessage": "Skriv besked ...",
-  "messenger.placeholder.searchUsers": "Søg brugere",
-  "messenger.placeholder.select": "Vælg",
-  "messenger.placeholder.typeMessage": "Skriv din besked...",
-  "messenger.success.sendMessage": "Besked er sendt."
+	"@metadata": {
+		"authors": []
+	},
+	"messenger.button.reply": "Svar",
+	"messenger.button.newMessage": "Ny besked",
+	"messenger.placeholder.typeMessage": "Skriv din besked...",
+	"messenger.placeholder.enterMessage": "Skriv besked ...",
+	"messenger.placeholder.searchUsers": "Søg brugere",
+	"messenger.placeholder.select": "Vælg",
+	"messenger.label.inbox": "Indbakke",
+	"messenger.label.message": "Besked",
+	"messenger.label.newMessage": "Ny besked",
+	"messenger.label.users": "Brugere",
+	"messenger.success.sendMessage": "Besked er sendt.",
+	"messenger.error.sendMessage": "Fejl ved afsending af besked. Prøv venligst igen!",
+	"messenger.error.userConversation": "Kan ikke indlæse brugerens samtale:"
 }

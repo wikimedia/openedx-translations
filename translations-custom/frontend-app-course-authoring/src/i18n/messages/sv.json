@@ -1,12 +1,15 @@
 {
-  "authoring.schedule.course-direction.confirmation-modal.confirm": "Ja, uppdatera flagga",
-  "authoring.schedule.course-direction.confirmation-modal.message": "Är du säker på att du vill uppdatera flaggan då den inte kommer att återställas igen.",
-  "authoring.schedule.course-direction.confirmation-modal.title": "Ändring kan inte återställas.",
-  "authoring.schedule.course-direction.description": "Konvertera kurs till källa",
-  "authoring.schedule.course-direction.disabled-tip": "Alternativet är inaktiverat eftersom kursen inte är en översatt version.",
-  "authoring.schedule.course-direction.title": "Kursriktningsflagga",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Koppla ihop moduler",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Ihopkoppling av kursmoduler",
-  "course-authoring.create-or-rerun-course.translation-options.standard.label": "Grundläggande repris",
-  "course-authoring.create-or-rerun-course.translation-options.translated.label": "Repris av översatt kurs"
+	"@metadata": {
+		"authors": []
+	},
+	"authoring.schedule.course-direction.confirmation-modal.confirm": "Ja, uppdatera flagga",
+	"authoring.schedule.course-direction.confirmation-modal.message": "Är du säker på att du vill uppdatera flaggan då den inte kommer att återställas igen.",
+	"authoring.schedule.course-direction.confirmation-modal.title": "Ändring kan inte återställas.",
+	"authoring.schedule.course-direction.description": "Konvertera kurs till källa",
+	"authoring.schedule.course-direction.disabled-tip": "Alternativet är inaktiverat eftersom kursen inte är en översatt version.",
+	"authoring.schedule.course-direction.title": "Kursriktningsflagga",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Koppla ihop moduler",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Ihopkoppling av kursmoduler",
+	"course-authoring.create-or-rerun-course.translation-options.standard.label": "Grundläggande repris",
+	"course-authoring.create-or-rerun-course.translation-options.translated.label": "Repris av översatt kurs"
 }

@@ -1,7 +1,10 @@
 {
-  "authoring.schedule.course-direction.confirmation-modal.confirm": "Ооба, белгини жаңырт",
-  "authoring.schedule.course-direction.confirmation-modal.message": "Сиз белгини жаңырткыңыз келеринен ишенимдүүсүзбү? Анткени ал кайра кайтарылбайт.",
-  "authoring.schedule.course-direction.confirmation-modal.title": "Өзгөртүүнү артка кайтарууга болбойт.",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Карта блоктору",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Курс блокторун шайкештештирүү"
+	"@metadata": {
+		"authors": []
+	},
+	"authoring.schedule.course-direction.confirmation-modal.confirm": "Ооба, белгини жаңырт",
+	"authoring.schedule.course-direction.confirmation-modal.message": "Сиз белгини жаңырткыңыз келеринен ишенимдүүсүзбү? Анткени ал кайра кайтарылбайт.",
+	"authoring.schedule.course-direction.confirmation-modal.title": "Өзгөртүүнү артка кайтарууга болбойт.",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Карта блоктору",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Курс блокторун шайкештештирүү"
 }

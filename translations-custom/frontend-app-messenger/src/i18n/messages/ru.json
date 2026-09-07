@@ -1,12 +1,15 @@
 {
-  "messenger.button.newMessage": "Новые сообщения",
-  "messenger.button.reply": "Ответить",
-  "messenger.button.send": "Отправить",
-  "messenger.label.inbox": "Входящие",
-  "messenger.label.message": "Сообщение",
-  "messenger.label.newMessage": "Новые сообщения",
-  "messenger.label.users": "Участники",
-  "messenger.placeholder.enterMessage": "Введите сообщение…",
-  "messenger.placeholder.select": "Выбрать",
-  "messenger.placeholder.typeMessage": "Введите ваше сообщение…"
+	"@metadata": {
+		"authors": []
+	},
+	"messenger.button.send": "Отправить",
+	"messenger.button.reply": "Ответить",
+	"messenger.button.newMessage": "Новые сообщения",
+	"messenger.placeholder.typeMessage": "Введите ваше сообщение…",
+	"messenger.placeholder.enterMessage": "Введите сообщение…",
+	"messenger.placeholder.select": "Выбрать",
+	"messenger.label.inbox": "Входящие",
+	"messenger.label.message": "Сообщение",
+	"messenger.label.newMessage": "Новые сообщения",
+	"messenger.label.users": "Участники"
 }

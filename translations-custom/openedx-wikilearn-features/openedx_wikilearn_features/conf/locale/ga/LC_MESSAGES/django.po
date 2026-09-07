@@ -1,38 +1,48 @@
+# Translation of WikiLearn - Features (backend) to Irish (Gaeilge)
+# Exported from translatewiki.net
+#
+# Author: Aindriu80
+# --
+# This file is part of the WikiLearn Project
+# This file is distributed under the same license as the WikiLearn package.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+""
+"Project-Id-Version: WikiLearn - Features (backend)\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
 "POT-Creation-Date: 2026-02-02 13:03+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-09-07 12:31:20+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2026-08-20 11:26:11+0000\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.47.0-alpha; Translate 2025-07-31\n"
+"Plural-Forms: nplurals=5; plural=(n == 1) ? 0 : ( (n == 2) ? 1 : ( (n < 7) ? 2 : ( (n < 11) ? 3 : 4 ) ) );\n"
 
 #: admin_dashboard/admin_task/api.py:50 admin_dashboard/admin_task/api.py:50
-msgid ""
-"The {report_type} report is being created. To view the status of the report,"
-" see Pending Tasks below."
-msgstr ""
+#, python-brace-format
+msgid "The {report_type} report is being created. To view the status of the report, see Pending Tasks below."
+msgstr "Tá an tuarascáil {report_type} á cruthú. Chun stádas na tuarascála a fheiceáil, féach Tascanna ar Feitheamh thíos."
 
 #: admin_dashboard/admin_task/api.py:93 admin_dashboard/admin_task/api.py:93
 msgid "User does not exist."
-msgstr ""
+msgstr "Níl an t-úsáideoir ann."
 
 #: admin_dashboard/admin_task/api.py:95 admin_dashboard/admin_task/api.py:95
-msgid ""
-"Found a conflict with given identifier. Please try an alternative identifier"
-msgstr ""
+msgid "Found a conflict with given identifier. Please try an alternative identifier"
+msgstr "Fuarthas coimhlint leis an aitheantóir tugtha. Bain triail as aitheantóir eile."
 
 #: admin_dashboard/admin_task/api.py:117
 #: admin_dashboard/admin_task/api_helper.py:106
-#: admin_dashboard/admin_task/api_helper.py:106
 #: admin_dashboard/admin_task/api.py:117
+#: admin_dashboard/admin_task/api_helper.py:106
 msgid "grade"
-msgstr ""
+msgstr "grád"
 
 #: admin_dashboard/admin_task/api.py:138 admin_dashboard/admin_task/api.py:138
 msgid "progress"
@@ -44,8 +54,8 @@ msgstr "staitisticí_na_gach_clárúchán"
 
 #: admin_dashboard/admin_task/api.py:225
 #: admin_dashboard/admin_task/api_helper.py:101
-#: admin_dashboard/admin_task/api_helper.py:101
 #: admin_dashboard/admin_task/api.py:225
+#: admin_dashboard/admin_task/api_helper.py:101
 msgid "enrollment"
 msgstr "clárú"
 
@@ -66,73 +76,76 @@ msgstr "tuarascáil_ghníomhaíochta_rollúcháin"
 #: admin_dashboard/admin_task/api_helper.py:24
 #: admin_dashboard/admin_task/api_helper.py:24
 msgid "Requested task is already running"
-msgstr ""
+msgstr "Tá an tasc iarrtha ag rith cheana féin"
 
 #: admin_dashboard/admin_task/api_helper.py:37
 #: admin_dashboard/admin_task/api_helper.py:37
 msgid "Error occured. Please try again later."
-msgstr ""
+msgstr "Tharla earráid. Déan iarracht arís ar ball."
 
 #: admin_dashboard/admin_task/api_helper.py:98
 #: admin_dashboard/admin_task/api_helper.py:98
 msgid "problem grade"
-msgstr ""
+msgstr "grád fadhb"
 
 #: admin_dashboard/admin_task/api_helper.py:99
 #: admin_dashboard/admin_task/api_helper.py:99
 msgid "problem responses"
-msgstr ""
+msgstr "freagraí fadhbanna"
 
 #: admin_dashboard/admin_task/api_helper.py:100
 #: admin_dashboard/admin_task/api_helper.py:100
 msgid "enrolled learner profile"
-msgstr ""
+msgstr "próifíl an fhoghlaimeora cláraithe"
 
 #: admin_dashboard/admin_task/api_helper.py:102
 #: admin_dashboard/admin_task/api_helper.py:102
 msgid "detailed enrollment"
-msgstr ""
+msgstr "clárú mionsonraithe"
 
 #: admin_dashboard/admin_task/api_helper.py:103
 #: admin_dashboard/admin_task/api_helper.py:103
 msgid "survey"
-msgstr ""
+msgstr "suirbhé"
 
 #: admin_dashboard/admin_task/api_helper.py:104
 #: admin_dashboard/admin_task/api_helper.py:104
 msgid "proctored exam results"
-msgstr ""
+msgstr "torthaí scrúduithe faoi mhaoirseacht"
 
 #: admin_dashboard/admin_task/api_helper.py:105
 #: admin_dashboard/admin_task/api_helper.py:105
 msgid "ORA data"
-msgstr ""
+msgstr "Sonraí ORA"
 
 #: admin_dashboard/admin_task/api_helper.py:111
 #: admin_dashboard/admin_task/api_helper.py:111
-msgid ""
-"The {report_type} report is being created. To view the status of the report,"
-" see Pending Tasks below. You will be able to download the report when it is"
-" complete."
-msgstr ""
+#, python-brace-format
+msgid "The {report_type} report is being created. To view the status of the report, see Pending Tasks below. You will be able to download the report when it is complete."
+msgstr "Tá an tuarascáil {report_type} á cruthú. Chun stádas na tuarascála a fheiceáil, féach Tascanna ar Feitheamh thíos. Beidh tú in ann an tuarascáil a íoslódáil nuair a bheidh sí críochnaithe."
 
 #: admin_dashboard/models.py:108 admin_dashboard/models.py:108
 msgid "An error has occurred. Task was not created."
-msgstr ""
+msgstr "Tharla earráid. Níor cruthaíodh an tasc."
 
+#. Translators: This is a past-tense verb that is inserted into task progress
+#. messages as {action}.
 #: admin_dashboard/tasks.py:58
 msgid "graded"
-msgstr ""
+msgstr "grádaithe"
 
+#. Translators: This is a past-tense verb that is inserted into task progress
+#. messages as {action}.
 #: admin_dashboard/tasks.py:77 admin_dashboard/tasks.py:96
 #: admin_dashboard/tasks.py:115 admin_dashboard/tasks.py:133
 #: admin_dashboard/tasks.py:151 admin_dashboard/tasks.py:169
 #: admin_dashboard/tasks.py:187
 msgid "generated"
-msgstr ""
+msgstr "ginte"
 
 #: admin_dashboard/templates/admin_dashboard/edx_ace/reportreadynotification/email/body.html:10
 #: admin_dashboard/templates/admin_dashboard/edx_ace/reportreadynotification/email/body.txt:4
+#, python-format
 msgid "%(email_msg)s"
 msgstr "%(email_msg)s"
 
@@ -147,12 +160,12 @@ msgstr "Féach ar Thuarascálacha"
 #: messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.txt:15
 #: wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.html:41
 #: wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.txt:14
+#, python-format
 msgid "This email was automatically sent from %(platform_name)s to %(email)s"
-msgstr ""
-"Seoladh an ríomhphost seo go huathoibríoch ó %(platform_name)s chuig "
-"%(email)s"
+msgstr "Seoladh an ríomhphost seo go huathoibríoch ó %(platform_name)s chuig %(email)s"
 
 #: admin_dashboard/templates/admin_dashboard/edx_ace/reportreadynotification/email/subject.txt:2
+#, python-format
 msgid "%(platform_name)s -> Your report is ready."
 msgstr "%(platform_name)s -> Tá do thuairisc réidh."
 
@@ -198,9 +211,7 @@ msgstr "Tá agat "
 #: messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.html:14
 #: messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.txt:6
 msgid "unread message(s) waiting for your response from following users:"
-msgstr ""
-"teachtaireacht(í) neamhléite ag fanacht le do fhreagra ó na húsáideoirí seo "
-"a leanas:"
+msgstr "teachtaireacht(í) neamhléite ag fanacht le do fhreagra ó na húsáideoirí seo a leanas:"
 
 #: messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.html:25
 #: messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/body.txt:11
@@ -224,8 +235,9 @@ msgid "Login your platform to view all new messages "
 msgstr "Logáil isteach ar do ardán chun gach teachtaireacht nua a fheiceáil"
 
 #: messenger/templates/messenger/edx_ace/pendingmessagesnotification/email/subject.txt:3
+#, python-format
 msgid "%(subject)s"
-msgstr ""
+msgstr "%(subject)s"
 
 #: meta_translations/models.py:31 meta_translations/models.py:31
 msgid "Days settings for next Fetch call"
@@ -244,19 +256,12 @@ msgid "Course Language is required field for Translated rerun."
 msgstr "Tá Teanga an Chúrsa riachtanach le haghaidh athrith Aistrithe."
 
 #: meta_translations/utils.py:270 meta_translations/utils.py:270
-msgid ""
-"Translated rerun for Source Course in selected language already exists."
-msgstr ""
-"Tá athchraoladh aistrithe don Chúrsa Foinse sa teanga roghnaithe ann cheana "
-"féin."
+msgid "Translated rerun for Source Course in selected language already exists."
+msgstr "Tá athchraoladh aistrithe don Chúrsa Foinse sa teanga roghnaithe ann cheana féin."
 
 #: meta_translations/utils.py:278 meta_translations/utils.py:278
-msgid ""
-"Translated rerun can not be created for the base course with no language. "
-"Please set base course language from settings."
-msgstr ""
-"Ní féidir athchraoladh aistrithe a chruthú don chúrsa bonn gan teanga. "
-"Socraigh teanga an chúrsa bonn ó na socruithe le do thoil."
+msgid "Translated rerun can not be created for the base course with no language. Please set base course language from settings."
+msgstr "Ní féidir athchraoladh aistrithe a chruthú don chúrsa bonn gan teanga. Socraigh teanga an chúrsa bonn ó na socruithe le do thoil."
 
 #: meta_translations/views.py:74 meta_translations/views.py:74
 msgid "Expand Outline"
@@ -313,7 +318,7 @@ msgstr "Ceadaigh"
 
 #: meta_translations/views.py:90 meta_translations/views.py:90
 msgid "Approved"
-msgstr ""
+msgstr "Ceadaithe"
 
 #: meta_translations/views.py:91 meta_translations/views.py:108
 #: meta_translations/views.py:91 meta_translations/views.py:108
@@ -321,12 +326,8 @@ msgid "Unable to approve this time, Please try again later."
 msgstr "Ní féidir é a cheadú an uair seo, déan iarracht arís ar ball."
 
 #: meta_translations/views.py:92 meta_translations/views.py:92
-msgid ""
-"Congratulations! The translation is approved. It's also applied "
-"automatically to the Course Block"
-msgstr ""
-"Comhghairdeas! Tá an t-aistriúchán ceadaithe. Cuirtear i bhfeidhm go "
-"huathoibríoch é ar an mBloc Cúrsa freisin."
+msgid "Congratulations! The translation is approved. It's also applied automatically to the Course Block"
+msgstr "Comhghairdeas! Tá an t-aistriúchán ceadaithe. Cuirtear i bhfeidhm go huathoibríoch é ar an mBloc Cúrsa freisin."
 
 #: meta_translations/views.py:95 meta_translations/views.py:95
 msgid "APPLY"
@@ -343,13 +344,11 @@ msgstr "Cuir i bhfeidhm"
 
 #: meta_translations/views.py:99 meta_translations/views.py:99
 msgid "Unable to apply this time, Please try again later."
-msgstr ""
-"Ní féidir iarratas a dhéanamh an uair seo, déan iarracht arís ar ball."
+msgstr "Ní féidir iarratas a dhéanamh an uair seo, déan iarracht arís ar ball."
 
 #: meta_translations/views.py:100 meta_translations/views.py:100
 msgid "Congratulations! The translation is applied to the Course Block"
-msgstr ""
-"Comhghairdeas! Tá an t-aistriúchán curtha i bhfeidhm ar an mBloc Cúrsa"
+msgstr "Comhghairdeas! Tá an t-aistriúchán curtha i bhfeidhm ar an mBloc Cúrsa"
 
 #: meta_translations/views.py:103 meta_translations/views.py:103
 msgid "APPLIED"
@@ -364,12 +363,8 @@ msgid "No pending translations to be approved"
 msgstr "Gan aon aistriúcháin atá ar feitheamh le ceadú"
 
 #: meta_translations/views.py:109 meta_translations/views.py:109
-msgid ""
-"Congratulations! Translations are approved. They're also applied "
-"automatically to the Course Blocks"
-msgstr ""
-"Comhghairdeas! Tá na haistriúcháin ceadaithe. Cuirtear i bhfeidhm go "
-"huathoibríoch iad ar na Bloic Chúrsa freisin."
+msgid "Congratulations! Translations are approved. They're also applied automatically to the Course Blocks"
+msgstr "Comhghairdeas! Tá na haistriúcháin ceadaithe. Cuirtear i bhfeidhm go huathoibríoch iad ar na Bloic Chúrsa freisin."
 
 #: meta_translations/views.py:112 meta_translations/views.py:112
 msgid "pending translation"
@@ -389,8 +384,7 @@ msgstr "eile"
 
 #: meta_translations/views.py:118 meta_translations/views.py:118
 msgid "Unable to fetch translation this time, Please try again later."
-msgstr ""
-"Ní féidir aistriúchán a fháil an uair seo, déan iarracht arís ar ball."
+msgstr "Ní féidir aistriúchán a fháil an uair seo, déan iarracht arís ar ball."
 
 #: meta_translations/views.py:119 meta_translations/views.py:119
 msgid "Unable to load Courses."
@@ -431,7 +425,7 @@ msgstr "Aistriúchán"
 #: meta_translations/views.py:176 meta_translations/views.py:199
 #: meta_translations/views.py:176 meta_translations/views.py:199
 msgid "Course Name"
-msgstr ""
+msgstr "Ainm an Chúrsa"
 
 #: meta_translations/views.py:177 meta_translations/views.py:177
 msgid "Translated Course Name"
@@ -480,15 +474,15 @@ msgstr "Ceanntásc na Roinne"
 
 #: meta_translations/views.py:196 meta_translations/views.py:196
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: meta_translations/views.py:197 meta_translations/views.py:197
 msgid "Video"
-msgstr ""
+msgstr "Físeán"
 
 #: meta_translations/views.py:198 meta_translations/views.py:198
 msgid "Problem"
-msgstr ""
+msgstr "Fadhb"
 
 #: meta_translations/views.py:203 meta_translations/views.py:203
 msgid "Untranslated"
@@ -513,51 +507,82 @@ msgstr "Catalóg"
 
 #: wikimedia_general/api/v0/utils.py:44 wikimedia_general/api/v0/utils.py:44
 msgid "Courses"
-msgstr ""
+msgstr "Cúrsaí"
 
 #: wikimedia_general/api/v0/utils.py:53 wikimedia_general/api/v0/utils.py:53
 msgid "Programs"
-msgstr ""
+msgstr "Cláir"
 
-#: wikimedia_general/api/v0/utils.py:71 wikimedia_general/api/v0/utils.py:71
+#: wikimedia_general/api/v0/utils.py:71
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:16
+#: wikimedia_general/api/v0/utils.py:71
 msgid "Reports"
-msgstr ""
+msgstr "Tuairiscí"
 
 #: wikimedia_general/api/v0/utils.py:81 wikimedia_general/api/v0/utils.py:81
 msgid "Inbox"
 msgstr "Bosca isteach"
 
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:40
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:40
+msgid "Username"
+msgstr "Ainm úsáideora"
+
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:41
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:41
+msgid "Grade"
+msgstr "Grád"
+
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:42
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:42
+msgid "Certificate Type"
+msgstr "Cineál Teastais"
+
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:43
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:43
+msgid "Certificate Creation Date"
+msgstr "Dáta Cruthaithe an Teastais"
+
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:44
+#: wikimedia_general/djangoapps_patches/instructor/views/certificates.py:44
+msgid "Certificate link"
+msgstr "Nasc teastais"
+
 #: wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.html:11
+#, python-format
 msgid "%(thread_username)s mentioned you on post: <b>%(thread_title)s</b>:"
 msgstr "Luaigh %(thread_username)s thú ar an bpost: <b>%(thread_title)s</b>:"
 
 #: wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.html:15
-msgid ""
-"%(comment_username)s mentioned you in the comment on post: "
-"<b>%(thread_title)s</b>:"
-msgstr ""
-"Luaigh %(comment_username)s thú sa trácht ar an bpost: "
-"<b>%(thread_title)s</b>:"
+#, python-format
+msgid "%(comment_username)s mentioned you in the comment on post: <b>%(thread_title)s</b>:"
+msgstr "Luaigh %(comment_username)s thú sa trácht ar an bpost: <b>%(thread_title)s</b>:"
 
 #: wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.html:33
 #: wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.txt:13
 msgid "View discussion"
-msgstr ""
+msgstr "Féach ar an bplé"
 
 #: wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.txt:4
+#, python-format
 msgid "%(thread_username)s mentioned you on post: %(thread_title)s:"
 msgstr "Luaigh %(thread_username)s thú ar an bpost: %(thread_title)s:"
 
 #: wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/body.txt:6
-msgid ""
-"%(comment_username)s mentioned you in the comment on post: %(thread_title)s:"
-msgstr ""
-"Luaigh %(comment_username)s thú sa trácht ar an bpost: %(thread_title)s:"
+#, python-format
+msgid "%(comment_username)s mentioned you in the comment on post: %(thread_title)s:"
+msgstr "Luaigh %(comment_username)s thú sa trácht ar an bpost: %(thread_title)s:"
 
 #: wikimedia_general/templates/wikimedia_general/edx_ace/threadmentionnotification/email/subject.txt:2
+#, python-format
 msgid "%(platform_name)s -> %(mentioned_by)s mentioned you on the post."
 msgstr "%(platform_name)s -> Luaigh %(mentioned_by)s thú sa phost."
+
+#: meta_translations/templates/discover_courses.html:11
+#: meta_translations/templates/translations.html:11
+#, python-brace-format
+msgid "{studio_name} Home"
+msgstr "Baile {studio_name}"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:31
 msgid "Report Name"
@@ -569,7 +594,7 @@ msgstr "Roghanna"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:33
 msgid "Actions"
-msgstr ""
+msgstr "Gníomhartha"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:40
 msgid "Quarterly courses enrollment report"
@@ -609,20 +634,15 @@ msgstr "Tuairisc chlárúcháin ar gach cúrsa"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:67
 msgid "Generate an all time report of enrollment/completion for all courses."
-msgstr ""
-"Tuarascáil uile-ama a ghiniúint ar chlárú/chríochnú do na cúrsaí uile."
+msgstr "Tuarascáil uile-ama a ghiniúint ar chlárú/chríochnú do na cúrsaí uile."
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:81
 msgid "Users preferred language report"
 msgstr "Tuairisc ar theanga is fearr le húsáideoirí"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:82
-msgid ""
-"Generate a report on users preferred lanugage. Displays N/A for users who "
-"have not selected a lanugage"
-msgstr ""
-"Gin tuarascáil ar an teanga is fearr le húsáideoirí. Taispeántar N/B "
-"d’úsáideoirí nár roghnaigh teanga."
+msgid "Generate a report on users preferred lanugage. Displays N/A for users who have not selected a lanugage"
+msgstr "Gin tuarascáil ar an teanga is fearr le húsáideoirí. Taispeántar N/B d’úsáideoirí nár roghnaigh teanga."
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:96
 msgid "All Users enrollment report"
@@ -630,20 +650,15 @@ msgstr "Tuarascáil chlárúcháin Gach Úsáideoir"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:97
 msgid "Generates a report on users enrollments and their completed courses"
-msgstr ""
-"Gineann sé tuarascáil ar chlárúcháin úsáideoirí agus a gcúrsaí críochnaithe"
+msgstr "Gineann sé tuarascáil ar chlárúcháin úsáideoirí agus a gcúrsaí críochnaithe"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:111
 msgid "Enrollment activity report"
 msgstr "Tuarascáil ghníomhaíochta clárúcháin"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:112
-msgid ""
-"Generates an expanded report of user's enrollments and course completion "
-"dates"
-msgstr ""
-"Gineann sé tuarascáil leathnaithe ar chlárúcháin úsáideoirí agus ar dhátaí "
-"críochnaithe cúrsaí"
+msgid "Generates an expanded report of user's enrollments and course completion dates"
+msgstr "Gineann sé tuarascáil leathnaithe ar chlárúcháin úsáideoirí agus ar dhátaí críochnaithe cúrsaí"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:126
 msgid "List profile information for enrolled students"
@@ -659,8 +674,7 @@ msgstr "Aitheantais mhic léinn gan ainm"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:177
 msgid "Problem Grade report for all currently enrolled students"
-msgstr ""
-"Tuarascáil Grád Fadhbanna do gach mac léinn atá cláraithe faoi láthair"
+msgstr "Tuarascáil Grád Fadhbanna do gach mac léinn atá cláraithe faoi láthair"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:193
 msgid "Progress report for all currently enrolled students"
@@ -680,38 +694,26 @@ msgstr "Tuarascáil ghráid mheánach do chúrsaí iolracha"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:242
 msgid "Different grading schemes can affect the comparison."
-msgstr ""
-"Is féidir le scéimeanna grádaithe éagsúla difear a dhéanamh don chomparáid."
+msgstr "Is féidir le scéimeanna grádaithe éagsúla difear a dhéanamh don chomparáid."
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:260
 msgid "Reports Available for Generate"
 msgstr "Tuarascálacha atá ar Fáil le Giniúint"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:261
-msgid ""
-"The reports listed below are available for download, identified by UTC date "
-"and time of generation."
-msgstr ""
+msgid "The reports listed below are available for download, identified by UTC date and time of generation."
+msgstr "Tá na tuarascálacha atá liostaithe thíos ar fáil lena n-íoslódáil, agus iad aitheanta de réir dáta agus am giniúna UTC."
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:271
-msgid ""
-"{strong_start}Note{strong_end}: {ul_start}{li_start}To keep student data "
-"secure, you cannot save or email these links for direct access. Copies of "
-"links expire within 5 minutes.{li_end}{li_start}Report files are deleted 90 "
-"days after generation. If you will need access to old reports, download and "
-"store the files, in accordance with your institution's data security "
-"policies.{li_end}{ul_end}"
-msgstr ""
+#, python-brace-format
+msgid "{strong_start}Note{strong_end}: {ul_start}{li_start}To keep student data secure, you cannot save or email these links for direct access. Copies of links expire within 5 minutes.{li_end}{li_start}Report files are deleted 90 days after generation. If you will need access to old reports, download and store the files, in accordance with your institution's data security policies.{li_end}{ul_end}"
+msgstr "{strong_start}Nóta{strong_end}: {ul_start}{li_start}Chun sonraí mac léinn a choinneáil slán, ní féidir leat na naisc seo a shábháil ná a sheoladh trí ríomhphost le haghaidh rochtana dírí. Rachaidh cóipeanna de na naisc in éag laistigh de 5 nóiméad.{li_end}{li_start}Scriostar comhaid tuarascála 90 lá tar éis iad a ghiniúint. Más gá duit rochtain a fháil ar sheantuarascálacha, íoslódáil agus stóráil na comhaid, i gcomhréir le beartais slándála sonraí d'institiúide.{li_end}{ul_end}"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:283
 msgid "Pending Tasks"
-msgstr ""
+msgstr "Tascanna atá ar Feitheamh"
 
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:285
 msgid "The status for any active tasks appears in the list below."
 msgstr "Feictear stádas aon tascanna gníomhacha sa liosta thíos."
 
-#: meta_translations/templates/discover_courses.html:11
-#: meta_translations/templates/translations.html:11
-msgid "{studio_name} Home"
-msgstr ""

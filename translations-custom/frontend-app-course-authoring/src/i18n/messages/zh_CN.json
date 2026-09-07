@@ -1,12 +1,15 @@
 {
-  "authoring.schedule.course-direction.confirmation-modal.confirm": "是的，更新标志",
-  "authoring.schedule.course-direction.confirmation-modal.message": "您确定要更新标志吗，它不会再次还原。",
-  "authoring.schedule.course-direction.confirmation-modal.title": "更改无法还原",
-  "authoring.schedule.course-direction.description": "将课程转换为源",
-  "authoring.schedule.course-direction.disabled-tip": "由于课程不是重新运行的翻译，该选项被禁用。",
-  "authoring.schedule.course-direction.title": "课程方向标志",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "地图块数据",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.title": "课程模块映射",
-  "course-authoring.create-or-rerun-course.translation-options.standard.label": "基本重新运作",
-  "course-authoring.create-or-rerun-course.translation-options.translated.label": "翻译课程再次运行"
+	"@metadata": {
+		"authors": []
+	},
+	"authoring.schedule.course-direction.confirmation-modal.confirm": "是的，更新标志",
+	"authoring.schedule.course-direction.confirmation-modal.message": "您确定要更新标志吗，它不会再次还原。",
+	"authoring.schedule.course-direction.confirmation-modal.title": "更改无法还原",
+	"authoring.schedule.course-direction.description": "将课程转换为源",
+	"authoring.schedule.course-direction.disabled-tip": "由于课程不是重新运行的翻译，该选项被禁用。",
+	"authoring.schedule.course-direction.title": "课程方向标志",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "地图块数据",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "课程模块映射",
+	"course-authoring.create-or-rerun-course.translation-options.standard.label": "基本重新运作",
+	"course-authoring.create-or-rerun-course.translation-options.translated.label": "翻译课程再次运行"
 }

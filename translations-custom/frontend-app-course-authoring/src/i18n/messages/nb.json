@@ -1,12 +1,15 @@
 {
-  "authoring.schedule.course-direction.confirmation-modal.confirm": "Ja, oppdater flagget",
-  "authoring.schedule.course-direction.confirmation-modal.message": "Er du sikker på at du vil oppdatere flagget? Det vil ikke bli tilbakestilt igjen.",
-  "authoring.schedule.course-direction.confirmation-modal.title": "Endringen kan ikke tilbakestilles.",
-  "authoring.schedule.course-direction.description": "Konverter kurs til kilde",
-  "authoring.schedule.course-direction.disabled-tip": "Alternativet er deaktivert siden kurset ikke er en oversatt reprise.",
-  "authoring.schedule.course-direction.title": "Kursretningsflagg",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Kartlegg blokker",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Kursblokkartlegging",
-  "course-authoring.create-or-rerun-course.translation-options.standard.label": "Grunnleggende reprise",
-  "course-authoring.create-or-rerun-course.translation-options.translated.label": "Oversatt kursreprise"
+	"@metadata": {
+		"authors": []
+	},
+	"authoring.schedule.course-direction.confirmation-modal.confirm": "Ja, oppdater flagget",
+	"authoring.schedule.course-direction.confirmation-modal.message": "Er du sikker på at du vil oppdatere flagget? Det vil ikke bli tilbakestilt igjen.",
+	"authoring.schedule.course-direction.confirmation-modal.title": "Endringen kan ikke tilbakestilles.",
+	"authoring.schedule.course-direction.description": "Konverter kurs til kilde",
+	"authoring.schedule.course-direction.disabled-tip": "Alternativet er deaktivert siden kurset ikke er en oversatt reprise.",
+	"authoring.schedule.course-direction.title": "Kursretningsflagg",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Kartlegg blokker",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Kursblokkartlegging",
+	"course-authoring.create-or-rerun-course.translation-options.standard.label": "Grunnleggende reprise",
+	"course-authoring.create-or-rerun-course.translation-options.translated.label": "Oversatt kursreprise"
 }

@@ -1,5 +1,8 @@
 {
-  "messenger.button.send": "{{identical|Send}}",
-  "messenger.label.message": "{{identical|Message}}",
-  "messenger.label.users": "{{identical|User}}"
+	"@metadata": {
+		"authors": []
+	},
+	"messenger.button.send": "{{identical|Send}}",
+	"messenger.label.message": "{{identical|Message}}",
+	"messenger.label.users": "{{identical|User}}"
 }

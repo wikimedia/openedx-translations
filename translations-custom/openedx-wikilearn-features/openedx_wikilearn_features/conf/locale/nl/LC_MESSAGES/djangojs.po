@@ -1,19 +1,31 @@
+# Translation of WikiLearn - Features (frontend) to Dutch (Nederlands)
+# Exported from translatewiki.net
+#
+# Author: Siebrand
+# --
+# This file is part of the WikiLearn Project
+# This file is distributed under the same license as the WikiLearn package.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.1a\n"
-"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+""
+"Project-Id-Version: WikiLearn - Features (frontend)\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"PO-Revision-Date: 2026-09-07 12:31:20+0000\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
-"Language: en\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Domain: djangojs\n"
+"X-POT-Import-Date: 2026-08-28 15:24:55+0000\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.47.0-alpha; Translate 2025-07-31\n"
 
-#: openedx_wikilearn_features/admin_dashboard/static/admin_dashboard/js/course_reports.js:143
+#: admin_dashboard/static/admin_dashboard/js/course_reports.js:143
 msgid "No tasks currently running."
-msgstr ""
+msgstr "Er worden momenteel geen taken uitgevoerd."
+

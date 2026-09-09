@@ -1,12 +1,15 @@
 {
-  "authoring.schedule.course-direction.confirmation-modal.confirm": "Хоу, байракъны джангырт",
-  "authoring.schedule.course-direction.confirmation-modal.message": "Орнуна салынмазлыгъын биле тургъанлай байракъны джангыртыргъа излегенигизе ишексизмисиз?",
-  "authoring.schedule.course-direction.confirmation-modal.title": "Тюрлениу ызына алыныргъа боллукъ тюлдю.",
-  "authoring.schedule.course-direction.description": "Курсну къайнакъ этиу",
-  "authoring.schedule.course-direction.disabled-tip": "Курс кёчюрюлген къайтарыу болмагъаны себебли опция джукъланыбды.",
-  "authoring.schedule.course-direction.title": "Курсну джоралау байрагъы",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Карта блокла",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Курсну блокларыны келишдириу",
-  "course-authoring.create-or-rerun-course.translation-options.standard.label": "Тамаллы къайтарыу",
-  "course-authoring.create-or-rerun-course.translation-options.translated.label": "Кёчюрюлген курсну джангыдан джанландырыргъа"
+	"@metadata": {
+		"authors": []
+	},
+	"authoring.schedule.course-direction.confirmation-modal.confirm": "Хоу, байракъны джангырт",
+	"authoring.schedule.course-direction.confirmation-modal.message": "Орнуна салынмазлыгъын биле тургъанлай байракъны джангыртыргъа излегенигизе ишексизмисиз?",
+	"authoring.schedule.course-direction.confirmation-modal.title": "Тюрлениу ызына алыныргъа боллукъ тюлдю.",
+	"authoring.schedule.course-direction.description": "Курсну къайнакъ этиу",
+	"authoring.schedule.course-direction.disabled-tip": "Курс кёчюрюлген къайтарыу болмагъаны себебли опция джукъланыбды.",
+	"authoring.schedule.course-direction.title": "Курсну джоралау байрагъы",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Карта блокла",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Курсну блокларыны келишдириу",
+	"course-authoring.create-or-rerun-course.translation-options.standard.label": "Тамаллы къайтарыу",
+	"course-authoring.create-or-rerun-course.translation-options.translated.label": "Кёчюрюлген курсну джангыдан джанландырыргъа"
 }

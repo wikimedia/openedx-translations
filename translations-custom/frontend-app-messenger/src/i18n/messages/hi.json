@@ -1,17 +1,24 @@
 {
-  "messenger.button.newMessage": "नया संदेश",
-  "messenger.button.reply": "उत्तर दें",
-  "messenger.button.send": "भेजें",
-  "messenger.error.loadConversation": "वार्तालाप लोड करने में असमर्थ।",
-  "messenger.error.sendMessage": "संदेश भेजने में त्रुटि हुई। कृपया पुनः प्रयास करें!",
-  "messenger.error.userConversation": "उपयोगकर्ता का वार्तालाप लोड करने में असमर्थ:",
-  "messenger.error.userSearch": "उपयोगकर्ताओं को खोजने में असमर्थ।",
-  "messenger.label.inbox": "इनबॉक्स",
-  "messenger.label.message": "संदेश",
-  "messenger.label.newMessage": "नया संदेश",
-  "messenger.label.users": "सदस्य",
-  "messenger.placeholder.enterMessage": "संदेश दर्ज करें...",
-  "messenger.placeholder.select": "चुनें",
-  "messenger.placeholder.typeMessage": "अपना संदेश टाइप करें...",
-  "messenger.success.sendMessages": "संदेश भेज दिया गया है।"
+	"@metadata": {
+		"authors": [
+			"Abijeet Patro"
+		]
+	},
+	"messenger.button.send": "भेजें",
+	"messenger.button.close": "बंद करें",
+	"messenger.button.cancel": "रद्द करें",
+	"messenger.button.reply": "उत्तर दें",
+	"messenger.button.newMessage": "नया संदेश",
+	"messenger.placeholder.typeMessage": "अपना संदेश टाइप करें...",
+	"messenger.placeholder.enterMessage": "संदेश दर्ज करें...",
+	"messenger.placeholder.select": "चुनें",
+	"messenger.label.inbox": "इनबॉक्स",
+	"messenger.label.message": "संदेश",
+	"messenger.label.newMessage": "नया संदेश",
+	"messenger.label.users": "सदस्य",
+	"messenger.success.sendMessages": "संदेश भेज दिया गया है।",
+	"messenger.error.sendMessage": "संदेश भेजने में त्रुटि हुई। कृपया पुनः प्रयास करें!",
+	"messenger.error.loadConversation": "वार्तालाप लोड करने में असमर्थ।",
+	"messenger.error.userConversation": "उपयोगकर्ता का वार्तालाप लोड करने में असमर्थ:",
+	"messenger.error.userSearch": "उपयोगकर्ताओं को खोजने में असमर्थ।"
 }

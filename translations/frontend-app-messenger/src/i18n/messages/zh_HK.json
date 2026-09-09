@@ -1,4 +1,7 @@
 {
+  "@metadata": {
+    "authors": []
+  },
   "messenger.button.newMessage": "新訊息",
   "messenger.button.reply": "回覆",
   "messenger.button.send": "發送",

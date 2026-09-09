@@ -3079,12 +3079,6 @@ msgstr "Безпека"
 msgid "Media Kit"
 msgstr "Пакет Медіафайлів"
 
-#: lms/djangoapps/branding/api.py:262 lms/djangoapps/branding/api.py:295
-#: lms/templates/static_templates/donate.html:5
-#: lms/templates/static_templates/donate.html:10
-msgid "Donate"
-msgstr "Пожертвувати"
-
 #: lms/djangoapps/branding/api.py:286 lms/djangoapps/branding/api.py:362
 #: lms/templates/footer.html:18 lms/templates/footer.html:92
 #: lms/templates/static_templates/about.html:5
@@ -4636,11 +4630,6 @@ msgstr " %(course_name)s %(course_id)s контент на розгляд мод
 msgid "%(comment_username)s replied to {start_tag}%(thread_title)s{end_tag}:"
 msgstr ""
 "%(comment_username)s відповів(-ла) {start_tag}%(thread_title)s{end_tag}:"
-
-#: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.html:24
-#: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.txt:16
-msgid "View discussion"
-msgstr "Переглянути тему"
 
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.txt:4
 #, python-format
@@ -7926,11 +7915,6 @@ msgstr "Модератор"
 #: openedx/core/djangoapps/django_comment_common/models.py:27
 msgid "Group Moderator"
 msgstr "Модератор груп"
-
-#: openedx/core/djangoapps/django_comment_common/models.py:28
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:284
-msgid "Community TA"
-msgstr "Спільнота асистентів"
 
 #: openedx/core/djangoapps/django_comment_common/models.py:29
 msgid "Student"
@@ -17738,24 +17722,8 @@ msgid ""
 "Development team at "
 msgstr ""
 
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:27
-msgid "has successfully completed"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
-msgid "the"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
-msgid "program."
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
-msgid "Certificate"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
-msgid "of Achievement"
+#: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
+msgid "Discover courses"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:16
@@ -17821,49 +17789,41 @@ msgstr ""
 msgid "Subscribe"
 msgstr ""
 
+#: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:88
+msgid "Already Enrolled"
+msgstr ""
+
 #: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:49
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"
 msgstr ""
 
-#: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:88
-msgid "Already Enrolled"
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:27
+msgid "has successfully completed"
 msgstr ""
 
-#: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
-msgid "Discover courses"
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
+msgid "the"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
+msgid "program."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
+msgid "Certificate"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
+msgid "of Achievement"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/learner_dashboard/program_card.underscore:34
+msgid "Remaining"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/discovery/course_card.underscore:26
 msgid "Starts: %(start_date)s"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:6
-msgid "Already have an {platformName} account?"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:17
-msgid "Create an account using"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:30
-msgid "Create account using %(providerName)s."
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:37
-msgid "Use my institution/campus credentials"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:44
-msgid "or create a new one here"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:49
-msgid "Create an Account"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:62
-msgid "Support education research by providing additional information"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:17
@@ -17967,8 +17927,32 @@ msgid ""
 "menu in the top right to switch to yours!"
 msgstr ""
 
-#: tutorindigo/templates/indigo/lms/templates/learner_dashboard/program_card.underscore:34
-msgid "Remaining"
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:6
+msgid "Already have an {platformName} account?"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:17
+msgid "Create an account using"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:30
+msgid "Create account using %(providerName)s."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:37
+msgid "Use my institution/campus credentials"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:44
+msgid "or create a new one here"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:49
+msgid "Create an Account"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:62
+msgid "Support education research by providing additional information"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27

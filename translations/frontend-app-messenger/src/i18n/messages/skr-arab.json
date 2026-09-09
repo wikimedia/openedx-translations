@@ -1,13 +1,19 @@
 {
-  "messenger.button.newMessage": "نواں سنیہا",
-  "messenger.button.reply": "جواب",
-  "messenger.button.send": "بھیڄو",
-  "messenger.label.inbox": "ان باکس",
-  "messenger.label.message": "سنیہا",
-  "messenger.label.newMessage": "نواں سنیہا",
-  "messenger.label.users": "ورتݨ آلے",
-  "messenger.placeholder.enterMessage": "سنیہا درج کرو۔۔۔",
-  "messenger.placeholder.searchUsers": "ورتݨ آلے ڳولو",
-  "messenger.placeholder.select": "چݨو",
-  "messenger.success.sendMessage": "سنہیا بھیڄ ݙتا ڳئے۔"
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
+	"messenger.button.send": "بھیڄو",
+	"messenger.button.close": "بند کرو",
+	"messenger.button.reply": "جواب",
+	"messenger.button.newMessage": "نواں سنیہا",
+	"messenger.placeholder.enterMessage": "سنیہا درج کرو۔۔۔",
+	"messenger.placeholder.searchUsers": "ورتݨ آلے ڳولو",
+	"messenger.placeholder.select": "چݨو",
+	"messenger.label.inbox": "ان باکس",
+	"messenger.label.message": "سنیہا",
+	"messenger.label.newMessage": "نواں سنیہا",
+	"messenger.label.users": "ورتݨ آلے",
+	"messenger.success.sendMessage": "سنہیا بھیڄ ݙتا ڳئے۔"
 }

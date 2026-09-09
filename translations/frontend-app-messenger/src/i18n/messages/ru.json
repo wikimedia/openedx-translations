@@ -1,4 +1,7 @@
 {
+  "@metadata": {
+    "authors": []
+  },
   "messenger.button.newMessage": "Новые сообщения",
   "messenger.button.reply": "Ответить",
   "messenger.button.send": "Отправить",

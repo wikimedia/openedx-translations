@@ -8087,11 +8087,11 @@ msgstr "Ничего не найдено."
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"
-msgstr "Что изучать дальше?"
+msgstr ""
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27
 msgid "Show All Courses"
-msgstr "Показать все курсы"
+msgstr ""
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:77
 msgid "No results found"

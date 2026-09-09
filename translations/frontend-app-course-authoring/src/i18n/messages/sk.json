@@ -1,3 +1,32 @@
 {
-  "course-authoring.create-or-rerun-course.translation-options.translated.label": "Opätovné spustenie preloženého kurzu"
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"authoring.details.topic.empty": "Vyberte tému",
+	"authoring.details.topic.help": "Vyberte hlavnú tému tohto kurzu",
+	"authoring.details.topic.label": "Téma kurzu",
+	"authoring.schedule.course-direction.confirmation-modal.cancel": "Zrušiť",
+	"authoring.schedule.course-direction.confirmation-modal.confirm": "Áno, aktualizovať príznak",
+	"authoring.schedule.course-direction.confirmation-modal.message": "Naozaj chcete aktualizovať príznak? Túto zmenu už nebude možné vrátiť späť.",
+	"authoring.schedule.course-direction.confirmation-modal.title": "Zmenu nemožno vrátiť späť.",
+	"authoring.schedule.course-direction.description": "Previesť kurz na zdrojový",
+	"authoring.schedule.course-direction.disabled-tip": "Možnosť je vypnutá, pretože kurz nie je preloženým behom.",
+	"authoring.schedule.course-direction.title": "Príznak smeru kurzu",
+	"course-authoring.course-outline.card.button.edit.disable.tooltip": "Tento objekt bol pridaný z knižnice, takže sa nedá upraviť.",
+	"course-authoring.course-outline.card.edit.cancel.button": "Zrušiť",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Priradiť bloky",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Priradenie blokov kurzu",
+	"course-authoring.course-unit.alert.read-only.link.text": "knižnice",
+	"course-authoring.course-unit.alert.read-only.text": "Túto jednotku možno upraviť len z {link}.",
+	"course-authoring.course-unit.modal.video-title.text": "Vybrať video",
+	"course-authoring.create-or-rerun-course.language.label": "Jazyk kurzu",
+	"course-authoring.create-or-rerun-course.language.no-options": "Nie sú dostupné žiadne jazyky",
+	"course-authoring.create-or-rerun-course.language.placeholder": "Vyberte jazyk",
+	"course-authoring.create-or-rerun-course.language.required.error": "Vyberte jazyk pre preložený beh kurzu.",
+	"course-authoring.create-or-rerun-course.translation-options.help-text": "Vyberte, či chcete vytvoriť štandardný beh alebo preložený beh. Preložený beh umožňuje vytvoriť verziu kurzu v inom jazyku.",
+	"course-authoring.create-or-rerun-course.translation-options.label": "Typ behu",
+	"course-authoring.create-or-rerun-course.translation-options.standard.label": "Základný beh",
+	"course-authoring.create-or-rerun-course.translation-options.translated.label": "Opätovné spustenie preloženého kurzu"
 }

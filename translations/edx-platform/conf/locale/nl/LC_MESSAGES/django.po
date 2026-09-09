@@ -1,16 +1,20 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: WikiLearn - Indigo theme (backend)\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
 "POT-Creation-Date: 2026-01-20 19:48+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-09-07 12:31:21+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: MediaWiki 1.47.0-alpha; Translate 2025-07-31\n"
+"X-POT-Import-Date: 2026-08-28 15:24:55+0000\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
 
 #: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
 msgid ""
@@ -31,25 +35,9 @@ msgstr ""
 " en diversiteit. Voor vragen kunt u contact opnemen met het Community "
 "Development-team via "
 
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:27
-msgid "has successfully completed"
-msgstr "heeft succesvol afgerond"
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
-msgid "the"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
-msgid "program."
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
-msgid "Certificate"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
-msgid "of Achievement"
-msgstr ""
+#: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
+msgid "Discover courses"
+msgstr "Cursussen ontdekken"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:16
 msgid "Unlock The World’s Knowledge"
@@ -116,126 +104,126 @@ msgstr "Abonneer u op nieuws over lopende projecten en initiatieven"
 msgid "Subscribe"
 msgstr "Abonneren"
 
+#: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:88
+msgid "Already Enrolled"
+msgstr "Al ingeschreven"
+
 #: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:49
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"
 msgstr "Wat gaat u hierna leren?"
 
-#: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:88
-msgid "Already Enrolled"
-msgstr ""
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:27
+msgid "has successfully completed"
+msgstr "heeft succesvol afgerond"
 
-#: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
-msgid "Discover courses"
-msgstr ""
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
+msgid "the"
+msgstr "het"
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
+msgid "program."
+msgstr "programma."
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
+msgid "Certificate"
+msgstr "Certificaat"
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
+msgid "of Achievement"
+msgstr "van deelname"
+
+#: tutorindigo/templates/indigo/lms/templates/learner_dashboard/program_card.underscore:34
+msgid "Remaining"
+msgstr "Resterend"
 
 #: tutorindigo/templates/indigo/lms/templates/discovery/course_card.underscore:26
 msgid "Starts: %(start_date)s"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:6
-msgid "Already have an {platformName} account?"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:17
-msgid "Create an account using"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:30
-msgid "Create account using %(providerName)s."
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:37
-msgid "Use my institution/campus credentials"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:44
-msgid "or create a new one here"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:49
-msgid "Create an Account"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:62
-msgid "Support education research by providing additional information"
-msgstr ""
+msgstr "Begint: %(start_date)s"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:17
 msgid "Sign in to continue learning as {email}"
-msgstr ""
+msgstr "Meld u aan om verder te leren als {email}"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:19
 msgid "Sign in to continue learning"
-msgstr ""
+msgstr "Meld u aan om verder te leren"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:22
 msgid ""
 "You already have an edX account with your {enterprise_name} email address."
-msgstr ""
+msgstr "U hebt al een edX-account met uw e-mailadres van {enterprise_name}."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:24
 msgid ""
 "Going forward, your account information will be updated and maintained by "
 "{enterprise_name}."
 msgstr ""
+"Uw accountgegevens worden voortaan bijgewerkt en beheerd door "
+"{enterprise_name}."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:26
 msgid ""
 "You can view your information or unlink from {enterprise_name} anytime in "
 "your Account Settings."
 msgstr ""
+"U kunt uw gegevens op elk gewenst moment bekijken of de koppeling met "
+"{enterprise_name} verbreken via uw accountinstellingen."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:28
 msgid "To continue learning with this account, sign in below."
-msgstr ""
+msgstr "Om met dit account verder te leren, kunt u hieronder aanmelden."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:30
 msgid "Sign In with"
-msgstr ""
+msgstr "Aanmelden met"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:37
 msgid ""
 "Sign in here using your email address and password, or use one of the "
 "providers listed below."
 msgstr ""
+"Meld u hier aan met uw e-mailadres en wachtwoord, of gebruik een van de "
+"onderstaande diensten."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:39
 msgid "Sign in here using your email address and password."
-msgstr ""
+msgstr "Meld u hier aan met uw e-mailadres en wachtwoord."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:41
 msgid "If you do not yet have an account, use the button below to register."
 msgstr ""
+"Als u nog geen account hebt, gebruik dan de onderstaande knop om u te "
+"registreren."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:46
 msgid "Use my university info"
-msgstr ""
+msgstr "Gebruik mijn universiteitsgegevens"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:51
 msgid "or sign in with"
-msgstr ""
+msgstr "of meld u aan met"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:64
 msgid "Sign in with"
-msgstr ""
+msgstr "Aanmelden met"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:75
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:102
 msgid "Sign in with %(providerName)s"
-msgstr ""
+msgstr "Aanmelden met %(providerName)s"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:85
 msgid "First time here?"
-msgstr ""
+msgstr "Ben u hier voor het eerst?"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:90
 msgid "Create an account with"
-msgstr ""
+msgstr "Maak een account aan via"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
 msgid "Create Your Account via Meta-Wiki"
-msgstr ""
+msgstr "Maak uw account aan via Meta-Wiki"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
 msgid ""
@@ -243,36 +231,67 @@ msgid ""
 "and content. This helps ensure you can recover your account if you forget "
 "your password or encounter login issues."
 msgstr ""
+"Het is snel en gemakkelijk! Zorg ervoor dat u een geldig e-mailadres "
+"gebruikt om alle cursussen en inhoud te ontgrendelen. Dit zorgt ervoor dat u"
+" uw account kunt herstellen als u uw wachtwoord vergeet of aanmeldproblemen "
+"ondervindt."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
 msgid "You can see this"
-msgstr ""
+msgstr "Bekijk deze"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
 msgid "video"
-msgstr ""
+msgstr "video"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
 msgid "in case you need more help"
-msgstr ""
+msgstr "als u meer hulp nodig hebt"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:111
 msgid ""
 "Tip: Did you know WikiLearn is available in multiple languages? Check the "
 "menu in the top right to switch to yours!"
 msgstr ""
+"Tip: Wist u dat WikiLearn in meerdere talen beschikbaar is? Ga naar het menu"
+" rechtsboven om uw eigen taal te selecteren!"
 
-#: tutorindigo/templates/indigo/lms/templates/learner_dashboard/program_card.underscore:34
-msgid "Remaining"
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:6
+msgid "Already have an {platformName} account?"
+msgstr "Heeft u al een {platformName}-account?"
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:17
+msgid "Create an account using"
+msgstr "Maak een account aan met behulp van"
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:30
+msgid "Create account using %(providerName)s."
+msgstr "Maak een account aan met behulp van %(providerName)s."
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:37
+msgid "Use my institution/campus credentials"
+msgstr "Gebruik mijn aanmeldgegevens van de instelling/campus"
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:44
+msgid "or create a new one here"
+msgstr "of maak hier een nieuwe aan"
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:49
+msgid "Create an Account"
+msgstr "Account aanmaken"
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:62
+msgid "Support education research by providing additional information"
 msgstr ""
+"Ondersteun onderwijsonderzoek door aanvullende informatie te verstrekken"
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27
 msgid "Show All Courses"
-msgstr ""
+msgstr "Alle cursussen weergeven"
 
 #: lms/djangoapps/instructor/views/api.py:1428
 msgid "Certificate link"
-msgstr "Koppeling naar certificaat"
+msgstr "Certificaatkoppeling"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:43
 msgid ""
@@ -297,20 +316,24 @@ msgstr ""
 "\n"
 "            Selecteer het lettertype waarin u uw cursus wilt weergeven.\n"
 "            Beschikbare opties zijn “font-trebuchet”, “font-open-sans”, “font-montserrat” en “font-source-sans-pro”.\n"
-"            Als de waarde ongeldig of leeg is, is de standaardwaarde voor font-family “Helvetica Neue”.\n"
+"            Als de waarde incorrect of leeg is, is de standaardwaarde voor font-family “Helvetica Neue”.\n"
 "            "
 
 #: xmodule/course_block.py:1068
 msgid "Issue Open Badges"
-msgstr ""
+msgstr "Open badges uitgeven"
 
 #: xmodule/course_block.py:1070
 msgid ""
 "Issue Open Badges badges for this course. Badges are generated when "
 "certificates are created."
 msgstr ""
+"Geef Open Badges-badges uit voor deze cursus. Badges worden aangemaakt "
+"wanneer certificaten worden aangemaakt."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:21
 msgid ""
 "Click to generate a CSV grade report for all currently enrolled students.!!"
 msgstr ""
+"Klik hier om een CSV-cijferrapport te maken voor alle nu ingeschreven "
+"studenten"

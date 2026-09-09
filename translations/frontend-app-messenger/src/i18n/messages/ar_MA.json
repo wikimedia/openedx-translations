@@ -1,4 +1,7 @@
 {
+  "@metadata": {
+    "authors": []
+  },
   "messenger.button.newMessage": "رسالة جديدة",
   "messenger.button.reply": "رد",
   "messenger.button.send": "إرسال",

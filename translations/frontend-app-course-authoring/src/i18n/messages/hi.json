@@ -1,4 +1,7 @@
 {
+  "@metadata": {
+    "authors": []
+  },
   "VideoUploadEditor.closeButtonAltText": "बंद करें",
   "VideoUploadEditor.dropVideoFileHere": "वीडियो को यहां खींचें और छोड़ें या अपलोड करने के लिए क्लिक करें",
   "VideoUploadEditor.pasteURL": "अपनी वीडियो आईडी या यूआरएल चिपकाएँ",

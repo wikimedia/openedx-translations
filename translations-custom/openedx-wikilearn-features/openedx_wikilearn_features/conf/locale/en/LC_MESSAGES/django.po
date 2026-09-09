@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 16:34+0000\n"
+"POT-Creation-Date: 2026-09-09 08:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,8 +35,8 @@ msgstr ""
 
 #: admin_dashboard/admin_task/api.py:117
 #: admin_dashboard/admin_task/api_helper.py:106
-#: admin_dashboard/admin_task/api.py:117
 #: admin_dashboard/admin_task/api_helper.py:106
+#: admin_dashboard/admin_task/api.py:117
 msgid "grade"
 msgstr ""
 
@@ -50,8 +50,8 @@ msgstr ""
 
 #: admin_dashboard/admin_task/api.py:225
 #: admin_dashboard/admin_task/api_helper.py:101
-#: admin_dashboard/admin_task/api.py:225
 #: admin_dashboard/admin_task/api_helper.py:101
+#: admin_dashboard/admin_task/api.py:225
 msgid "enrollment"
 msgstr ""
 
@@ -63,9 +63,10 @@ msgstr ""
 msgid "all_users_enrollment"
 msgstr ""
 
-#: admin_dashboard/admin_task/api.py:299 admin_dashboard/admin_task/api.py:299
+#: admin_dashboard/admin_task/api.py:299
 #: admin_dashboard/tests/admin_reports/test_enrollment_activity.py:40
 #: admin_dashboard/tests/admin_reports/test_enrollment_activity.py:50
+#: admin_dashboard/admin_task/api.py:299
 msgid "enrollment_acctivity_report"
 msgstr ""
 
@@ -518,9 +519,8 @@ msgstr ""
 msgid "Programs"
 msgstr ""
 
-#: wikimedia_general/api/v0/utils.py:71
+#: wikimedia_general/api/v0/utils.py:71 wikimedia_general/api/v0/utils.py:71
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:16
-#: wikimedia_general/api/v0/utils.py:71
 msgid "Reports"
 msgstr ""
 
@@ -586,8 +586,8 @@ msgstr ""
 msgid "%(platform_name)s -> %(mentioned_by)s mentioned you on the post."
 msgstr ""
 
-#: meta_translations/templates/discover_courses.html:11
 #: meta_translations/templates/translations.html:11
+#: meta_translations/templates/discover_courses.html:11
 #, python-brace-format
 msgid "{studio_name} Home"
 msgstr ""

@@ -217,7 +217,7 @@
   "enterprise.dashboard.programs.about.page.remaining.course.pacing.type.and.start.date": "( {pacingType} ) Початок {startDate}",
   "enterprise.dashboard.programs.about.page.remaining.courses": "КУРСИ, ЯКІ ЗАЛИШИЛИСЬ",
   "enterprise.dashboard.programs.about.page.verified.certificate.message": "Щоб завершити програму, ви повинні отримати підтверджений сертифікат для кожного курсу.",
-  "enterprise.dashboard.programs.about.page.view.archived.course": "Переглянути архів курсів",
+  "enterprise.dashboard.programs.about.page.view.archived.course": "Переглянути архівний курс",
   "enterprise.dashboard.programs.about.page.view.completed.course": "Переглянути курс",
   "enterprise.dashboard.programs.about.page.view.course": "Переглянути курс",
   "enterprise.dashboard.programs.program.listing.card.completed.courses.count": "Завершено",

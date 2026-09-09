@@ -1,8 +1,8 @@
 {
-	"@metadata": {
-		"authors": []
-	},
-	"authoring.schedule.course-direction.confirmation-modal.title": "Ændring kan ikke fortrydes.",
-	"authoring.schedule.course-direction.description": "Konverter kursus til kilde",
-	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Kortlæg blokke"
+  "@metadata": {
+    "authors": []
+  },
+  "authoring.schedule.course-direction.confirmation-modal.title": "Ændring kan ikke fortrydes.",
+  "authoring.schedule.course-direction.description": "Konverter kursus til kilde",
+  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Kortlæg blokke"
 }

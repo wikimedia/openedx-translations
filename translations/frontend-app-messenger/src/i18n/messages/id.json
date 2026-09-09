@@ -1,3 +1,6 @@
 {
+  "@metadata": {
+    "authors": []
+  },
   "messenger.error.sendMessage": "Kesalahan dalam mengirim pesan. Tolong coba lagi!"
 }

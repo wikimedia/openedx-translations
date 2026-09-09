@@ -314,6 +314,8 @@
   "notification.dropdown.applies": "Tüm dersler için geçerlidir",
   "notification.dropdown.course.applies": "Hesap genelindeki ayarları geçersiz kılar",
   "notification.dropdown.label": "Bildirimleri şu şekilde seçin ",
+  "notification.preference.channel": "{ metin, seç, web {Web} e-posta {E-posta} push {Push} diğer { {text} } }",
+  "notification.preference.emailCadence": "{ text, select, Günlük {Daily} Haftalık {Weekly} Hemen {Immediately} diğer { {text}} }",
   "notification.preference.guide.body": "Belirli etkinliklere ilişkin bildirimler varsayılan olarak etkindir,",
   "notification.preference.guide.link": "burada ayrıntılı olarak anlatıldığı gibi",
   "notification.preference.heading": "Bildirimler",

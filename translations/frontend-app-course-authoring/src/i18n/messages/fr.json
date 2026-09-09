@@ -1,11 +1,16 @@
 {
+  "@metadata": {
+    "authors": [
+      "Wladek92"
+    ]
+  },
   "authoring.schedule.course-direction.confirmation-modal.confirm": "Oui, mettre à jour l’indicateur",
   "authoring.schedule.course-direction.confirmation-modal.message": "Voulez-vous vraiment mettre à jour l’indicateur car cela ne sera pas annulé ensuite ?",
   "authoring.schedule.course-direction.confirmation-modal.title": "Le changement ne peut pas être annulé.",
   "authoring.schedule.course-direction.description": "Convertir le cours en source",
   "authoring.schedule.course-direction.disabled-tip": "L’option est désactivée car le cours n’est pas une rediffusion traduite.",
   "authoring.schedule.course-direction.title": "Indicateur de direction du cours",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Blocs de carte",
+  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Blocs de cartes",
   "course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Correspondance des blocs de cours",
   "course-authoring.create-or-rerun-course.translation-options.standard.label": "Rediffusion de base",
   "course-authoring.create-or-rerun-course.translation-options.translated.label": "Réexécution du cours traduit"

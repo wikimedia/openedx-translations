@@ -1,12 +1,15 @@
 {
-  "authoring.schedule.course-direction.confirmation-modal.confirm": "Si, actualisar indicator",
-  "authoring.schedule.course-direction.confirmation-modal.message": "Es tu secur de voler actualisar le indicator? Isto non essera disfacite de novo.",
-  "authoring.schedule.course-direction.confirmation-modal.title": "Le cambiamento non pote esser disfacite.",
-  "authoring.schedule.course-direction.description": "Converter curso in fonte",
-  "authoring.schedule.course-direction.disabled-tip": "Le option es disactivate perque le curso non es un repetition traducite.",
-  "authoring.schedule.course-direction.title": "Indicator de direction del curso",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Mappar blocos",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Mappamento de blocos de curso",
-  "course-authoring.create-or-rerun-course.translation-options.standard.label": "Repetition de base",
-  "course-authoring.create-or-rerun-course.translation-options.translated.label": "Repetition del curso traducite"
+	"@metadata": {
+		"authors": []
+	},
+	"authoring.schedule.course-direction.confirmation-modal.confirm": "Si, actualisar indicator",
+	"authoring.schedule.course-direction.confirmation-modal.message": "Es tu secur de voler actualisar le indicator? Isto non essera disfacite de novo.",
+	"authoring.schedule.course-direction.confirmation-modal.title": "Le cambiamento non pote esser disfacite.",
+	"authoring.schedule.course-direction.description": "Converter curso in fonte",
+	"authoring.schedule.course-direction.disabled-tip": "Le option es disactivate perque le curso non es un repetition traducite.",
+	"authoring.schedule.course-direction.title": "Indicator de direction del curso",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Mappar blocos",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Mappamento de blocos de curso",
+	"course-authoring.create-or-rerun-course.translation-options.standard.label": "Repetition de base",
+	"course-authoring.create-or-rerun-course.translation-options.translated.label": "Repetition del curso traducite"
 }

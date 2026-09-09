@@ -1,4 +1,7 @@
 {
+  "@metadata": {
+    "authors": []
+  },
   "messenger.button.newMessage": "Ny besked",
   "messenger.button.reply": "Svar",
   "messenger.error.sendMessage": "Fejl ved afsending af besked. Prøv venligst igen!",

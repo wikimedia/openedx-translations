@@ -4522,8 +4522,6 @@ msgstr "Desculpe, não foram encontrados resultados."
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"
 msgstr ""
-"O que\n"
-"  estudar a seguir?"
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27
 msgid "Show All Courses"

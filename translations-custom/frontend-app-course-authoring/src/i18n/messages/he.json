@@ -1,15 +1,15 @@
 {
-	"@metadata": {
-		"authors": []
-	},
-	"authoring.schedule.course-direction.confirmation-modal.confirm": "כן, לעדכן דגל",
-	"authoring.schedule.course-direction.confirmation-modal.message": "האם באמת לעדכן את הדגל? לא תהיה אפשרות להחזיר אותו.",
-	"authoring.schedule.course-direction.confirmation-modal.title": "לא ניתן לבטל שינוי.",
-	"authoring.schedule.course-direction.description": "המרת קורס למקור",
-	"authoring.schedule.course-direction.disabled-tip": "האפשרות מושבתת כיוון שהקורס אינו הרצה מחודשת מתורגמת.",
-	"authoring.schedule.course-direction.title": "דגל כיוון הקורס",
-	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "מיפוי בלוקים",
-	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "מיפוי בלוקים בקורס",
-	"course-authoring.create-or-rerun-course.translation-options.standard.label": "הרצה חוזרת בסיסית",
-	"course-authoring.create-or-rerun-course.translation-options.translated.label": "הרצה מחדש של קורס מתורגם"
+  "@metadata": {
+    "authors": []
+  },
+  "authoring.schedule.course-direction.confirmation-modal.confirm": "כן, לעדכן דגל",
+  "authoring.schedule.course-direction.confirmation-modal.message": "האם באמת לעדכן את הדגל? לא תהיה אפשרות להחזיר אותו.",
+  "authoring.schedule.course-direction.confirmation-modal.title": "לא ניתן לבטל שינוי.",
+  "authoring.schedule.course-direction.description": "המרת קורס למקור",
+  "authoring.schedule.course-direction.disabled-tip": "האפשרות מושבתת כיוון שהקורס אינו הרצה מחודשת מתורגמת.",
+  "authoring.schedule.course-direction.title": "דגל כיוון הקורס",
+  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "מיפוי בלוקים",
+  "course-authoring.course-outline.status-bar.course-blocks-mapping.title": "מיפוי בלוקים בקורס",
+  "course-authoring.create-or-rerun-course.translation-options.standard.label": "הרצה חוזרת בסיסית",
+  "course-authoring.create-or-rerun-course.translation-options.translated.label": "הרצה מחדש של קורס מתורגם"
 }

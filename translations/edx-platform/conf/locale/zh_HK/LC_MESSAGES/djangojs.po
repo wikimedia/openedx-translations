@@ -10638,11 +10638,11 @@ msgstr "很抱歉，找不到任何結果。"
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"
-msgstr "接下來要學習什麼？"
+msgstr ""
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27
 msgid "Show All Courses"
-msgstr "顯示所有課程"
+msgstr ""
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:77
 msgid "No results found"

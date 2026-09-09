@@ -1,4 +1,7 @@
 {
+  "@metadata": {
+    "authors": []
+  },
   "course-authoring.content-tags-drawer.button.manage": "Manage Tags",
   "course-authoring.content-tags-drawer.collapsible.add-tags.button": "Add tags",
   "course-authoring.content-tags-drawer.content-tags-collapsible.custom-menu.cancel-staged-tags": "Cancel",

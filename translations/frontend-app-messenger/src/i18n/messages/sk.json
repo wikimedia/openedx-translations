@@ -1,5 +1,30 @@
 {
-  "messenger.error.sendMessage": "Chyba pri odoslaní správy. Prosím, skúste to ešte raz!",
-  "messenger.label.message": "Správa",
-  "messenger.placeholder.searchUsers": "Hľadať používateľov"
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"messenger.button.send": "Odoslať",
+	"messenger.button.close": "Zavrieť",
+	"messenger.button.cancel": "Zrušiť",
+	"messenger.button.reply": "Odpovedať",
+	"messenger.button.newMessage": "Nová správa",
+	"messenger.placeholder.typeMessage": "Napíšte svoju správu…",
+	"messenger.placeholder.enterMessage": "Zadajte správu…",
+	"messenger.placeholder.username": "používateľské meno",
+	"messenger.placeholder.searchUsers": "Hľadať používateľov",
+	"messenger.placeholder.select": "Vyberte",
+	"messenger.label.inbox": "Doručená pošta",
+	"messenger.label.message": "Správa",
+	"messenger.label.newMessage": "Nová správa",
+	"messenger.label.users": "Používatelia",
+	"messenger.success.sendMessage": "Správa bola odoslaná.",
+	"messenger.success.sendMessages": "Správy boli odoslané.",
+	"messenger.error.sendMessage": "Chyba pri odoslaní správy. Prosím, skúste to ešte raz!",
+	"messenger.error.sendMessages": "Chyba pri odosielaní správ. Prosím, skúste to ešte raz!",
+	"messenger.error.readMessages": "Chyba pri označovaní správ ako prečítaných.",
+	"messenger.error.loadConversation": "Konverzácie sa nepodarilo načítať.",
+	"messenger.error.userConversation": "Nepodarilo sa načítať konverzáciu používateľa:",
+	"messenger.error.userSearch": "Nepodarilo sa vyhľadať používateľov.",
+	"messenger.inbox.noConversation": "Nenašla sa žiadna konverzácia!"
 }

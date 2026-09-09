@@ -1,3 +1,6 @@
 {
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Karta blokları"
+	"@metadata": {
+		"authors": []
+	},
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Karta blokları"
 }

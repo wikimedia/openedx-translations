@@ -1,4 +1,9 @@
 {
+  "@metadata": {
+    "authors": [
+      "Brettchenweber"
+    ]
+  },
   "authoring.discussions.Incomplete": "Unvollständig",
   "authoring.discussions.builtIn.cohortsEnabled.label": "To adjust these settings, enable cohorts on the ",
   "authoring.discussions.cancel": "Abbrechen",
@@ -126,7 +131,7 @@
   "authoring.proctoring.support.text": "Support Page",
   "authoring.proctoring.yes": "Yes",
   "authoring.schedule.course-direction.confirmation-modal.confirm": "Ja, Flagge aktualisieren",
-  "authoring.schedule.course-direction.confirmation-modal.message": "Bist du sicher, dass du die Flagge aktualisieren willst, da sie nicht wieder rückgängig gemacht werden kann.",
+  "authoring.schedule.course-direction.confirmation-modal.message": "Bist du sicher, dass du die Flagge aktualisieren willst? Die Aktualisierung kann nicht wieder rückgängig gemacht werden.",
   "authoring.schedule.course-direction.confirmation-modal.title": "Die Änderung kann nicht rückgängig gemacht werden.",
   "authoring.schedule.course-direction.description": "Kurs in Quelle umwandeln",
   "authoring.schedule.course-direction.disabled-tip": "Die Option ist deaktiviert, da es sich nicht um einen übersetzten Wiederholungskurs handelt.",

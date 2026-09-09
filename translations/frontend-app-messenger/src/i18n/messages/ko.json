@@ -1,4 +1,7 @@
 {
+  "@metadata": {
+    "authors": []
+  },
   "messenger.button.newMessage": "새 메시지",
   "messenger.button.reply": "답변",
   "messenger.button.send": "보내기",

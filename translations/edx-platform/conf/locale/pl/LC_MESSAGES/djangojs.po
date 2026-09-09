@@ -12,7 +12,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Domain: djangojs\n"
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"
@@ -20,7 +19,7 @@ msgstr ""
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27
 msgid "Show All Courses"
-msgstr "Pokaż wszystkie kursy"
+msgstr ""
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:77
 msgid "No results found"

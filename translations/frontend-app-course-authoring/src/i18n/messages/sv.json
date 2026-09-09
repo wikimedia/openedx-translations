@@ -1,4 +1,7 @@
 {
+  "@metadata": {
+    "authors": []
+  },
   "VideoUploadEditor.closeButtonAltText": "Stäng",
   "VideoUploadEditor.dropVideoFileHere": "Dra och släpp video här eller klicka för att ladda upp",
   "VideoUploadEditor.pasteURL": "Klistra in ditt video-ID eller URL",

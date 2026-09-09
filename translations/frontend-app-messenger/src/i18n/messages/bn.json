@@ -1,13 +1,16 @@
 {
-  "messenger.button.newMessage": "নতুন বার্তা",
-  "messenger.button.reply": "উত্তর দিন",
-  "messenger.button.send": "পাঠান",
-  "messenger.error.sendMessage": "বার্তা প্রেরণে ত্রুটি। অনুগ্রহ করে আবার চেষ্টা করুন!",
-  "messenger.error.sendMessages": "বার্তা প্রেরণে ত্রুটি। অনুগ্রহ করে আবার চেষ্টা করুন!",
-  "messenger.label.inbox": "ইনবক্স",
-  "messenger.label.newMessage": "নতুন বার্তা",
-  "messenger.label.users": "ব্যবহারকারী",
-  "messenger.placeholder.enterMessage": "বার্তা লিখুন ...",
-  "messenger.placeholder.searchUsers": "ব্যবহারকারী অনুসন্ধান করুন",
-  "messenger.placeholder.typeMessage": "আপনার বার্তা লিখুন..."
+	"@metadata": {
+		"authors": []
+	},
+	"messenger.button.send": "পাঠান",
+	"messenger.button.reply": "উত্তর দিন",
+	"messenger.button.newMessage": "নতুন বার্তা",
+	"messenger.placeholder.typeMessage": "আপনার বার্তা লিখুন...",
+	"messenger.placeholder.enterMessage": "বার্তা লিখুন ...",
+	"messenger.placeholder.searchUsers": "ব্যবহারকারী অনুসন্ধান করুন",
+	"messenger.label.inbox": "ইনবক্স",
+	"messenger.label.newMessage": "নতুন বার্তা",
+	"messenger.label.users": "ব্যবহারকারী",
+	"messenger.error.sendMessage": "বার্তা প্রেরণে ত্রুটি। অনুগ্রহ করে আবার চেষ্টা করুন!",
+	"messenger.error.sendMessages": "বার্তা প্রেরণে ত্রুটি। অনুগ্রহ করে আবার চেষ্টা করুন!"
 }

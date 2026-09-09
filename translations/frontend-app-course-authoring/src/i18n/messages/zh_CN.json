@@ -1,4 +1,7 @@
 {
+  "@metadata": {
+    "authors": []
+  },
   "VideoUploadEditor.closeButtonAltText": "关闭",
   "VideoUploadEditor.dropVideoFileHere": "将视频拖放到此处或单击上传",
   "VideoUploadEditor.pasteURL": "粘贴您的视频 ID 或 URL",

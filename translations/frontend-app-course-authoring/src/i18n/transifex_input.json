@@ -730,6 +730,8 @@
   "course-authoring.course-outline.highlights-modal.documentation-link": "documentation",
   "course-authoring.course-outline.highlights-modal.highlight": "Highlight {index}",
   "course-authoring.course-outline.highlights-modal.title": "Highlights for {title}",
+  "course-authoring.course-outline.page-alert.course-not-ready.body": "This course may still be processing in the background (for example, a rerun or import that has not finished yet). Please wait a few minutes and reload the page. If this message persists, the course may not exist or you may not have access to it.",
+  "course-authoring.course-outline.page-alert.course-not-ready.title": "This course is still being prepared",
   "course-authoring.course-outline.page-alert.forbidden.body": "It looks like you’re trying to access a page you don’t have permission to view. Contact your admin if you think this is a mistake, or head back to the {LMS}.",
   "course-authoring.course-outline.page-alert.forbidden.title": "Access Restricted",
   "course-authoring.course-outline.page-alert.generic-error.description": "Unable to {actionName} {type}. Please try again.",

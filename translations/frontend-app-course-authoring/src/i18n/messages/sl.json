@@ -1,12 +1,15 @@
 {
-  "authoring.schedule.course-direction.confirmation-modal.confirm": "Da, posodobi oznako",
-  "authoring.schedule.course-direction.confirmation-modal.message": "Ali res želite posodobiti oznako, saj ne bo več razveljavljena?",
-  "authoring.schedule.course-direction.confirmation-modal.title": "Spremembe ni mogoče razveljaviti.",
-  "authoring.schedule.course-direction.description": "Pretvori tečaj v vir",
-  "authoring.schedule.course-direction.disabled-tip": "Možnost je onemogočena, ker tečaj ni prevedena ponovitev.",
-  "authoring.schedule.course-direction.title": "Oznaka smeri tečaja",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Bloki zemljevida",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Preslikava blokov tečajev",
-  "course-authoring.create-or-rerun-course.translation-options.standard.label": "Osnovna ponovitev",
-  "course-authoring.create-or-rerun-course.translation-options.translated.label": "Prevedena ponovitev tečaja"
+	"@metadata": {
+		"authors": []
+	},
+	"authoring.schedule.course-direction.confirmation-modal.confirm": "Da, posodobi oznako",
+	"authoring.schedule.course-direction.confirmation-modal.message": "Ali res želite posodobiti oznako, saj ne bo več razveljavljena?",
+	"authoring.schedule.course-direction.confirmation-modal.title": "Spremembe ni mogoče razveljaviti.",
+	"authoring.schedule.course-direction.description": "Pretvori tečaj v vir",
+	"authoring.schedule.course-direction.disabled-tip": "Možnost je onemogočena, ker tečaj ni prevedena ponovitev.",
+	"authoring.schedule.course-direction.title": "Oznaka smeri tečaja",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Bloki zemljevida",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Preslikava blokov tečajev",
+	"course-authoring.create-or-rerun-course.translation-options.standard.label": "Osnovna ponovitev",
+	"course-authoring.create-or-rerun-course.translation-options.translated.label": "Prevedena ponovitev tečaja"
 }

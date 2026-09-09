@@ -1,4 +1,11 @@
 {
+  "@metadata": {
+    "authors": [
+      "Abijeet Patro"
+    ]
+  },
+  "messenger.button.cancel": "रद्द करें",
+  "messenger.button.close": "बंद करें",
   "messenger.button.newMessage": "नया संदेश",
   "messenger.button.reply": "उत्तर दें",
   "messenger.button.send": "भेजें",

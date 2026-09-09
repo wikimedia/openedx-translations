@@ -1,4 +1,7 @@
 {
+  "@metadata": {
+    "authors": []
+  },
   "VideoUploadEditor.closeButtonAltText": "Закрыть",
   "VideoUploadEditor.dropVideoFileHere": "Перетащите видео сюда или нажмите, чтобы загрузить",
   "VideoUploadEditor.pasteURL": "Вставьте идентификатор или URL-адрес вашего видео",

@@ -1,14 +1,14 @@
 {
-	"@metadata": {
-		"authors": []
-	},
-	"messenger.button.send": "Enviar",
-	"messenger.button.reply": "Responder",
-	"messenger.button.newMessage": "Nova mensagem",
-	"messenger.label.inbox": "Caixa de entrada",
-	"messenger.label.message": "Mensagem",
-	"messenger.label.newMessage": "Nova mensagem",
-	"messenger.label.users": "Usuários(as)",
-	"messenger.error.sendMessage": "Erro ao enviar mensagem. Por favor, tente novamente!",
-	"messenger.error.userConversation": "Não foi possível carregar a conversa de usuário(a):"
+  "@metadata": {
+    "authors": []
+  },
+  "messenger.button.newMessage": "Nova mensagem",
+  "messenger.button.reply": "Responder",
+  "messenger.button.send": "Enviar",
+  "messenger.error.sendMessage": "Erro ao enviar mensagem. Por favor, tente novamente!",
+  "messenger.error.userConversation": "Não foi possível carregar a conversa de usuário(a):",
+  "messenger.label.inbox": "Caixa de entrada",
+  "messenger.label.message": "Mensagem",
+  "messenger.label.newMessage": "Nova mensagem",
+  "messenger.label.users": "Usuários(as)"
 }

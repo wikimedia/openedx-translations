@@ -1,7 +1,7 @@
 {
-	"@metadata": {
-		"authors": []
-	},
-	"authoring.schedule.course-direction.description": "Converter o curso para Origem",
-	"course-authoring.create-or-rerun-course.translation-options.translated.label": "Tradução do curso re-run"
+  "@metadata": {
+    "authors": []
+  },
+  "authoring.schedule.course-direction.description": "Converter o curso para Origem",
+  "course-authoring.create-or-rerun-course.translation-options.translated.label": "Tradução do curso re-run"
 }

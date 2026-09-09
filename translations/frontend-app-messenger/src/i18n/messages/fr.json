@@ -1,4 +1,9 @@
 {
+  "@metadata": {
+    "authors": [
+      "Wladek92"
+    ]
+  },
   "messenger.button.newMessage": "Nouveau message",
   "messenger.button.reply": "Répondre",
   "messenger.button.send": "Envoyer",
@@ -11,10 +16,10 @@
   "messenger.label.inbox": "Boîte de réception",
   "messenger.label.newMessage": "Nouveau message",
   "messenger.label.users": "Utilisateurs",
-  "messenger.placeholder.enterMessage": "Saisissez le message...",
+  "messenger.placeholder.enterMessage": "Saisir le message...",
   "messenger.placeholder.searchUsers": "Rechercher des utilisateurs",
   "messenger.placeholder.select": "Sélectionner",
-  "messenger.placeholder.typeMessage": "Saisissez votre message...",
+  "messenger.placeholder.typeMessage": "Saisir votre message...",
   "messenger.success.sendMessage": "Le message a été envoyé.",
-  "messenger.success.sendMessages": "Le(s) message(s) ont été envoyés."
+  "messenger.success.sendMessages": "Le(s) message(s) ont été envoyé(s)."
 }

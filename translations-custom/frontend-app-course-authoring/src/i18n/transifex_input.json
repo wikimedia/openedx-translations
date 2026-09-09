@@ -12,6 +12,8 @@
   "authoring.videoeditor.license.creativeCommons.shareAlike.text": "CC-by-sa 4.0",
   "course-authoring.course-outline.card.button.edit.disable.tooltip": "This object was added from a library, so it cannot be edited.",
   "course-authoring.course-outline.card.edit.cancel.button": "Cancel",
+  "course-authoring.course-outline.page-alert.course-not-ready.body": "This course may still be processing in the background (for example, a rerun or import that has not finished yet). Please wait a few minutes and reload the page. If this message persists, the course may not exist or you may not have access to it.",
+  "course-authoring.course-outline.page-alert.course-not-ready.title": "This course is still being prepared",
   "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Map blocks",
   "course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Course Blocks mapping",
   "course-authoring.course-unit.alert.read-only.link.text": "library",

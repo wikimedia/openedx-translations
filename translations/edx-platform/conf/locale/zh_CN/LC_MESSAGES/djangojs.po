@@ -9634,11 +9634,11 @@ msgstr "对不起，未找到搜索结果。"
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"
-msgstr "接下来要学习什么？"
+msgstr ""
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27
 msgid "Show All Courses"
-msgstr "显示所有课程"
+msgstr ""
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:77
 msgid "No results found"

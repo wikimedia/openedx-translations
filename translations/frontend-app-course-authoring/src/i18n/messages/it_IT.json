@@ -1,4 +1,7 @@
 {
+  "@metadata": {
+    "authors": []
+  },
   "a11yBodyA11yFeedback": "Indirizzare eventuali domande o suggerimenti su come migliorare le funzioni di accesso facilitato di Studio a {emailElement} o utilizza il modulo riportato di seguito. Saremo lieti di ricevere il tuo feedback.",
   "a11yBodyBarrier": "breve descrizione dell'ostacolo che impedisce l'accesso; e ",
   "a11yBodyCodeFix": "Sviluppo di nuovo codice per l'implementazione di una correzione tecnica. ",

@@ -1,3 +1,6 @@
 {
-  "course-authoring.create-or-rerun-course.translation-options.translated.label": "Išverstas kurso dublikatas"
+	"@metadata": {
+		"authors": []
+	},
+	"course-authoring.create-or-rerun-course.translation-options.translated.label": "Išverstas kurso dublikatas"
 }

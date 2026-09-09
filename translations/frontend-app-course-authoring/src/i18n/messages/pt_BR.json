@@ -1,4 +1,7 @@
 {
+  "@metadata": {
+    "authors": []
+  },
   "a11yBodyA11yFeedback": "Envie perguntas ou sugestões sobre como melhorar a acessibilidade do Studio para {emailElement} ou use o formulário abaixo. Congratulamo-nos com o seu feedback.",
   "a11yBodyBarrier": "uma breve descrição do desafio ou barreira que você está enfrentando para Acesso ; e",
   "a11yBodyCodeFix": "Desenvolvendo novo código para implementar uma correção técnica.",

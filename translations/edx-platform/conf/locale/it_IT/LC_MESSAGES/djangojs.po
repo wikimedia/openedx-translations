@@ -10915,4 +10915,4 @@ msgstr "Mostra tutti i corsi"
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:77
 msgid "No results found"
-msgstr ""
+msgstr "Nessun risultato trovato"

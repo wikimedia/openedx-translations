@@ -1,4 +1,7 @@
 {
-  "authoring.schedule.course-direction.confirmation-modal.title": "পরিবর্তন ফিরিয়ে আনা যাবে না।",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "মানচিত্রের ব্লক"
+	"@metadata": {
+		"authors": []
+	},
+	"authoring.schedule.course-direction.confirmation-modal.title": "পরিবর্তন ফিরিয়ে আনা যাবে না।",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "মানচিত্রের ব্লক"
 }

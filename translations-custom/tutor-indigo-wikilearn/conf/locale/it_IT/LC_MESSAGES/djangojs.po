@@ -1,10 +1,18 @@
+# Translation of WikiLearn - Indigo theme (frontend) to Italian (italiano)
+# Exported from translatewiki.net
+#
+# Author: Beta16
+# --
+# This file is part of the WikiLearn Project
+# This file is distributed under the same license as the WikiLearn package.
 #
 msgid ""
 msgstr ""
+""
 "Project-Id-Version: WikiLearn - Indigo theme (frontend)\n"
 "Report-Msgid-Bugs-To: translatewiki.net\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2026-09-07 12:31:21+0000\n"
+"PO-Revision-Date: 2026-09-10 12:08:35+0000\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
 "Language: it_it\n"
@@ -28,3 +36,4 @@ msgstr "Mostra tutti i corsi"
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:77
 msgid "No results found"
 msgstr "Nessun risultato trovato"
+

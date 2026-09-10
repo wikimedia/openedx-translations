@@ -16,6 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: admin_dashboard/admin_task/api.py:50 admin_dashboard/admin_task/api.py:50
 #, python-brace-format
@@ -329,8 +330,8 @@ msgstr ""
 
 #: meta_translations/views.py:92 meta_translations/views.py:92
 msgid ""
-"Congratulations! The translation is approved. It's also applied "
-"automatically to the Course Block"
+"Congratulations! The translation is approved. It's also applied automatically"
+" to the Course Block"
 msgstr ""
 
 #: meta_translations/views.py:95 meta_translations/views.py:95

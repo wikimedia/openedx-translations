@@ -33,6 +33,9 @@ REPO_MERGE_CONFIG = {
 # message group reads the empty msgstr values and comes out empty.
 EN_PLURAL_FORMS = "nplurals=2; plural=(n != 1);"
 
+# Match xgettext's 79 columns; polib defaults to 78 and would rewrap every file.
+PO_WRAPWIDTH = 79
+
 
 def ensure_directory(path):
     if not os.path.exists(path):
@@ -58,6 +61,56 @@ def mark_as_source_template(po):
 def mark_as_translation(po):
     """Ensure a non-English .po is never flagged as a template."""
     po.metadata_is_fuzzy = []
+
+
+def is_en_source_template(path):
+    """True for a `.../locale/en/LC_MESSAGES/*.po` path."""
+    parts = Path(path).parts
+    if not str(path).endswith(".po") or "LC_MESSAGES" not in parts:
+        return False
+    lc_index = parts.index("LC_MESSAGES")
+    return lc_index > 0 and parts[lc_index - 1] == "en"
+
+
+def normalize_en_source_templates(base_dir):
+    """Re-apply mark_as_source_template to every English .po under base_dir.
+
+    Not every write path marks its output: the new-repo branch of
+    update_custom_layer copies extraction output verbatim, and xgettext is
+    inconsistent about emitting the header fuzzy flag. Sweeping once at the end
+    covers all of them regardless of which path wrote the file.
+
+    CUSTOM_DIR only - FINAL_DIR is mostly Atlas passthrough we don't own.
+    Returns the number of files changed.
+    """
+    marked = 0
+    for po_path in sorted(base_dir.glob("**/*.po")):
+        if not is_en_source_template(po_path):
+            continue
+
+        try:
+            po = polib.pofile(po_path, wrapwidth=PO_WRAPWIDTH)
+        except Exception as e:
+            print(f"  WARNING: cannot read English source {po_path}: {e}")
+            continue
+
+        # Skip already-correct files; polib rewrites and rewraps on every save.
+        plural_forms = po.metadata.get('Plural-Forms', '')
+        needs_plural = not plural_forms or 'INTEGER' in plural_forms or 'EXPRESSION' in plural_forms
+        if po.metadata_is_fuzzy and not needs_plural:
+            continue
+
+        mark_as_source_template(po)
+        po.save(po_path)
+        marked += 1
+        print(f"  Marked as source template: {po_path.relative_to(base_dir)}")
+
+    if marked:
+        print(f"  Normalized {marked} English source template(s)")
+    else:
+        print("  All English source templates already marked")
+
+    return marked
 
 
 def get_msgids(po_file_path):
@@ -231,6 +284,9 @@ def update_custom_layer(extracted_dir):
     # PO files are untouched (an empty msgstr already falls back to the msgid).
     print("--- Enforcing absence convention on custom MFE files ---")
     strip_untranslated_mfe_translations(CUSTOM_DIR)
+
+    print("--- Normalizing English source templates ---")
+    normalize_en_source_templates(CUSTOM_DIR)
 
 
 def create_or_update_po_placeholders(extracted_file, rel_path, supported_langs):
@@ -915,6 +971,10 @@ def merge_final():
     # Enforce the absence convention on the final MFE files: untranslated strings
     # are absent (the app falls back to its built-in English source), not empty.
     strip_untranslated_mfe_translations()
+
+    # No normalize_en_source_templates here on purpose: that would rewrite the
+    # upstream English templates Atlas pulled in. Custom-only repos inherit the
+    # flag anyway, since their final file is copied from the normalized custom layer.
 
     # Print summary of merged repos
     merged_repos = [f"{src} → {config['merge_into']}" for src, config in REPO_MERGE_CONFIG.items()]

@@ -11,9 +11,14 @@ import textwrap
 import traceback
 
 import i18n.validate
+import polib
 
 # Languages to exclude from validation
 EXCLUDE_LANGUAGES = {'qqq'}
+
+# Directories whose English source templates we maintain. Excludes translations/,
+# where Atlas passthrough files legitimately lack the fuzzy flag.
+EN_SOURCE_TEMPLATE_DIRS = {'translations-custom'}
 
 def get_translation_files(translation_directory):
     """
@@ -38,6 +43,51 @@ def get_translation_files(translation_directory):
                     po_files.append(pofile_path)
 
     return po_files
+
+
+def get_en_source_templates(translation_directory):
+    """
+    List all English source '*.po' files, i.e. `.../en/LC_MESSAGES/*.po`.
+
+    These are the files `get_translation_files` excludes.
+    """
+    po_files = []
+    marker = f'{os.sep}en{os.sep}LC_MESSAGES{os.sep}'
+    for root, _dirs, files in os.walk(translation_directory):
+        for file_name in files:
+            pofile_path = os.path.join(root, file_name)
+            if file_name.endswith('.po') and marker in pofile_path:
+                po_files.append(pofile_path)
+
+    return po_files
+
+
+def validate_en_source_template(po_file):
+    """
+    Check that an English '.po' carries the header fuzzy flag.
+
+    Translate only reads source strings from msgid when the header is fuzzy;
+    without the flag the message group renders empty on translatewiki.net.
+    """
+    try:
+        po = polib.pofile(po_file)
+    except Exception as e:
+        return {
+            'valid': False,
+            'output': f'Cannot parse English source file: {e}\n',
+        }
+
+    if not po.metadata_is_fuzzy:
+        return {
+            'valid': False,
+            'output': (
+                'Missing the "#, fuzzy" header flag; translatewiki.net will render\n'
+                'this message group as empty. Run the update_custom step to add it,\n'
+                'or add the "#, fuzzy" line above the header msgid by hand.\n'
+            ),
+        }
+
+    return {'valid': True, 'output': ''}
 
 
 def validate_translation_file(po_file):
@@ -87,9 +137,13 @@ def validate_translation_file(po_file):
     }
 
 
-def validate_directory(translations_dir):
+def validate_directory(translations_dir, check_en_templates=False):
     """
     Validate all translation files in a single directory.
+
+    `check_en_templates` also checks English sources for the header fuzzy flag;
+    see EN_SOURCE_TEMPLATE_DIRS.
+
     Returns tuple: (all_valid, invalid_lines)
     """
     translations_valid = True
@@ -97,8 +151,9 @@ def validate_directory(translations_dir):
     invalid_lines = []
 
     po_files = get_translation_files(translations_dir)
+    en_source_files = get_en_source_templates(translations_dir) if check_en_templates else []
 
-    if not po_files:
+    if not po_files and not en_source_files:
         print(f'No translation files found in: {translations_dir}')
         return translations_valid, invalid_lines
 
@@ -114,6 +169,16 @@ def validate_directory(translations_dir):
             print(result['output'], '\n' * 2)
         else:
             invalid_lines.append('INVALID: ' + po_file)
+            invalid_lines.append(result['output'] + '\n' * 2)
+            translations_valid = False
+
+    for po_file in en_source_files:
+        result = validate_en_source_template(po_file)
+
+        if result['valid']:
+            print('VALID (en source template): ' + po_file)
+        else:
+            invalid_lines.append('INVALID (en source template): ' + po_file)
             invalid_lines.append(result['output'] + '\n' * 2)
             translations_valid = False
 
@@ -144,7 +209,8 @@ def validate_translation_files(
             print(f'Directory not found, skipping: {translations_dir}')
             continue
 
-        dir_valid, invalid_lines = validate_directory(translations_dir)
+        check_en_templates = os.path.basename(translations_dir.rstrip(os.sep)) in EN_SOURCE_TEMPLATE_DIRS
+        dir_valid, invalid_lines = validate_directory(translations_dir, check_en_templates)
 
         if not dir_valid:
             all_valid = False

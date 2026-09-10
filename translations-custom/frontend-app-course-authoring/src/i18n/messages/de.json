@@ -1,17 +1,17 @@
 {
-	"@metadata": {
-		"authors": [
-			"Brettchenweber"
-		]
-	},
-	"authoring.schedule.course-direction.confirmation-modal.confirm": "Ja, Flagge aktualisieren",
-	"authoring.schedule.course-direction.confirmation-modal.message": "Bist du sicher, dass du die Flagge aktualisieren willst? Die Aktualisierung kann nicht wieder rückgängig gemacht werden.",
-	"authoring.schedule.course-direction.confirmation-modal.title": "Die Änderung kann nicht rückgängig gemacht werden.",
-	"authoring.schedule.course-direction.description": "Kurs in Quelle umwandeln",
-	"authoring.schedule.course-direction.disabled-tip": "Die Option ist deaktiviert, da es sich nicht um einen übersetzten Wiederholungskurs handelt.",
-	"authoring.schedule.course-direction.title": "Kursrichtung Flagge",
-	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Kartenblöcke",
-	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Zuordnung der Kursblöcke",
-	"course-authoring.create-or-rerun-course.translation-options.standard.label": "Grundlegender Wiederholungslauf",
-	"course-authoring.create-or-rerun-course.translation-options.translated.label": "Übersetzte Kurswiederholung"
+  "@metadata": {
+    "authors": [
+      "Brettchenweber"
+    ]
+  },
+  "authoring.schedule.course-direction.confirmation-modal.confirm": "Ja, Flagge aktualisieren",
+  "authoring.schedule.course-direction.confirmation-modal.message": "Bist du sicher, dass du die Flagge aktualisieren willst? Die Aktualisierung kann nicht wieder rückgängig gemacht werden.",
+  "authoring.schedule.course-direction.confirmation-modal.title": "Die Änderung kann nicht rückgängig gemacht werden.",
+  "authoring.schedule.course-direction.description": "Kurs in Quelle umwandeln",
+  "authoring.schedule.course-direction.disabled-tip": "Die Option ist deaktiviert, da es sich nicht um einen übersetzten Wiederholungskurs handelt.",
+  "authoring.schedule.course-direction.title": "Kursrichtung Flagge",
+  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Kartenblöcke",
+  "course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Zuordnung der Kursblöcke",
+  "course-authoring.create-or-rerun-course.translation-options.standard.label": "Grundlegender Wiederholungslauf",
+  "course-authoring.create-or-rerun-course.translation-options.translated.label": "Übersetzte Kurswiederholung"
 }

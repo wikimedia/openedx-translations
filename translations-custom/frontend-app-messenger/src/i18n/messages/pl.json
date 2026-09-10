@@ -1,19 +1,19 @@
 {
-	"@metadata": {
-		"authors": [
-			"PanWor"
-		]
-	},
-	"messenger.button.send": "Wyślij",
-	"messenger.button.reply": "Odpowiedz",
-	"messenger.button.newMessage": "Nowa wiadomość",
-	"messenger.placeholder.enterMessage": "Wprowadź wiadomość…",
-	"messenger.placeholder.searchUsers": "Szukaj użytkowników",
-	"messenger.placeholder.select": "Wybierz",
-	"messenger.label.inbox": "Skrzynka odbiorcza",
-	"messenger.label.message": "Wiadomość",
-	"messenger.label.newMessage": "Nowa wiadomość",
-	"messenger.label.users": "Użytkownicy",
-	"messenger.success.sendMessages": "Wysłano wiadomości.",
-	"messenger.error.userConversation": "Nie udało się załadować rozmowy użytkownika:"
+  "@metadata": {
+    "authors": [
+      "PanWor"
+    ]
+  },
+  "messenger.button.newMessage": "Nowa wiadomość",
+  "messenger.button.reply": "Odpowiedz",
+  "messenger.button.send": "Wyślij",
+  "messenger.error.userConversation": "Nie udało się załadować rozmowy użytkownika:",
+  "messenger.label.inbox": "Skrzynka odbiorcza",
+  "messenger.label.message": "Wiadomość",
+  "messenger.label.newMessage": "Nowa wiadomość",
+  "messenger.label.users": "Użytkownicy",
+  "messenger.placeholder.enterMessage": "Wprowadź wiadomość…",
+  "messenger.placeholder.searchUsers": "Szukaj użytkowników",
+  "messenger.placeholder.select": "Wybierz",
+  "messenger.success.sendMessages": "Wysłano wiadomości."
 }

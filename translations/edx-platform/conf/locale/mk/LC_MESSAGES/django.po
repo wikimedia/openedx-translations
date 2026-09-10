@@ -11,14 +11,14 @@ msgstr ""
 "Project-Id-Version: WikiLearn - Indigo theme (backend)\n"
 "Report-Msgid-Bugs-To: translatewiki.net\n"
 "POT-Creation-Date: 2026-01-21 18:20+0000\n"
-"PO-Revision-Date: 2026-09-07 12:31:21+0000\n"
+"PO-Revision-Date: 2026-09-10 12:08:35+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: mk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-POT-Import-Date: 2026-08-28 15:24:55+0000\n"
+"X-POT-Import-Date: 2026-09-09 08:30:54+0000\n"
 "X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
 "X-Generator: MediaWiki 1.47.0-alpha; Translate 2025-07-31\n"
 "Plural-Forms: nplurals=2; plural=(n == 1 || n%10 == 1) ? 0 : 1;\n"
@@ -27,24 +27,8 @@ msgstr ""
 msgid "WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning platform for the Wikimedia movement. It offers a comprehensive range of self-paced and instructor-led courses aimed at capacity building and leadership development within the Wikimedia community. Courses on WikiLearn are collaboratively developed by and for Wikimedians with a commitment to accessibility and diversity. For inquiries, contact the Community Development team at "
 msgstr "WikiLearn, вдомено од Фондацијата Викимедија, е подлога за учење на Викимедииното движење. Нуди опширен опсег на курсеви за самостојно учење и учење со инструктор наменети за изградба на капацитети и развој на водствот ово Викимедиината заедница. Курсевите на WikiLearn се соработно разработени од и за викимедијанците со посветеност на пристапноста и разновидноста. Ако имате прашања, упатете ги кон екипата Развој на заедницата на "
 
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:27
-msgid "has successfully completed"
-msgstr "успешно го заврши"
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
-msgid "the"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
-msgid "program."
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
-msgid "Certificate"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
-msgid "of Achievement"
+#: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
+msgid "Discover courses"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:16
@@ -108,52 +92,42 @@ msgstr "Претплатете се на новостите за тековни�
 msgid "Subscribe"
 msgstr "Претплати се"
 
+#: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:88
+msgid "Already Enrolled"
+msgstr ""
+
 #: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:49
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"
 msgstr "Што да учам следно?"
 
-#: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:88
-msgid "Already Enrolled"
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:27
+msgid "has successfully completed"
+msgstr "успешно го заврши"
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
+msgid "the"
 msgstr ""
 
-#: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
-msgid "Discover courses"
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
+msgid "program."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
+msgid "Certificate"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
+msgid "of Achievement"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/learner_dashboard/program_card.underscore:34
+msgid "Remaining"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/discovery/course_card.underscore:26
 #, python-format
 msgid "Starts: %(start_date)s"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:6
-#, python-brace-format
-msgid "Already have an {platformName} account?"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:17
-msgid "Create an account using"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:30
-#, python-format
-msgid "Create account using %(providerName)s."
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:37
-msgid "Use my institution/campus credentials"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:44
-msgid "or create a new one here"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:49
-msgid "Create an Account"
-msgstr ""
-
-#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:62
-msgid "Support education research by providing additional information"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:17
@@ -250,8 +224,34 @@ msgstr ""
 msgid "Tip: Did you know WikiLearn is available in multiple languages? Check the menu in the top right to switch to yours!"
 msgstr ""
 
-#: tutorindigo/templates/indigo/lms/templates/learner_dashboard/program_card.underscore:34
-msgid "Remaining"
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:6
+#, python-brace-format
+msgid "Already have an {platformName} account?"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:17
+msgid "Create an account using"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:30
+#, python-format
+msgid "Create account using %(providerName)s."
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:37
+msgid "Use my institution/campus credentials"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:44
+msgid "or create a new one here"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:49
+msgid "Create an Account"
+msgstr ""
+
+#: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:62
+msgid "Support education research by providing additional information"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27

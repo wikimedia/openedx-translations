@@ -1,26 +1,26 @@
 {
-	"@metadata": {
-		"authors": [
-			"Amire80"
-		]
-	},
-	"messenger.button.send": "שליחה",
-	"messenger.button.reply": "תגובה",
-	"messenger.button.newMessage": "הודעה חדשה",
-	"messenger.placeholder.typeMessage": "נא להקליד את הודעתך...",
-	"messenger.placeholder.enterMessage": "נא להזין הודעה...",
-	"messenger.placeholder.searchUsers": "חיפוש משתמשים",
-	"messenger.placeholder.select": "בחירה",
-	"messenger.label.inbox": "תיבת דואר נכנס",
-	"messenger.label.message": "הודעה",
-	"messenger.label.newMessage": "הודעה חדשה",
-	"messenger.label.users": "משתמשים",
-	"messenger.success.sendMessage": "ההודעה נשלחה.",
-	"messenger.success.sendMessages": "הודעות נשלחו.",
-	"messenger.error.sendMessage": "שגיאה בשליחת ההודעה. נא לנסות שוב!",
-	"messenger.error.sendMessages": "שגיאה בשליחת ההודעה. נא לנסות שוב!",
-	"messenger.error.readMessages": "שגיאה בסימון ההודעות כהודעות שנקראו.",
-	"messenger.error.loadConversation": "לא ניתן לטעון שיחות.",
-	"messenger.error.userConversation": "לא ניתן לטעון את השיחה של המשתמש:",
-	"messenger.error.userSearch": "לא ניתן לחפש משתמשים."
+  "@metadata": {
+    "authors": [
+      "Amire80"
+    ]
+  },
+  "messenger.button.newMessage": "הודעה חדשה",
+  "messenger.button.reply": "תגובה",
+  "messenger.button.send": "שליחה",
+  "messenger.error.loadConversation": "לא ניתן לטעון שיחות.",
+  "messenger.error.readMessages": "שגיאה בסימון ההודעות כהודעות שנקראו.",
+  "messenger.error.sendMessage": "שגיאה בשליחת ההודעה. נא לנסות שוב!",
+  "messenger.error.sendMessages": "שגיאה בשליחת ההודעה. נא לנסות שוב!",
+  "messenger.error.userConversation": "לא ניתן לטעון את השיחה של המשתמש:",
+  "messenger.error.userSearch": "לא ניתן לחפש משתמשים.",
+  "messenger.label.inbox": "תיבת דואר נכנס",
+  "messenger.label.message": "הודעה",
+  "messenger.label.newMessage": "הודעה חדשה",
+  "messenger.label.users": "משתמשים",
+  "messenger.placeholder.enterMessage": "נא להזין הודעה...",
+  "messenger.placeholder.searchUsers": "חיפוש משתמשים",
+  "messenger.placeholder.select": "בחירה",
+  "messenger.placeholder.typeMessage": "נא להקליד את הודעתך...",
+  "messenger.success.sendMessage": "ההודעה נשלחה.",
+  "messenger.success.sendMessages": "הודעות נשלחו."
 }

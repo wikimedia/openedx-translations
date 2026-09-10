@@ -1,14 +1,6 @@
-# Translation of WikiLearn - Indigo theme (backend) to Dutch (Nederlands)
-# Exported from translatewiki.net
-#
-# Author: Siebrand
-# --
-# This file is part of the WikiLearn Project
-# This file is distributed under the same license as the WikiLearn package.
 #
 msgid ""
 msgstr ""
-""
 "Project-Id-Version: WikiLearn - Indigo theme (backend)\n"
 "Report-Msgid-Bugs-To: translatewiki.net\n"
 "POT-Creation-Date: 2026-01-20 19:48+0000\n"
@@ -25,8 +17,23 @@ msgstr ""
 "X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
 
 #: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
-msgid "WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning platform for the Wikimedia movement. It offers a comprehensive range of self-paced and instructor-led courses aimed at capacity building and leadership development within the Wikimedia community. Courses on WikiLearn are collaboratively developed by and for Wikimedians with a commitment to accessibility and diversity. For inquiries, contact the Community Development team at "
-msgstr "WikiLearn, dat is ondergebracht bij de Wikimedia Foundation, is een toegewijd onderwijsplatform voor de Wikimedia-beweging. Het biedt een uitgebreid scala aan cursussen in eigen tempo en onder leiding van een instructeur, gericht op capaciteitsopbouw en leiderschapsontwikkeling binnen de Wikimedia-gemeenschap. De cursussen op WikiLearn worden gezamenlijk ontwikkeld door en voor Wikimedianen die zich inzetten voor toegankelijkheid en diversiteit. Voor vragen kunt u contact opnemen met het Community Development-team via "
+msgid ""
+"WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning "
+"platform for the Wikimedia movement. It offers a comprehensive range of "
+"self-paced and instructor-led courses aimed at capacity building and "
+"leadership development within the Wikimedia community. Courses on WikiLearn "
+"are collaboratively developed by and for Wikimedians with a commitment to "
+"accessibility and diversity. For inquiries, contact the Community "
+"Development team at "
+msgstr ""
+"WikiLearn, dat is ondergebracht bij de Wikimedia Foundation, is een "
+"toegewijd onderwijsplatform voor de Wikimedia-beweging. Het biedt een "
+"uitgebreid scala aan cursussen in eigen tempo en onder leiding van een "
+"instructeur, gericht op capaciteitsopbouw en leiderschapsontwikkeling binnen"
+" de Wikimedia-gemeenschap. De cursussen op WikiLearn worden gezamenlijk "
+"ontwikkeld door en voor Wikimedianen die zich inzetten voor toegankelijkheid"
+" en diversiteit. Voor vragen kunt u contact opnemen met het Community "
+"Development-team via "
 
 #: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
 msgid "Discover courses"
@@ -61,8 +68,12 @@ msgid "19 April 2021"
 msgstr "19 april 2021"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:92
-msgid "Wikipedia readers in Latin America invited to support 20 years of free knowledge through new fundraising campaign"
-msgstr "Wikipedia-lezers in Latijns-Amerika zijn uitgenodigd om 20 jaar gratis kennis te ondersteunen door middel van een nieuwe fondsenwervingscampagne"
+msgid ""
+"Wikipedia readers in Latin America invited to support 20 years of free "
+"knowledge through new fundraising campaign"
+msgstr ""
+"Wikipedia-lezers in Latijns-Amerika zijn uitgenodigd om 20 jaar gratis "
+"kennis te ondersteunen door middel van een nieuwe fondsenwervingscampagne"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:95
 msgid "By Pats Pena"
@@ -127,12 +138,10 @@ msgid "Remaining"
 msgstr "Resterend"
 
 #: tutorindigo/templates/indigo/lms/templates/discovery/course_card.underscore:26
-#, python-format
 msgid "Starts: %(start_date)s"
 msgstr "Begint: %(start_date)s"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:17
-#, python-brace-format
 msgid "Sign in to continue learning as {email}"
 msgstr "Meld u aan om verder te leren als {email}"
 
@@ -141,19 +150,25 @@ msgid "Sign in to continue learning"
 msgstr "Meld u aan om verder te leren"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:22
-#, python-brace-format
-msgid "You already have an edX account with your {enterprise_name} email address."
+msgid ""
+"You already have an edX account with your {enterprise_name} email address."
 msgstr "U hebt al een edX-account met uw e-mailadres van {enterprise_name}."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:24
-#, python-brace-format
-msgid "Going forward, your account information will be updated and maintained by {enterprise_name}."
-msgstr "Uw accountgegevens worden voortaan bijgewerkt en beheerd door {enterprise_name}."
+msgid ""
+"Going forward, your account information will be updated and maintained by "
+"{enterprise_name}."
+msgstr ""
+"Uw accountgegevens worden voortaan bijgewerkt en beheerd door "
+"{enterprise_name}."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:26
-#, python-brace-format
-msgid "You can view your information or unlink from {enterprise_name} anytime in your Account Settings."
-msgstr "U kunt uw gegevens op elk gewenst moment bekijken of de koppeling met {enterprise_name} verbreken via uw accountinstellingen."
+msgid ""
+"You can view your information or unlink from {enterprise_name} anytime in "
+"your Account Settings."
+msgstr ""
+"U kunt uw gegevens op elk gewenst moment bekijken of de koppeling met "
+"{enterprise_name} verbreken via uw accountinstellingen."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:28
 msgid "To continue learning with this account, sign in below."
@@ -164,8 +179,12 @@ msgid "Sign In with"
 msgstr "Aanmelden met"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:37
-msgid "Sign in here using your email address and password, or use one of the providers listed below."
-msgstr "Meld u hier aan met uw e-mailadres en wachtwoord, of gebruik een van de onderstaande diensten."
+msgid ""
+"Sign in here using your email address and password, or use one of the "
+"providers listed below."
+msgstr ""
+"Meld u hier aan met uw e-mailadres en wachtwoord, of gebruik een van de "
+"onderstaande diensten."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:39
 msgid "Sign in here using your email address and password."
@@ -173,7 +192,9 @@ msgstr "Meld u hier aan met uw e-mailadres en wachtwoord."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:41
 msgid "If you do not yet have an account, use the button below to register."
-msgstr "Als u nog geen account hebt, gebruik dan de onderstaande knop om u te registreren."
+msgstr ""
+"Als u nog geen account hebt, gebruik dan de onderstaande knop om u te "
+"registreren."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:46
 msgid "Use my university info"
@@ -189,7 +210,6 @@ msgstr "Aanmelden met"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:75
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:102
-#, python-format
 msgid "Sign in with %(providerName)s"
 msgstr "Aanmelden met %(providerName)s"
 
@@ -206,8 +226,15 @@ msgid "Create Your Account via Meta-Wiki"
 msgstr "Maak uw account aan via Meta-Wiki"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
-msgid "It's quick and easy! Make sure to use a valid email to unlock all courses and content. This helps ensure you can recover your account if you forget your password or encounter login issues."
-msgstr "Het is snel en gemakkelijk! Zorg ervoor dat u een geldig e-mailadres gebruikt om alle cursussen en inhoud te ontgrendelen. Dit zorgt ervoor dat u uw account kunt herstellen als u uw wachtwoord vergeet of aanmeldproblemen ondervindt."
+msgid ""
+"It's quick and easy! Make sure to use a valid email to unlock all courses "
+"and content. This helps ensure you can recover your account if you forget "
+"your password or encounter login issues."
+msgstr ""
+"Het is snel en gemakkelijk! Zorg ervoor dat u een geldig e-mailadres "
+"gebruikt om alle cursussen en inhoud te ontgrendelen. Dit zorgt ervoor dat u"
+" uw account kunt herstellen als u uw wachtwoord vergeet of aanmeldproblemen "
+"ondervindt."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
 msgid "You can see this"
@@ -222,11 +249,14 @@ msgid "in case you need more help"
 msgstr "als u meer hulp nodig hebt"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:111
-msgid "Tip: Did you know WikiLearn is available in multiple languages? Check the menu in the top right to switch to yours!"
-msgstr "Tip: Wist u dat WikiLearn in meerdere talen beschikbaar is? Ga naar het menu rechtsboven om uw eigen taal te selecteren!"
+msgid ""
+"Tip: Did you know WikiLearn is available in multiple languages? Check the "
+"menu in the top right to switch to yours!"
+msgstr ""
+"Tip: Wist u dat WikiLearn in meerdere talen beschikbaar is? Ga naar het menu"
+" rechtsboven om uw eigen taal te selecteren!"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:6
-#, python-brace-format
 msgid "Already have an {platformName} account?"
 msgstr "Heeft u al een {platformName}-account?"
 
@@ -235,7 +265,6 @@ msgid "Create an account using"
 msgstr "Maak een account aan met behulp van"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:30
-#, python-format
 msgid "Create account using %(providerName)s."
 msgstr "Maak een account aan met behulp van %(providerName)s."
 
@@ -253,9 +282,9 @@ msgstr "Account aanmaken"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:62
 msgid "Support education research by providing additional information"
-msgstr "Ondersteun onderwijsonderzoek door aanvullende informatie te verstrekken"
+msgstr ""
+"Ondersteun onderwijsonderzoek door aanvullende informatie te verstrekken"
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27
 msgid "Show All Courses"
 msgstr "Alle cursussen weergeven"
-

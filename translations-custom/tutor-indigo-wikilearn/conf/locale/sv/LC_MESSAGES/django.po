@@ -1,13 +1,6 @@
-# Translation of WikiLearn - Indigo theme (backend) to Swedish (svenska)
-# Exported from translatewiki.net
-#
-# --
-# This file is part of the WikiLearn Project
-# This file is distributed under the same license as the WikiLearn package.
 #
 msgid ""
 msgstr ""
-""
 "Project-Id-Version: WikiLearn - Indigo theme (backend)\n"
 "Report-Msgid-Bugs-To: translatewiki.net\n"
 "POT-Creation-Date: 2026-01-20 19:48+0000\n"
@@ -24,7 +17,14 @@ msgstr ""
 "X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
 
 #: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
-msgid "WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning platform for the Wikimedia movement. It offers a comprehensive range of self-paced and instructor-led courses aimed at capacity building and leadership development within the Wikimedia community. Courses on WikiLearn are collaboratively developed by and for Wikimedians with a commitment to accessibility and diversity. For inquiries, contact the Community Development team at "
+msgid ""
+"WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning "
+"platform for the Wikimedia movement. It offers a comprehensive range of "
+"self-paced and instructor-led courses aimed at capacity building and "
+"leadership development within the Wikimedia community. Courses on WikiLearn "
+"are collaboratively developed by and for Wikimedians with a commitment to "
+"accessibility and diversity. For inquiries, contact the Community "
+"Development team at "
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
@@ -60,8 +60,12 @@ msgid "19 April 2021"
 msgstr "19 april 2021"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:92
-msgid "Wikipedia readers in Latin America invited to support 20 years of free knowledge through new fundraising campaign"
-msgstr "Wikipedias läsare i Latinamerika inbjuds stödja 20 år av fri kunskap i en ny insamlingskampanj"
+msgid ""
+"Wikipedia readers in Latin America invited to support 20 years of free "
+"knowledge through new fundraising campaign"
+msgstr ""
+"Wikipedias läsare i Latinamerika inbjuds stödja 20 år av fri kunskap i en ny"
+" insamlingskampanj"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:95
 msgid "By Pats Pena"
@@ -126,12 +130,10 @@ msgid "Remaining"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/discovery/course_card.underscore:26
-#, python-format
 msgid "Starts: %(start_date)s"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:17
-#, python-brace-format
 msgid "Sign in to continue learning as {email}"
 msgstr ""
 
@@ -140,18 +142,20 @@ msgid "Sign in to continue learning"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:22
-#, python-brace-format
-msgid "You already have an edX account with your {enterprise_name} email address."
+msgid ""
+"You already have an edX account with your {enterprise_name} email address."
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:24
-#, python-brace-format
-msgid "Going forward, your account information will be updated and maintained by {enterprise_name}."
+msgid ""
+"Going forward, your account information will be updated and maintained by "
+"{enterprise_name}."
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:26
-#, python-brace-format
-msgid "You can view your information or unlink from {enterprise_name} anytime in your Account Settings."
+msgid ""
+"You can view your information or unlink from {enterprise_name} anytime in "
+"your Account Settings."
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:28
@@ -163,7 +167,9 @@ msgid "Sign In with"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:37
-msgid "Sign in here using your email address and password, or use one of the providers listed below."
+msgid ""
+"Sign in here using your email address and password, or use one of the "
+"providers listed below."
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:39
@@ -188,7 +194,6 @@ msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:75
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:102
-#, python-format
 msgid "Sign in with %(providerName)s"
 msgstr ""
 
@@ -205,7 +210,10 @@ msgid "Create Your Account via Meta-Wiki"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
-msgid "It's quick and easy! Make sure to use a valid email to unlock all courses and content. This helps ensure you can recover your account if you forget your password or encounter login issues."
+msgid ""
+"It's quick and easy! Make sure to use a valid email to unlock all courses "
+"and content. This helps ensure you can recover your account if you forget "
+"your password or encounter login issues."
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
@@ -221,11 +229,12 @@ msgid "in case you need more help"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:111
-msgid "Tip: Did you know WikiLearn is available in multiple languages? Check the menu in the top right to switch to yours!"
+msgid ""
+"Tip: Did you know WikiLearn is available in multiple languages? Check the "
+"menu in the top right to switch to yours!"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:6
-#, python-brace-format
 msgid "Already have an {platformName} account?"
 msgstr ""
 
@@ -234,7 +243,6 @@ msgid "Create an account using"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:30
-#, python-format
 msgid "Create account using %(providerName)s."
 msgstr ""
 
@@ -257,4 +265,3 @@ msgstr ""
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27
 msgid "Show All Courses"
 msgstr ""
-

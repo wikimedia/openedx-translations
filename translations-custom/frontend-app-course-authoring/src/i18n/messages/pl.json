@@ -1,10 +1,10 @@
 {
-	"@metadata": {
-		"authors": [
-			"PanWor"
-		]
-	},
-	"authoring.schedule.course-direction.confirmation-modal.confirm": "Tak, zaktualizuj flagę",
-	"authoring.schedule.course-direction.confirmation-modal.title": "Zmiany nie można cofnąć.",
-	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Bloki mapy"
+  "@metadata": {
+    "authors": [
+      "PanWor"
+    ]
+  },
+  "authoring.schedule.course-direction.confirmation-modal.confirm": "Tak, zaktualizuj flagę",
+  "authoring.schedule.course-direction.confirmation-modal.title": "Zmiany nie można cofnąć.",
+  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Bloki mapy"
 }

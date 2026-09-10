@@ -1,24 +1,24 @@
 {
-	"@metadata": {
-		"authors": []
-	},
-	"messenger.button.send": "Senden",
-	"messenger.button.reply": "Antworten",
-	"messenger.button.newMessage": "Neue Nachricht",
-	"messenger.placeholder.typeMessage": "Gib deine Nachricht ein...",
-	"messenger.placeholder.enterMessage": "Nachricht eingeben ...",
-	"messenger.placeholder.searchUsers": "Nach Benutzer suchen",
-	"messenger.placeholder.select": "Auswählen",
-	"messenger.label.inbox": "Posteingang",
-	"messenger.label.message": "Nachricht",
-	"messenger.label.newMessage": "Neue Nachricht",
-	"messenger.label.users": "Benutzer",
-	"messenger.success.sendMessage": "Die Nachricht wurde gesendet.",
-	"messenger.success.sendMessages": "Die Nachricht(en) wurde(n) gesendet.",
-	"messenger.error.sendMessage": "Fehler beim Senden der Nachricht. Bitte versuche es noch einmal!",
-	"messenger.error.sendMessages": "Fehler beim Senden von Nachrichten. Bitte versuche es noch einmal!",
-	"messenger.error.readMessages": "Fehler bei der Markierung gelesener Nachrichten.",
-	"messenger.error.loadConversation": "Konversationen können nicht geladen werden.",
-	"messenger.error.userConversation": "Konversation des Benutzers kann nicht geladen werden:",
-	"messenger.error.userSearch": "Benutzer können nicht gesucht werden."
+  "@metadata": {
+    "authors": []
+  },
+  "messenger.button.newMessage": "Neue Nachricht",
+  "messenger.button.reply": "Antworten",
+  "messenger.button.send": "Senden",
+  "messenger.error.loadConversation": "Konversationen können nicht geladen werden.",
+  "messenger.error.readMessages": "Fehler bei der Markierung gelesener Nachrichten.",
+  "messenger.error.sendMessage": "Fehler beim Senden der Nachricht. Bitte versuche es noch einmal!",
+  "messenger.error.sendMessages": "Fehler beim Senden von Nachrichten. Bitte versuche es noch einmal!",
+  "messenger.error.userConversation": "Konversation des Benutzers kann nicht geladen werden:",
+  "messenger.error.userSearch": "Benutzer können nicht gesucht werden.",
+  "messenger.label.inbox": "Posteingang",
+  "messenger.label.message": "Nachricht",
+  "messenger.label.newMessage": "Neue Nachricht",
+  "messenger.label.users": "Benutzer",
+  "messenger.placeholder.enterMessage": "Nachricht eingeben ...",
+  "messenger.placeholder.searchUsers": "Nach Benutzer suchen",
+  "messenger.placeholder.select": "Auswählen",
+  "messenger.placeholder.typeMessage": "Gib deine Nachricht ein...",
+  "messenger.success.sendMessage": "Die Nachricht wurde gesendet.",
+  "messenger.success.sendMessages": "Die Nachricht(en) wurde(n) gesendet."
 }

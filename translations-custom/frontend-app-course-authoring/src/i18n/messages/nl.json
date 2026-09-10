@@ -1,34 +1,32 @@
 {
-	"@metadata": {
-		"authors": [
-			"Siebrand"
-		]
-	},
-	"authoring.details.topic.empty": "Selecteer een onderwerp",
-	"authoring.details.topic.help": "Kies het primaire onderwerp voor deze cursus",
-	"authoring.details.topic.label": "Cursusonderwerp",
-	"authoring.schedule.course-direction.confirmation-modal.cancel": "Annuleren",
-	"authoring.schedule.course-direction.confirmation-modal.confirm": "Ja, markering bijwerken",
-	"authoring.schedule.course-direction.confirmation-modal.message": "Weet u zeker dat u de markering wilt bijwerken? Deze kan niet opnieuw worden teruggedraaid.",
-	"authoring.schedule.course-direction.confirmation-modal.title": "De wijziging kan niet worden teruggedraaid.",
-	"authoring.schedule.course-direction.description": "Cursus omzetten in bron",
-	"authoring.schedule.course-direction.disabled-tip": "Optie is uitgeschakeld omdat de cursus geen vertaalde herhaling is.",
-	"authoring.schedule.course-direction.title": "Markering cursusrichting",
-	"authoring.videoeditor.license.creativeCommons.shareAlike.text": "CC-by-sa 4.0",
-	"course-authoring.course-outline.card.button.edit.disable.tooltip": "Dit object is toegevoegd vanuit een bibliotheek en kan daarom niet worden bewerkt.",
-	"course-authoring.course-outline.card.edit.cancel.button": "Annuleren",
-	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Blokken toewijzen",
-	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Toewijzing cursusblokken",
-	"course-authoring.course-unit.alert.read-only.link.text": "bibliotheek",
-	"course-authoring.course-unit.alert.read-only.text": "Dit onderdeel kan alleen worden bewerkt vanuit de {link}.",
-	"course-authoring.course-unit.modal.video-title.text": "Video selecteren",
-	"course-authoring.create-or-rerun-course.language.label": "Cursustaal",
-	"course-authoring.create-or-rerun-course.language.no-options": "Geen taalopties beschikbaar",
-	"course-authoring.create-or-rerun-course.language.placeholder": "Selecteer een taal",
-	"course-authoring.create-or-rerun-course.language.required.error": "Selecteer een taal voor de vertaalde herhaling.",
-	"course-authoring.create-or-rerun-course.translation-options.help-text": "Kies of u een standaardherhaling of een vertaalde herhaling wilt aanmaken. Met een vertaalde herhaling kunt u een versie van de cursus in een andere taal aanmaken.",
-	"course-authoring.create-or-rerun-course.translation-options.label": "Type herhaling",
-	"course-authoring.create-or-rerun-course.translation-options.standard.label": "Basisherhaling",
-	"course-authoring.create-or-rerun-course.translation-options.translated.label": "Herhaling vertaalde cursus",
-	"course-authoring.schedule-section.creativeCommons.shareAlike.text": "CC-by-sa 4.0"
+  "@metadata": {
+    "authors": [
+      "Siebrand"
+    ]
+  },
+  "authoring.details.topic.empty": "Selecteer een onderwerp",
+  "authoring.details.topic.help": "Kies het primaire onderwerp voor deze cursus",
+  "authoring.details.topic.label": "Cursusonderwerp",
+  "authoring.schedule.course-direction.confirmation-modal.cancel": "Annuleren",
+  "authoring.schedule.course-direction.confirmation-modal.confirm": "Ja, markering bijwerken",
+  "authoring.schedule.course-direction.confirmation-modal.message": "Weet u zeker dat u de markering wilt bijwerken? Deze kan niet opnieuw worden teruggedraaid.",
+  "authoring.schedule.course-direction.confirmation-modal.title": "De wijziging kan niet worden teruggedraaid.",
+  "authoring.schedule.course-direction.description": "Cursus omzetten in bron",
+  "authoring.schedule.course-direction.disabled-tip": "Optie is uitgeschakeld omdat de cursus geen vertaalde herhaling is.",
+  "authoring.schedule.course-direction.title": "Markering cursusrichting",
+  "course-authoring.course-outline.card.button.edit.disable.tooltip": "Dit object is toegevoegd vanuit een bibliotheek en kan daarom niet worden bewerkt.",
+  "course-authoring.course-outline.card.edit.cancel.button": "Annuleren",
+  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Blokken toewijzen",
+  "course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Toewijzing cursusblokken",
+  "course-authoring.course-unit.alert.read-only.link.text": "bibliotheek",
+  "course-authoring.course-unit.alert.read-only.text": "Dit onderdeel kan alleen worden bewerkt vanuit de {link}.",
+  "course-authoring.course-unit.modal.video-title.text": "Video selecteren",
+  "course-authoring.create-or-rerun-course.language.label": "Cursustaal",
+  "course-authoring.create-or-rerun-course.language.no-options": "Geen taalopties beschikbaar",
+  "course-authoring.create-or-rerun-course.language.placeholder": "Selecteer een taal",
+  "course-authoring.create-or-rerun-course.language.required.error": "Selecteer een taal voor de vertaalde herhaling.",
+  "course-authoring.create-or-rerun-course.translation-options.help-text": "Kies of u een standaardherhaling of een vertaalde herhaling wilt aanmaken. Met een vertaalde herhaling kunt u een versie van de cursus in een andere taal aanmaken.",
+  "course-authoring.create-or-rerun-course.translation-options.label": "Type herhaling",
+  "course-authoring.create-or-rerun-course.translation-options.standard.label": "Basisherhaling",
+  "course-authoring.create-or-rerun-course.translation-options.translated.label": "Herhaling vertaalde cursus"
 }

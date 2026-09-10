@@ -33,6 +33,11 @@ REPO_MERGE_CONFIG = {
 # message group reads the empty msgstr values and comes out empty.
 EN_PLURAL_FORMS = "nplurals=2; plural=(n != 1);"
 
+# xgettext wraps at 79 columns; polib defaults to 78. The English files the
+# normalization sweep touches come straight from extraction, so re-saving them at
+# polib's default would rewrap the whole file and bury the real change in noise.
+PO_WRAPWIDTH = 79
+
 
 def ensure_directory(path):
     if not os.path.exists(path):
@@ -58,6 +63,67 @@ def mark_as_source_template(po):
 def mark_as_translation(po):
     """Ensure a non-English .po is never flagged as a template."""
     po.metadata_is_fuzzy = []
+
+
+def is_en_source_template(path):
+    """True for an English gettext source template, i.e. `.../locale/en/LC_MESSAGES/*.po`."""
+    parts = Path(path).parts
+    if not str(path).endswith(".po") or "LC_MESSAGES" not in parts:
+        return False
+    lc_index = parts.index("LC_MESSAGES")
+    return lc_index > 0 and parts[lc_index - 1] == "en"
+
+
+def normalize_en_source_templates(base_dir):
+    """Guarantee every English .po under base_dir is a valid source template.
+
+    Many code paths write English .po files - process_po_diff, the new-repo
+    shutil.copy in update_custom_layer, and the copy/merge paths in merge_final -
+    and a raw copy inherits whatever the extractor happened to emit. xgettext is
+    not consistent here: openedx-wikilearn-features ships django.po WITH the
+    header fuzzy flag and djangojs.po WITHOUT it, so the new-repo copy silently
+    dropped the flag from djangojs.po and emptied its group on translatewiki.net.
+
+    Marking each write site individually keeps regressing as paths are added, so
+    normalize once at the end instead, after everything else has been written.
+    Only English files are considered - flagging a real translation as fuzzy would
+    tell Translate its strings are unreviewed, which is the opposite problem.
+
+    Call this on CUSTOM_DIR only, never on FINAL_DIR: the final bundle is mostly
+    Atlas passthrough and sweeping it rewrites ~30 upstream English templates this
+    fork does not own.
+
+    Returns the number of files changed.
+    """
+    marked = 0
+    for po_path in sorted(base_dir.glob("**/*.po")):
+        if not is_en_source_template(po_path):
+            continue
+
+        try:
+            po = polib.pofile(po_path, wrapwidth=PO_WRAPWIDTH)
+        except Exception as e:
+            print(f"  WARNING: cannot read English source {po_path}: {e}")
+            continue
+
+        # Mirror mark_as_source_template's own conditions so an already-correct
+        # file is left untouched - polib rewrites (and rewraps) on every save.
+        plural_forms = po.metadata.get('Plural-Forms', '')
+        needs_plural = not plural_forms or 'INTEGER' in plural_forms or 'EXPRESSION' in plural_forms
+        if po.metadata_is_fuzzy and not needs_plural:
+            continue
+
+        mark_as_source_template(po)
+        po.save(po_path)
+        marked += 1
+        print(f"  Marked as source template: {po_path.relative_to(base_dir)}")
+
+    if marked:
+        print(f"  Normalized {marked} English source template(s)")
+    else:
+        print("  All English source templates already marked")
+
+    return marked
 
 
 def get_msgids(po_file_path):
@@ -231,6 +297,11 @@ def update_custom_layer(extracted_dir):
     # PO files are untouched (an empty msgstr already falls back to the msgid).
     print("--- Enforcing absence convention on custom MFE files ---")
     strip_untranslated_mfe_translations(CUSTOM_DIR)
+
+    # Last step: re-assert the source-template flag on English .po files. Some
+    # write paths above copy extractor output verbatim, which may not carry it.
+    print("--- Normalizing English source templates ---")
+    normalize_en_source_templates(CUSTOM_DIR)
 
 
 def create_or_update_po_placeholders(extracted_file, rel_path, supported_langs):
@@ -915,6 +986,12 @@ def merge_final():
     # Enforce the absence convention on the final MFE files: untranslated strings
     # are absent (the app falls back to its built-in English source), not empty.
     strip_untranslated_mfe_translations()
+
+    # NOTE: deliberately no normalize_en_source_templates(FINAL_DIR) here. The
+    # final bundle is mostly Atlas passthrough, and sweeping it rewrites ~30
+    # upstream English templates that openedx/openedx-translations owns. Custom-only
+    # repos need no sweep either: their final file is copied straight from the
+    # already-normalized custom layer above, so the flag comes along with it.
 
     # Print summary of merged repos
     merged_repos = [f"{src} → {config['merge_into']}" for src, config in REPO_MERGE_CONFIG.items()]

@@ -11,9 +11,17 @@ import textwrap
 import traceback
 
 import i18n.validate
+import polib
 
 # Languages to exclude from validation
 EXCLUDE_LANGUAGES = {'qqq'}
+
+# Directories whose English source templates this fork owns and publishes to
+# translatewiki.net, so their header fuzzy flag is ours to enforce. The English
+# files Atlas pulls into translations/ are upstream passthrough - their headers
+# belong to openedx/openedx-translations and many legitimately lack the flag, so
+# checking them there would just fail the build on files we do not maintain.
+EN_SOURCE_TEMPLATE_DIRS = {'translations-custom'}
 
 def get_translation_files(translation_directory):
     """
@@ -38,6 +46,59 @@ def get_translation_files(translation_directory):
                     po_files.append(pofile_path)
 
     return po_files
+
+
+def get_en_source_templates(translation_directory):
+    """
+    List all English source template '*.po' files, i.e. `.../en/LC_MESSAGES/*.po`.
+
+    These are deliberately excluded from `get_translation_files` (msgfmt has
+    nothing useful to say about a file with no translations), but they still need
+    the source-template check below.
+    """
+    po_files = []
+    marker = f'{os.sep}en{os.sep}LC_MESSAGES{os.sep}'
+    for root, _dirs, files in os.walk(translation_directory):
+        for file_name in files:
+            pofile_path = os.path.join(root, file_name)
+            if file_name.endswith('.po') and marker in pofile_path:
+                po_files.append(pofile_path)
+
+    return po_files
+
+
+def validate_en_source_template(po_file):
+    """
+    Check that an English '.po' carries the header fuzzy flag.
+
+    translatewiki.net's Translate extension only reads source strings from msgid
+    when the header entry is flagged fuzzy. Without it the message group reads the
+    empty msgstr values and renders as empty, so a missing flag is a silently
+    broken group rather than a cosmetic issue. The sync applies this via
+    `mark_as_source_template` / `normalize_en_source_templates` in
+    scripts/wikimedia_workflow_logic.py.
+    """
+    try:
+        po = polib.pofile(po_file)
+    except Exception as e:
+        return {
+            'valid': False,
+            'output': f'Cannot parse English source file: {e}\n',
+        }
+
+    if not po.metadata_is_fuzzy:
+        return {
+            'valid': False,
+            'output': (
+                'Missing the "#, fuzzy" header flag on an English source template.\n'
+                'translatewiki.net renders such a message group as empty.\n'
+                'Fix: run the update_custom step of scripts/wikimedia_workflow_logic.py\n'
+                '(its final normalize_en_source_templates pass adds the flag), or add\n'
+                'the "#, fuzzy" line above the header msgid by hand.\n'
+            ),
+        }
+
+    return {'valid': True, 'output': ''}
 
 
 def validate_translation_file(po_file):
@@ -87,9 +148,14 @@ def validate_translation_file(po_file):
     }
 
 
-def validate_directory(translations_dir):
+def validate_directory(translations_dir, check_en_templates=False):
     """
     Validate all translation files in a single directory.
+
+    `check_en_templates` additionally checks English source templates for the
+    header fuzzy flag. Only enable it for directories this fork owns - see
+    EN_SOURCE_TEMPLATE_DIRS.
+
     Returns tuple: (all_valid, invalid_lines)
     """
     translations_valid = True
@@ -97,8 +163,9 @@ def validate_directory(translations_dir):
     invalid_lines = []
 
     po_files = get_translation_files(translations_dir)
+    en_source_files = get_en_source_templates(translations_dir) if check_en_templates else []
 
-    if not po_files:
+    if not po_files and not en_source_files:
         print(f'No translation files found in: {translations_dir}')
         return translations_valid, invalid_lines
 
@@ -114,6 +181,16 @@ def validate_directory(translations_dir):
             print(result['output'], '\n' * 2)
         else:
             invalid_lines.append('INVALID: ' + po_file)
+            invalid_lines.append(result['output'] + '\n' * 2)
+            translations_valid = False
+
+    for po_file in en_source_files:
+        result = validate_en_source_template(po_file)
+
+        if result['valid']:
+            print('VALID (en source template): ' + po_file)
+        else:
+            invalid_lines.append('INVALID (en source template): ' + po_file)
             invalid_lines.append(result['output'] + '\n' * 2)
             translations_valid = False
 
@@ -144,7 +221,8 @@ def validate_translation_files(
             print(f'Directory not found, skipping: {translations_dir}')
             continue
 
-        dir_valid, invalid_lines = validate_directory(translations_dir)
+        check_en_templates = os.path.basename(translations_dir.rstrip(os.sep)) in EN_SOURCE_TEMPLATE_DIRS
+        dir_valid, invalid_lines = validate_directory(translations_dir, check_en_templates)
 
         if not dir_valid:
             all_valid = False

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: WikiLearn - Features (backend)\n"
 "Report-Msgid-Bugs-To: translatewiki.net\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2026-09-07 12:31:21+0000\n"
+"PO-Revision-Date: 2026-09-10 12:08:35+0000\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
 "Language: qqq\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-POT-Import-Date: 2026-08-20 11:26:11+0000\n"
+"X-POT-Import-Date: 2026-09-09 08:30:53+0000\n"
 "X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
 "X-Generator: MediaWiki 1.47.0-alpha; Translate 2025-07-31\n"
 
@@ -38,8 +38,8 @@ msgstr ""
 
 #: admin_dashboard/admin_task/api.py:117
 #: admin_dashboard/admin_task/api_helper.py:106
-#: admin_dashboard/admin_task/api.py:117
 #: admin_dashboard/admin_task/api_helper.py:106
+#: admin_dashboard/admin_task/api.py:117
 msgid "grade"
 msgstr ""
 
@@ -53,8 +53,8 @@ msgstr ""
 
 #: admin_dashboard/admin_task/api.py:225
 #: admin_dashboard/admin_task/api_helper.py:101
-#: admin_dashboard/admin_task/api.py:225
 #: admin_dashboard/admin_task/api_helper.py:101
+#: admin_dashboard/admin_task/api.py:225
 msgid "enrollment"
 msgstr ""
 
@@ -66,9 +66,10 @@ msgstr ""
 msgid "all_users_enrollment"
 msgstr ""
 
-#: admin_dashboard/admin_task/api.py:299 admin_dashboard/admin_task/api.py:299
+#: admin_dashboard/admin_task/api.py:299
 #: admin_dashboard/tests/admin_reports/test_enrollment_activity.py:40
 #: admin_dashboard/tests/admin_reports/test_enrollment_activity.py:50
+#: admin_dashboard/admin_task/api.py:299
 msgid "enrollment_acctivity_report"
 msgstr ""
 
@@ -512,9 +513,8 @@ msgstr ""
 msgid "Programs"
 msgstr ""
 
-#: wikimedia_general/api/v0/utils.py:71
+#: wikimedia_general/api/v0/utils.py:71 wikimedia_general/api/v0/utils.py:71
 #: admin_dashboard/templates/admin_dashboard/course-reports.html:16
-#: wikimedia_general/api/v0/utils.py:71
 msgid "Reports"
 msgstr ""
 
@@ -577,8 +577,8 @@ msgstr ""
 msgid "%(platform_name)s -> %(mentioned_by)s mentioned you on the post."
 msgstr ""
 
-#: meta_translations/templates/discover_courses.html:11
 #: meta_translations/templates/translations.html:11
+#: meta_translations/templates/discover_courses.html:11
 #, python-brace-format
 msgid "{studio_name} Home"
 msgstr ""

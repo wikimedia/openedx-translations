@@ -1,9 +1,9 @@
 {
-  "@metadata": {
-    "authors": []
-  },
-  "authoring.schedule.course-direction.confirmation-modal.confirm": "हां, फ्लैग अपडेट करें",
-  "authoring.schedule.course-direction.description": "पाठ्यक्रम को स्रोत में बदलें",
-  "authoring.schedule.course-direction.title": "पाठ्यक्रम दिशा ध्वज",
-  "course-authoring.create-or-rerun-course.translation-options.translated.label": "अनुवादित पाठ्यक्रम पुनः चलाया गया"
+	"@metadata": {
+		"authors": []
+	},
+	"authoring.schedule.course-direction.confirmation-modal.confirm": "हां, फ्लैग अपडेट करें",
+	"authoring.schedule.course-direction.description": "पाठ्यक्रम को स्रोत में बदलें",
+	"authoring.schedule.course-direction.title": "पाठ्यक्रम दिशा ध्वज",
+	"course-authoring.create-or-rerun-course.translation-options.translated.label": "अनुवादित पाठ्यक्रम पुनः चलाया गया"
 }

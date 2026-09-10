@@ -1,10 +1,17 @@
+# Translation of WikiLearn - Indigo theme (backend) to Arabic (العربية)
+# Exported from translatewiki.net
+#
+# --
+# This file is part of the WikiLearn Project
+# This file is distributed under the same license as the WikiLearn package.
 #
 msgid ""
 msgstr ""
+""
 "Project-Id-Version: WikiLearn - Indigo theme (backend)\n"
 "Report-Msgid-Bugs-To: translatewiki.net\n"
 "POT-Creation-Date: 2026-01-20 19:48+0000\n"
-"PO-Revision-Date: 2026-09-07 12:31:20+0000\n"
+"PO-Revision-Date: 2026-09-10 12:08:34+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
@@ -13,18 +20,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ( (n == 1) ? 1 : ( (n == 2) ? 2 : ( (n%100 >= 3 && n%100 <= 10) ? 3 : ( (n%100 >= 11 && n%100 <= 99) ? 4 : 5 ) ) ) );\n"
 "X-Generator: MediaWiki 1.47.0-alpha; Translate 2025-07-31\n"
-"X-POT-Import-Date: 2026-08-28 15:24:55+0000\n"
+"X-POT-Import-Date: 2026-09-09 08:30:54+0000\n"
 "X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
 
 #: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
-msgid ""
-"WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning "
-"platform for the Wikimedia movement. It offers a comprehensive range of "
-"self-paced and instructor-led courses aimed at capacity building and "
-"leadership development within the Wikimedia community. Courses on WikiLearn "
-"are collaboratively developed by and for Wikimedians with a commitment to "
-"accessibility and diversity. For inquiries, contact the Community "
-"Development team at "
+msgid "WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning platform for the Wikimedia movement. It offers a comprehensive range of self-paced and instructor-led courses aimed at capacity building and leadership development within the Wikimedia community. Courses on WikiLearn are collaboratively developed by and for Wikimedians with a commitment to accessibility and diversity. For inquiries, contact the Community Development team at "
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
@@ -60,9 +60,7 @@ msgid "19 April 2021"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:92
-msgid ""
-"Wikipedia readers in Latin America invited to support 20 years of free "
-"knowledge through new fundraising campaign"
+msgid "Wikipedia readers in Latin America invited to support 20 years of free knowledge through new fundraising campaign"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:95
@@ -128,10 +126,12 @@ msgid "Remaining"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/discovery/course_card.underscore:26
+#, python-format
 msgid "Starts: %(start_date)s"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:17
+#, python-brace-format
 msgid "Sign in to continue learning as {email}"
 msgstr ""
 
@@ -140,20 +140,18 @@ msgid "Sign in to continue learning"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:22
-msgid ""
-"You already have an edX account with your {enterprise_name} email address."
+#, python-brace-format
+msgid "You already have an edX account with your {enterprise_name} email address."
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:24
-msgid ""
-"Going forward, your account information will be updated and maintained by "
-"{enterprise_name}."
+#, python-brace-format
+msgid "Going forward, your account information will be updated and maintained by {enterprise_name}."
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:26
-msgid ""
-"You can view your information or unlink from {enterprise_name} anytime in "
-"your Account Settings."
+#, python-brace-format
+msgid "You can view your information or unlink from {enterprise_name} anytime in your Account Settings."
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:28
@@ -165,9 +163,7 @@ msgid "Sign In with"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:37
-msgid ""
-"Sign in here using your email address and password, or use one of the "
-"providers listed below."
+msgid "Sign in here using your email address and password, or use one of the providers listed below."
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:39
@@ -192,6 +188,7 @@ msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:75
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:102
+#, python-format
 msgid "Sign in with %(providerName)s"
 msgstr ""
 
@@ -208,10 +205,7 @@ msgid "Create Your Account via Meta-Wiki"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
-msgid ""
-"It's quick and easy! Make sure to use a valid email to unlock all courses "
-"and content. This helps ensure you can recover your account if you forget "
-"your password or encounter login issues."
+msgid "It's quick and easy! Make sure to use a valid email to unlock all courses and content. This helps ensure you can recover your account if you forget your password or encounter login issues."
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
@@ -227,12 +221,11 @@ msgid "in case you need more help"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:111
-msgid ""
-"Tip: Did you know WikiLearn is available in multiple languages? Check the "
-"menu in the top right to switch to yours!"
+msgid "Tip: Did you know WikiLearn is available in multiple languages? Check the menu in the top right to switch to yours!"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:6
+#, python-brace-format
 msgid "Already have an {platformName} account?"
 msgstr ""
 
@@ -241,6 +234,7 @@ msgid "Create an account using"
 msgstr ""
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:30
+#, python-format
 msgid "Create account using %(providerName)s."
 msgstr ""
 
@@ -263,3 +257,4 @@ msgstr ""
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27
 msgid "Show All Courses"
 msgstr ""
+

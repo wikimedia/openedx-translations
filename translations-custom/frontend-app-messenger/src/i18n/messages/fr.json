@@ -1,25 +1,25 @@
 {
-  "@metadata": {
-    "authors": [
-      "Wladek92"
-    ]
-  },
-  "messenger.button.newMessage": "Nouveau message",
-  "messenger.button.reply": "Répondre",
-  "messenger.button.send": "Envoyer",
-  "messenger.error.loadConversation": "Impossible de charger les conversations.",
-  "messenger.error.readMessages": "Erreur lors du marquage des messages lus.",
-  "messenger.error.sendMessage": "Erreur lors de l’envoi du message. Veuillez essayer à nouveau !",
-  "messenger.error.sendMessages": "Erreur lors de l’envoi des messages. Veuillez essayer à nouveau !",
-  "messenger.error.userConversation": "Impossible de charger la conversation de l’utilisateur :",
-  "messenger.error.userSearch": "Impossible de rechercher des utilisateurs.",
-  "messenger.label.inbox": "Boîte de réception",
-  "messenger.label.newMessage": "Nouveau message",
-  "messenger.label.users": "Utilisateurs",
-  "messenger.placeholder.enterMessage": "Saisir le message...",
-  "messenger.placeholder.searchUsers": "Rechercher des utilisateurs",
-  "messenger.placeholder.select": "Sélectionner",
-  "messenger.placeholder.typeMessage": "Saisir votre message...",
-  "messenger.success.sendMessage": "Le message a été envoyé.",
-  "messenger.success.sendMessages": "Le(s) message(s) ont été envoyé(s)."
+	"@metadata": {
+		"authors": [
+			"Wladek92"
+		]
+	},
+	"messenger.button.send": "Envoyer",
+	"messenger.button.reply": "Répondre",
+	"messenger.button.newMessage": "Nouveau message",
+	"messenger.placeholder.typeMessage": "Saisir votre message...",
+	"messenger.placeholder.enterMessage": "Saisir le message...",
+	"messenger.placeholder.searchUsers": "Rechercher des utilisateurs",
+	"messenger.placeholder.select": "Sélectionner",
+	"messenger.label.inbox": "Boîte de réception",
+	"messenger.label.newMessage": "Nouveau message",
+	"messenger.label.users": "Utilisateurs",
+	"messenger.success.sendMessage": "Le message a été envoyé.",
+	"messenger.success.sendMessages": "Le(s) message(s) ont été envoyé(s).",
+	"messenger.error.sendMessage": "Erreur lors de l’envoi du message. Veuillez essayer à nouveau !",
+	"messenger.error.sendMessages": "Erreur lors de l’envoi des messages. Veuillez essayer à nouveau !",
+	"messenger.error.readMessages": "Erreur lors du marquage des messages lus.",
+	"messenger.error.loadConversation": "Impossible de charger les conversations.",
+	"messenger.error.userConversation": "Impossible de charger la conversation de l’utilisateur :",
+	"messenger.error.userSearch": "Impossible de rechercher des utilisateurs."
 }

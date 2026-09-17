@@ -1,18 +1,18 @@
 {
-  "@metadata": {
-    "authors": []
-  },
-  "messenger.button.newMessage": "새 메시지",
-  "messenger.button.reply": "답변",
-  "messenger.button.send": "보내기",
-  "messenger.error.loadConversation": "대화를 불러올 수 없습니다.",
-  "messenger.error.sendMessage": "메시지를 보내는 중 오류가 발생했습니다. 다시 시도해 주십시오!",
-  "messenger.label.message": "메시지",
-  "messenger.label.newMessage": "새 메시지",
-  "messenger.label.users": "사용자",
-  "messenger.placeholder.enterMessage": "메시지 입력 ...",
-  "messenger.placeholder.searchUsers": "사용자 검색",
-  "messenger.placeholder.select": "선택",
-  "messenger.placeholder.typeMessage": "메시지를 입력하세요...",
-  "messenger.success.sendMessage": "메시지를 보냈습니다."
+	"@metadata": {
+		"authors": []
+	},
+	"messenger.button.send": "보내기",
+	"messenger.button.reply": "답변",
+	"messenger.button.newMessage": "새 메시지",
+	"messenger.placeholder.typeMessage": "메시지를 입력하세요...",
+	"messenger.placeholder.enterMessage": "메시지 입력 ...",
+	"messenger.placeholder.searchUsers": "사용자 검색",
+	"messenger.placeholder.select": "선택",
+	"messenger.label.message": "메시지",
+	"messenger.label.newMessage": "새 메시지",
+	"messenger.label.users": "사용자",
+	"messenger.success.sendMessage": "메시지를 보냈습니다.",
+	"messenger.error.sendMessage": "메시지를 보내는 중 오류가 발생했습니다. 다시 시도해 주십시오!",
+	"messenger.error.loadConversation": "대화를 불러올 수 없습니다."
 }

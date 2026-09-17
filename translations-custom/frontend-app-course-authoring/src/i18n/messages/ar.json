@@ -1,31 +1,31 @@
 {
-  "@metadata": {
-    "authors": [
-      "Meno25"
-    ]
-  },
-  "authoring.details.topic.empty": "اختر موضوعًا",
-  "authoring.details.topic.help": "اختر الموضوع الرئيسي لهذه الدورة",
-  "authoring.details.topic.label": "موضوع الدورة",
-  "authoring.schedule.course-direction.confirmation-modal.cancel": "إلغاء",
-  "authoring.schedule.course-direction.confirmation-modal.confirm": "نعم، تحديث العلامة",
-  "authoring.schedule.course-direction.confirmation-modal.message": "هل أنت متأكد أنك تريد تحديث العلامة بشكل لا رجعة فيه.",
-  "authoring.schedule.course-direction.confirmation-modal.title": "لا يمكن التراجع عن التغيير.",
-  "authoring.schedule.course-direction.description": "تحويل الدورة إلى المصدر",
-  "authoring.schedule.course-direction.disabled-tip": "تم تعطيل هذا الخيار لأن الدورة ليست إعادة تشغيل مترجمة.",
-  "authoring.schedule.course-direction.title": "علم اتجاه المسار",
-  "course-authoring.course-outline.card.button.edit.disable.tooltip": "تمت إضافة هذا العنصر من مكتبة، لذا لا يمكن تعديله.",
-  "course-authoring.course-outline.card.edit.cancel.button": "إلغاء",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.button": "تعيين الأقسام",
-  "course-authoring.course-outline.status-bar.course-blocks-mapping.title": "تعيين جزء المقرر الدراسي",
-  "course-authoring.course-unit.alert.read-only.link.text": "مكتبة",
-  "course-authoring.course-unit.modal.video-title.text": "اختر الفيديو",
-  "course-authoring.create-or-rerun-course.language.label": "لغة الدورة",
-  "course-authoring.create-or-rerun-course.language.no-options": "لا تتوفر خيارات اللغة",
-  "course-authoring.create-or-rerun-course.language.placeholder": "اختر لغة",
-  "course-authoring.create-or-rerun-course.language.required.error": "يرجى اختيار لغة لإعادة العرض المترجم.",
-  "course-authoring.create-or-rerun-course.translation-options.help-text": "اختر ما إذا كنت تريد إنشاء نسخة عادية أو نسخة مترجمة. تتيح لك النسخة المترجمة إنشاء نسخة من الدورة بلغة مختلفة.",
-  "course-authoring.create-or-rerun-course.translation-options.label": "إعادة تشغيل النوع",
-  "course-authoring.create-or-rerun-course.translation-options.standard.label": "إعادة تشغيل أساسية",
-  "course-authoring.create-or-rerun-course.translation-options.translated.label": "إعادة عرض الدورة التدريبية المترجمة"
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"authoring.details.topic.empty": "اختر موضوعًا",
+	"authoring.details.topic.help": "اختر الموضوع الرئيسي لهذه الدورة",
+	"authoring.details.topic.label": "موضوع الدورة",
+	"authoring.schedule.course-direction.confirmation-modal.cancel": "إلغاء",
+	"authoring.schedule.course-direction.confirmation-modal.confirm": "نعم، تحديث العلامة",
+	"authoring.schedule.course-direction.confirmation-modal.message": "هل أنت متأكد أنك تريد تحديث العلامة بشكل لا رجعة فيه.",
+	"authoring.schedule.course-direction.confirmation-modal.title": "لا يمكن التراجع عن التغيير.",
+	"authoring.schedule.course-direction.description": "تحويل الدورة إلى المصدر",
+	"authoring.schedule.course-direction.disabled-tip": "تم تعطيل هذا الخيار لأن الدورة ليست إعادة تشغيل مترجمة.",
+	"authoring.schedule.course-direction.title": "علم اتجاه المسار",
+	"course-authoring.course-outline.card.button.edit.disable.tooltip": "تمت إضافة هذا العنصر من مكتبة، لذا لا يمكن تعديله.",
+	"course-authoring.course-outline.card.edit.cancel.button": "إلغاء",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "تعيين الأقسام",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "تعيين جزء المقرر الدراسي",
+	"course-authoring.course-unit.alert.read-only.link.text": "مكتبة",
+	"course-authoring.course-unit.modal.video-title.text": "اختر الفيديو",
+	"course-authoring.create-or-rerun-course.language.label": "لغة الدورة",
+	"course-authoring.create-or-rerun-course.language.no-options": "لا تتوفر خيارات اللغة",
+	"course-authoring.create-or-rerun-course.language.placeholder": "اختر لغة",
+	"course-authoring.create-or-rerun-course.language.required.error": "يرجى اختيار لغة لإعادة العرض المترجم.",
+	"course-authoring.create-or-rerun-course.translation-options.help-text": "اختر ما إذا كنت تريد إنشاء نسخة عادية أو نسخة مترجمة. تتيح لك النسخة المترجمة إنشاء نسخة من الدورة بلغة مختلفة.",
+	"course-authoring.create-or-rerun-course.translation-options.label": "إعادة تشغيل النوع",
+	"course-authoring.create-or-rerun-course.translation-options.standard.label": "إعادة تشغيل أساسية",
+	"course-authoring.create-or-rerun-course.translation-options.translated.label": "إعادة عرض الدورة التدريبية المترجمة"
 }

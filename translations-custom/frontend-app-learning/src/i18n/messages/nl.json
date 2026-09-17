@@ -1,7 +1,8 @@
 {
-  "@metadata": {
-    "authors": [
-      "Siebrand"
-    ]
-  }
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"learn.course.license.creativeCommons.shareAlike.text": "CC-by-sa"
 }

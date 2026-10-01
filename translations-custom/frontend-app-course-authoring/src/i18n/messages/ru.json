@@ -1,7 +1,7 @@
 {
-  "@metadata": {
-    "authors": []
-  },
-  "authoring.schedule.course-direction.confirmation-modal.confirm": "Да, обновить флаг",
-  "authoring.schedule.course-direction.confirmation-modal.title": "Правка не может быть отменена."
+	"@metadata": {
+		"authors": []
+	},
+	"authoring.schedule.course-direction.confirmation-modal.confirm": "Да, обновить флаг",
+	"authoring.schedule.course-direction.confirmation-modal.title": "Правка не может быть отменена."
 }

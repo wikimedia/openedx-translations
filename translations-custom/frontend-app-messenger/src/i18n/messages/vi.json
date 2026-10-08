@@ -1,18 +1,18 @@
 {
-  "@metadata": {
-    "authors": []
-  },
-  "messenger.button.newMessage": "Thông điệp mới",
-  "messenger.button.reply": "Trả lời",
-  "messenger.button.send": "Gửi",
-  "messenger.error.userConversation": "Không thể tải cuộc thảo luận của người dùng:",
-  "messenger.error.userSearch": "Không thể tìm kiếm người dùng.",
-  "messenger.label.inbox": "Hộp thư đến",
-  "messenger.label.message": "Thông điệp",
-  "messenger.label.newMessage": "Thông điệp mới",
-  "messenger.label.users": "Người dùng",
-  "messenger.placeholder.enterMessage": "Nhập tin nhắn...",
-  "messenger.placeholder.searchUsers": "Tìm kiếm người dùng",
-  "messenger.placeholder.select": "Chọn",
-  "messenger.success.sendMessage": "Tin nhắn đã được gửi."
+	"@metadata": {
+		"authors": []
+	},
+	"messenger.button.send": "Gửi",
+	"messenger.button.reply": "Trả lời",
+	"messenger.button.newMessage": "Thông điệp mới",
+	"messenger.placeholder.enterMessage": "Nhập tin nhắn...",
+	"messenger.placeholder.searchUsers": "Tìm kiếm người dùng",
+	"messenger.placeholder.select": "Chọn",
+	"messenger.label.inbox": "Hộp thư đến",
+	"messenger.label.message": "Thông điệp",
+	"messenger.label.newMessage": "Thông điệp mới",
+	"messenger.label.users": "Người dùng",
+	"messenger.success.sendMessage": "Tin nhắn đã được gửi.",
+	"messenger.error.userConversation": "Không thể tải cuộc thảo luận của người dùng:",
+	"messenger.error.userSearch": "Không thể tìm kiếm người dùng."
 }

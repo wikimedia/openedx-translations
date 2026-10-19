@@ -1,6 +1,7 @@
 # Translation of WikiLearn - Indigo theme (backend) to Saraiki (Arabic script) (سرائیکی)
 # Exported from translatewiki.net
 #
+# Author: Tauqeerkhansurani
 # --
 # This file is part of the WikiLearn Project
 # This file is distributed under the same license as the WikiLearn package.
@@ -11,29 +12,29 @@ msgstr ""
 "Project-Id-Version: WikiLearn - Indigo theme (backend)\n"
 "Report-Msgid-Bugs-To: translatewiki.net\n"
 "POT-Creation-Date: 2026-01-21 18:20+0000\n"
-"PO-Revision-Date: 2026-09-10 12:08:35+0000\n"
+"PO-Revision-Date: 2026-10-19 13:50:00+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: skr-Arab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-POT-Import-Date: 2026-09-09 08:30:54+0000\n"
+"X-POT-Import-Date: 2026-09-10 14:30:34+0000\n"
 "X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
-"X-Generator: MediaWiki 1.47.0-alpha; Translate 2025-07-31\n"
+"X-Generator: MediaWiki 1.48.0-alpha; Translate 2026-09-08\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
 msgid "WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning platform for the Wikimedia movement. It offers a comprehensive range of self-paced and instructor-led courses aimed at capacity building and leadership development within the Wikimedia community. Courses on WikiLearn are collaboratively developed by and for Wikimedians with a commitment to accessibility and diversity. For inquiries, contact the Community Development team at "
-msgstr ""
+msgstr "وکی لرن، جیہڑا وکی میڈیا فاؤنڈیشن دی میزبانی اچ ہے، وکی میڈیا تحریک کیتے ہک وقف سکھݨ دا پلیٹ فارم ہے۔ ایہ وکی میڈیا کمیونٹی اچ صلاحیت دی تعمیر تے قیادت دی ترقی دے مقصد نال خودرفتار تے انسٹرکٹر دی رہنمائی آلے کورسز دی مکمل رینج پیش کریندا ہے۔ وکی لرن تے کورسز وکی میڈینز نال مل کے تے اوہناں کیتے، رسائی تے تنوع دے عزم نال تیار کیتے ویندے ہن۔ استفسارات کیتے، کمیونٹی ڈویلپمنٹ ٹیم نال رابطہ کرو "
 
 #: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
 msgid "Discover courses"
-msgstr ""
+msgstr "کورسز دریافت کرو"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:16
 msgid "Unlock The World’s Knowledge"
-msgstr ""
+msgstr "دنیا دے علم کوں انلاک کرو"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:65
 msgid "Featured"
@@ -41,7 +42,7 @@ msgstr "خاص"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:66
 msgid "Recently Added"
-msgstr ""
+msgstr "حال اچ شامل تھئے"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:67
 msgid "All Courses"
@@ -49,11 +50,11 @@ msgstr "سارے کورس"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:80
 msgid "See what we have been up to"
-msgstr ""
+msgstr "ݙیکھو اساں کیہڑے کم اچ مصروف رہے آں"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:81
 msgid "View All News >"
-msgstr ""
+msgstr "ساریاں خبراں ݙیکھو >"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:87
 msgid "19 April 2021"
@@ -61,11 +62,11 @@ msgstr "١٩ اپریل ٢٠٢١"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:92
 msgid "Wikipedia readers in Latin America invited to support 20 years of free knowledge through new fundraising campaign"
-msgstr ""
+msgstr "لاطینی امریکہ دے وکیپیڈیا پڑھݨ آلیاں کوں نویں فنڈ ریزنگ مہم دے ذریعے 20 سالاں دے مفت علم دی حمایت دی دعوت ݙتی ڳئی"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:95
 msgid "By Pats Pena"
-msgstr ""
+msgstr "پاٹس پینا ولوں"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:96
 #: tutorindigo/templates/indigo/lms/templates/index.html:112
@@ -74,19 +75,19 @@ msgstr "ٻیا پڑھو >"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:107
 msgid "26 Februrary 2021"
-msgstr ""
+msgstr "26 فروری 2021"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:110
 msgid "Wikipedia needs local journalism and the open Web"
-msgstr ""
+msgstr "وکیپیڈیا کوں مقامی صحافت تے کھلے ویب دی لوڑ ہے"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:111
 msgid "By Jan Gerlach"
-msgstr ""
+msgstr "جان گرلاخ ولوں"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:125
 msgid "Subscribe to news about ongoing projects and initiatives"
-msgstr ""
+msgstr "جاری منصوبیاں تے اقدامات دے بارے اچ خبراں تے سبسکرائب کرو"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:131
 msgid "Subscribe"
@@ -94,167 +95,167 @@ msgstr "سبسکرائب کرو"
 
 #: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:88
 msgid "Already Enrolled"
-msgstr ""
+msgstr "پہلے توں داخل"
 
 #: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:49
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"
-msgstr ""
+msgstr "اگوں کیہڑا مضمون پڑھݨا ہے؟"
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:27
 msgid "has successfully completed"
-msgstr ""
+msgstr "نے کامیابی نال مکمل کیتا ہے"
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
 msgid "the"
-msgstr ""
+msgstr "کوں"
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
 msgid "program."
-msgstr ""
+msgstr "پروگرام۔"
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
 msgid "Certificate"
-msgstr ""
+msgstr "سرٹیفکیٹ"
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
 msgid "of Achievement"
-msgstr ""
+msgstr "دی کامیابی"
 
 #: tutorindigo/templates/indigo/lms/templates/learner_dashboard/program_card.underscore:34
 msgid "Remaining"
-msgstr ""
+msgstr "باقی"
 
 #: tutorindigo/templates/indigo/lms/templates/discovery/course_card.underscore:26
 #, python-format
 msgid "Starts: %(start_date)s"
-msgstr ""
+msgstr "شروع: %(start_date)s"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:17
 #, python-brace-format
 msgid "Sign in to continue learning as {email}"
-msgstr ""
+msgstr "{email} دے طور تے سکھݨا جاری رکھݨ کیتے سائن ان کرو"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:19
 msgid "Sign in to continue learning"
-msgstr ""
+msgstr "سکھݨا جاری رکھݨ کیتے سائن ان کرو"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:22
 #, python-brace-format
 msgid "You already have an edX account with your {enterprise_name} email address."
-msgstr ""
+msgstr "تساں کوں پہلے توں تہاݙے {enterprise_name} ای میل پتے نال ہک edX اکاؤنٹ موجود ہے۔"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:24
 #, python-brace-format
 msgid "Going forward, your account information will be updated and maintained by {enterprise_name}."
-msgstr ""
+msgstr "اگوں توں، تہاݙی اکاؤنٹ دی معلومات {enterprise_name} ولوں اپ ڈیٹ تے برقرار رکھی ویسی۔"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:26
 #, python-brace-format
 msgid "You can view your information or unlink from {enterprise_name} anytime in your Account Settings."
-msgstr ""
+msgstr "تساں اپݨی معلومات ݙیکھ سڳدے او یا اپݨی اکاؤنٹ سیٹنگز اچ کہیں وی ویلے {enterprise_name} توں ان لنک کر سڳدے او۔"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:28
 msgid "To continue learning with this account, sign in below."
-msgstr ""
+msgstr "ایں اکاؤنٹ نال سکھݨا جاری رکھݨ کیتے، تھلے سائن ان کرو۔"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:30
 msgid "Sign In with"
-msgstr ""
+msgstr "نال سائن ان کرو"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:37
 msgid "Sign in here using your email address and password, or use one of the providers listed below."
-msgstr ""
+msgstr "اتھے اپݨا ای میل پتہ تے پاس ورڈ ورت کے سائن ان کرو، یا تھلے ݙتے ڳئے فراہم کرݨ آلیاں اچوں ہک کوں استعمال کرو۔"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:39
 msgid "Sign in here using your email address and password."
-msgstr ""
+msgstr "اتھے اپݨا ای میل پتہ تے پاس ورڈ ورت کے سائن ان کرو۔"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:41
 msgid "If you do not yet have an account, use the button below to register."
-msgstr ""
+msgstr "اگر تہاکوں اڄاں تئیں اکاؤنٹ نیں، تاں رجسٹر کرݨ کیتے تھلے ݙتا ڳیا بٹن استعمال کرو۔"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:46
 msgid "Use my university info"
-msgstr ""
+msgstr "میݙی یونیورسٹی دی معلومات استعمال کرو"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:51
 msgid "or sign in with"
-msgstr ""
+msgstr "یا نال سائن ان کرو"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:64
 msgid "Sign in with"
-msgstr ""
+msgstr "نال سائن ان کرو"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:75
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:102
 #, python-format
 msgid "Sign in with %(providerName)s"
-msgstr ""
+msgstr "%(providerName)s نال سائن ان کرو"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:85
 msgid "First time here?"
-msgstr ""
+msgstr "پہلی واری اتھے آئے او؟"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:90
 msgid "Create an account with"
-msgstr ""
+msgstr "نال اکاؤنٹ بݨاؤ"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
 msgid "Create Your Account via Meta-Wiki"
-msgstr ""
+msgstr "میٹا وکی دے ذریعے اپݨا اکاؤنٹ بݨاؤ"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
 msgid "It's quick and easy! Make sure to use a valid email to unlock all courses and content. This helps ensure you can recover your account if you forget your password or encounter login issues."
-msgstr ""
+msgstr "اے تیز تے آسان ہے! یقین کرو جو سارے کورسز تے مواد تک رسائی حاصل کرݨ کیتے درست ای میل استعمال کرو۔ این نال اے یقینی تھیسی جو اگر تساں اپݨا پاس ورڈ بھل ونڄو یا سائن ان دے مسئلیاں نال ݙوچار تھیوو تاں اپݨا اکاؤنٹ بحال کر سڳسو۔"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
 msgid "You can see this"
-msgstr ""
+msgstr "تساں ایہو ݙیکھ سڳدے او"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
 msgid "video"
-msgstr ""
+msgstr "وڈیو"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
 msgid "in case you need more help"
-msgstr ""
+msgstr "اگر تہاکوں وڌیک مدد دی لوڑ ہے تاں"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:111
 msgid "Tip: Did you know WikiLearn is available in multiple languages? Check the menu in the top right to switch to yours!"
-msgstr ""
+msgstr "مشورہ: کیا تہاکوں پتہ ہے WikiLearn کئی زباناں اچ دستیاب ہے؟ اپݨی زبان تے بدلݨ کیتے اتے سڄے پاسے مینو ݙیکھو!"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:6
 #, python-brace-format
 msgid "Already have an {platformName} account?"
-msgstr ""
+msgstr "کیا تہاکوں پہلے توں {platformName} دا اکاؤنٹ ہے؟"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:17
 msgid "Create an account using"
-msgstr ""
+msgstr "ورت کے اکاؤنٹ بݨاؤ"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:30
 #, python-format
 msgid "Create account using %(providerName)s."
-msgstr ""
+msgstr "%(providerName)s ورت کے اکاؤنٹ بݨاؤ۔"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:37
 msgid "Use my institution/campus credentials"
-msgstr ""
+msgstr "میݙی ادارے/کیمپس دی اسناد استعمال کرو"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:44
 msgid "or create a new one here"
-msgstr ""
+msgstr "یا اتھے ہک نواں بݨاؤ"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:49
 msgid "Create an Account"
-msgstr ""
+msgstr "ہک اکاؤنٹ بݨاؤ"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:62
 msgid "Support education research by providing additional information"
-msgstr ""
+msgstr "اضافی معلومات فراہم کر کے تعلیم دی تحقیق دی حمایت کرو"
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27
 msgid "Show All Courses"
-msgstr ""
+msgstr "سارے کورسز ݙکھاؤ"
 

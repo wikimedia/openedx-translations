@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saraiki",
+			"Tauqeerkhansurani"
+		]
+	},
+	"authoring.details.topic.empty": "ہک موضوع چݨو",
+	"authoring.details.topic.help": "ایں کورس کیتے بنیادی موضوع چݨو",
+	"authoring.details.topic.label": "کورس دا موضوع",
+	"authoring.schedule.course-direction.confirmation-modal.cancel": "منسوخ",
+	"authoring.schedule.course-direction.confirmation-modal.confirm": "ہا، جھنڈے کوں اپ ڈیٹ کرو",
+	"authoring.schedule.course-direction.confirmation-modal.message": "کیا تساں جھنڈے کوں اپ ڈیٹ کرݨ بارے یقینی او، کیوں جو این کوں ٻݨان واپس نیں کیتا ونڄ سڳدا؟",
+	"authoring.schedule.course-direction.confirmation-modal.title": "تبدیلی کوں واپس نیں کیتا ونڄ سڳدا۔",
+	"authoring.schedule.course-direction.description": "کورس کوں سورس اچ تبدیل کرو",
+	"authoring.schedule.course-direction.disabled-tip": "آپشن غیر فعال ہے کیوں جو کورس کوئی ترجمہ شدہ ری رن نئیں ہے۔",
+	"authoring.schedule.course-direction.title": "کورس ڈائریکشن فلیگ",
+	"course-authoring.course-outline.card.button.edit.disable.tooltip": "اے شے ہک لائبریری توں شامل کیتی ڳئی ہے، ایس کیتے اینکوں ایڈٹ نئیں کیتا ونڄ سڳدا۔",
+	"course-authoring.course-outline.card.edit.cancel.button": "منسوخ",
+	"course-authoring.course-outline.page-alert.course-not-ready.body": "اے کورس ہُݨ وی پس منظر اچ پروسیس تھیندا پیا ہووے (مثال دے طور تے، ہک ری رن یا امپورٹ جیڑھا ہُݨ تئیں مکمل نئیں تھیا)۔ براہ کرم کجھ منٹ انتظار کرو تے صفحے کوں ری لوڈ کرو۔ جے اے پیغام باقی رہوے تاں کورس موجود نی ہو سڳدا یا تہاکوں این تئیں رسائی نئیں ہو سڳدی۔",
+	"course-authoring.course-outline.page-alert.course-not-ready.title": "اے کورس ہُݨ وی تیار کیتا ویندا پیا ہے",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "بلاکس کوں میپ کرو",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "کورس بلاکس دی میپنگ",
+	"course-authoring.course-unit.alert.read-only.link.text": "لائبریری",
+	"course-authoring.course-unit.alert.read-only.text": "اے یونٹ صرف {link} توں ایڈٹ کیتا ونڄ سڳدا ہے۔",
+	"course-authoring.course-unit.modal.video-title.text": "وڈیو چݨو",
+	"course-authoring.create-or-rerun-course.language.label": "کورس دی زبان",
+	"course-authoring.create-or-rerun-course.language.no-options": "زبان دے کوئی آپشن دستیاب نئیں ہن",
+	"course-authoring.create-or-rerun-course.language.placeholder": "ہک زبان چݨو",
+	"course-authoring.create-or-rerun-course.language.required.error": "براہ کرم ترجمہ شدہ ری رن کیتے ہک زبان چݨو۔",
+	"course-authoring.create-or-rerun-course.translation-options.help-text": "چݨو کہ تساں ہک معیاری ری رن بݨاؤ یا ہک ترجمہ شدہ ری رن۔ ترجمہ شدہ ری رن تہاکوں ہک ٻئی زبان اچ کورس دا ہک ورژن بݨاوݨ دی اجازت ݙیندا ہے۔",
+	"course-authoring.create-or-rerun-course.translation-options.label": "ری رن دی قسم",
+	"course-authoring.create-or-rerun-course.translation-options.standard.label": "بنیادی ری رن",
+	"course-authoring.create-or-rerun-course.translation-options.translated.label": "ترجمہ شدہ کورس ری رن"
+}

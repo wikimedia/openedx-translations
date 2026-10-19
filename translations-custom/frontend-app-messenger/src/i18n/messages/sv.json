@@ -1,24 +1,24 @@
 {
-  "@metadata": {
-    "authors": []
-  },
-  "messenger.button.newMessage": "Nytt meddelande",
-  "messenger.button.reply": "Svara",
-  "messenger.button.send": "Skicka",
-  "messenger.error.loadConversation": "Det gick inte att ladda konversationer.",
-  "messenger.error.readMessages": "Det går inte att markera meddelanden som lästa.",
-  "messenger.error.sendMessage": "Fel när meddelande skulle skickas. Försök igen!",
-  "messenger.error.sendMessages": "Fel när meddelande skulle skickas. Försök gärna igen!",
-  "messenger.error.userConversation": "Det gick inte att ladda användarens konversation:",
-  "messenger.error.userSearch": "Det går inte att söka efter användare.",
-  "messenger.label.inbox": "Inkorg",
-  "messenger.label.message": "Meddelande",
-  "messenger.label.newMessage": "Nytt meddelande",
-  "messenger.label.users": "Användare",
-  "messenger.placeholder.enterMessage": "Ange meddelande...",
-  "messenger.placeholder.searchUsers": "Sök efter användare",
-  "messenger.placeholder.select": "Välj",
-  "messenger.placeholder.typeMessage": "Skriv ditt meddelande...",
-  "messenger.success.sendMessage": "Meddelandet har skickats.",
-  "messenger.success.sendMessages": "Meddelande(n) har skickats."
+	"@metadata": {
+		"authors": []
+	},
+	"messenger.button.send": "Skicka",
+	"messenger.button.reply": "Svara",
+	"messenger.button.newMessage": "Nytt meddelande",
+	"messenger.placeholder.typeMessage": "Skriv ditt meddelande...",
+	"messenger.placeholder.enterMessage": "Ange meddelande...",
+	"messenger.placeholder.searchUsers": "Sök efter användare",
+	"messenger.placeholder.select": "Välj",
+	"messenger.label.inbox": "Inkorg",
+	"messenger.label.message": "Meddelande",
+	"messenger.label.newMessage": "Nytt meddelande",
+	"messenger.label.users": "Användare",
+	"messenger.success.sendMessage": "Meddelandet har skickats.",
+	"messenger.success.sendMessages": "Meddelande(n) har skickats.",
+	"messenger.error.sendMessage": "Fel när meddelande skulle skickas. Försök igen!",
+	"messenger.error.sendMessages": "Fel när meddelande skulle skickas. Försök gärna igen!",
+	"messenger.error.readMessages": "Det går inte att markera meddelanden som lästa.",
+	"messenger.error.loadConversation": "Det gick inte att ladda konversationer.",
+	"messenger.error.userConversation": "Det gick inte att ladda användarens konversation:",
+	"messenger.error.userSearch": "Det går inte att söka efter användare."
 }

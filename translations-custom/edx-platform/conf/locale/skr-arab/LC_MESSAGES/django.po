@@ -1,0 +1,50 @@
+# Translation of WikiLearn - edx-platform to Saraiki (Arabic script) (سرائیکی)
+# Exported from translatewiki.net
+#
+# Author: Tauqeerkhansurani
+# --
+# This file is part of the WikiLearn Project
+# This file is distributed under the same license as the WikiLearn package.
+#
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2026-10-19 13:50:00+0000\n"
+"X-POT-Import-Date: 2026-08-28 15:24:55+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: skr-Arab\n"
+"Project-Id-Version: WikiLearn - edx-platform\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.48.0-alpha; Translate 2026-09-08\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lms/djangoapps/instructor/views/api.py:1428
+msgid "Certificate link"
+msgstr "سرٹیفکیٹ لنک"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:43
+msgid "Usernames must not contain the following symbols: #, <, >, [, ], |, {, }, /, \\, :, @"
+msgstr "صارف ناں اچ درج ذیل علامتاں نئیں ہو سگدیاں: #, <, >, [, ], |, {, }, /, \\, :, @"
+
+#: xmodule/course_block.py:1056
+msgid "Select Course Font Family"
+msgstr "کورس فونٹ فیملی چݨو"
+
+#: xmodule/course_block.py:1058
+msgid "\n            Select course family in which you want to display your course.\n            Available options are \"font-trebuchet\", \"font-open-sans\", \"font-noto-kufi-arabic\", \"font-montserrat\", and \"font-source-sans-pro\".\n            If value is invalid or empty the default font-family will be \"Helvetica Neue\".\n            "
+msgstr "\nکورس فیملی چݨو جیندے اچ تساں اپݨا کورس ݙکھاوݨا چاہندے او۔ دستیاب آپشن اے ہن: \"font-trebuchet\"، \"font-open-sans\"، \"font-noto-kufi-arabic\"، \"font-montserrat\" تے \"font-source-sans-pro\"۔ جے قدر غلط یا خالی ہووے تاں \n\nڈیفالٹ فونٹ فیملی \"Helvetica Neue\" ہوسی۔"
+
+#: xmodule/course_block.py:1068
+msgid "Issue Open Badges"
+msgstr "اوپن بیجز جاری کرو"
+
+#: xmodule/course_block.py:1070
+msgid "Issue Open Badges badges for this course. Badges are generated when certificates are created."
+msgstr "ایں کورس کیتے اوپن بیجز دے بیجز جاری کرو۔ بیجز اوں ویلے تیار تھیندے ہن جڈاں سرٹیفکیٹ بݨائے ویندے ہن۔"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:21
+msgid "Click to generate a CSV grade report for all currently enrolled students.!!"
+msgstr "ہݨ داخل تھیے ہوئے سارے طالب علماں کیتے CSV گریڈ رپورٹ تیار کرݨ کیتے کلک کرو۔!!"
+

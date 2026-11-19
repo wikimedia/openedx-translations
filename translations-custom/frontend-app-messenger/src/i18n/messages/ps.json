@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"messenger.button.send": "لېږل",
+	"messenger.button.close": "تړل",
+	"messenger.button.cancel": "ناگارل",
+	"messenger.button.reply": "ځواب",
+	"messenger.button.newMessage": "نوی پيغام",
+	"messenger.placeholder.typeMessage": "خپل پيغام وليکئ...",
+	"messenger.placeholder.enterMessage": "پيغام وليکئ...",
+	"messenger.placeholder.username": "کارن‌نوم",
+	"messenger.placeholder.searchUsers": "کارنان پلټل",
+	"messenger.placeholder.select": "ټاکل",
+	"messenger.label.inbox": "ليک‌بکس",
+	"messenger.label.message": "پيغام",
+	"messenger.label.newMessage": "نوی پيغام",
+	"messenger.label.users": "کارنان",
+	"messenger.success.sendMessage": "پيغام ولېږل شو.",
+	"messenger.success.sendMessages": "پيغام‌(ونه) ولېږل شو(ه).",
+	"messenger.error.sendMessage": "پيغام لېږلو کې تېروتنه وشوه. مهرباني وکړئ بيا هڅه وکړئ!",
+	"messenger.error.sendMessages": "پيغام لېږلو کې تېروتنه وشوه. مهرباني وکړئ بيا هڅه وکړئ!",
+	"messenger.error.readMessages": "د لوستلو شويو په توگه د پيغامونو په‌نښه‌کولو کې تېروتنه.",
+	"messenger.error.loadConversation": "د خبرو اترو بارولو وړتيا نلري.",
+	"messenger.error.userConversation": "د کارن خبرو اترو بارولو وړتيا نلري:",
+	"messenger.error.userSearch": "د کارنانو پلټلو وړتيا نلري.",
+	"messenger.inbox.noConversation": "هېڅ خبرې اترې ونه موندل شوې!"
+}

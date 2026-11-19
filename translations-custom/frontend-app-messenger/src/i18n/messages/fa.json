@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darafsh"
+		]
+	},
+	"messenger.button.send": "ارسال",
+	"messenger.button.close": "بستن",
+	"messenger.button.cancel": "لغو",
+	"messenger.button.reply": "پاسخ",
+	"messenger.button.newMessage": "پیام تازه",
+	"messenger.placeholder.typeMessage": "پیامتان را بنویسید…",
+	"messenger.placeholder.enterMessage": "پیام را وارد کنید…",
+	"messenger.placeholder.username": "نام کاربری",
+	"messenger.placeholder.searchUsers": "جستجوی کاربران",
+	"messenger.placeholder.select": "انتخاب",
+	"messenger.label.inbox": "صندوق ورودی",
+	"messenger.label.message": "پیام",
+	"messenger.label.newMessage": "پیام تازه",
+	"messenger.label.users": "کاربران",
+	"messenger.success.sendMessage": "پیام فرستاده شد.",
+	"messenger.success.sendMessages": "پیام‌ها فرستاده شدند.",
+	"messenger.error.sendMessage": "خطا در فرستادن پیام. لطفاً دوباره تلاش کنید!",
+	"messenger.error.sendMessages": "خطا در فرستادن پیام‌ها. لطفاً دوباره تلاش کنید!",
+	"messenger.error.readMessages": "خطا در علامت زدن پیام‌ها به‌عنوان خوانده‌شده.",
+	"messenger.error.loadConversation": "بارگیری گفتگوها ممکن نشد.",
+	"messenger.error.userConversation": "بارگیری گفتگوی کاربر ممکن نشد:",
+	"messenger.error.userSearch": "جستجوی کاربران ممکن نشد.",
+	"messenger.inbox.noConversation": "هیچ گفتگویی یافت نشد!"
+}

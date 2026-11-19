@@ -1,262 +1,261 @@
+# Translation of WikiLearn - Indigo theme (backend) to Persian (فارسی)
+# Exported from translatewiki.net
+#
+# Author: Darafsh
+# --
+# This file is part of the WikiLearn Project
+# This file is distributed under the same license as the WikiLearn package.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+""
+"Project-Id-Version: WikiLearn - Indigo theme (backend)\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
 "POT-Creation-Date: 2026-09-10 13:01+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-11-19 12:05:56+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-POT-Import-Date: 2026-09-10 14:30:34+0000\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.48.0-alpha; Translate 2026-09-08\n"
 
 #: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
-msgid ""
-"WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning "
-"platform for the Wikimedia movement. It offers a comprehensive range of "
-"self-paced and instructor-led courses aimed at capacity building and "
-"leadership development within the Wikimedia community. Courses on WikiLearn "
-"are collaboratively developed by and for Wikimedians with a commitment to "
-"accessibility and diversity. For inquiries, contact the Community "
-"Development team at "
-msgstr ""
+msgid "WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning platform for the Wikimedia movement. It offers a comprehensive range of self-paced and instructor-led courses aimed at capacity building and leadership development within the Wikimedia community. Courses on WikiLearn are collaboratively developed by and for Wikimedians with a commitment to accessibility and diversity. For inquiries, contact the Community Development team at "
+msgstr "ویکی‌لرن، با میزبانی بنیاد ویکی‌مدیا، بستری آموزشی ویژهٔ جنبش ویکی‌مدیا است. این سامانه مجموعه‌ای جامع از دوره‌های خودآموز و دوره‌های با راهبری مدرس را برای ظرفیت‌سازی و پرورش رهبری در اجتماع ویکی‌مدیا ارائه می‌کند. دوره‌های ویکی‌لرن با همکاری ویکی‌مدیایی‌ها و برای آنان، با پایبندی به دسترس‌پذیری و تنوع، تدوین می‌شوند. برای پرسش‌ها، از این نشانی با تیم توسعهٔ اجتماع تماس بگیرید: "
 
 #: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
 msgid "Discover courses"
-msgstr ""
+msgstr "کشف دوره‌ها"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:16
 msgid "Unlock The World’s Knowledge"
-msgstr ""
+msgstr "راهی به دانش جهان بگشایید"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:65
 msgid "Featured"
-msgstr ""
+msgstr "برگزیده"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:66
 msgid "Recently Added"
-msgstr ""
+msgstr "تازه‌افزوده‌شده"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:67
 msgid "All Courses"
-msgstr ""
+msgstr "همهٔ دوره‌ها"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:80
 msgid "See what we have been up to"
-msgstr ""
+msgstr "ببینید مشغول چه کارهایی بوده‌ایم"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:81
 msgid "View All News >"
-msgstr ""
+msgstr "مشاهدهٔ همهٔ خبرها >"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:87
 msgid "19 April 2021"
-msgstr ""
+msgstr "۱۹ آوریل ۲۰۲۱"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:92
-msgid ""
-"Wikipedia readers in Latin America invited to support 20 years of free "
-"knowledge through new fundraising campaign"
-msgstr ""
+msgid "Wikipedia readers in Latin America invited to support 20 years of free knowledge through new fundraising campaign"
+msgstr "از خوانندگان ویکی‌پدیا در آمریکای لاتین دعوت شد تا با کارزار تازهٔ کمک مالی، از ۲۰ سال دانش آزاد پشتیبانی کنند"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:95
 msgid "By Pats Pena"
-msgstr ""
+msgstr "نوشتهٔ پتس پنیا"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:96
 #: tutorindigo/templates/indigo/lms/templates/index.html:112
 msgid "Read More >"
-msgstr ""
+msgstr "بیشتر بخوانید >"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:107
 msgid "26 Februrary 2021"
-msgstr ""
+msgstr "۲۶ فوریهٔ ۲۰۲۱"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:110
 msgid "Wikipedia needs local journalism and the open Web"
-msgstr ""
+msgstr "ویکی‌پدیا به روزنامه‌نگاری محلی و وب باز نیاز دارد"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:111
 msgid "By Jan Gerlach"
-msgstr ""
+msgstr "نوشتهٔ یان گرلاخ"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:125
 msgid "Subscribe to news about ongoing projects and initiatives"
-msgstr ""
+msgstr "اشتراک خبرهای پروژه‌ها و ابتکارهای جاری"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:131
 msgid "Subscribe"
-msgstr ""
+msgstr "اشتراک"
 
 #: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:88
 msgid "Already Enrolled"
-msgstr ""
+msgstr "از قبل ثبت‌نام شده"
 
 #: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:49
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"
-msgstr ""
+msgstr "بعد چه چیزی یاد بگیریم؟"
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:27
 msgid "has successfully completed"
-msgstr ""
+msgstr "با موفقیت تکمیل کرده است"
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
 msgid "the"
-msgstr ""
+msgstr "این"
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
 msgid "program."
-msgstr ""
+msgstr "برنامه."
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
 msgid "Certificate"
-msgstr ""
+msgstr "گواهی‌نامه"
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
 msgid "of Achievement"
-msgstr ""
+msgstr "موفقیت"
 
 #: tutorindigo/templates/indigo/lms/templates/learner_dashboard/program_card.underscore:34
 msgid "Remaining"
-msgstr ""
+msgstr "باقی‌مانده"
 
 #: tutorindigo/templates/indigo/lms/templates/discovery/course_card.underscore:26
+#, python-format
 msgid "Starts: %(start_date)s"
-msgstr ""
+msgstr "شروع: %(start_date)s"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:17
+#, python-brace-format
 msgid "Sign in to continue learning as {email}"
-msgstr ""
+msgstr "برای ادامهٔ یادگیری با حساب {email} وارد شوید"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:19
 msgid "Sign in to continue learning"
-msgstr ""
+msgstr "برای ادامهٔ یادگیری وارد شوید"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:22
-msgid ""
-"You already have an edX account with your {enterprise_name} email address."
-msgstr ""
+#, python-brace-format
+msgid "You already have an edX account with your {enterprise_name} email address."
+msgstr "از قبل با نشانی رایانامهٔ {enterprise_name} خود، حساب edX دارید."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:24
-msgid ""
-"Going forward, your account information will be updated and maintained by "
-"{enterprise_name}."
-msgstr ""
+#, python-brace-format
+msgid "Going forward, your account information will be updated and maintained by {enterprise_name}."
+msgstr "از این پس، اطلاعات حساب شما به‌دست {enterprise_name} به‌روز و نگهداری می‌شود."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:26
-msgid ""
-"You can view your information or unlink from {enterprise_name} anytime in "
-"your Account Settings."
-msgstr ""
+#, python-brace-format
+msgid "You can view your information or unlink from {enterprise_name} anytime in your Account Settings."
+msgstr "هر زمان می‌توانید در تنظیمات حساب، اطلاعاتتان را ببینید یا پیوند حساب را با {enterprise_name} قطع کنید."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:28
 msgid "To continue learning with this account, sign in below."
-msgstr ""
+msgstr "برای ادامهٔ یادگیری با این حساب، از بخش زیر وارد شوید."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:30
 msgid "Sign In with"
-msgstr ""
+msgstr "ورود با"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:37
-msgid ""
-"Sign in here using your email address and password, or use one of the "
-"providers listed below."
-msgstr ""
+msgid "Sign in here using your email address and password, or use one of the providers listed below."
+msgstr "اینجا با نشانی رایانامه و گذرواژهٔ خود وارد شوید یا از یکی از ارائه‌دهندگان زیر استفاده کنید."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:39
 msgid "Sign in here using your email address and password."
-msgstr ""
+msgstr "اینجا با نشانی رایانامه و گذرواژهٔ خود وارد شوید."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:41
 msgid "If you do not yet have an account, use the button below to register."
-msgstr ""
+msgstr "اگر هنوز حسابی ندارید، از دکمهٔ زیر برای ثبت‌نام استفاده کنید."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:46
 msgid "Use my university info"
-msgstr ""
+msgstr "استفاده از اطلاعات دانشگاهی من"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:51
 msgid "or sign in with"
-msgstr ""
+msgstr "یا ورود با"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:64
 msgid "Sign in with"
-msgstr ""
+msgstr "ورود با"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:75
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:102
+#, python-format
 msgid "Sign in with %(providerName)s"
-msgstr ""
+msgstr "ورود با %(providerName)s"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:85
 msgid "First time here?"
-msgstr ""
+msgstr "نخستین بار است به اینجا می‌آیید؟"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:90
 msgid "Create an account with"
-msgstr ""
+msgstr "ایجاد حساب با"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
 msgid "Create Your Account via Meta-Wiki"
-msgstr ""
+msgstr "ایجاد حساب از طریق فراویکی"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
-msgid ""
-"It's quick and easy! Make sure to use a valid email to unlock all courses "
-"and content. This helps ensure you can recover your account if you forget "
-"your password or encounter login issues."
-msgstr ""
+msgid "It's quick and easy! Make sure to use a valid email to unlock all courses and content. This helps ensure you can recover your account if you forget your password or encounter login issues."
+msgstr "سریع و آسان است! برای دسترسی به همهٔ دوره‌ها و محتوا، حتماً از رایانامه‌ای معتبر استفاده کنید. با این کار، اگر گذرواژه را فراموش کنید یا در ورود مشکلی داشته باشید، می‌توانید حسابتان را بازیابی کنید."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
 msgid "You can see this"
-msgstr ""
+msgstr "می‌توانید این را ببینید"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
 msgid "video"
-msgstr ""
+msgstr "ویدئو"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
 msgid "in case you need more help"
-msgstr ""
+msgstr "اگر به کمک بیشتری نیاز دارید"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:111
-msgid ""
-"Tip: Did you know WikiLearn is available in multiple languages? Check the "
-"menu in the top right to switch to yours!"
-msgstr ""
+msgid "Tip: Did you know WikiLearn is available in multiple languages? Check the menu in the top right to switch to yours!"
+msgstr "نکته: می‌دانستید ویکی‌لرن به چند زبان در دسترس است؟ برای انتخاب زبان خود، منوی بالا سمت راست را بررسی کنید!"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:6
+#, python-brace-format
 msgid "Already have an {platformName} account?"
-msgstr ""
+msgstr "از قبل حساب {platformName} دارید؟"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:17
 msgid "Create an account using"
-msgstr ""
+msgstr "ایجاد حساب با استفاده از"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:30
+#, python-format
 msgid "Create account using %(providerName)s."
-msgstr ""
+msgstr "ایجاد حساب با استفاده از %(providerName)s."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:37
 msgid "Use my institution/campus credentials"
-msgstr ""
+msgstr "استفاده از اطلاعات ورود مؤسسه یا دانشگاه من"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:44
 msgid "or create a new one here"
-msgstr ""
+msgstr "یا ایجاد حسابی تازه در اینجا"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:49
 msgid "Create an Account"
-msgstr ""
+msgstr "ایجاد حساب"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:62
 msgid "Support education research by providing additional information"
-msgstr ""
+msgstr "با ارائهٔ اطلاعات بیشتر از پژوهش‌های آموزشی حمایت کنید"
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27
 msgid "Show All Courses"
-msgstr ""
+msgstr "نمایش همهٔ دوره‌ها"
+

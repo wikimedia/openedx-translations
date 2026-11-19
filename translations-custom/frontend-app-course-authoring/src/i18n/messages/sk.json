@@ -16,6 +16,8 @@
 	"authoring.schedule.course-direction.title": "Príznak smeru kurzu",
 	"course-authoring.course-outline.card.button.edit.disable.tooltip": "Tento objekt bol pridaný z knižnice, takže sa nedá upraviť.",
 	"course-authoring.course-outline.card.edit.cancel.button": "Zrušiť",
+	"course-authoring.course-outline.page-alert.course-not-ready.body": "Tento kurz sa možno ešte spracúva na pozadí (napríklad opätovné spustenie alebo import, ktorý ešte nebol dokončený). Počkajte niekoľko minút a stránku znova načítajte. Ak sa táto správa zobrazuje aj naďalej, kurz možno neexistuje alebo k nemu nemáte prístup.",
+	"course-authoring.course-outline.page-alert.course-not-ready.title": "Tento kurz sa ešte pripravuje",
 	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Priradiť bloky",
 	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Priradenie blokov kurzu",
 	"course-authoring.course-unit.alert.read-only.link.text": "knižnice",

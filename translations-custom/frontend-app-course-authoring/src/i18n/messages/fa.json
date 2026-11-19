@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darafsh"
+		]
+	},
+	"authoring.details.topic.empty": "انتخاب موضوع",
+	"authoring.details.topic.help": "موضوع اصلی این دوره را انتخاب کنید",
+	"authoring.details.topic.label": "موضوع دوره",
+	"authoring.schedule.course-direction.confirmation-modal.cancel": "لغو",
+	"authoring.schedule.course-direction.confirmation-modal.confirm": "بله، نشانگر را به‌روز کن",
+	"authoring.schedule.course-direction.confirmation-modal.message": "مطمئنید که می‌خواهید نشانگر را به‌روز کنید؟ این تغییر برگشت‌پذیر نیست.",
+	"authoring.schedule.course-direction.confirmation-modal.title": "این تغییر برگشت‌پذیر نیست.",
+	"authoring.schedule.course-direction.description": "تبدیل دوره به مبدأ",
+	"authoring.schedule.course-direction.disabled-tip": "این گزینه غیرفعال است، زیرا دوره اجرای مجدد ترجمه‌شده نیست.",
+	"authoring.schedule.course-direction.title": "نشانگر جهت دوره",
+	"authoring.videoeditor.license.creativeCommons.shareAlike.text": "CC-by-sa 4.0",
+	"course-authoring.course-outline.card.button.edit.disable.tooltip": "این شیء از کتابخانه افزوده شده است و قابل ویرایش نیست.",
+	"course-authoring.course-outline.card.edit.cancel.button": "لغو",
+	"course-authoring.course-outline.page-alert.course-not-ready.body": "ممکن است این دوره همچنان در پس‌زمینه در حال پردازش باشد؛ برای نمونه، اجرای مجدد یا درون‌ریزی هنوز تمام نشده باشد. لطفاً چند دقیقه صبر کنید و صفحه را دوباره بارگیری کنید. اگر این پیام همچنان نمایش داده می‌شود، ممکن است دوره وجود نداشته باشد یا به آن دسترسی نداشته باشید.",
+	"course-authoring.course-outline.page-alert.course-not-ready.title": "این دوره هنوز در حال آماده‌سازی است",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "پیونددهی مؤلفه‌ها",
+	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "پیونددهی مؤلفه‌های دوره",
+	"course-authoring.course-unit.alert.read-only.link.text": "کتابخانه",
+	"course-authoring.course-unit.alert.read-only.text": "این واحد فقط از طریق {link} قابل ویرایش است.",
+	"course-authoring.course-unit.modal.video-title.text": "انتخاب ویدئو",
+	"course-authoring.create-or-rerun-course.language.label": "زبان دوره",
+	"course-authoring.create-or-rerun-course.language.no-options": "هیچ زبانی برای انتخاب موجود نیست",
+	"course-authoring.create-or-rerun-course.language.placeholder": "انتخاب زبان",
+	"course-authoring.create-or-rerun-course.language.required.error": "لطفاً زبانی برای اجرای مجدد ترجمه‌شده انتخاب کنید.",
+	"course-authoring.create-or-rerun-course.translation-options.help-text": "انتخاب کنید که اجرای مجدد معمولی ایجاد شود یا اجرای مجدد ترجمه‌شده. اجرای مجدد ترجمه‌شده به شما امکان می‌دهد نسخه‌ای از دوره را به زبانی دیگر ایجاد کنید.",
+	"course-authoring.create-or-rerun-course.translation-options.label": "نوع اجرای مجدد",
+	"course-authoring.create-or-rerun-course.translation-options.standard.label": "اجرای مجدد پایه",
+	"course-authoring.create-or-rerun-course.translation-options.translated.label": "اجرای مجدد ترجمه‌شدهٔ دوره",
+	"course-authoring.schedule-section.creativeCommons.shareAlike.text": "CC-by-sa 4.0"
+}

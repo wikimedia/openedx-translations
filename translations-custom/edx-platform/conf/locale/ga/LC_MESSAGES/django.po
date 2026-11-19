@@ -1,0 +1,50 @@
+# Translation of WikiLearn - edx-platform to Irish (Gaeilge)
+# Exported from translatewiki.net
+#
+# Author: Aindriu80
+# --
+# This file is part of the WikiLearn Project
+# This file is distributed under the same license as the WikiLearn package.
+#
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2026-11-19 12:05:55+0000\n"
+"X-POT-Import-Date: 2026-08-28 15:24:55+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ga\n"
+"Project-Id-Version: WikiLearn - edx-platform\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.48.0-alpha; Translate 2026-09-08\n"
+"Plural-Forms: nplurals=5; plural=(n == 1) ? 0 : ( (n == 2) ? 1 : ( (n < 7) ? 2 : ( (n < 11) ? 3 : 4 ) ) );\n"
+
+#: lms/djangoapps/instructor/views/api.py:1428
+msgid "Certificate link"
+msgstr "Nasc chuig an deimhniú"
+
+#: openedx/core/djangoapps/user_api/accounts/__init__.py:43
+msgid "Usernames must not contain the following symbols: #, <, >, [, ], |, {, }, /, \\, :, @"
+msgstr "Ní féidir na siombailí seo a leanas a bheith in ainmneacha úsáideora: #, <, >, [, ], |, {, }, /, \\, :, @"
+
+#: xmodule/course_block.py:1056
+msgid "Select Course Font Family"
+msgstr "Roghnaigh Teaghlach Cló an Chúrsa"
+
+#: xmodule/course_block.py:1058
+msgid "\n            Select course family in which you want to display your course.\n            Available options are \"font-trebuchet\", \"font-open-sans\", \"font-noto-kufi-arabic\", \"font-montserrat\", and \"font-source-sans-pro\".\n            If value is invalid or empty the default font-family will be \"Helvetica Neue\".\n            "
+msgstr "\n            Roghnaigh an teaghlach cúrsa inar mian leat do chúrsa a thaispeáint.\n            Is iad na roghanna atá ar fáil ná \"font-trebuchet\", \"font-open-sans\", \"font-noto-kufi-arabic\", \"font-montserrat\", agus \"font-source-sans-pro\".\n            Mura bhfuil an luach bailí nó folamh, is é \"Helvetica Neue\" an teaghlach cló réamhshocraithe.\n            "
+
+#: xmodule/course_block.py:1068
+msgid "Issue Open Badges"
+msgstr "Eisigh Open Badges"
+
+#: xmodule/course_block.py:1070
+msgid "Issue Open Badges badges for this course. Badges are generated when certificates are created."
+msgstr "Eisigh suaitheantais 'Open Badges' don chúrsa seo. Gineann suaitheantais nuair a chruthaítear teastais."
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:21
+msgid "Click to generate a CSV grade report for all currently enrolled students.!!"
+msgstr "Cliceáil chun tuairisc grád i bhformáid CSV a ghiniúint do gach mac léinn atá cláraithe faoi láthair.!!"
+

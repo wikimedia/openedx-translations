@@ -1,7 +1,7 @@
 {
-  "@metadata": {
-    "authors": []
-  },
-  "authoring.schedule.course-direction.confirmation-modal.message": "Sei sicuro di voler aggiornare il flag?Perché non verrà invertita nuovamente.",
-  "authoring.schedule.course-direction.confirmation-modal.title": "La modifica non può essere annullata."
+	"@metadata": {
+		"authors": []
+	},
+	"authoring.schedule.course-direction.confirmation-modal.message": "Sei sicuro di voler aggiornare il flag?Perché non verrà invertita nuovamente.",
+	"authoring.schedule.course-direction.confirmation-modal.title": "La modifica non può essere annullata."
 }

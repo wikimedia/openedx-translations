@@ -1,19 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saraiki"
+			"Saraiki",
+			"Tauqeerkhansurani"
 		]
 	},
 	"messenger.button.send": "بھیڄو",
 	"messenger.button.close": "بند کرو",
+	"messenger.button.cancel": "منسوخ",
 	"messenger.button.reply": "جواب",
 	"messenger.button.newMessage": "نواں سنیہا",
+	"messenger.placeholder.typeMessage": "اپݨا پیغام لکھو...",
 	"messenger.placeholder.enterMessage": "سنیہا درج کرو۔۔۔",
+	"messenger.placeholder.username": "ورتن آلا ناں",
 	"messenger.placeholder.searchUsers": "ورتݨ آلے ڳولو",
 	"messenger.placeholder.select": "چݨو",
 	"messenger.label.inbox": "ان باکس",
 	"messenger.label.message": "سنیہا",
 	"messenger.label.newMessage": "نواں سنیہا",
 	"messenger.label.users": "ورتݨ آلے",
-	"messenger.success.sendMessage": "سنہیا بھیڄ ݙتا ڳئے۔"
+	"messenger.success.sendMessage": "سنہیا بھیڄ ݙتا ڳئے۔",
+	"messenger.success.sendMessages": "پیغام بھیج ݙتے ڳئے ہن۔",
+	"messenger.error.sendMessage": "پیغام بھیجݨ اچ خرابی۔ براہ کرم ٻیاں کوشش کرو!",
+	"messenger.error.sendMessages": "پیغاماں بھیجݨ اچ خرابی۔ براہ کرم ٻیاں کوشش کرو!",
+	"messenger.error.readMessages": "پیغاماں کوں پڑھا تھیوݨ دی نشاندہی کرݨ اچ خرابی۔",
+	"messenger.error.loadConversation": "گفتگویاں لوڈ کرݨ تے قاصر۔",
+	"messenger.error.userConversation": "ورتن آلے دی گفتگو لوڈ کرݨ تے قاصر:",
+	"messenger.error.userSearch": "ورتن آلے تلاݙھ کرݨ تے قاصر۔",
+	"messenger.inbox.noConversation": "کوئی گفتگو نی لبھی!"
 }

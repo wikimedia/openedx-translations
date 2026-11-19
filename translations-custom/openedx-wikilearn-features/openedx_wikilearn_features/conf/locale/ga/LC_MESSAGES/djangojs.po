@@ -1,0 +1,26 @@
+# Translation of WikiLearn - Features (frontend) to Irish (Gaeilge)
+# Exported from translatewiki.net
+#
+# Author: Aindriu80
+# --
+# This file is part of the WikiLearn Project
+# This file is distributed under the same license as the WikiLearn package.
+#
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2026-11-19 12:05:56+0000\n"
+"X-POT-Import-Date: 2026-09-10 14:30:39+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ga\n"
+"Project-Id-Version: WikiLearn - Features (frontend)\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.48.0-alpha; Translate 2026-09-08\n"
+"Plural-Forms: nplurals=5; plural=(n == 1) ? 0 : ( (n == 2) ? 1 : ( (n < 7) ? 2 : ( (n < 11) ? 3 : 4 ) ) );\n"
+
+#: admin_dashboard/static/admin_dashboard/js/course_reports.js:143
+msgid "No tasks currently running."
+msgstr "Níl aon tascanna ar siúl faoi láthair."
+

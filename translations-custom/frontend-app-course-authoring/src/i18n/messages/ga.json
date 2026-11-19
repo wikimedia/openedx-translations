@@ -16,6 +16,8 @@
 	"authoring.schedule.course-direction.title": "Bratach Treo an Chúrsa",
 	"course-authoring.course-outline.card.button.edit.disable.tooltip": "Cuireadh an réad seo leis ó leabharlann, mar sin ní féidir é a chur in eagar.",
 	"course-authoring.course-outline.card.edit.cancel.button": "Cealaigh",
+	"course-authoring.course-outline.page-alert.course-not-ready.body": "D’fhéadfadh sé go bhfuil an cúrsa seo á phróiseáil sa chúlra i gcónaí (mar shampla, athrith nó iompórtáil nach bhfuil críochnaithe go fóill). Fan cúpla nóiméad, le do thoil, agus athlódáil an leathanach. Má leanann an teachtaireacht seo ar aghaidh, d’fhéadfadh sé nach bhfuil an cúrsa ann, nó b’fhéidir nach bhfuil rochtain agat air.",
+	"course-authoring.course-outline.page-alert.course-not-ready.title": "Tá an cúrsa seo á ullmhú fós",
 	"course-authoring.course-outline.status-bar.course-blocks-mapping.button": "Bloic léarscáile",
 	"course-authoring.course-outline.status-bar.course-blocks-mapping.title": "Mapáil Bloic Chúrsa",
 	"course-authoring.course-unit.alert.read-only.link.text": "leabharlann",

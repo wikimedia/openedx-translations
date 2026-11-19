@@ -1,6 +1,7 @@
 # Translation of WikiLearn - Indigo theme (backend) to Slovak (slovenčina)
 # Exported from translatewiki.net
 #
+# Author: Wizzard
 # --
 # This file is part of the WikiLearn Project
 # This file is distributed under the same license as the WikiLearn package.
@@ -11,37 +12,37 @@ msgstr ""
 "Project-Id-Version: WikiLearn - Indigo theme (backend)\n"
 "Report-Msgid-Bugs-To: translatewiki.net\n"
 "POT-Creation-Date: 2026-01-21 18:20+0000\n"
-"PO-Revision-Date: 2026-09-10 12:08:35+0000\n"
+"PO-Revision-Date: 2026-11-19 12:05:56+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-POT-Import-Date: 2026-09-09 08:30:54+0000\n"
+"X-POT-Import-Date: 2026-09-10 14:30:34+0000\n"
 "X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
-"X-Generator: MediaWiki 1.47.0-alpha; Translate 2025-07-31\n"
+"X-Generator: MediaWiki 1.48.0-alpha; Translate 2026-09-08\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ( (n >= 2 && n <= 4) ? 1 : 2 );\n"
 
 #: tutorindigo/templates/indigo/lms/templates/static_templates/about.html:14
 msgid "WikiLearn, hosted by the Wikimedia Foundation, is a dedicated learning platform for the Wikimedia movement. It offers a comprehensive range of self-paced and instructor-led courses aimed at capacity building and leadership development within the Wikimedia community. Courses on WikiLearn are collaboratively developed by and for Wikimedians with a commitment to accessibility and diversity. For inquiries, contact the Community Development team at "
-msgstr ""
+msgstr "WikiLearn, ktorý prevádzkuje Wikimedia Foundation, je vzdelávacia platforma určená pre hnutie Wikimedia. Ponúka široký výber kurzov vlastným tempom aj kurzov s lektorom, zameraných na budovanie kapacít a rozvoj vedenia v komunite Wikimedia. Kurzy na WikiLearn spoločne vytvárajú wikimediáni pre wikimediánov s dôrazom na prístupnosť a rozmanitosť. S otázkami sa obráťte na tím Community Development na adrese "
 
 #: tutorindigo/templates/indigo/lms/templates/header/navbar-not-authenticated.html:40
 msgid "Discover courses"
-msgstr ""
+msgstr "Objavte kurzy"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:16
 msgid "Unlock The World’s Knowledge"
-msgstr ""
+msgstr "Odomknite poznanie sveta"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:65
 msgid "Featured"
-msgstr ""
+msgstr "Odporúčané"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:66
 msgid "Recently Added"
-msgstr ""
+msgstr "Nedávno pridané"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:67
 msgid "All Courses"
@@ -49,11 +50,11 @@ msgstr "Všetky kurzy"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:80
 msgid "See what we have been up to"
-msgstr ""
+msgstr "Pozrite sa, na čom sme pracovali"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:81
 msgid "View All News >"
-msgstr ""
+msgstr "Zobraziť všetky novinky >"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:87
 msgid "19 April 2021"
@@ -61,16 +62,16 @@ msgstr "19 apríla 2021"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:92
 msgid "Wikipedia readers in Latin America invited to support 20 years of free knowledge through new fundraising campaign"
-msgstr ""
+msgstr "Čitatelia Wikipédie v Latinskej Amerike sú pozvaní podporiť 20 rokov slobodného poznania v novej zbierke"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:95
 msgid "By Pats Pena"
-msgstr ""
+msgstr "Autor: Pats Pena"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:96
 #: tutorindigo/templates/indigo/lms/templates/index.html:112
 msgid "Read More >"
-msgstr ""
+msgstr "Čítať ďalej >"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:107
 msgid "26 Februrary 2021"
@@ -78,183 +79,183 @@ msgstr "26 februára 2021"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:110
 msgid "Wikipedia needs local journalism and the open Web"
-msgstr ""
+msgstr "Wikipédia potrebuje miestnu žurnalistiku a otvorený web"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:111
 msgid "By Jan Gerlach"
-msgstr ""
+msgstr "Autor: Jan Gerlach"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:125
 msgid "Subscribe to news about ongoing projects and initiatives"
-msgstr ""
+msgstr "Prihláste sa na odber noviniek o prebiehajúcich projektoch a iniciatívach"
 
 #: tutorindigo/templates/indigo/lms/templates/index.html:131
 msgid "Subscribe"
-msgstr ""
+msgstr "Prihlásiť sa na odber"
 
 #: tutorindigo/templates/indigo/lms/templates/courseware/course_about.html:88
 msgid "Already Enrolled"
-msgstr ""
+msgstr "Už ste zapísaný/á"
 
 #: tutorindigo/templates/indigo/lms/templates/courseware/courses.html:49
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:24
 msgid "What to study next?"
-msgstr ""
+msgstr "Čo študovať ďalej?"
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:27
 msgid "has successfully completed"
-msgstr ""
+msgstr "úspešne absolvoval(a)"
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
 msgid "the"
-msgstr ""
+msgstr "program"
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:28
 msgid "program."
-msgstr ""
+msgstr "."
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
 msgid "Certificate"
-msgstr ""
+msgstr "Certifikát"
 
 #: tutorindigo/templates/indigo/lms/templates/certificates/_accomplishment-rendering.html:65
 msgid "of Achievement"
-msgstr ""
+msgstr "o absolvovaní"
 
 #: tutorindigo/templates/indigo/lms/templates/learner_dashboard/program_card.underscore:34
 msgid "Remaining"
-msgstr ""
+msgstr "Zostáva"
 
 #: tutorindigo/templates/indigo/lms/templates/discovery/course_card.underscore:26
 #, python-format
 msgid "Starts: %(start_date)s"
-msgstr ""
+msgstr "Začiatok: %(start_date)s"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:17
 #, python-brace-format
 msgid "Sign in to continue learning as {email}"
-msgstr ""
+msgstr "Prihláste sa a pokračujte v štúdiu ako {email}"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:19
 msgid "Sign in to continue learning"
-msgstr ""
+msgstr "Prihláste sa a pokračujte v štúdiu"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:22
 #, python-brace-format
 msgid "You already have an edX account with your {enterprise_name} email address."
-msgstr ""
+msgstr "S e-mailovou adresou organizácie {enterprise_name} už máte účet edX."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:24
 #, python-brace-format
 msgid "Going forward, your account information will be updated and maintained by {enterprise_name}."
-msgstr ""
+msgstr "Odteraz bude informácie o vašom účte aktualizovať a spravovať {enterprise_name}."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:26
 #, python-brace-format
 msgid "You can view your information or unlink from {enterprise_name} anytime in your Account Settings."
-msgstr ""
+msgstr "Svoje informácie si môžete pozrieť alebo zrušiť prepojenie s {enterprise_name} kedykoľvek v nastaveniach účtu."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:28
 msgid "To continue learning with this account, sign in below."
-msgstr ""
+msgstr "Ak chcete pokračovať v štúdiu s týmto účtom, prihláste sa nižšie."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:30
 msgid "Sign In with"
-msgstr ""
+msgstr "Prihlásiť sa cez"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:37
 msgid "Sign in here using your email address and password, or use one of the providers listed below."
-msgstr ""
+msgstr "Prihláste sa tu svojou e-mailovou adresou a heslom alebo použite jedného z poskytovateľov uvedených nižšie."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:39
 msgid "Sign in here using your email address and password."
-msgstr ""
+msgstr "Prihláste sa tu svojou e-mailovou adresou a heslom."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:41
 msgid "If you do not yet have an account, use the button below to register."
-msgstr ""
+msgstr "Ak ešte nemáte účet, zaregistrujte sa tlačidlom nižšie."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:46
 msgid "Use my university info"
-msgstr ""
+msgstr "Použiť údaje mojej univerzity"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:51
 msgid "or sign in with"
-msgstr ""
+msgstr "alebo sa prihláste cez"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:64
 msgid "Sign in with"
-msgstr ""
+msgstr "Prihlásiť sa cez"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:75
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:102
 #, python-format
 msgid "Sign in with %(providerName)s"
-msgstr ""
+msgstr "Prihlásiť sa cez %(providerName)s"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:85
 msgid "First time here?"
-msgstr ""
+msgstr "Ste tu prvýkrát?"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:90
 msgid "Create an account with"
-msgstr ""
+msgstr "Vytvorte si účet cez"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
 msgid "Create Your Account via Meta-Wiki"
-msgstr ""
+msgstr "Vytvorte si účet cez Meta-Wiki"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:109
 msgid "It's quick and easy! Make sure to use a valid email to unlock all courses and content. This helps ensure you can recover your account if you forget your password or encounter login issues."
-msgstr ""
+msgstr "Je to rýchle a jednoduché! Použite platnú e-mailovú adresu, aby ste odomkli všetky kurzy a obsah. Pomôže vám to obnoviť účet, ak zabudnete heslo alebo budete mať problém s prihlásením."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
 msgid "You can see this"
-msgstr ""
+msgstr "Pozrite si toto"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
 msgid "video"
-msgstr ""
+msgstr "video"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:110
 msgid "in case you need more help"
-msgstr ""
+msgstr ", ak potrebujete ďalšiu pomoc"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/login.underscore:111
 msgid "Tip: Did you know WikiLearn is available in multiple languages? Check the menu in the top right to switch to yours!"
-msgstr ""
+msgstr "Tip: Vedeli ste, že WikiLearn je dostupný vo viacerých jazykoch? Svoj jazyk si zvoľte v ponuke vpravo hore!"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:6
 #, python-brace-format
 msgid "Already have an {platformName} account?"
-msgstr ""
+msgstr "Už máte účet na {platformName}?"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:17
 msgid "Create an account using"
-msgstr ""
+msgstr "Vytvorte si účet pomocou"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:30
 #, python-format
 msgid "Create account using %(providerName)s."
-msgstr ""
+msgstr "Vytvoriť účet pomocou %(providerName)s."
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:37
 msgid "Use my institution/campus credentials"
-msgstr ""
+msgstr "Použiť prihlasovacie údaje mojej inštitúcie alebo školy"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:44
 msgid "or create a new one here"
-msgstr ""
+msgstr "alebo si tu vytvorte nový"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:49
 msgid "Create an Account"
-msgstr ""
+msgstr "Vytvoriť účet"
 
 #: tutorindigo/templates/indigo/lms/templates/student_account/register.underscore:62
 msgid "Support education research by providing additional information"
-msgstr ""
+msgstr "Podporte výskum vzdelávania poskytnutím ďalších informácií"
 
 #: tutorindigo/templates/indigo/lms/static/js/courses.js:27
 msgid "Show All Courses"
-msgstr ""
+msgstr "Zobraziť všetky kurzy"
 
